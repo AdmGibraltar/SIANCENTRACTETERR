@@ -1,0 +1,321 @@
+C:\TF_Central\SIANWEBCENTRAL\Producto\_Fuentes\SIANWEB\bin\SIANWEB.dll
+C:\TF_Central\SIANWEBCENTRAL\Producto\_Fuentes\SIANWEB\bin\SIANWEB.pdb
+C:\TF_Central\SIANWEBCENTRAL\Producto\_Fuentes\SIANWEB\bin\CapaDatos.dll
+C:\TF_Central\SIANWEBCENTRAL\Producto\_Fuentes\SIANWEB\bin\CapaEntidad.dll
+C:\TF_Central\SIANWEBCENTRAL\Producto\_Fuentes\SIANWEB\bin\CapaNegocios.dll
+C:\TF_Central\SIANWEBCENTRAL\Producto\_Fuentes\SIANWEB\bin\LibreriaReportes.dll
+C:\TF_Central\SIANWEBCENTRAL\Producto\_Fuentes\SIANWEB\bin\CapaDatos.pdb
+C:\TF_Central\SIANWEBCENTRAL\Producto\_Fuentes\SIANWEB\bin\CapaEntidad.pdb
+C:\TF_Central\SIANWEBCENTRAL\Producto\_Fuentes\SIANWEB\bin\CapaNegocios.pdb
+C:\TF_Central\SIANWEBCENTRAL\Producto\_Fuentes\SIANWEB\bin\LibreriaReportes.pdb
+C:\TF_Central\SIANWEBCENTRAL\Producto\_Fuentes\SIANWEB\bin\es-MX\LibreriaReportes.resources.dll
+C:\TF_Central\SIANWEBCENTRAL\Producto\_Fuentes\SIANWEB\obj\Debug\SIANWEB.csprojResolveAssemblyReference.cache
+C:\TF_Central\SIANWEBCENTRAL\Producto\_Fuentes\SIANWEB\obj\Debug\SIANWEB.dll
+C:\TF_Central\SIANWEBCENTRAL\Producto\_Fuentes\SIANWEB\obj\Debug\SIANWEB.pdb
+F:\Key Quimical\_FuentesCentral_28112014\_Fuentes\SIANWEB\bin\SIANWEB.dll
+F:\Key Quimical\_FuentesCentral_28112014\_Fuentes\SIANWEB\bin\SIANWEB.pdb
+F:\Key Quimical\_FuentesCentral_28112014\_Fuentes\SIANWEB\bin\CapaDatos.dll
+F:\Key Quimical\_FuentesCentral_28112014\_Fuentes\SIANWEB\bin\CapaEntidad.dll
+F:\Key Quimical\_FuentesCentral_28112014\_Fuentes\SIANWEB\bin\CapaNegocios.dll
+F:\Key Quimical\_FuentesCentral_28112014\_Fuentes\SIANWEB\bin\LibreriaReportes.dll
+F:\Key Quimical\_FuentesCentral_28112014\_Fuentes\SIANWEB\bin\CapaDatos.pdb
+F:\Key Quimical\_FuentesCentral_28112014\_Fuentes\SIANWEB\bin\CapaEntidad.pdb
+F:\Key Quimical\_FuentesCentral_28112014\_Fuentes\SIANWEB\bin\CapaNegocios.pdb
+F:\Key Quimical\_FuentesCentral_28112014\_Fuentes\SIANWEB\bin\LibreriaReportes.pdb
+F:\Key Quimical\_FuentesCentral_28112014\_Fuentes\SIANWEB\bin\es-MX\LibreriaReportes.resources.dll
+F:\Key Quimical\_FuentesCentral_28112014\_Fuentes\SIANWEB\obj\Debug\ResolveAssemblyReference.cache
+F:\Key Quimical\_FuentesCentral_28112014\_Fuentes\SIANWEB\obj\Debug\SIANWEB.dll
+F:\Key Quimical\_FuentesCentral_28112014\_Fuentes\SIANWEB\obj\Debug\SIANWEB.pdb
+F:\Key Quimical\_FuentesCentral_28112014\_Fuentes\SIANWEB\bin\Telerik.Web.UI.xml
+F:\Reportes_Cobranza\_FuentesCentral_28112014\_Fuentes\SIANWEB\bin\Telerik.Web.UI.xml
+F:\Reportes_Cobranza\_FuentesCentral_28112014\_Fuentes\SIANWEB\bin\SIANWEB.dll
+F:\Reportes_Cobranza\_FuentesCentral_28112014\_Fuentes\SIANWEB\bin\SIANWEB.pdb
+F:\Reportes_Cobranza\_FuentesCentral_28112014\_Fuentes\SIANWEB\bin\CapaDatos.dll
+F:\Reportes_Cobranza\_FuentesCentral_28112014\_Fuentes\SIANWEB\bin\CapaEntidad.dll
+F:\Reportes_Cobranza\_FuentesCentral_28112014\_Fuentes\SIANWEB\bin\CapaNegocios.dll
+F:\Reportes_Cobranza\_FuentesCentral_28112014\_Fuentes\SIANWEB\bin\LibreriaReportes.dll
+F:\Reportes_Cobranza\_FuentesCentral_28112014\_Fuentes\SIANWEB\bin\CapaDatos.pdb
+F:\Reportes_Cobranza\_FuentesCentral_28112014\_Fuentes\SIANWEB\bin\CapaEntidad.pdb
+F:\Reportes_Cobranza\_FuentesCentral_28112014\_Fuentes\SIANWEB\bin\CapaNegocios.pdb
+F:\Reportes_Cobranza\_FuentesCentral_28112014\_Fuentes\SIANWEB\bin\LibreriaReportes.pdb
+F:\Reportes_Cobranza\_FuentesCentral_28112014\_Fuentes\SIANWEB\bin\es-MX\LibreriaReportes.resources.dll
+F:\Reportes_Cobranza\_FuentesCentral_28112014\_Fuentes\SIANWEB\obj\Debug\ResolveAssemblyReference.cache
+F:\Reportes_Cobranza\_FuentesCentral_28112014\_Fuentes\SIANWEB\obj\Debug\SIANWEB.dll
+F:\Reportes_Cobranza\_FuentesCentral_28112014\_Fuentes\SIANWEB\obj\Debug\SIANWEB.pdb
+F:\Reporte de Contacto\_Fuentes\SIANWEB\bin\SIANWEB.dll
+F:\Reporte de Contacto\_Fuentes\SIANWEB\bin\SIANWEB.pdb
+F:\Reporte de Contacto\_Fuentes\SIANWEB\bin\CapaDatos.dll
+F:\Reporte de Contacto\_Fuentes\SIANWEB\bin\CapaEntidad.dll
+F:\Reporte de Contacto\_Fuentes\SIANWEB\bin\CapaNegocios.dll
+F:\Reporte de Contacto\_Fuentes\SIANWEB\bin\LibreriaReportes.dll
+F:\Reporte de Contacto\_Fuentes\SIANWEB\bin\CapaDatos.pdb
+F:\Reporte de Contacto\_Fuentes\SIANWEB\bin\CapaEntidad.pdb
+F:\Reporte de Contacto\_Fuentes\SIANWEB\bin\CapaNegocios.pdb
+F:\Reporte de Contacto\_Fuentes\SIANWEB\bin\LibreriaReportes.pdb
+F:\Reporte de Contacto\_Fuentes\SIANWEB\bin\Telerik.Web.UI.xml
+F:\Reporte de Contacto\_Fuentes\SIANWEB\bin\es-MX\LibreriaReportes.resources.dll
+F:\Reporte de Contacto\_Fuentes\SIANWEB\obj\Debug\ResolveAssemblyReference.cache
+F:\Reporte de Contacto\_Fuentes\SIANWEB\obj\Debug\SIANWEB.dll
+F:\Reporte de Contacto\_Fuentes\SIANWEB\obj\Debug\SIANWEB.pdb
+F:\Proyectos\Reporte de Cumplimiento\_Fuentes\SIANWEB\bin\SIANWEB.dll
+F:\Proyectos\Reporte de Cumplimiento\_Fuentes\SIANWEB\bin\SIANWEB.pdb
+F:\Proyectos\Reporte de Cumplimiento\_Fuentes\SIANWEB\bin\CapaDatos.dll
+F:\Proyectos\Reporte de Cumplimiento\_Fuentes\SIANWEB\bin\CapaEntidad.dll
+F:\Proyectos\Reporte de Cumplimiento\_Fuentes\SIANWEB\bin\CapaNegocios.dll
+F:\Proyectos\Reporte de Cumplimiento\_Fuentes\SIANWEB\bin\LibreriaReportes.dll
+F:\Proyectos\Reporte de Cumplimiento\_Fuentes\SIANWEB\bin\CapaDatos.pdb
+F:\Proyectos\Reporte de Cumplimiento\_Fuentes\SIANWEB\bin\CapaEntidad.pdb
+F:\Proyectos\Reporte de Cumplimiento\_Fuentes\SIANWEB\bin\CapaNegocios.pdb
+F:\Proyectos\Reporte de Cumplimiento\_Fuentes\SIANWEB\bin\LibreriaReportes.pdb
+F:\Proyectos\Reporte de Cumplimiento\_Fuentes\SIANWEB\bin\Telerik.Web.UI.xml
+F:\Proyectos\Reporte de Cumplimiento\_Fuentes\SIANWEB\bin\es-MX\LibreriaReportes.resources.dll
+F:\Proyectos\Reporte de Cumplimiento\_Fuentes\SIANWEB\obj\Debug\ResolveAssemblyReference.cache
+F:\Proyectos\Reporte de Cumplimiento\_Fuentes\SIANWEB\obj\Debug\SIANWEB.dll
+F:\Proyectos\Reporte de Cumplimiento\_Fuentes\SIANWEB\obj\Debug\SIANWEB.pdb
+F:\SIANCentral Ultima Version\_Fuentes\SIANWEB\obj\Debug\ResolveAssemblyReference.cache
+F:\SIANCentral Ultima Version\_Fuentes\SIANWEB\bin\SIANWEB.dll
+F:\SIANCentral Ultima Version\_Fuentes\SIANWEB\bin\SIANWEB.pdb
+F:\SIANCentral Ultima Version\_Fuentes\SIANWEB\bin\CapaDatos.dll
+F:\SIANCentral Ultima Version\_Fuentes\SIANWEB\bin\CapaEntidad.dll
+F:\SIANCentral Ultima Version\_Fuentes\SIANWEB\bin\CapaNegocios.dll
+F:\SIANCentral Ultima Version\_Fuentes\SIANWEB\bin\LibreriaReportes.dll
+F:\SIANCentral Ultima Version\_Fuentes\SIANWEB\bin\CapaDatos.pdb
+F:\SIANCentral Ultima Version\_Fuentes\SIANWEB\bin\CapaEntidad.pdb
+F:\SIANCentral Ultima Version\_Fuentes\SIANWEB\bin\CapaNegocios.pdb
+F:\SIANCentral Ultima Version\_Fuentes\SIANWEB\bin\LibreriaReportes.pdb
+F:\SIANCentral Ultima Version\_Fuentes\SIANWEB\bin\es-MX\LibreriaReportes.resources.dll
+F:\SIANCentral Ultima Version\_Fuentes\SIANWEB\obj\Debug\SIANWEB.dll
+F:\SIANCentral Ultima Version\_Fuentes\SIANWEB\obj\Debug\SIANWEB.pdb
+F:\SIANCentral Ultima Version\_Fuentes\SIANWEB\bin\Telerik.Web.UI.xml
+F:\Proyectos\Reporte_cobranza_Fese2\_Fuentes\SIANWEB\obj\Debug\ResolveAssemblyReference.cache
+F:\Proyectos\Reporte_cobranza_Fese2\_Fuentes\SIANWEB\obj\Debug\SIANWEB.dll
+F:\Proyectos\Reporte_cobranza_Fese2\_Fuentes\SIANWEB\bin\SIANWEB.dll
+F:\Proyectos\Reporte_cobranza_Fese2\_Fuentes\SIANWEB\bin\SIANWEB.pdb
+F:\Proyectos\Reporte_cobranza_Fese2\_Fuentes\SIANWEB\bin\CapaDatos.dll
+F:\Proyectos\Reporte_cobranza_Fese2\_Fuentes\SIANWEB\bin\CapaEntidad.dll
+F:\Proyectos\Reporte_cobranza_Fese2\_Fuentes\SIANWEB\bin\CapaNegocios.dll
+F:\Proyectos\Reporte_cobranza_Fese2\_Fuentes\SIANWEB\bin\LibreriaReportes.dll
+F:\Proyectos\Reporte_cobranza_Fese2\_Fuentes\SIANWEB\bin\CapaDatos.pdb
+F:\Proyectos\Reporte_cobranza_Fese2\_Fuentes\SIANWEB\bin\CapaEntidad.pdb
+F:\Proyectos\Reporte_cobranza_Fese2\_Fuentes\SIANWEB\bin\CapaNegocios.pdb
+F:\Proyectos\Reporte_cobranza_Fese2\_Fuentes\SIANWEB\bin\LibreriaReportes.pdb
+F:\Proyectos\Reporte_cobranza_Fese2\_Fuentes\SIANWEB\bin\Telerik.Web.UI.xml
+F:\Proyectos\Reporte_cobranza_Fese2\_Fuentes\SIANWEB\bin\es-MX\LibreriaReportes.resources.dll
+F:\Proyectos\Reporte_cobranza_Fese2\_Fuentes\SIANWEB\obj\Debug\SIANWEB.pdb
+C:\Mario\BackUps Fuentes\_Fuentes_Central\_Fuentes\SIANWEB\bin\SIANWEB.dll
+C:\Mario\BackUps Fuentes\_Fuentes_Central\_Fuentes\SIANWEB\bin\SIANWEB.pdb
+C:\Mario\BackUps Fuentes\_Fuentes_Central\_Fuentes\SIANWEB\bin\CapaDatos.dll
+C:\Mario\BackUps Fuentes\_Fuentes_Central\_Fuentes\SIANWEB\bin\CapaEntidad.dll
+C:\Mario\BackUps Fuentes\_Fuentes_Central\_Fuentes\SIANWEB\bin\CapaNegocios.dll
+C:\Mario\BackUps Fuentes\_Fuentes_Central\_Fuentes\SIANWEB\bin\LibreriaReportes.dll
+C:\Mario\BackUps Fuentes\_Fuentes_Central\_Fuentes\SIANWEB\bin\CapaDatos.pdb
+C:\Mario\BackUps Fuentes\_Fuentes_Central\_Fuentes\SIANWEB\bin\CapaEntidad.pdb
+C:\Mario\BackUps Fuentes\_Fuentes_Central\_Fuentes\SIANWEB\bin\CapaNegocios.pdb
+C:\Mario\BackUps Fuentes\_Fuentes_Central\_Fuentes\SIANWEB\bin\LibreriaReportes.pdb
+C:\Mario\BackUps Fuentes\_Fuentes_Central\_Fuentes\SIANWEB\bin\Telerik.Web.UI.xml
+C:\Mario\BackUps Fuentes\_Fuentes_Central\_Fuentes\SIANWEB\bin\es-MX\LibreriaReportes.resources.dll
+C:\Mario\BackUps Fuentes\_Fuentes_Central\_Fuentes\SIANWEB\obj\Debug\SIANWEB.csprojResolveAssemblyReference.cache
+C:\Mario\BackUps Fuentes\_Fuentes_Central\_Fuentes\SIANWEB\obj\Debug\SIANWEB.dll
+C:\Mario\BackUps Fuentes\_Fuentes_Central\_Fuentes\SIANWEB\obj\Debug\SIANWEB.pdb
+F:\Proyectos\_Fuentes\SIANWEB\bin\SIANWEB.dll
+F:\Proyectos\_Fuentes\SIANWEB\bin\SIANWEB.pdb
+F:\Proyectos\_Fuentes\SIANWEB\bin\CapaDatos.dll
+F:\Proyectos\_Fuentes\SIANWEB\bin\CapaEntidad.dll
+F:\Proyectos\_Fuentes\SIANWEB\bin\CapaNegocios.dll
+F:\Proyectos\_Fuentes\SIANWEB\bin\LibreriaReportes.dll
+F:\Proyectos\_Fuentes\SIANWEB\bin\CapaDatos.pdb
+F:\Proyectos\_Fuentes\SIANWEB\bin\CapaEntidad.pdb
+F:\Proyectos\_Fuentes\SIANWEB\bin\CapaNegocios.pdb
+F:\Proyectos\_Fuentes\SIANWEB\bin\LibreriaReportes.pdb
+F:\Proyectos\_Fuentes\SIANWEB\bin\es-MX\LibreriaReportes.resources.dll
+F:\Proyectos\_Fuentes\SIANWEB\obj\Debug\ResolveAssemblyReference.cache
+F:\Proyectos\_Fuentes\SIANWEB\obj\Debug\SIANWEB.dll
+F:\Proyectos\_Fuentes\SIANWEB\obj\Debug\SIANWEB.pdb
+F:\Proyectos\_Fuentes\SIANWEB\bin\Telerik.Web.UI.xml
+C:\tfs\SIANWEBCENTRAL\Producto\Versiones\SIANWEBCENTRALv1.0\_Fuentes\SIANWEB\obj\Debug\ResolveAssemblyReference.cache
+C:\tfs\SIANWEBCENTRAL\Producto\Versiones\SIANWEBCENTRALv1.0\_Fuentes\SIANWEB\bin\SIANWEB.dll
+C:\tfs\SIANWEBCENTRAL\Producto\Versiones\SIANWEBCENTRALv1.0\_Fuentes\SIANWEB\bin\SIANWEB.pdb
+C:\tfs\SIANWEBCENTRAL\Producto\Versiones\SIANWEBCENTRALv1.0\_Fuentes\SIANWEB\bin\CapaDatos.dll
+C:\tfs\SIANWEBCENTRAL\Producto\Versiones\SIANWEBCENTRALv1.0\_Fuentes\SIANWEB\bin\CapaEntidad.dll
+C:\tfs\SIANWEBCENTRAL\Producto\Versiones\SIANWEBCENTRALv1.0\_Fuentes\SIANWEB\bin\CapaNegocios.dll
+C:\tfs\SIANWEBCENTRAL\Producto\Versiones\SIANWEBCENTRALv1.0\_Fuentes\SIANWEB\bin\LibreriaReportes.dll
+C:\tfs\SIANWEBCENTRAL\Producto\Versiones\SIANWEBCENTRALv1.0\_Fuentes\SIANWEB\bin\CapaDatos.pdb
+C:\tfs\SIANWEBCENTRAL\Producto\Versiones\SIANWEBCENTRALv1.0\_Fuentes\SIANWEB\bin\CapaEntidad.pdb
+C:\tfs\SIANWEBCENTRAL\Producto\Versiones\SIANWEBCENTRALv1.0\_Fuentes\SIANWEB\bin\CapaNegocios.pdb
+C:\tfs\SIANWEBCENTRAL\Producto\Versiones\SIANWEBCENTRALv1.0\_Fuentes\SIANWEB\bin\LibreriaReportes.pdb
+C:\tfs\SIANWEBCENTRAL\Producto\Versiones\SIANWEBCENTRALv1.0\_Fuentes\SIANWEB\bin\es-MX\LibreriaReportes.resources.dll
+C:\tfs\SIANWEBCENTRAL\Producto\Versiones\SIANWEBCENTRALv1.0\_Fuentes\SIANWEB\obj\Debug\SIANWEB.dll
+C:\tfs\SIANWEBCENTRAL\Producto\Versiones\SIANWEBCENTRALv1.0\_Fuentes\SIANWEB\obj\Debug\SIANWEB.pdb
+C:\tfs\SIANWEBCENTRAL\Producto\Versiones\SIANWEBCENTRALv1.0\_Fuentes\SIANWEB\bin\Telerik.Web.UI.xml
+C:\files\files\key\sianwebcambio\siancentral15122015\SIANWEBCENTRALv1.0\_Fuentes\SIANWEB\bin\SIANWEB.dll
+C:\files\files\key\sianwebcambio\siancentral15122015\SIANWEBCENTRALv1.0\_Fuentes\SIANWEB\bin\SIANWEB.pdb
+C:\files\files\key\sianwebcambio\siancentral15122015\SIANWEBCENTRALv1.0\_Fuentes\SIANWEB\bin\CapaDatos.dll
+C:\files\files\key\sianwebcambio\siancentral15122015\SIANWEBCENTRALv1.0\_Fuentes\SIANWEB\bin\CapaEntidad.dll
+C:\files\files\key\sianwebcambio\siancentral15122015\SIANWEBCENTRALv1.0\_Fuentes\SIANWEB\bin\CapaNegocios.dll
+C:\files\files\key\sianwebcambio\siancentral15122015\SIANWEBCENTRALv1.0\_Fuentes\SIANWEB\bin\LibreriaReportes.dll
+C:\files\files\key\sianwebcambio\siancentral15122015\SIANWEBCENTRALv1.0\_Fuentes\SIANWEB\bin\CapaDatos.pdb
+C:\files\files\key\sianwebcambio\siancentral15122015\SIANWEBCENTRALv1.0\_Fuentes\SIANWEB\bin\CapaEntidad.pdb
+C:\files\files\key\sianwebcambio\siancentral15122015\SIANWEBCENTRALv1.0\_Fuentes\SIANWEB\bin\CapaNegocios.pdb
+C:\files\files\key\sianwebcambio\siancentral15122015\SIANWEBCENTRALv1.0\_Fuentes\SIANWEB\bin\LibreriaReportes.pdb
+C:\files\files\key\sianwebcambio\siancentral15122015\SIANWEBCENTRALv1.0\_Fuentes\SIANWEB\bin\Telerik.Reporting.pdb
+C:\files\files\key\sianwebcambio\siancentral15122015\SIANWEBCENTRALv1.0\_Fuentes\SIANWEB\bin\Telerik.Reporting.xml
+C:\files\files\key\sianwebcambio\siancentral15122015\SIANWEBCENTRALv1.0\_Fuentes\SIANWEB\bin\Telerik.ReportViewer.WebForms.pdb
+C:\files\files\key\sianwebcambio\siancentral15122015\SIANWEBCENTRALv1.0\_Fuentes\SIANWEB\bin\Telerik.ReportViewer.WebForms.xml
+C:\files\files\key\sianwebcambio\siancentral15122015\SIANWEBCENTRALv1.0\_Fuentes\SIANWEB\bin\Telerik.Web.UI.xml
+C:\files\files\key\sianwebcambio\siancentral15122015\SIANWEBCENTRALv1.0\_Fuentes\SIANWEB\bin\es-MX\LibreriaReportes.resources.dll
+C:\files\files\key\sianwebcambio\siancentral15122015\SIANWEBCENTRALv1.0\_Fuentes\SIANWEB\obj\Debug\SIANWEB.csprojResolveAssemblyReference.cache
+C:\files\files\key\sianwebcambio\siancentral15122015\SIANWEBCENTRALv1.0\_Fuentes\SIANWEB\obj\Debug\SIANWEB.dll
+C:\files\files\key\sianwebcambio\siancentral15122015\SIANWEBCENTRALv1.0\_Fuentes\SIANWEB\obj\Debug\SIANWEB.pdb
+C:\files\files\key\sianwebcambio\SIANCENTRAL\_Fuentes siancentral\_Fuentes\SIANWEB\bin\SIANWEB.dll
+C:\files\files\key\sianwebcambio\SIANCENTRAL\_Fuentes siancentral\_Fuentes\SIANWEB\bin\SIANWEB.pdb
+C:\files\files\key\sianwebcambio\SIANCENTRAL\_Fuentes siancentral\_Fuentes\SIANWEB\bin\CapaDatos.dll
+C:\files\files\key\sianwebcambio\SIANCENTRAL\_Fuentes siancentral\_Fuentes\SIANWEB\bin\CapaEntidad.dll
+C:\files\files\key\sianwebcambio\SIANCENTRAL\_Fuentes siancentral\_Fuentes\SIANWEB\bin\CapaNegocios.dll
+C:\files\files\key\sianwebcambio\SIANCENTRAL\_Fuentes siancentral\_Fuentes\SIANWEB\bin\LibreriaReportes.dll
+C:\files\files\key\sianwebcambio\SIANCENTRAL\_Fuentes siancentral\_Fuentes\SIANWEB\bin\CapaDatos.pdb
+C:\files\files\key\sianwebcambio\SIANCENTRAL\_Fuentes siancentral\_Fuentes\SIANWEB\bin\CapaEntidad.pdb
+C:\files\files\key\sianwebcambio\SIANCENTRAL\_Fuentes siancentral\_Fuentes\SIANWEB\bin\CapaNegocios.pdb
+C:\files\files\key\sianwebcambio\SIANCENTRAL\_Fuentes siancentral\_Fuentes\SIANWEB\bin\LibreriaReportes.pdb
+C:\files\files\key\sianwebcambio\SIANCENTRAL\_Fuentes siancentral\_Fuentes\SIANWEB\bin\Telerik.Reporting.pdb
+C:\files\files\key\sianwebcambio\SIANCENTRAL\_Fuentes siancentral\_Fuentes\SIANWEB\bin\Telerik.Reporting.xml
+C:\files\files\key\sianwebcambio\SIANCENTRAL\_Fuentes siancentral\_Fuentes\SIANWEB\bin\Telerik.ReportViewer.WebForms.pdb
+C:\files\files\key\sianwebcambio\SIANCENTRAL\_Fuentes siancentral\_Fuentes\SIANWEB\bin\Telerik.ReportViewer.WebForms.xml
+C:\files\files\key\sianwebcambio\SIANCENTRAL\_Fuentes siancentral\_Fuentes\SIANWEB\bin\Telerik.Web.UI.xml
+C:\files\files\key\sianwebcambio\SIANCENTRAL\_Fuentes siancentral\_Fuentes\SIANWEB\bin\es-MX\LibreriaReportes.resources.dll
+C:\files\files\key\sianwebcambio\SIANCENTRAL\_Fuentes siancentral\_Fuentes\SIANWEB\obj\Debug\SIANWEB.csprojResolveAssemblyReference.cache
+C:\files\files\key\sianwebcambio\SIANCENTRAL\_Fuentes siancentral\_Fuentes\SIANWEB\obj\Debug\SIANWEB.dll
+C:\files\files\key\sianwebcambio\SIANCENTRAL\_Fuentes siancentral\_Fuentes\SIANWEB\obj\Debug\SIANWEB.pdb
+C:\Users\raul.borquez\Desktop\_Fuentessiancentral07Feb2016\_Fuentes\SIANWEB\bin\SIANWEB.dll
+C:\Users\raul.borquez\Desktop\_Fuentessiancentral07Feb2016\_Fuentes\SIANWEB\bin\SIANWEB.pdb
+C:\Users\raul.borquez\Desktop\_Fuentessiancentral07Feb2016\_Fuentes\SIANWEB\bin\CapaDatos.dll
+C:\Users\raul.borquez\Desktop\_Fuentessiancentral07Feb2016\_Fuentes\SIANWEB\bin\CapaEntidad.dll
+C:\Users\raul.borquez\Desktop\_Fuentessiancentral07Feb2016\_Fuentes\SIANWEB\bin\CapaNegocios.dll
+C:\Users\raul.borquez\Desktop\_Fuentessiancentral07Feb2016\_Fuentes\SIANWEB\bin\LibreriaReportes.dll
+C:\Users\raul.borquez\Desktop\_Fuentessiancentral07Feb2016\_Fuentes\SIANWEB\bin\CapaDatos.pdb
+C:\Users\raul.borquez\Desktop\_Fuentessiancentral07Feb2016\_Fuentes\SIANWEB\bin\CapaEntidad.pdb
+C:\Users\raul.borquez\Desktop\_Fuentessiancentral07Feb2016\_Fuentes\SIANWEB\bin\CapaNegocios.pdb
+C:\Users\raul.borquez\Desktop\_Fuentessiancentral07Feb2016\_Fuentes\SIANWEB\bin\LibreriaReportes.pdb
+C:\Users\raul.borquez\Desktop\_Fuentessiancentral07Feb2016\_Fuentes\SIANWEB\bin\Telerik.Web.UI.xml
+C:\Users\raul.borquez\Desktop\_Fuentessiancentral07Feb2016\_Fuentes\SIANWEB\bin\es-MX\LibreriaReportes.resources.dll
+C:\Users\raul.borquez\Desktop\_Fuentessiancentral07Feb2016\_Fuentes\SIANWEB\obj\Debug\SIANWEB.csprojResolveAssemblyReference.cache
+C:\Users\raul.borquez\Desktop\_Fuentessiancentral07Feb2016\_Fuentes\SIANWEB\obj\Debug\SIANWEB.dll
+C:\Users\raul.borquez\Desktop\_Fuentessiancentral07Feb2016\_Fuentes\SIANWEB\obj\Debug\SIANWEB.pdb
+C:\Users\infcom\Desktop\SIANCENTRAL_UltimaVersion\_Fuentessiancentral01Junio2016\_Fuentes\SIANWEB\obj\Debug\SIANWEB.csprojResolveAssemblyReference.cache
+C:\Users\infcom\Desktop\SIANCENTRAL_UltimaVersion\_Fuentessiancentral01Junio2016\_Fuentes\SIANWEB\bin\SIANWEB.dll
+C:\Users\infcom\Desktop\SIANCENTRAL_UltimaVersion\_Fuentessiancentral01Junio2016\_Fuentes\SIANWEB\bin\SIANWEB.pdb
+C:\Users\infcom\Desktop\SIANCENTRAL_UltimaVersion\_Fuentessiancentral01Junio2016\_Fuentes\SIANWEB\bin\CapaDatos.dll
+C:\Users\infcom\Desktop\SIANCENTRAL_UltimaVersion\_Fuentessiancentral01Junio2016\_Fuentes\SIANWEB\bin\CapaEntidad.dll
+C:\Users\infcom\Desktop\SIANCENTRAL_UltimaVersion\_Fuentessiancentral01Junio2016\_Fuentes\SIANWEB\bin\CapaNegocios.dll
+C:\Users\infcom\Desktop\SIANCENTRAL_UltimaVersion\_Fuentessiancentral01Junio2016\_Fuentes\SIANWEB\bin\EntityFramework.dll
+C:\Users\infcom\Desktop\SIANCENTRAL_UltimaVersion\_Fuentessiancentral01Junio2016\_Fuentes\SIANWEB\bin\EntityFramework.SqlServer.dll
+C:\Users\infcom\Desktop\SIANCENTRAL_UltimaVersion\_Fuentessiancentral01Junio2016\_Fuentes\SIANWEB\bin\LibreriaReportes.dll
+C:\Users\infcom\Desktop\SIANCENTRAL_UltimaVersion\_Fuentessiancentral01Junio2016\_Fuentes\SIANWEB\bin\CapaDatos.pdb
+C:\Users\infcom\Desktop\SIANCENTRAL_UltimaVersion\_Fuentessiancentral01Junio2016\_Fuentes\SIANWEB\bin\CapaEntidad.pdb
+C:\Users\infcom\Desktop\SIANCENTRAL_UltimaVersion\_Fuentessiancentral01Junio2016\_Fuentes\SIANWEB\bin\CapaNegocios.pdb
+C:\Users\infcom\Desktop\SIANCENTRAL_UltimaVersion\_Fuentessiancentral01Junio2016\_Fuentes\SIANWEB\bin\LibreriaReportes.pdb
+C:\Users\infcom\Desktop\SIANCENTRAL_UltimaVersion\_Fuentessiancentral01Junio2016\_Fuentes\SIANWEB\bin\EntityFramework.xml
+C:\Users\infcom\Desktop\SIANCENTRAL_UltimaVersion\_Fuentessiancentral01Junio2016\_Fuentes\SIANWEB\bin\EntityFramework.SqlServer.xml
+C:\Users\infcom\Desktop\SIANCENTRAL_UltimaVersion\_Fuentessiancentral01Junio2016\_Fuentes\SIANWEB\bin\LinqToExcel.xml
+C:\Users\infcom\Desktop\SIANCENTRAL_UltimaVersion\_Fuentessiancentral01Junio2016\_Fuentes\SIANWEB\bin\log4net.xml
+C:\Users\infcom\Desktop\SIANCENTRAL_UltimaVersion\_Fuentessiancentral01Junio2016\_Fuentes\SIANWEB\bin\Telerik.Web.UI.xml
+C:\Users\infcom\Desktop\SIANCENTRAL_UltimaVersion\_Fuentessiancentral01Junio2016\_Fuentes\SIANWEB\bin\es-MX\LibreriaReportes.resources.dll
+C:\Users\infcom\Desktop\SIANCENTRAL_UltimaVersion\_Fuentessiancentral01Junio2016\_Fuentes\SIANWEB\obj\Debug\SIANWEB.dll
+C:\Users\infcom\Desktop\SIANCENTRAL_UltimaVersion\_Fuentessiancentral01Junio2016\_Fuentes\SIANWEB\obj\Debug\SIANWEB.pdb
+C:\Users\raul.borquez\Documents\_Fuentessiancentral01Junio2016\_Fuentes\SIANWEB\bin\SIANWEB.dll
+C:\Users\raul.borquez\Documents\_Fuentessiancentral01Junio2016\_Fuentes\SIANWEB\bin\SIANWEB.pdb
+C:\Users\raul.borquez\Documents\_Fuentessiancentral01Junio2016\_Fuentes\SIANWEB\bin\CapaDatos.dll
+C:\Users\raul.borquez\Documents\_Fuentessiancentral01Junio2016\_Fuentes\SIANWEB\bin\CapaEntidad.dll
+C:\Users\raul.borquez\Documents\_Fuentessiancentral01Junio2016\_Fuentes\SIANWEB\bin\CapaNegocios.dll
+C:\Users\raul.borquez\Documents\_Fuentessiancentral01Junio2016\_Fuentes\SIANWEB\bin\EntityFramework.dll
+C:\Users\raul.borquez\Documents\_Fuentessiancentral01Junio2016\_Fuentes\SIANWEB\bin\EntityFramework.SqlServer.dll
+C:\Users\raul.borquez\Documents\_Fuentessiancentral01Junio2016\_Fuentes\SIANWEB\bin\LibreriaReportes.dll
+C:\Users\raul.borquez\Documents\_Fuentessiancentral01Junio2016\_Fuentes\SIANWEB\bin\CapaDatos.pdb
+C:\Users\raul.borquez\Documents\_Fuentessiancentral01Junio2016\_Fuentes\SIANWEB\bin\CapaEntidad.pdb
+C:\Users\raul.borquez\Documents\_Fuentessiancentral01Junio2016\_Fuentes\SIANWEB\bin\CapaNegocios.pdb
+C:\Users\raul.borquez\Documents\_Fuentessiancentral01Junio2016\_Fuentes\SIANWEB\bin\LibreriaReportes.pdb
+C:\Users\raul.borquez\Documents\_Fuentessiancentral01Junio2016\_Fuentes\SIANWEB\bin\EntityFramework.xml
+C:\Users\raul.borquez\Documents\_Fuentessiancentral01Junio2016\_Fuentes\SIANWEB\bin\EntityFramework.SqlServer.xml
+C:\Users\raul.borquez\Documents\_Fuentessiancentral01Junio2016\_Fuentes\SIANWEB\bin\es-MX\LibreriaReportes.resources.dll
+C:\Users\raul.borquez\Documents\_Fuentessiancentral01Junio2016\_Fuentes\SIANWEB\obj\Debug\SIANWEB.csprojResolveAssemblyReference.cache
+C:\Users\raul.borquez\Documents\_Fuentessiancentral01Junio2016\_Fuentes\SIANWEB\obj\Debug\SIANWEB.dll
+C:\Users\raul.borquez\Documents\_Fuentessiancentral01Junio2016\_Fuentes\SIANWEB\obj\Debug\SIANWEB.pdb
+C:\Users\raul.borquez\Documents\_Fuentessiancentral01Junio2016\_Fuentes\SIANWEB\bin\Telerik.Web.UI.xml
+C:\KEYQUIMICA\_Fuentessiancentral01Junio2017\_Fuentes\SIANWEB\bin\SIANWEB.dll
+C:\KEYQUIMICA\_Fuentessiancentral01Junio2017\_Fuentes\SIANWEB\bin\SIANWEB.pdb
+C:\KEYQUIMICA\_Fuentessiancentral01Junio2017\_Fuentes\SIANWEB\bin\CapaDatos.dll
+C:\KEYQUIMICA\_Fuentessiancentral01Junio2017\_Fuentes\SIANWEB\bin\CapaEntidad.dll
+C:\KEYQUIMICA\_Fuentessiancentral01Junio2017\_Fuentes\SIANWEB\bin\CapaNegocios.dll
+C:\KEYQUIMICA\_Fuentessiancentral01Junio2017\_Fuentes\SIANWEB\bin\EntityFramework.dll
+C:\KEYQUIMICA\_Fuentessiancentral01Junio2017\_Fuentes\SIANWEB\bin\EntityFramework.SqlServer.dll
+C:\KEYQUIMICA\_Fuentessiancentral01Junio2017\_Fuentes\SIANWEB\bin\LibreriaReportes.dll
+C:\KEYQUIMICA\_Fuentessiancentral01Junio2017\_Fuentes\SIANWEB\bin\CapaDatos.pdb
+C:\KEYQUIMICA\_Fuentessiancentral01Junio2017\_Fuentes\SIANWEB\bin\CapaEntidad.pdb
+C:\KEYQUIMICA\_Fuentessiancentral01Junio2017\_Fuentes\SIANWEB\bin\CapaNegocios.pdb
+C:\KEYQUIMICA\_Fuentessiancentral01Junio2017\_Fuentes\SIANWEB\bin\LibreriaReportes.pdb
+C:\KEYQUIMICA\_Fuentessiancentral01Junio2017\_Fuentes\SIANWEB\bin\EntityFramework.xml
+C:\KEYQUIMICA\_Fuentessiancentral01Junio2017\_Fuentes\SIANWEB\bin\EntityFramework.SqlServer.xml
+C:\KEYQUIMICA\_Fuentessiancentral01Junio2017\_Fuentes\SIANWEB\bin\es-MX\LibreriaReportes.resources.dll
+C:\KEYQUIMICA\_Fuentessiancentral01Junio2017\_Fuentes\SIANWEB\obj\Debug\SIANWEB.csprojResolveAssemblyReference.cache
+C:\KEYQUIMICA\_Fuentessiancentral01Junio2017\_Fuentes\SIANWEB\obj\Debug\SIANWEB.dll
+C:\KEYQUIMICA\_Fuentessiancentral01Junio2017\_Fuentes\SIANWEB\obj\Debug\SIANWEB.pdb
+C:\KEYQUIMICA\_Fuentessiancentral01Junio2017\_Fuentes\SIANWEB\bin\Telerik.Web.UI.xml
+C:\Proyectos\SIANCENTRALSEP2017\_Fuentes\SIANWEB\bin\SIANWEB.dll
+C:\Proyectos\SIANCENTRALSEP2017\_Fuentes\SIANWEB\bin\SIANWEB.pdb
+C:\Proyectos\SIANCENTRALSEP2017\_Fuentes\SIANWEB\bin\CapaDatos.dll
+C:\Proyectos\SIANCENTRALSEP2017\_Fuentes\SIANWEB\bin\CapaEntidad.dll
+C:\Proyectos\SIANCENTRALSEP2017\_Fuentes\SIANWEB\bin\CapaNegocios.dll
+C:\Proyectos\SIANCENTRALSEP2017\_Fuentes\SIANWEB\bin\EntityFramework.dll
+C:\Proyectos\SIANCENTRALSEP2017\_Fuentes\SIANWEB\bin\EntityFramework.SqlServer.dll
+C:\Proyectos\SIANCENTRALSEP2017\_Fuentes\SIANWEB\bin\LibreriaReportes.dll
+C:\Proyectos\SIANCENTRALSEP2017\_Fuentes\SIANWEB\bin\CapaDatos.pdb
+C:\Proyectos\SIANCENTRALSEP2017\_Fuentes\SIANWEB\bin\CapaEntidad.pdb
+C:\Proyectos\SIANCENTRALSEP2017\_Fuentes\SIANWEB\bin\CapaNegocios.pdb
+C:\Proyectos\SIANCENTRALSEP2017\_Fuentes\SIANWEB\bin\LibreriaReportes.pdb
+C:\Proyectos\SIANCENTRALSEP2017\_Fuentes\SIANWEB\bin\EntityFramework.xml
+C:\Proyectos\SIANCENTRALSEP2017\_Fuentes\SIANWEB\bin\EntityFramework.SqlServer.xml
+C:\Proyectos\SIANCENTRALSEP2017\_Fuentes\SIANWEB\bin\es-MX\LibreriaReportes.resources.dll
+C:\Proyectos\SIANCENTRALSEP2017\_Fuentes\SIANWEB\obj\Debug\SIANWEB.csprojResolveAssemblyReference.cache
+C:\Proyectos\SIANCENTRALSEP2017\_Fuentes\SIANWEB\obj\Debug\SIANWEB.dll
+C:\Proyectos\SIANCENTRALSEP2017\_Fuentes\SIANWEB\obj\Debug\SIANWEB.pdb
+C:\Proyectos\SIANCENTRALSEP2017\_Fuentes\SIANWEB\bin\Telerik.Web.UI.xml
+C:\Proyectos\SIANCENTRAL3OCT\_Fuentes\SIANWEB\bin\SIANWEB.dll
+C:\Proyectos\SIANCENTRAL3OCT\_Fuentes\SIANWEB\bin\SIANWEB.pdb
+C:\Proyectos\SIANCENTRAL3OCT\_Fuentes\SIANWEB\bin\CapaDatos.dll
+C:\Proyectos\SIANCENTRAL3OCT\_Fuentes\SIANWEB\bin\CapaEntidad.dll
+C:\Proyectos\SIANCENTRAL3OCT\_Fuentes\SIANWEB\bin\CapaNegocios.dll
+C:\Proyectos\SIANCENTRAL3OCT\_Fuentes\SIANWEB\bin\EntityFramework.dll
+C:\Proyectos\SIANCENTRAL3OCT\_Fuentes\SIANWEB\bin\EntityFramework.SqlServer.dll
+C:\Proyectos\SIANCENTRAL3OCT\_Fuentes\SIANWEB\bin\LibreriaReportes.dll
+C:\Proyectos\SIANCENTRAL3OCT\_Fuentes\SIANWEB\bin\Microsoft.Practices.ServiceLocation.dll
+C:\Proyectos\SIANCENTRAL3OCT\_Fuentes\SIANWEB\bin\CapaDatos.pdb
+C:\Proyectos\SIANCENTRAL3OCT\_Fuentes\SIANWEB\bin\CapaEntidad.pdb
+C:\Proyectos\SIANCENTRAL3OCT\_Fuentes\SIANWEB\bin\CapaNegocios.pdb
+C:\Proyectos\SIANCENTRAL3OCT\_Fuentes\SIANWEB\bin\LibreriaReportes.pdb
+C:\Proyectos\SIANCENTRAL3OCT\_Fuentes\SIANWEB\bin\EntityFramework.xml
+C:\Proyectos\SIANCENTRAL3OCT\_Fuentes\SIANWEB\bin\EntityFramework.SqlServer.xml
+C:\Proyectos\SIANCENTRAL3OCT\_Fuentes\SIANWEB\bin\es-MX\LibreriaReportes.resources.dll
+C:\Proyectos\SIANCENTRAL3OCT\_Fuentes\SIANWEB\obj\Debug\SIANWEB.csprojResolveAssemblyReference.cache
+C:\Proyectos\SIANCENTRAL3OCT\_Fuentes\SIANWEB\obj\Debug\SIANWEB.dll
+C:\Proyectos\SIANCENTRAL3OCT\_Fuentes\SIANWEB\obj\Debug\SIANWEB.pdb
+C:\Proyectos\SIANCENTRAL3OCT\_Fuentes\SIANWEB\bin\EPPlus.dll
+C:\Proyectos\SIANCENTRAL3OCT\_Fuentes\SIANWEB\bin\Telerik.Web.UI.xml
+C:\files\files\key\sianwebcentral\_FuentesSIANCENTRAL_23MAY2018_FC\_Fuentes\SIANWEB\bin\SIANWEB.dll
+C:\files\files\key\sianwebcentral\_FuentesSIANCENTRAL_23MAY2018_FC\_Fuentes\SIANWEB\bin\SIANWEB.pdb
+C:\files\files\key\sianwebcentral\_FuentesSIANCENTRAL_23MAY2018_FC\_Fuentes\SIANWEB\bin\CapaDatos.dll
+C:\files\files\key\sianwebcentral\_FuentesSIANCENTRAL_23MAY2018_FC\_Fuentes\SIANWEB\bin\CapaEntidad.dll
+C:\files\files\key\sianwebcentral\_FuentesSIANCENTRAL_23MAY2018_FC\_Fuentes\SIANWEB\bin\CapaNegocios.dll
+C:\files\files\key\sianwebcentral\_FuentesSIANCENTRAL_23MAY2018_FC\_Fuentes\SIANWEB\bin\EntityFramework.dll
+C:\files\files\key\sianwebcentral\_FuentesSIANCENTRAL_23MAY2018_FC\_Fuentes\SIANWEB\bin\EntityFramework.SqlServer.dll
+C:\files\files\key\sianwebcentral\_FuentesSIANCENTRAL_23MAY2018_FC\_Fuentes\SIANWEB\bin\EPPlus.dll
+C:\files\files\key\sianwebcentral\_FuentesSIANCENTRAL_23MAY2018_FC\_Fuentes\SIANWEB\bin\LibreriaReportes.dll
+C:\files\files\key\sianwebcentral\_FuentesSIANCENTRAL_23MAY2018_FC\_Fuentes\SIANWEB\bin\CapaDatos.pdb
+C:\files\files\key\sianwebcentral\_FuentesSIANCENTRAL_23MAY2018_FC\_Fuentes\SIANWEB\bin\CapaEntidad.pdb
+C:\files\files\key\sianwebcentral\_FuentesSIANCENTRAL_23MAY2018_FC\_Fuentes\SIANWEB\bin\CapaNegocios.pdb
+C:\files\files\key\sianwebcentral\_FuentesSIANCENTRAL_23MAY2018_FC\_Fuentes\SIANWEB\bin\LibreriaReportes.pdb
+C:\files\files\key\sianwebcentral\_FuentesSIANCENTRAL_23MAY2018_FC\_Fuentes\SIANWEB\bin\EntityFramework.xml
+C:\files\files\key\sianwebcentral\_FuentesSIANCENTRAL_23MAY2018_FC\_Fuentes\SIANWEB\bin\EntityFramework.SqlServer.xml
+C:\files\files\key\sianwebcentral\_FuentesSIANCENTRAL_23MAY2018_FC\_Fuentes\SIANWEB\bin\Telerik.Web.UI.xml
+C:\files\files\key\sianwebcentral\_FuentesSIANCENTRAL_23MAY2018_FC\_Fuentes\SIANWEB\bin\es-MX\LibreriaReportes.resources.dll
+C:\files\files\key\sianwebcentral\_FuentesSIANCENTRAL_23MAY2018_FC\_Fuentes\SIANWEB\obj\Debug\SIANWEB.csprojResolveAssemblyReference.cache
+C:\files\files\key\sianwebcentral\_FuentesSIANCENTRAL_23MAY2018_FC\_Fuentes\SIANWEB\obj\Debug\SIANWEB.dll
+C:\files\files\key\sianwebcentral\_FuentesSIANCENTRAL_23MAY2018_FC\_Fuentes\SIANWEB\obj\Debug\SIANWEB.pdb

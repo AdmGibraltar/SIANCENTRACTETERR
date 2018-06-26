@@ -1,0 +1,453 @@
+﻿using CapaEntidad;
+using CapaDatos;
+using System;
+using System.Web.UI;
+using Telerik.Web.UI;
+using System.Text;
+
+
+namespace CapaNegocios
+{
+    public class CN__Comun
+    {
+        //RadComboBox
+        public void LlenaCombo(string conexion, string SP, ref Telerik.Web.UI.RadComboBox RadComboBox)
+        {
+            try
+            {
+                System.Collections.Generic.List<Comun> Lista = new System.Collections.Generic.List<Comun>();
+                CapaDatos.CD__Comun claseCapaDatos = new CapaDatos.CD__Comun();
+                claseCapaDatos.LlenaCombo(SP, conexion, ref Lista);
+
+                //RadComboBox.Items.Clear(); //ric
+                if (Lista.Count > 0)
+                {
+                    RadComboBox.DataSource = Lista;
+                    RadComboBox.DataValueField = "Id";
+                    RadComboBox.DataTextField = "Descripcion";
+                    RadComboBox.DataBind();
+                }
+            }
+            catch (Exception ex)
+            {
+                throw ex;
+            }
+        }
+        public void LlenaCombo(Int32 Id1, string conexion, string SP, ref Telerik.Web.UI.RadComboBox RadComboBox)
+        {
+            try
+            {
+                System.Collections.Generic.List<Comun> Lista = new System.Collections.Generic.List<Comun>();
+                CapaDatos.CD__Comun claseCapaDatos = new CapaDatos.CD__Comun();
+                claseCapaDatos.LlenaCombo(Id1, SP, conexion, ref Lista);
+                if (Lista.Count > 0)
+                {
+                    RadComboBox.DataSource = Lista;
+                    RadComboBox.DataValueField = "Id";
+                    RadComboBox.DataTextField = "Descripcion";
+                    RadComboBox.DataBind();
+                }
+            }
+            catch (Exception ex)
+            {
+                throw ex;
+            }
+        }
+        public void LlenaCombo(Int32 Id1, Int32 Id2, string conexion, string SP, ref Telerik.Web.UI.RadComboBox RadComboBox, params bool[] claveString)
+        {
+            try
+            {
+                System.Collections.Generic.List<Comun> Lista = new System.Collections.Generic.List<Comun>();
+                CapaDatos.CD__Comun claseCapaDatos = new CapaDatos.CD__Comun();
+                claseCapaDatos.LlenaCombo(Id1, Id2, SP, conexion, ref Lista, claveString);
+
+                if (Lista.Count > 0)
+                {
+                    RadComboBox.DataSource = Lista;
+                    if (claveString.Length > 0)
+                    {
+                        if (claveString[0])
+                            RadComboBox.DataValueField = "IdStr";
+                        else
+                            RadComboBox.DataValueField = "Id";
+                    }
+                    else
+                        RadComboBox.DataValueField = "Id";
+                    if (Lista.ToArray()[0].Relacion != "sin_relacion")
+                    {
+                        RadComboBox.DataTextField = "Relacion";
+                    }
+                    else
+                    {
+                        RadComboBox.DataTextField = "Descripcion";
+                    }
+
+                    RadComboBox.DataBind();
+                }
+            }
+            catch (Exception ex)
+            {
+                throw ex;
+            }
+        }
+        public void LlenaCombo(Int32 Id1, Int32 Id2, int? Id3, string conexion, string SP, ref Telerik.Web.UI.RadComboBox RadComboBox)
+        {
+            try
+            {
+                System.Collections.Generic.List<Comun> Lista = new System.Collections.Generic.List<Comun>();
+                CapaDatos.CD__Comun claseCapaDatos = new CapaDatos.CD__Comun();
+                claseCapaDatos.LlenaCombo(Id1, Id2, Id3, SP, conexion, ref Lista);
+                if (Lista.Count > 0)
+                {
+                    RadComboBox.DataSource = Lista;
+                    RadComboBox.DataValueField = "Id";
+
+                    if (Lista.ToArray()[0].Relacion != "sin_relacion")
+                    {
+                        RadComboBox.DataTextField = "Relacion";
+                    }
+                    else
+                    {
+                        RadComboBox.DataTextField = "Descripcion";
+                    }
+
+                    RadComboBox.DataBind();
+                }
+            }
+            catch (Exception ex)
+            {
+                throw ex;
+            }
+        }
+        public void LlenaCombo(Int32 Id1, Int32 Id2, Int32 Id3, int? Id4, string conexion, string SP, ref  Telerik.Web.UI.RadComboBox RadComboBox)
+        {
+            try
+            {
+                System.Collections.Generic.List<Comun> Lista = new System.Collections.Generic.List<Comun>();
+                CapaDatos.CD__Comun claseCapaDatos = new CapaDatos.CD__Comun();
+                claseCapaDatos.LlenaCombo(Id1, Id2, Id3, Id4, SP, conexion, ref Lista);
+                if (Lista.Count > 0)
+                {
+                    RadComboBox.DataSource = Lista;
+                    RadComboBox.DataValueField = "Id";
+                    if (Lista.ToArray()[0].Relacion != "sin_relacion")
+                    {
+                        RadComboBox.DataTextField = "Relacion";
+                    }
+                    else
+                    {
+                        RadComboBox.DataTextField = "Descripcion";
+                    }
+                    RadComboBox.DataBind();
+                }
+            }
+            catch (Exception ex)
+            {
+                throw ex;
+            }
+        }
+
+        public void LlenaCombo(Int32 Id1, Int32 Id2, Int32 Id3, int? Id4, int? Id5, string conexion, string SP, ref Telerik.Web.UI.RadComboBox RadComboBox)
+        {
+            try
+            {
+                System.Collections.Generic.List<Comun> Lista = new System.Collections.Generic.List<Comun>();
+                CapaDatos.CD__Comun claseCapaDatos = new CapaDatos.CD__Comun();
+                claseCapaDatos.LlenaCombo(Id1, Id2, Id3, Id4, Id5, SP, conexion, ref Lista);
+                if (Lista.Count > 0)
+                {
+                    RadComboBox.DataSource = Lista;
+                    RadComboBox.DataValueField = "Id";
+                    if (Lista.ToArray()[0].Relacion != "sin_relacion")
+                    {
+                        RadComboBox.DataTextField = "Relacion";
+                    }
+                    else
+                    {
+                        RadComboBox.DataTextField = "Descripcion";
+                    }
+                    RadComboBox.DataBind();
+                }
+            }
+            catch (Exception ex)
+            {
+                throw ex;
+            }
+        }
+        public void LlenaComboStr(Int32 Id1, string conexion, string SP, ref Telerik.Web.UI.RadComboBox RadComboBox)
+        {
+            try
+            {
+                System.Collections.Generic.List<Comun> Lista = new System.Collections.Generic.List<Comun>();
+                CapaDatos.CD__Comun claseCapaDatos = new CapaDatos.CD__Comun();
+                claseCapaDatos.LlenaComboStr(Id1, SP, conexion, ref Lista);
+                if (Lista.Count > 0)
+                {
+                    RadComboBox.DataSource = Lista;
+                    RadComboBox.DataValueField = "IdStr";
+                    RadComboBox.DataTextField = "Descripcion";
+                    RadComboBox.DataBind();
+                }
+            }
+            catch (Exception ex)
+            {
+                throw ex;
+            }
+        }
+        public void LlenaCombo(string Id1, int? Id2, int? Id3, int? Id4, int? Id5, string conexion, string SP, ref Telerik.Web.UI.RadComboBox RadComboBox)
+        {
+            try
+            {
+                System.Collections.Generic.List<Comun> Lista = new System.Collections.Generic.List<Comun>();
+                CapaDatos.CD__Comun claseCapaDatos = new CapaDatos.CD__Comun();
+                claseCapaDatos.LlenaCombo(Id1, Id2, Id3, Id4, Id5, SP, conexion, ref Lista);
+                if (Lista.Count > 0)
+                {
+                    RadComboBox.DataSource = Lista;
+                    RadComboBox.DataValueField = "Id";
+                    RadComboBox.DataTextField = "Descripcion";
+                    RadComboBox.DataBind();
+                }
+            }
+            catch (Exception ex)
+            {
+                throw ex;
+            }
+        }
+        public void LlenaComboTabla(Int32 Id1, Int32 Id2, Int32 Id3, string conexion, string SP, ref Telerik.Web.UI.RadComboBox RadComboBox)
+        {
+            try
+            {
+                System.Collections.Generic.List<Comun> Lista = new System.Collections.Generic.List<Comun>();
+                CapaDatos.CD__Comun claseCapaDatos = new CapaDatos.CD__Comun();
+                claseCapaDatos.LlenaComboTabla(Id1, Id2, Id3, SP, conexion, ref Lista);
+
+                for (Int32 i = 0; i <= Lista.Count - 1; i++)
+                {
+                    Telerik.Web.UI.RadComboBoxItem Item = new Telerik.Web.UI.RadComboBoxItem();
+                    Item.Value = Lista[i].Id.ToString();
+                    Item.Text = Lista[i].Descripcion;
+                    RadComboBox.Items.Add(Item);
+                }
+            }
+            catch (Exception ex)
+            {
+                throw ex;
+            }
+        }
+
+        //RadListBox
+        public void LlenaListBox(Int32 Id1, Int32 Id2, string conexion, string SP, ref Telerik.Web.UI.RadListBox RadListBox)
+        {
+            try
+            {
+                System.Collections.Generic.List<Comun> Lista = new System.Collections.Generic.List<Comun>();
+                CapaDatos.CD__Comun claseCapaDatos = new CapaDatos.CD__Comun();
+                claseCapaDatos.LlenaCombo(Id1, Id2, SP, conexion, ref Lista);
+
+                if (Lista.Count > 0)
+                {
+                    RadListBox.DataSource = Lista;
+                    RadListBox.DataValueField = "Id";
+                    RadListBox.DataTextField = "Descripcion";
+                    RadListBox.DataBind();
+                }
+            }
+            catch (Exception ex)
+            {
+                throw ex;
+            }
+        }
+        public void LlenaListBox(Int32 Id1, Int32 Id2, int? Id3, string conexion, string SP, ref Telerik.Web.UI.RadListBox RadListBox)
+        {
+            try
+            {
+                System.Collections.Generic.List<Comun> Lista = new System.Collections.Generic.List<Comun>();
+                CapaDatos.CD__Comun claseCapaDatos = new CapaDatos.CD__Comun();
+                claseCapaDatos.LlenaCombo(Id1, Id2, Id3, SP, conexion, ref Lista);
+
+                if (Lista.Count > 0)
+                {
+                    RadListBox.DataSource = Lista;
+                    RadListBox.DataValueField = "Id";
+                    RadListBox.DataTextField = "Descripcion";
+                    RadListBox.DataBind();
+                }
+            }
+            catch (Exception ex)
+            {
+                throw ex;
+            }
+        }
+
+        public void CorreoRecuperaDatos(ref CentroDistribucion Oficina, ref ConfiguracionGlobal Configuracion, string conexion)
+        {
+            try
+            {
+                CapaDatos.CD__Comun claseCapaDatos = new CapaDatos.CD__Comun();
+                claseCapaDatos.CorreoRecuperaDatos(ref Oficina, ref Configuracion, conexion);
+            }
+            catch (Exception ex)
+            {
+                throw ex;
+            }
+        }
+        //Id Sugerido
+        public string Maximo(int Id_Emp, int Id_Cd, string Tabla, string Columna, string Conexion, string SP)
+        {
+            try
+            {
+                string maximo = "";
+                System.Collections.Generic.List<Comun> Lista = new System.Collections.Generic.List<Comun>();
+                CapaDatos.CD__Comun claseCapaDatos = new CapaDatos.CD__Comun();
+                claseCapaDatos.Maximo(Id_Emp, Id_Cd, Tabla, Columna, SP, Conexion, ref maximo);
+                return maximo;
+            }
+            catch (Exception ex)
+            {
+                throw ex;
+            }
+        }
+        public string Maximo(int Id_Emp, string Tabla, string Columna, string Conexion, string SP)
+        {
+            try
+            {
+                string maximo = "";
+                System.Collections.Generic.List<Comun> Lista = new System.Collections.Generic.List<Comun>();
+                CapaDatos.CD__Comun claseCapaDatos = new CapaDatos.CD__Comun();
+                claseCapaDatos.Maximo(Id_Emp, Tabla, Columna, SP, Conexion, ref maximo);
+                return maximo;
+            }
+            catch (Exception ex)
+            {
+                throw ex;
+            }
+        }
+        public string Maximo(int Id_Emp, string Tabla, int naturaleza, string Columna, string Conexion, string SP)
+        {
+            try
+            {
+                string maximo = "";
+                System.Collections.Generic.List<Comun> Lista = new System.Collections.Generic.List<Comun>();
+                CapaDatos.CD__Comun claseCapaDatos = new CapaDatos.CD__Comun();
+                claseCapaDatos.Maximo(Id_Emp, Tabla, naturaleza, Columna, SP, Conexion, ref maximo);
+                return maximo;
+            }
+            catch (Exception ex)
+            {
+                throw ex;
+            }
+        }
+        public void Deshabilitar(Catalogo ct, string Conexion, ref bool verificador)
+        {
+            try
+            {
+                System.Collections.Generic.List<Comun> Lista = new System.Collections.Generic.List<Comun>();
+                CapaDatos.CD__Comun claseCapaDatos = new CapaDatos.CD__Comun();
+                claseCapaDatos.Deshabilitar(ct, Conexion, ref verificador);
+            }
+            catch (Exception ex)
+            {
+                throw ex;
+            }
+        }
+
+        public static void RemoverValidadores(ValidatorCollection Validators)
+        {
+            for (int x = 0; x < Validators.Count; x++)
+                Validators[0].IsValid = true;
+        }
+        public string Actual(int Id_Emp, int Id_Cd, string Emp_Cnx, int? Cte, int? Prd, int? Terr, string mov, DateTime Fecha)
+        {
+            try
+            {
+                double actual = 0;
+                double actual2 = 0;
+                CapaDatos.CD__Comun claseCapaDatos = new CapaDatos.CD__Comun();
+                if (mov == "1")
+                    claseCapaDatos.Actual(Id_Emp, Id_Cd, Emp_Cnx, Cte, Prd, Terr, "BiFacturado", Fecha, ref actual);
+                else if (mov == "2")
+                    claseCapaDatos.Actual(Id_Emp, Id_Cd, Emp_Cnx, Cte, Prd, Terr, "BiComodato", Fecha, ref actual);
+                else
+                {
+                    claseCapaDatos.Actual(Id_Emp, Id_Cd, Emp_Cnx, Cte, Prd, Terr, "BiFacturado", Fecha, ref actual);
+                    claseCapaDatos.Actual(Id_Emp, Id_Cd, Emp_Cnx, Cte, Prd, Terr, "BiComodato", Fecha, ref actual2);
+                }
+                return (actual + actual2).ToString();
+            }
+            catch (Exception ex)
+            {
+                throw ex;
+            }
+        }
+
+        public void ConsultaFactura_ConsecutivoFacElectronica(int Id_Emp, int Id_Cd, int Id_Cfe, int Cfe_TMov, ref int verificador, string Conexion)
+        {
+            try
+            {
+                new CD__Comun().ConsultaFactura_ConsecutivoFacElectronica(Id_Emp, Id_Cd, Id_Cfe, Cfe_TMov, ref verificador, Conexion);
+            }
+            catch (Exception ex)
+            {
+                throw ex;
+            }
+        }
+
+        public void CambiarCdVer(RadComboBoxItem item, ref Sesion sesion)
+        {
+            try
+            {
+                sesion.Id_Cd_Ver = Convert.ToInt32(item.Value);
+                sesion.Cd_Nombre = item.Text;
+                CN_CatCalendario cn_catcalendario = new CN_CatCalendario();
+                Calendario calendario = new Calendario();
+                cn_catcalendario.ConsultaCalendarioActual(ref calendario, sesion);
+                sesion.CalendarioIni = calendario.Cal_FechaIni;
+                sesion.CalendarioFin = calendario.Cal_FechaFin;
+            }
+            catch (Exception ex)
+            {
+                throw ex;
+            }
+        }
+        public string DesgloceRangoProductos(string cadena)
+        {
+            StringBuilder condicion = new StringBuilder("");
+            string[] split = cadena.Split(new string[] { "," }, StringSplitOptions.RemoveEmptyEntries);
+            string[] split2;
+
+            foreach (string a in split)
+            {
+                if (a.Contains("-"))
+                {
+                    split2 = a.Split(new string[] { "-" }, StringSplitOptions.RemoveEmptyEntries);
+                    for (int i = Convert.ToInt32(split2[0]); i < Convert.ToInt32(split2[1]) + 1; i++)
+                        condicion.Append(i.ToString() + ",");
+                }
+                else
+                    condicion.Append(a + ",");
+            }
+
+            string condicionStr = condicion.ToString();
+            if (condicionStr.Length > 0)
+            {
+                if (condicionStr[condicionStr.Length - 1] == ',')
+                    condicionStr = condicionStr.Substring(0, condicionStr.Length - 1);
+            }
+            else
+                condicionStr = null;
+            return condicionStr;
+        }
+
+        public string ValidarRango(string cadena)
+        {
+            string[] split = cadena.Split(new string[] { "," }, StringSplitOptions.RemoveEmptyEntries);
+            foreach (string a in split)
+            {
+                if (a.StartsWith("-"))
+                    return a.ToString();
+            }
+            return "";
+        }
+    }
+}

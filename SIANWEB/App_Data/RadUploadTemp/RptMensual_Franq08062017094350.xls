@@ -1,0 +1,2947 @@
+<table >
+<tr>
+<td  colspan=3 align="left" > <b>
+Reporte de Ventas (SIAN WEB) 
+</b></td>
+</tr>
+<tr></tr>
+<td  colspan=6  align="left">
+CDiK / CDK  / CDC Propias y Concesiondas 
+</td>
+<tr></tr>
+<table border="1"  class="ex1">
+<tr  bgcolor=#d9d9d9  align="center" style="vertical-align:middle" >
+<td width="60%" height="70" width="300"><b>
+ZONA
+</b></td>
+<td> <b>
+# DE CLIENTE
+</b> </td>
+<td> <b>
+CDiK/CDK/CDC
+</b> </td>
+<td> <b>
+FORMATO
+</b> </td>
+<td bgcolor=#ffffff> <FONT COLOR=#ffffff>
+_
+</FONT></td>
+<td>  <b>
+ENE
+</b> </td>
+<td> <b>
+FEB
+</b> </td>
+<td> <b>
+MAR
+</b> </td>
+<td> <b>
+ABR
+</b> </td>
+<td> <b>
+MAY
+</b> </td>
+<td> <b>
+JUN
+</b> </td>
+<td> <b>
+JUL      
+</b> </td>
+<td> <b>
+AGO
+</b> </td>
+<td> <b>
+SEP
+</b> </td>
+<td> <b>
+OCT
+</b> </td>
+<td> <b>
+NOV
+</b></td>
+<td> <b>
+DIC
+</b> </td>
+<td bgcolor=#ffffff> <FONT COLOR=#ffffff>
+_
+</FONT></td>
+<td> <b>
+SUMA TOTAL
+</b> </td>
+</tr>
+<tr align="center" style="vertical-align:middle">
+<td colspan=4 bgcolor=#f2f2f2 align="left"> <b>
+CLUSTER BENNETTS
+</b></td>
+</tr>
+<td></td>
+<td style="font-size:10.5pt" align="center" > 
+30710
+</font> </td>
+<td style="font-size:10.5pt" align="left">
+CDiK México (E.B.)
+</td>
+<td  style="font-size:10.5pt" align="center">
+CDiK
+</td>
+<td>
+ 
+</td>
+<td style="font-size:10.5pt" align="center">
+13,472
+</td>
+<td style= "font-size:10.5pt" align="center">
+12,740
+</td>
+<td style="font-size:10.5pt"  align="center">
+14,923
+</td>
+<td style="font-size:10.5pt"  align="center">
+11,326
+</td > 
+<td style="font-size:10.5pt"  align="center">
+00
+</td>
+<td style="font-size:10.5pt"  align="center">
+00
+</td>
+<td style="font-size:10.5pt"  align="center" width="55px">
+00
+</td>
+<td style="font-size:10.5pt"  align="center">
+00
+</td>
+<td style="font-size:10.5pt"  align="center">
+00
+</td>
+<td style="font-size:10.5pt" align="center">
+00
+</td>
+<td style="font-size:10.5pt"  align="center">
+00
+</td>
+<td style="font-size:10.5pt" align="center">
+00
+</td>
+<td bgcolor=#ffffff></td>
+<td align="center">
+52,461
+</td>
+</tr>
+<td></td>
+<td style="font-size:10.5pt" align="center" > 
+34102
+</font> </td>
+<td style="font-size:10.5pt" align="left">
+CDC México Sur
+</td>
+<td  style="font-size:10.5pt" align="center">
+CDC
+</td>
+<td>
+ 
+</td>
+<td style="font-size:10.5pt" align="center">
+1,307
+</td>
+<td style= "font-size:10.5pt" align="center">
+1,105
+</td>
+<td style="font-size:10.5pt"  align="center">
+1,395
+</td>
+<td style="font-size:10.5pt"  align="center">
+1,273
+</td > 
+<td style="font-size:10.5pt"  align="center">
+00
+</td>
+<td style="font-size:10.5pt"  align="center">
+00
+</td>
+<td style="font-size:10.5pt"  align="center" width="55px">
+00
+</td>
+<td style="font-size:10.5pt"  align="center">
+00
+</td>
+<td style="font-size:10.5pt"  align="center">
+00
+</td>
+<td style="font-size:10.5pt" align="center">
+00
+</td>
+<td style="font-size:10.5pt"  align="center">
+00
+</td>
+<td style="font-size:10.5pt" align="center">
+00
+</td>
+<td bgcolor=#ffffff></td>
+<td align="center">
+5,080
+</td>
+</tr>
+<td></td>
+<td style="font-size:10.5pt" align="center" > 
+34295
+</font> </td>
+<td style="font-size:10.5pt" align="left">
+CDC México Norte
+</td>
+<td  style="font-size:10.5pt" align="center">
+CDC
+</td>
+<td>
+ 
+</td>
+<td style="font-size:10.5pt" align="center">
+708
+</td>
+<td style= "font-size:10.5pt" align="center">
+707
+</td>
+<td style="font-size:10.5pt"  align="center">
+766
+</td>
+<td style="font-size:10.5pt"  align="center">
+718
+</td > 
+<td style="font-size:10.5pt"  align="center">
+00
+</td>
+<td style="font-size:10.5pt"  align="center">
+00
+</td>
+<td style="font-size:10.5pt"  align="center" width="55px">
+00
+</td>
+<td style="font-size:10.5pt"  align="center">
+00
+</td>
+<td style="font-size:10.5pt"  align="center">
+00
+</td>
+<td style="font-size:10.5pt" align="center">
+00
+</td>
+<td style="font-size:10.5pt"  align="center">
+00
+</td>
+<td style="font-size:10.5pt" align="center">
+00
+</td>
+<td bgcolor=#ffffff></td>
+<td align="center">
+2,899
+</td>
+</tr>
+<td></td>
+<td style="font-size:10.5pt" align="center" > 
+34120
+</font> </td>
+<td style="font-size:10.5pt" align="left">
+CDC México Centro
+</td>
+<td  style="font-size:10.5pt" align="center">
+CDC
+</td>
+<td>
+ 
+</td>
+<td style="font-size:10.5pt" align="center">
+1,838
+</td>
+<td style= "font-size:10.5pt" align="center">
+1,749
+</td>
+<td style="font-size:10.5pt"  align="center">
+1,876
+</td>
+<td style="font-size:10.5pt"  align="center">
+1,915
+</td > 
+<td style="font-size:10.5pt"  align="center">
+00
+</td>
+<td style="font-size:10.5pt"  align="center">
+00
+</td>
+<td style="font-size:10.5pt"  align="center" width="55px">
+00
+</td>
+<td style="font-size:10.5pt"  align="center">
+00
+</td>
+<td style="font-size:10.5pt"  align="center">
+00
+</td>
+<td style="font-size:10.5pt" align="center">
+00
+</td>
+<td style="font-size:10.5pt"  align="center">
+00
+</td>
+<td style="font-size:10.5pt" align="center">
+00
+</td>
+<td bgcolor=#ffffff></td>
+<td align="center">
+7,378
+</td>
+</tr>
+<tr style="font-weight:bold" align="center" style="vertical-align:middle" bgcolor=#ffffcc  >
+<td bgcolor=#ffffff></td><td ></td><td colspan=2  align="left">
+SubTotal
+</td>
+<td bgcolor=#ffffff></td>
+<td>
+17,325
+</td>
+<td>
+16,301
+</td>
+<td>
+18,960
+</td>
+<td>
+15,232
+</td>
+<td>
+00
+</td>
+<td>
+00
+</td>
+<td>
+00
+</td>
+<td>
+00
+</td>
+<td>
+00
+</td>
+<td>
+00
+</td>
+<td>
+00
+</td>
+<td>
+00
+</td>
+<td bgcolor=#ffffff></td>
+<td>
+00
+</td>
+</tr>
+<td colspan=4 bgcolor=#f2f2f2><b> <b>
+CLUSTER DLIMPIO
+</b></td>
+</b></td> </tr><td ></td>
+<td style="font-size:10.5pt" align="center" > 
+34535
+</font> </td>
+<td style="font-size:10.5pt" align="left">
+CDK Cuautla
+</td>
+<td  style="font-size:10.5pt" align="center">
+CDK
+</td>
+<td>
+ 
+</td>
+<td style="font-size:10.5pt" align="center">
+0
+</td>
+<td style= "font-size:10.5pt" align="center">
+0
+</td>
+<td style="font-size:10.5pt"  align="center">
+0
+</td>
+<td style="font-size:10.5pt"  align="center">
+0
+</td > 
+<td style="font-size:10.5pt"  align="center">
+0
+</td>
+<td style="font-size:10.5pt"  align="center">
+0
+</td>
+<td style="font-size:10.5pt"  align="center" width="55px">
+0
+</td>
+<td style="font-size:10.5pt"  align="center">
+0
+</td>
+<td style="font-size:10.5pt"  align="center">
+0
+</td>
+<td style="font-size:10.5pt" align="center">
+0
+</td>
+<td style="font-size:10.5pt"  align="center">
+0
+</td>
+<td style="font-size:10.5pt" align="center">
+0
+</td>
+<td bgcolor=#ffffff></td>
+<td align="center">
+00
+</td>
+</tr>
+<td></td>
+<td style="font-size:10.5pt" align="center" > 
+33281
+</font> </td>
+<td style="font-size:10.5pt" align="left">
+CDK Cuernavaca
+</td>
+<td  style="font-size:10.5pt" align="center">
+CDK
+</td>
+<td>
+ 
+</td>
+<td style="font-size:10.5pt" align="center">
+0
+</td>
+<td style= "font-size:10.5pt" align="center">
+0
+</td>
+<td style="font-size:10.5pt"  align="center">
+0
+</td>
+<td style="font-size:10.5pt"  align="center">
+0
+</td > 
+<td style="font-size:10.5pt"  align="center">
+0
+</td>
+<td style="font-size:10.5pt"  align="center">
+0
+</td>
+<td style="font-size:10.5pt"  align="center" width="55px">
+0
+</td>
+<td style="font-size:10.5pt"  align="center">
+0
+</td>
+<td style="font-size:10.5pt"  align="center">
+0
+</td>
+<td style="font-size:10.5pt" align="center">
+0
+</td>
+<td style="font-size:10.5pt"  align="center">
+0
+</td>
+<td style="font-size:10.5pt" align="center">
+0
+</td>
+<td bgcolor=#ffffff></td>
+<td align="center">
+00
+</td>
+</tr>
+<tr style="font-weight:bold" align="center" style="vertical-align:middle" bgcolor=#ffffcc  >
+<td bgcolor=#ffffff></td><td ></td><td colspan=2  align="left">
+SubTotal
+</td>
+<td bgcolor=#ffffff></td>
+<td>
+00
+</td>
+<td>
+00
+</td>
+<td>
+00
+</td>
+<td>
+00
+</td>
+<td>
+00
+</td>
+<td>
+00
+</td>
+<td>
+00
+</td>
+<td>
+00
+</td>
+<td>
+00
+</td>
+<td>
+00
+</td>
+<td>
+00
+</td>
+<td>
+00
+</td>
+<td bgcolor=#ffffff></td>
+<td>
+00
+</td>
+</tr>
+<td colspan=4 bgcolor=#f2f2f2><b> <b>
+CLUSTER ESPECIALIDADES QUIMICAS DE MAZATLAN
+</b></td>
+</b></td> </tr><td ></td>
+<td style="font-size:10.5pt" align="center" > 
+32115
+</font> </td>
+<td style="font-size:10.5pt" align="left">
+CDK Mazatlán
+</td>
+<td  style="font-size:10.5pt" align="center">
+CDK
+</td>
+<td>
+ 
+</td>
+<td style="font-size:10.5pt" align="center">
+0
+</td>
+<td style= "font-size:10.5pt" align="center">
+0
+</td>
+<td style="font-size:10.5pt"  align="center">
+0
+</td>
+<td style="font-size:10.5pt"  align="center">
+0
+</td > 
+<td style="font-size:10.5pt"  align="center">
+0
+</td>
+<td style="font-size:10.5pt"  align="center">
+0
+</td>
+<td style="font-size:10.5pt"  align="center" width="55px">
+0
+</td>
+<td style="font-size:10.5pt"  align="center">
+0
+</td>
+<td style="font-size:10.5pt"  align="center">
+0
+</td>
+<td style="font-size:10.5pt" align="center">
+0
+</td>
+<td style="font-size:10.5pt"  align="center">
+0
+</td>
+<td style="font-size:10.5pt" align="center">
+0
+</td>
+<td bgcolor=#ffffff></td>
+<td align="center">
+00
+</td>
+</tr>
+<td></td>
+<td style="font-size:10.5pt" align="center" > 
+30708
+</font> </td>
+<td style="font-size:10.5pt" align="left">
+CDK Culiacán
+</td>
+<td  style="font-size:10.5pt" align="center">
+CDK
+</td>
+<td>
+ 
+</td>
+<td style="font-size:10.5pt" align="center">
+0
+</td>
+<td style= "font-size:10.5pt" align="center">
+0
+</td>
+<td style="font-size:10.5pt"  align="center">
+0
+</td>
+<td style="font-size:10.5pt"  align="center">
+0
+</td > 
+<td style="font-size:10.5pt"  align="center">
+0
+</td>
+<td style="font-size:10.5pt"  align="center">
+0
+</td>
+<td style="font-size:10.5pt"  align="center" width="55px">
+0
+</td>
+<td style="font-size:10.5pt"  align="center">
+0
+</td>
+<td style="font-size:10.5pt"  align="center">
+0
+</td>
+<td style="font-size:10.5pt" align="center">
+0
+</td>
+<td style="font-size:10.5pt"  align="center">
+0
+</td>
+<td style="font-size:10.5pt" align="center">
+0
+</td>
+<td bgcolor=#ffffff></td>
+<td align="center">
+00
+</td>
+</tr>
+<tr style="font-weight:bold" align="center" style="vertical-align:middle" bgcolor=#ffffcc  >
+<td bgcolor=#ffffff></td><td ></td><td colspan=2  align="left">
+SubTotal
+</td>
+<td bgcolor=#ffffff></td>
+<td>
+00
+</td>
+<td>
+00
+</td>
+<td>
+00
+</td>
+<td>
+00
+</td>
+<td>
+00
+</td>
+<td>
+00
+</td>
+<td>
+00
+</td>
+<td>
+00
+</td>
+<td>
+00
+</td>
+<td>
+00
+</td>
+<td>
+00
+</td>
+<td>
+00
+</td>
+<td bgcolor=#ffffff></td>
+<td>
+00
+</td>
+</tr>
+<td colspan=4 bgcolor=#f2f2f2><b> <b>
+CLUSTER ESPECIALIDADES QUIMICAS DE MONCLOVA
+</b></td>
+</b></td> </tr><td ></td>
+<td style="font-size:10.5pt" align="center" > 
+18279
+</font> </td>
+<td style="font-size:10.5pt" align="left">
+CDK Monclova
+</td>
+<td  style="font-size:10.5pt" align="center">
+CDK
+</td>
+<td>
+ 
+</td>
+<td style="font-size:10.5pt" align="center">
+0
+</td>
+<td style= "font-size:10.5pt" align="center">
+0
+</td>
+<td style="font-size:10.5pt"  align="center">
+0
+</td>
+<td style="font-size:10.5pt"  align="center">
+0
+</td > 
+<td style="font-size:10.5pt"  align="center">
+0
+</td>
+<td style="font-size:10.5pt"  align="center">
+0
+</td>
+<td style="font-size:10.5pt"  align="center" width="55px">
+0
+</td>
+<td style="font-size:10.5pt"  align="center">
+0
+</td>
+<td style="font-size:10.5pt"  align="center">
+0
+</td>
+<td style="font-size:10.5pt" align="center">
+0
+</td>
+<td style="font-size:10.5pt"  align="center">
+0
+</td>
+<td style="font-size:10.5pt" align="center">
+0
+</td>
+<td bgcolor=#ffffff></td>
+<td align="center">
+00
+</td>
+</tr>
+<tr style="font-weight:bold" align="center" style="vertical-align:middle" bgcolor=#ffffcc  >
+<td bgcolor=#ffffff></td><td ></td><td colspan=2  align="left">
+SubTotal
+</td>
+<td bgcolor=#ffffff></td>
+<td>
+00
+</td>
+<td>
+00
+</td>
+<td>
+00
+</td>
+<td>
+00
+</td>
+<td>
+00
+</td>
+<td>
+00
+</td>
+<td>
+00
+</td>
+<td>
+00
+</td>
+<td>
+00
+</td>
+<td>
+00
+</td>
+<td>
+00
+</td>
+<td>
+00
+</td>
+<td bgcolor=#ffffff></td>
+<td>
+00
+</td>
+</tr>
+<td colspan=4 bgcolor=#f2f2f2><b> <b>
+CLUSTER GECAPA
+</b></td>
+</b></td> </tr><td ></td>
+<td style="font-size:10.5pt" align="center" > 
+31420
+</font> </td>
+<td style="font-size:10.5pt" align="left">
+CDK Oaxaca
+</td>
+<td  style="font-size:10.5pt" align="center">
+CDK
+</td>
+<td>
+ 
+</td>
+<td style="font-size:10.5pt" align="center">
+0
+</td>
+<td style= "font-size:10.5pt" align="center">
+0
+</td>
+<td style="font-size:10.5pt"  align="center">
+0
+</td>
+<td style="font-size:10.5pt"  align="center">
+0
+</td > 
+<td style="font-size:10.5pt"  align="center">
+0
+</td>
+<td style="font-size:10.5pt"  align="center">
+0
+</td>
+<td style="font-size:10.5pt"  align="center" width="55px">
+0
+</td>
+<td style="font-size:10.5pt"  align="center">
+0
+</td>
+<td style="font-size:10.5pt"  align="center">
+0
+</td>
+<td style="font-size:10.5pt" align="center">
+0
+</td>
+<td style="font-size:10.5pt"  align="center">
+0
+</td>
+<td style="font-size:10.5pt" align="center">
+0
+</td>
+<td bgcolor=#ffffff></td>
+<td align="center">
+00
+</td>
+</tr>
+<tr style="font-weight:bold" align="center" style="vertical-align:middle" bgcolor=#ffffcc  >
+<td bgcolor=#ffffff></td><td ></td><td colspan=2  align="left">
+SubTotal
+</td>
+<td bgcolor=#ffffff></td>
+<td>
+00
+</td>
+<td>
+00
+</td>
+<td>
+00
+</td>
+<td>
+00
+</td>
+<td>
+00
+</td>
+<td>
+00
+</td>
+<td>
+00
+</td>
+<td>
+00
+</td>
+<td>
+00
+</td>
+<td>
+00
+</td>
+<td>
+00
+</td>
+<td>
+00
+</td>
+<td bgcolor=#ffffff></td>
+<td>
+00
+</td>
+</tr>
+<td colspan=4 bgcolor=#f2f2f2><b> <b>
+CLUSTER GRUPO CREATIVO DE LIMPIEZA
+</b></td>
+</b></td> </tr><td ></td>
+<td style="font-size:10.5pt" align="center" > 
+32113
+</font> </td>
+<td style="font-size:10.5pt" align="left">
+CDC Léon
+</td>
+<td  style="font-size:10.5pt" align="center">
+CDC
+</td>
+<td>
+ 
+</td>
+<td style="font-size:10.5pt" align="center">
+0
+</td>
+<td style= "font-size:10.5pt" align="center">
+0
+</td>
+<td style="font-size:10.5pt"  align="center">
+0
+</td>
+<td style="font-size:10.5pt"  align="center">
+0
+</td > 
+<td style="font-size:10.5pt"  align="center">
+0
+</td>
+<td style="font-size:10.5pt"  align="center">
+0
+</td>
+<td style="font-size:10.5pt"  align="center" width="55px">
+0
+</td>
+<td style="font-size:10.5pt"  align="center">
+0
+</td>
+<td style="font-size:10.5pt"  align="center">
+0
+</td>
+<td style="font-size:10.5pt" align="center">
+0
+</td>
+<td style="font-size:10.5pt"  align="center">
+0
+</td>
+<td style="font-size:10.5pt" align="center">
+0
+</td>
+<td bgcolor=#ffffff></td>
+<td align="center">
+00
+</td>
+</tr>
+<tr style="font-weight:bold" align="center" style="vertical-align:middle" bgcolor=#ffffcc  >
+<td bgcolor=#ffffff></td><td ></td><td colspan=2  align="left">
+SubTotal
+</td>
+<td bgcolor=#ffffff></td>
+<td>
+00
+</td>
+<td>
+00
+</td>
+<td>
+00
+</td>
+<td>
+00
+</td>
+<td>
+00
+</td>
+<td>
+00
+</td>
+<td>
+00
+</td>
+<td>
+00
+</td>
+<td>
+00
+</td>
+<td>
+00
+</td>
+<td>
+00
+</td>
+<td>
+00
+</td>
+<td bgcolor=#ffffff></td>
+<td>
+00
+</td>
+</tr>
+<td colspan=4 bgcolor=#f2f2f2><b> <b>
+CLUSTER GUADALAJARA
+</b></td>
+</b></td> </tr><td ></td>
+<td style="font-size:10.5pt" align="center" > 
+34322
+</font> </td>
+<td style="font-size:10.5pt" align="left">
+CDC Guadalajara Norte
+</td>
+<td  style="font-size:10.5pt" align="center">
+CDC
+</td>
+<td>
+ 
+</td>
+<td style="font-size:10.5pt" align="center">
+502
+</td>
+<td style= "font-size:10.5pt" align="center">
+425
+</td>
+<td style="font-size:10.5pt"  align="center">
+502
+</td>
+<td style="font-size:10.5pt"  align="center">
+439
+</td > 
+<td style="font-size:10.5pt"  align="center">
+00
+</td>
+<td style="font-size:10.5pt"  align="center">
+00
+</td>
+<td style="font-size:10.5pt"  align="center" width="55px">
+00
+</td>
+<td style="font-size:10.5pt"  align="center">
+00
+</td>
+<td style="font-size:10.5pt"  align="center">
+00
+</td>
+<td style="font-size:10.5pt" align="center">
+00
+</td>
+<td style="font-size:10.5pt"  align="center">
+00
+</td>
+<td style="font-size:10.5pt" align="center">
+00
+</td>
+<td bgcolor=#ffffff></td>
+<td align="center">
+1,868
+</td>
+</tr>
+<td></td>
+<td style="font-size:10.5pt" align="center" > 
+31929
+</font> </td>
+<td style="font-size:10.5pt" align="left">
+CDC Guadalajara Sur
+</td>
+<td  style="font-size:10.5pt" align="center">
+CDC
+</td>
+<td>
+ 
+</td>
+<td style="font-size:10.5pt" align="center">
+0
+</td>
+<td style= "font-size:10.5pt" align="center">
+0
+</td>
+<td style="font-size:10.5pt"  align="center">
+0
+</td>
+<td style="font-size:10.5pt"  align="center">
+0
+</td > 
+<td style="font-size:10.5pt"  align="center">
+0
+</td>
+<td style="font-size:10.5pt"  align="center">
+0
+</td>
+<td style="font-size:10.5pt"  align="center" width="55px">
+0
+</td>
+<td style="font-size:10.5pt"  align="center">
+0
+</td>
+<td style="font-size:10.5pt"  align="center">
+0
+</td>
+<td style="font-size:10.5pt" align="center">
+0
+</td>
+<td style="font-size:10.5pt"  align="center">
+0
+</td>
+<td style="font-size:10.5pt" align="center">
+0
+</td>
+<td bgcolor=#ffffff></td>
+<td align="center">
+00
+</td>
+</tr>
+<td></td>
+<td style="font-size:10.5pt" align="center" > 
+34101
+</font> </td>
+<td style="font-size:10.5pt" align="left">
+CDK Tepatitlán
+</td>
+<td  style="font-size:10.5pt" align="center">
+CDK
+</td>
+<td>
+ 
+</td>
+<td style="font-size:10.5pt" align="center">
+0
+</td>
+<td style= "font-size:10.5pt" align="center">
+0
+</td>
+<td style="font-size:10.5pt"  align="center">
+0
+</td>
+<td style="font-size:10.5pt"  align="center">
+0
+</td > 
+<td style="font-size:10.5pt"  align="center">
+0
+</td>
+<td style="font-size:10.5pt"  align="center">
+0
+</td>
+<td style="font-size:10.5pt"  align="center" width="55px">
+0
+</td>
+<td style="font-size:10.5pt"  align="center">
+0
+</td>
+<td style="font-size:10.5pt"  align="center">
+0
+</td>
+<td style="font-size:10.5pt" align="center">
+0
+</td>
+<td style="font-size:10.5pt"  align="center">
+0
+</td>
+<td style="font-size:10.5pt" align="center">
+0
+</td>
+<td bgcolor=#ffffff></td>
+<td align="center">
+00
+</td>
+</tr>
+<tr style="font-weight:bold" align="center" style="vertical-align:middle" bgcolor=#ffffcc  >
+<td bgcolor=#ffffff></td><td ></td><td colspan=2  align="left">
+SubTotal
+</td>
+<td bgcolor=#ffffff></td>
+<td>
+502
+</td>
+<td>
+425
+</td>
+<td>
+502
+</td>
+<td>
+439
+</td>
+<td>
+00
+</td>
+<td>
+00
+</td>
+<td>
+00
+</td>
+<td>
+00
+</td>
+<td>
+00
+</td>
+<td>
+00
+</td>
+<td>
+00
+</td>
+<td>
+00
+</td>
+<td bgcolor=#ffffff></td>
+<td>
+00
+</td>
+</tr>
+<td colspan=4 bgcolor=#f2f2f2><b> <b>
+CLUSTER PROSEDUSA
+</b></td>
+</b></td> </tr><td ></td>
+<td style="font-size:10.5pt" align="center" > 
+20902
+</font> </td>
+<td style="font-size:10.5pt" align="left">
+CDK Zacatecas
+</td>
+<td  style="font-size:10.5pt" align="center">
+CDK
+</td>
+<td>
+ 
+</td>
+<td style="font-size:10.5pt" align="center">
+0
+</td>
+<td style= "font-size:10.5pt" align="center">
+0
+</td>
+<td style="font-size:10.5pt"  align="center">
+0
+</td>
+<td style="font-size:10.5pt"  align="center">
+0
+</td > 
+<td style="font-size:10.5pt"  align="center">
+0
+</td>
+<td style="font-size:10.5pt"  align="center">
+0
+</td>
+<td style="font-size:10.5pt"  align="center" width="55px">
+0
+</td>
+<td style="font-size:10.5pt"  align="center">
+0
+</td>
+<td style="font-size:10.5pt"  align="center">
+0
+</td>
+<td style="font-size:10.5pt" align="center">
+0
+</td>
+<td style="font-size:10.5pt"  align="center">
+0
+</td>
+<td style="font-size:10.5pt" align="center">
+0
+</td>
+<td bgcolor=#ffffff></td>
+<td align="center">
+00
+</td>
+</tr>
+<td></td>
+<td style="font-size:10.5pt" align="center" > 
+12652
+</font> </td>
+<td style="font-size:10.5pt" align="left">
+CDK Durango
+</td>
+<td  style="font-size:10.5pt" align="center">
+CDK
+</td>
+<td>
+ 
+</td>
+<td style="font-size:10.5pt" align="center">
+0
+</td>
+<td style= "font-size:10.5pt" align="center">
+0
+</td>
+<td style="font-size:10.5pt"  align="center">
+0
+</td>
+<td style="font-size:10.5pt"  align="center">
+0
+</td > 
+<td style="font-size:10.5pt"  align="center">
+0
+</td>
+<td style="font-size:10.5pt"  align="center">
+0
+</td>
+<td style="font-size:10.5pt"  align="center" width="55px">
+0
+</td>
+<td style="font-size:10.5pt"  align="center">
+0
+</td>
+<td style="font-size:10.5pt"  align="center">
+0
+</td>
+<td style="font-size:10.5pt" align="center">
+0
+</td>
+<td style="font-size:10.5pt"  align="center">
+0
+</td>
+<td style="font-size:10.5pt" align="center">
+0
+</td>
+<td bgcolor=#ffffff></td>
+<td align="center">
+00
+</td>
+</tr>
+<td></td>
+<td style="font-size:10.5pt" align="center" > 
+32110
+</font> </td>
+<td style="font-size:10.5pt" align="left">
+CDC Torreón
+</td>
+<td  style="font-size:10.5pt" align="center">
+CDC
+</td>
+<td>
+ 
+</td>
+<td style="font-size:10.5pt" align="center">
+0
+</td>
+<td style= "font-size:10.5pt" align="center">
+0
+</td>
+<td style="font-size:10.5pt"  align="center">
+0
+</td>
+<td style="font-size:10.5pt"  align="center">
+0
+</td > 
+<td style="font-size:10.5pt"  align="center">
+0
+</td>
+<td style="font-size:10.5pt"  align="center">
+0
+</td>
+<td style="font-size:10.5pt"  align="center" width="55px">
+0
+</td>
+<td style="font-size:10.5pt"  align="center">
+0
+</td>
+<td style="font-size:10.5pt"  align="center">
+0
+</td>
+<td style="font-size:10.5pt" align="center">
+0
+</td>
+<td style="font-size:10.5pt"  align="center">
+0
+</td>
+<td style="font-size:10.5pt" align="center">
+0
+</td>
+<td bgcolor=#ffffff></td>
+<td align="center">
+00
+</td>
+</tr>
+<td></td>
+<td style="font-size:10.5pt" align="center" > 
+31164
+</font> </td>
+<td style="font-size:10.5pt" align="left">
+CDC Cd.Juárez
+</td>
+<td  style="font-size:10.5pt" align="center">
+CDC
+</td>
+<td>
+ 
+</td>
+<td style="font-size:10.5pt" align="center">
+0
+</td>
+<td style= "font-size:10.5pt" align="center">
+0
+</td>
+<td style="font-size:10.5pt"  align="center">
+0
+</td>
+<td style="font-size:10.5pt"  align="center">
+0
+</td > 
+<td style="font-size:10.5pt"  align="center">
+0
+</td>
+<td style="font-size:10.5pt"  align="center">
+0
+</td>
+<td style="font-size:10.5pt"  align="center" width="55px">
+0
+</td>
+<td style="font-size:10.5pt"  align="center">
+0
+</td>
+<td style="font-size:10.5pt"  align="center">
+0
+</td>
+<td style="font-size:10.5pt" align="center">
+0
+</td>
+<td style="font-size:10.5pt"  align="center">
+0
+</td>
+<td style="font-size:10.5pt" align="center">
+0
+</td>
+<td bgcolor=#ffffff></td>
+<td align="center">
+00
+</td>
+</tr>
+<td></td>
+<td style="font-size:10.5pt" align="center" > 
+34301
+</font> </td>
+<td style="font-size:10.5pt" align="left">
+CDK Delicias
+</td>
+<td  style="font-size:10.5pt" align="center">
+CDK
+</td>
+<td>
+ 
+</td>
+<td style="font-size:10.5pt" align="center">
+0
+</td>
+<td style= "font-size:10.5pt" align="center">
+0
+</td>
+<td style="font-size:10.5pt"  align="center">
+0
+</td>
+<td style="font-size:10.5pt"  align="center">
+0
+</td > 
+<td style="font-size:10.5pt"  align="center">
+0
+</td>
+<td style="font-size:10.5pt"  align="center">
+0
+</td>
+<td style="font-size:10.5pt"  align="center" width="55px">
+0
+</td>
+<td style="font-size:10.5pt"  align="center">
+0
+</td>
+<td style="font-size:10.5pt"  align="center">
+0
+</td>
+<td style="font-size:10.5pt" align="center">
+0
+</td>
+<td style="font-size:10.5pt"  align="center">
+0
+</td>
+<td style="font-size:10.5pt" align="center">
+0
+</td>
+<td bgcolor=#ffffff></td>
+<td align="center">
+00
+</td>
+</tr>
+<tr style="font-weight:bold" align="center" style="vertical-align:middle" bgcolor=#ffffcc  >
+<td bgcolor=#ffffff></td><td ></td><td colspan=2  align="left">
+SubTotal
+</td>
+<td bgcolor=#ffffff></td>
+<td>
+00
+</td>
+<td>
+00
+</td>
+<td>
+00
+</td>
+<td>
+00
+</td>
+<td>
+00
+</td>
+<td>
+00
+</td>
+<td>
+00
+</td>
+<td>
+00
+</td>
+<td>
+00
+</td>
+<td>
+00
+</td>
+<td>
+00
+</td>
+<td>
+00
+</td>
+<td bgcolor=#ffffff></td>
+<td>
+00
+</td>
+</tr>
+<td colspan=4 bgcolor=#f2f2f2><b> <b>
+CLUSTER QUIMICA Y LIMPIEZA
+</b></td>
+</b></td> </tr><td ></td>
+<td style="font-size:10.5pt" align="center" > 
+30713
+</font> </td>
+<td style="font-size:10.5pt" align="left">
+CDK Acapulco
+</td>
+<td  style="font-size:10.5pt" align="center">
+CDK
+</td>
+<td>
+ 
+</td>
+<td style="font-size:10.5pt" align="center">
+0
+</td>
+<td style= "font-size:10.5pt" align="center">
+0
+</td>
+<td style="font-size:10.5pt"  align="center">
+0
+</td>
+<td style="font-size:10.5pt"  align="center">
+0
+</td > 
+<td style="font-size:10.5pt"  align="center">
+0
+</td>
+<td style="font-size:10.5pt"  align="center">
+0
+</td>
+<td style="font-size:10.5pt"  align="center" width="55px">
+0
+</td>
+<td style="font-size:10.5pt"  align="center">
+0
+</td>
+<td style="font-size:10.5pt"  align="center">
+0
+</td>
+<td style="font-size:10.5pt" align="center">
+0
+</td>
+<td style="font-size:10.5pt"  align="center">
+0
+</td>
+<td style="font-size:10.5pt" align="center">
+0
+</td>
+<td bgcolor=#ffffff></td>
+<td align="center">
+00
+</td>
+</tr>
+<td></td>
+<td style="font-size:10.5pt" align="center" > 
+34319
+</font> </td>
+<td style="font-size:10.5pt" align="left">
+CDK Ixtapa Zihuatanejo
+</td>
+<td  style="font-size:10.5pt" align="center">
+CDK
+</td>
+<td>
+ 
+</td>
+<td style="font-size:10.5pt" align="center">
+0
+</td>
+<td style= "font-size:10.5pt" align="center">
+0
+</td>
+<td style="font-size:10.5pt"  align="center">
+0
+</td>
+<td style="font-size:10.5pt"  align="center">
+0
+</td > 
+<td style="font-size:10.5pt"  align="center">
+0
+</td>
+<td style="font-size:10.5pt"  align="center">
+0
+</td>
+<td style="font-size:10.5pt"  align="center" width="55px">
+0
+</td>
+<td style="font-size:10.5pt"  align="center">
+0
+</td>
+<td style="font-size:10.5pt"  align="center">
+0
+</td>
+<td style="font-size:10.5pt" align="center">
+0
+</td>
+<td style="font-size:10.5pt"  align="center">
+0
+</td>
+<td style="font-size:10.5pt" align="center">
+0
+</td>
+<td bgcolor=#ffffff></td>
+<td align="center">
+00
+</td>
+</tr>
+<tr style="font-weight:bold" align="center" style="vertical-align:middle" bgcolor=#ffffcc  >
+<td bgcolor=#ffffff></td><td ></td><td colspan=2  align="left">
+SubTotal
+</td>
+<td bgcolor=#ffffff></td>
+<td>
+00
+</td>
+<td>
+00
+</td>
+<td>
+00
+</td>
+<td>
+00
+</td>
+<td>
+00
+</td>
+<td>
+00
+</td>
+<td>
+00
+</td>
+<td>
+00
+</td>
+<td>
+00
+</td>
+<td>
+00
+</td>
+<td>
+00
+</td>
+<td>
+00
+</td>
+<td bgcolor=#ffffff></td>
+<td>
+00
+</td>
+</tr>
+<td colspan=4 bgcolor=#f2f2f2><b> <b>
+ESPECIALIDADES QUIMICAS DE MORELIA
+</b></td>
+</b></td> </tr><td ></td>
+<td style="font-size:10.5pt" align="center" > 
+34529
+</font> </td>
+<td style="font-size:10.5pt" align="left">
+CDK Manzanillo
+</td>
+<td  style="font-size:10.5pt" align="center">
+CDK
+</td>
+<td>
+ 
+</td>
+<td style="font-size:10.5pt" align="center">
+0
+</td>
+<td style= "font-size:10.5pt" align="center">
+0
+</td>
+<td style="font-size:10.5pt"  align="center">
+0
+</td>
+<td style="font-size:10.5pt"  align="center">
+0
+</td > 
+<td style="font-size:10.5pt"  align="center">
+0
+</td>
+<td style="font-size:10.5pt"  align="center">
+0
+</td>
+<td style="font-size:10.5pt"  align="center" width="55px">
+0
+</td>
+<td style="font-size:10.5pt"  align="center">
+0
+</td>
+<td style="font-size:10.5pt"  align="center">
+0
+</td>
+<td style="font-size:10.5pt" align="center">
+0
+</td>
+<td style="font-size:10.5pt"  align="center">
+0
+</td>
+<td style="font-size:10.5pt" align="center">
+0
+</td>
+<td bgcolor=#ffffff></td>
+<td align="center">
+00
+</td>
+</tr>
+<td></td>
+<td style="font-size:10.5pt" align="center" > 
+34300
+</font> </td>
+<td style="font-size:10.5pt" align="left">
+CDK Lázaro Cárdenas
+</td>
+<td  style="font-size:10.5pt" align="center">
+CDK
+</td>
+<td>
+ 
+</td>
+<td style="font-size:10.5pt" align="center">
+0
+</td>
+<td style= "font-size:10.5pt" align="center">
+0
+</td>
+<td style="font-size:10.5pt"  align="center">
+0
+</td>
+<td style="font-size:10.5pt"  align="center">
+0
+</td > 
+<td style="font-size:10.5pt"  align="center">
+0
+</td>
+<td style="font-size:10.5pt"  align="center">
+0
+</td>
+<td style="font-size:10.5pt"  align="center" width="55px">
+0
+</td>
+<td style="font-size:10.5pt"  align="center">
+0
+</td>
+<td style="font-size:10.5pt"  align="center">
+0
+</td>
+<td style="font-size:10.5pt" align="center">
+0
+</td>
+<td style="font-size:10.5pt"  align="center">
+0
+</td>
+<td style="font-size:10.5pt" align="center">
+0
+</td>
+<td bgcolor=#ffffff></td>
+<td align="center">
+00
+</td>
+</tr>
+<td></td>
+<td style="font-size:10.5pt" align="center" > 
+34527
+</font> </td>
+<td style="font-size:10.5pt" align="left">
+CDK Morelia
+</td>
+<td  style="font-size:10.5pt" align="center">
+CDK
+</td>
+<td>
+ 
+</td>
+<td style="font-size:10.5pt" align="center">
+0
+</td>
+<td style= "font-size:10.5pt" align="center">
+0
+</td>
+<td style="font-size:10.5pt"  align="center">
+0
+</td>
+<td style="font-size:10.5pt"  align="center">
+0
+</td > 
+<td style="font-size:10.5pt"  align="center">
+0
+</td>
+<td style="font-size:10.5pt"  align="center">
+0
+</td>
+<td style="font-size:10.5pt"  align="center" width="55px">
+0
+</td>
+<td style="font-size:10.5pt"  align="center">
+0
+</td>
+<td style="font-size:10.5pt"  align="center">
+0
+</td>
+<td style="font-size:10.5pt" align="center">
+0
+</td>
+<td style="font-size:10.5pt"  align="center">
+0
+</td>
+<td style="font-size:10.5pt" align="center">
+0
+</td>
+<td bgcolor=#ffffff></td>
+<td align="center">
+00
+</td>
+</tr>
+<tr style="font-weight:bold" align="center" style="vertical-align:middle" bgcolor=#ffffcc  >
+<td bgcolor=#ffffff></td><td ></td><td colspan=2  align="left">
+SubTotal
+</td>
+<td bgcolor=#ffffff></td>
+<td>
+00
+</td>
+<td>
+00
+</td>
+<td>
+00
+</td>
+<td>
+00
+</td>
+<td>
+00
+</td>
+<td>
+00
+</td>
+<td>
+00
+</td>
+<td>
+00
+</td>
+<td>
+00
+</td>
+<td>
+00
+</td>
+<td>
+00
+</td>
+<td>
+00
+</td>
+<td bgcolor=#ffffff></td>
+<td>
+00
+</td>
+</tr>
+<td colspan=4 bgcolor=#f2f2f2><b> <b>
+CLUSTER SILSA I
+</b></td>
+</b></td> </tr><td ></td>
+<td style="font-size:10.5pt" align="center" > 
+34526
+</font> </td>
+<td style="font-size:10.5pt" align="left">
+CDK Tuxtla Gutierrez
+</td>
+<td  style="font-size:10.5pt" align="center">
+CDK
+</td>
+<td>
+ 
+</td>
+<td style="font-size:10.5pt" align="center">
+0
+</td>
+<td style= "font-size:10.5pt" align="center">
+0
+</td>
+<td style="font-size:10.5pt"  align="center">
+0
+</td>
+<td style="font-size:10.5pt"  align="center">
+0
+</td > 
+<td style="font-size:10.5pt"  align="center">
+0
+</td>
+<td style="font-size:10.5pt"  align="center">
+0
+</td>
+<td style="font-size:10.5pt"  align="center" width="55px">
+0
+</td>
+<td style="font-size:10.5pt"  align="center">
+0
+</td>
+<td style="font-size:10.5pt"  align="center">
+0
+</td>
+<td style="font-size:10.5pt" align="center">
+0
+</td>
+<td style="font-size:10.5pt"  align="center">
+0
+</td>
+<td style="font-size:10.5pt" align="center">
+0
+</td>
+<td bgcolor=#ffffff></td>
+<td align="center">
+00
+</td>
+</tr>
+<td></td>
+<td style="font-size:10.5pt" align="center" > 
+34525
+</font> </td>
+<td style="font-size:10.5pt" align="left">
+CDK Tapachula
+</td>
+<td  style="font-size:10.5pt" align="center">
+CDK
+</td>
+<td>
+ 
+</td>
+<td style="font-size:10.5pt" align="center">
+0
+</td>
+<td style= "font-size:10.5pt" align="center">
+0
+</td>
+<td style="font-size:10.5pt"  align="center">
+0
+</td>
+<td style="font-size:10.5pt"  align="center">
+0
+</td > 
+<td style="font-size:10.5pt"  align="center">
+0
+</td>
+<td style="font-size:10.5pt"  align="center">
+0
+</td>
+<td style="font-size:10.5pt"  align="center" width="55px">
+0
+</td>
+<td style="font-size:10.5pt"  align="center">
+0
+</td>
+<td style="font-size:10.5pt"  align="center">
+0
+</td>
+<td style="font-size:10.5pt" align="center">
+0
+</td>
+<td style="font-size:10.5pt"  align="center">
+0
+</td>
+<td style="font-size:10.5pt" align="center">
+0
+</td>
+<td bgcolor=#ffffff></td>
+<td align="center">
+00
+</td>
+</tr>
+<td></td>
+<td style="font-size:10.5pt" align="center" > 
+34531
+</font> </td>
+<td style="font-size:10.5pt" align="left">
+CDK San Cristóbal
+</td>
+<td  style="font-size:10.5pt" align="center">
+CDK
+</td>
+<td>
+ 
+</td>
+<td style="font-size:10.5pt" align="center">
+0
+</td>
+<td style= "font-size:10.5pt" align="center">
+0
+</td>
+<td style="font-size:10.5pt"  align="center">
+0
+</td>
+<td style="font-size:10.5pt"  align="center">
+0
+</td > 
+<td style="font-size:10.5pt"  align="center">
+0
+</td>
+<td style="font-size:10.5pt"  align="center">
+0
+</td>
+<td style="font-size:10.5pt"  align="center" width="55px">
+0
+</td>
+<td style="font-size:10.5pt"  align="center">
+0
+</td>
+<td style="font-size:10.5pt"  align="center">
+0
+</td>
+<td style="font-size:10.5pt" align="center">
+0
+</td>
+<td style="font-size:10.5pt"  align="center">
+0
+</td>
+<td style="font-size:10.5pt" align="center">
+0
+</td>
+<td bgcolor=#ffffff></td>
+<td align="center">
+00
+</td>
+</tr>
+<tr style="font-weight:bold" align="center" style="vertical-align:middle" bgcolor=#ffffcc  >
+<td bgcolor=#ffffff></td><td ></td><td colspan=2  align="left">
+SubTotal
+</td>
+<td bgcolor=#ffffff></td>
+<td>
+00
+</td>
+<td>
+00
+</td>
+<td>
+00
+</td>
+<td>
+00
+</td>
+<td>
+00
+</td>
+<td>
+00
+</td>
+<td>
+00
+</td>
+<td>
+00
+</td>
+<td>
+00
+</td>
+<td>
+00
+</td>
+<td>
+00
+</td>
+<td>
+00
+</td>
+<td bgcolor=#ffffff></td>
+<td>
+00
+</td>
+</tr>
+<td colspan=4 bgcolor=#f2f2f2><b> <b>
+CLUSTER SILSA
+</b></td>
+</b></td> </tr><td ></td>
+<td style="font-size:10.5pt" align="center" > 
+34530
+</font> </td>
+<td style="font-size:10.5pt" align="left">
+CDK Tehuacán
+</td>
+<td  style="font-size:10.5pt" align="center">
+CDK
+</td>
+<td>
+ 
+</td>
+<td style="font-size:10.5pt" align="center">
+0
+</td>
+<td style= "font-size:10.5pt" align="center">
+0
+</td>
+<td style="font-size:10.5pt"  align="center">
+0
+</td>
+<td style="font-size:10.5pt"  align="center">
+0
+</td > 
+<td style="font-size:10.5pt"  align="center">
+0
+</td>
+<td style="font-size:10.5pt"  align="center">
+0
+</td>
+<td style="font-size:10.5pt"  align="center" width="55px">
+0
+</td>
+<td style="font-size:10.5pt"  align="center">
+0
+</td>
+<td style="font-size:10.5pt"  align="center">
+0
+</td>
+<td style="font-size:10.5pt" align="center">
+0
+</td>
+<td style="font-size:10.5pt"  align="center">
+0
+</td>
+<td style="font-size:10.5pt" align="center">
+0
+</td>
+<td bgcolor=#ffffff></td>
+<td align="center">
+00
+</td>
+</tr>
+<td></td>
+<td style="font-size:10.5pt" align="center" > 
+32112
+</font> </td>
+<td style="font-size:10.5pt" align="left">
+CDC Puebla
+</td>
+<td  style="font-size:10.5pt" align="center">
+CDC
+</td>
+<td>
+ 
+</td>
+<td style="font-size:10.5pt" align="center">
+0
+</td>
+<td style= "font-size:10.5pt" align="center">
+0
+</td>
+<td style="font-size:10.5pt"  align="center">
+0
+</td>
+<td style="font-size:10.5pt"  align="center">
+0
+</td > 
+<td style="font-size:10.5pt"  align="center">
+0
+</td>
+<td style="font-size:10.5pt"  align="center">
+0
+</td>
+<td style="font-size:10.5pt"  align="center" width="55px">
+0
+</td>
+<td style="font-size:10.5pt"  align="center">
+0
+</td>
+<td style="font-size:10.5pt"  align="center">
+0
+</td>
+<td style="font-size:10.5pt" align="center">
+0
+</td>
+<td style="font-size:10.5pt"  align="center">
+0
+</td>
+<td style="font-size:10.5pt" align="center">
+0
+</td>
+<td bgcolor=#ffffff></td>
+<td align="center">
+00
+</td>
+</tr>
+<tr style="font-weight:bold" align="center" style="vertical-align:middle" bgcolor=#ffffcc  >
+<td bgcolor=#ffffff></td><td ></td><td colspan=2  align="left">
+SubTotal
+</td>
+<td bgcolor=#ffffff></td>
+<td>
+00
+</td>
+<td>
+00
+</td>
+<td>
+00
+</td>
+<td>
+00
+</td>
+<td>
+00
+</td>
+<td>
+00
+</td>
+<td>
+00
+</td>
+<td>
+00
+</td>
+<td>
+00
+</td>
+<td>
+00
+</td>
+<td>
+00
+</td>
+<td>
+00
+</td>
+<td bgcolor=#ffffff></td>
+<td>
+00
+</td>
+</tr>
+<td colspan=4 bgcolor=#f2f2f2><b> <b>
+CLUSTER OCK
+</b></td>
+</b></td> </tr><td ></td>
+<td style="font-size:10.5pt" align="center" > 
+29490
+</font> </td>
+<td style="font-size:10.5pt" align="left">
+CDC Monterrey Nte
+</td>
+<td  style="font-size:10.5pt" align="center">
+CDC
+</td>
+<td>
+ 
+</td>
+<td style="font-size:10.5pt" align="center">
+1,324
+</td>
+<td style= "font-size:10.5pt" align="center">
+1,608
+</td>
+<td style="font-size:10.5pt"  align="center">
+1,531
+</td>
+<td style="font-size:10.5pt"  align="center">
+1,801
+</td > 
+<td style="font-size:10.5pt"  align="center">
+180
+</td>
+<td style="font-size:10.5pt"  align="center">
+00
+</td>
+<td style="font-size:10.5pt"  align="center" width="55px">
+00
+</td>
+<td style="font-size:10.5pt"  align="center">
+00
+</td>
+<td style="font-size:10.5pt"  align="center">
+00
+</td>
+<td style="font-size:10.5pt" align="center">
+00
+</td>
+<td style="font-size:10.5pt"  align="center">
+00
+</td>
+<td style="font-size:10.5pt" align="center">
+00
+</td>
+<td bgcolor=#ffffff></td>
+<td align="center">
+6,444
+</td>
+</tr>
+<td></td>
+<td style="font-size:10.5pt" align="center" > 
+33044
+</font> </td>
+<td style="font-size:10.5pt" align="left">
+CDC Monterrey Sur
+</td>
+<td  style="font-size:10.5pt" align="center">
+CDC
+</td>
+<td>
+ 
+</td>
+<td style="font-size:10.5pt" align="center">
+1,830
+</td>
+<td style= "font-size:10.5pt" align="center">
+2,340
+</td>
+<td style="font-size:10.5pt"  align="center">
+2,014
+</td>
+<td style="font-size:10.5pt"  align="center">
+2,444
+</td > 
+<td style="font-size:10.5pt"  align="center">
+161
+</td>
+<td style="font-size:10.5pt"  align="center">
+00
+</td>
+<td style="font-size:10.5pt"  align="center" width="55px">
+00
+</td>
+<td style="font-size:10.5pt"  align="center">
+00
+</td>
+<td style="font-size:10.5pt"  align="center">
+00
+</td>
+<td style="font-size:10.5pt" align="center">
+00
+</td>
+<td style="font-size:10.5pt"  align="center">
+00
+</td>
+<td style="font-size:10.5pt" align="center">
+00
+</td>
+<td bgcolor=#ffffff></td>
+<td align="center">
+8,789
+</td>
+</tr>
+<td></td>
+<td style="font-size:10.5pt" align="center" > 
+33045
+</font> </td>
+<td style="font-size:10.5pt" align="left">
+CDC Monterrey Pte
+</td>
+<td  style="font-size:10.5pt" align="center">
+CDC
+</td>
+<td>
+ 
+</td>
+<td style="font-size:10.5pt" align="center">
+1,582
+</td>
+<td style= "font-size:10.5pt" align="center">
+2,162
+</td>
+<td style="font-size:10.5pt"  align="center">
+1,605
+</td>
+<td style="font-size:10.5pt"  align="center">
+1,911
+</td > 
+<td style="font-size:10.5pt"  align="center">
+154
+</td>
+<td style="font-size:10.5pt"  align="center">
+00
+</td>
+<td style="font-size:10.5pt"  align="center" width="55px">
+00
+</td>
+<td style="font-size:10.5pt"  align="center">
+00
+</td>
+<td style="font-size:10.5pt"  align="center">
+00
+</td>
+<td style="font-size:10.5pt" align="center">
+00
+</td>
+<td style="font-size:10.5pt"  align="center">
+00
+</td>
+<td style="font-size:10.5pt" align="center">
+00
+</td>
+<td bgcolor=#ffffff></td>
+<td align="center">
+7,414
+</td>
+</tr>
+<td></td>
+<td style="font-size:10.5pt" align="center" > 
+30853
+</font> </td>
+<td style="font-size:10.5pt" align="left">
+CDC Saltillo
+</td>
+<td  style="font-size:10.5pt" align="center">
+CDC
+</td>
+<td>
+ 
+</td>
+<td style="font-size:10.5pt" align="center">
+484
+</td>
+<td style= "font-size:10.5pt" align="center">
+538
+</td>
+<td style="font-size:10.5pt"  align="center">
+512
+</td>
+<td style="font-size:10.5pt"  align="center">
+561
+</td > 
+<td style="font-size:10.5pt"  align="center">
+49
+</td>
+<td style="font-size:10.5pt"  align="center">
+00
+</td>
+<td style="font-size:10.5pt"  align="center" width="55px">
+00
+</td>
+<td style="font-size:10.5pt"  align="center">
+00
+</td>
+<td style="font-size:10.5pt"  align="center">
+00
+</td>
+<td style="font-size:10.5pt" align="center">
+00
+</td>
+<td style="font-size:10.5pt"  align="center">
+00
+</td>
+<td style="font-size:10.5pt" align="center">
+00
+</td>
+<td bgcolor=#ffffff></td>
+<td align="center">
+2,144
+</td>
+</tr>
+<tr style="font-weight:bold" align="center" style="vertical-align:middle" bgcolor=#ffffcc  >
+<td bgcolor=#ffffff></td><td ></td><td colspan=2  align="left">
+SubTotal
+</td>
+<td bgcolor=#ffffff></td>
+<td>
+5,220
+</td>
+<td>
+6,648
+</td>
+<td>
+5,662
+</td>
+<td>
+6,717
+</td>
+<td>
+544
+</td>
+<td>
+00
+</td>
+<td>
+00
+</td>
+<td>
+00
+</td>
+<td>
+00
+</td>
+<td>
+00
+</td>
+<td>
+00
+</td>
+<td>
+00
+</td>
+<td bgcolor=#ffffff></td>
+<td>
+00
+</td>
+</tr>
+<td colspan=4 bgcolor=#f2f2f2><b> <b>
+CLUSTER SOLIMPAC
+</b></td>
+</b></td> </tr><td ></td>
+<td style="font-size:10.5pt" align="center" > 
+34132
+</font> </td>
+<td style="font-size:10.5pt" align="left">
+CDK Los Mochis
+</td>
+<td  style="font-size:10.5pt" align="center">
+CDK
+</td>
+<td>
+ 
+</td>
+<td style="font-size:10.5pt" align="center">
+0
+</td>
+<td style= "font-size:10.5pt" align="center">
+0
+</td>
+<td style="font-size:10.5pt"  align="center">
+0
+</td>
+<td style="font-size:10.5pt"  align="center">
+0
+</td > 
+<td style="font-size:10.5pt"  align="center">
+0
+</td>
+<td style="font-size:10.5pt"  align="center">
+0
+</td>
+<td style="font-size:10.5pt"  align="center" width="55px">
+0
+</td>
+<td style="font-size:10.5pt"  align="center">
+0
+</td>
+<td style="font-size:10.5pt"  align="center">
+0
+</td>
+<td style="font-size:10.5pt" align="center">
+0
+</td>
+<td style="font-size:10.5pt"  align="center">
+0
+</td>
+<td style="font-size:10.5pt" align="center">
+0
+</td>
+<td bgcolor=#ffffff></td>
+<td align="center">
+00
+</td>
+</tr>
+<tr style="font-weight:bold" align="center" style="vertical-align:middle" bgcolor=#ffffcc  >
+<td bgcolor=#ffffff></td><td ></td><td colspan=2  align="left">
+SubTotal
+</td>
+<td bgcolor=#ffffff></td>
+<td>
+00
+</td>
+<td>
+00
+</td>
+<td>
+00
+</td>
+<td>
+00
+</td>
+<td>
+00
+</td>
+<td>
+00
+</td>
+<td>
+00
+</td>
+<td>
+00
+</td>
+<td>
+00
+</td>
+<td>
+00
+</td>
+<td>
+00
+</td>
+<td>
+00
+</td>
+<td bgcolor=#ffffff></td>
+<td>
+00
+</td>
+</tr>
+<td colspan=4 bgcolor=#f2f2f2><b> <b>
+CLUSTER MUNDO PRODUCTIVO MECANIZADO
+</b></td>
+</b></td> </tr><td ></td>
+<td style="font-size:10.5pt" align="center" > 
+34534
+</font> </td>
+<td style="font-size:10.5pt" align="left">
+CDC Toluca
+</td>
+<td  style="font-size:10.5pt" align="center">
+CDC
+</td>
+<td>
+ 
+</td>
+<td style="font-size:10.5pt" align="center">
+0
+</td>
+<td style= "font-size:10.5pt" align="center">
+0
+</td>
+<td style="font-size:10.5pt"  align="center">
+0
+</td>
+<td style="font-size:10.5pt"  align="center">
+0
+</td > 
+<td style="font-size:10.5pt"  align="center">
+0
+</td>
+<td style="font-size:10.5pt"  align="center">
+0
+</td>
+<td style="font-size:10.5pt"  align="center" width="55px">
+0
+</td>
+<td style="font-size:10.5pt"  align="center">
+0
+</td>
+<td style="font-size:10.5pt"  align="center">
+0
+</td>
+<td style="font-size:10.5pt" align="center">
+0
+</td>
+<td style="font-size:10.5pt"  align="center">
+0
+</td>
+<td style="font-size:10.5pt" align="center">
+0
+</td>
+<td bgcolor=#ffffff></td>
+<td align="center">
+00
+</td>
+</tr>
+<tr style="font-weight:bold" align="center" style="vertical-align:middle" bgcolor=#ffffcc  >
+<td bgcolor=#ffffff></td><td ></td><td colspan=2  align="left">
+SubTotal
+</td>
+<td bgcolor=#ffffff></td>
+<td>
+00
+</td>
+<td>
+00
+</td>
+<td>
+00
+</td>
+<td>
+00
+</td>
+<td>
+00
+</td>
+<td>
+00
+</td>
+<td>
+00
+</td>
+<td>
+00
+</td>
+<td>
+00
+</td>
+<td>
+00
+</td>
+<td>
+00
+</td>
+<td>
+00
+</td>
+<td bgcolor=#ffffff></td>
+<td>
+00
+</td>
+</tr>
+<td colspan=4 bgcolor=#f2f2f2><b> <b>
+ESPECIALIDADES QUÍMICAS JAL
+</b></td>
+</b></td> </tr><td ></td>
+<td style="font-size:10.5pt" align="center" > 
+34532
+</font> </td>
+<td style="font-size:10.5pt" align="left">
+CDK Tampico
+</td>
+<td  style="font-size:10.5pt" align="center">
+CDK
+</td>
+<td>
+ 
+</td>
+<td style="font-size:10.5pt" align="center">
+138
+</td>
+<td style= "font-size:10.5pt" align="center">
+196
+</td>
+<td style="font-size:10.5pt"  align="center">
+284
+</td>
+<td style="font-size:10.5pt"  align="center">
+147
+</td > 
+<td style="font-size:10.5pt"  align="center">
+24
+</td>
+<td style="font-size:10.5pt"  align="center">
+00
+</td>
+<td style="font-size:10.5pt"  align="center" width="55px">
+00
+</td>
+<td style="font-size:10.5pt"  align="center">
+00
+</td>
+<td style="font-size:10.5pt"  align="center">
+00
+</td>
+<td style="font-size:10.5pt" align="center">
+00
+</td>
+<td style="font-size:10.5pt"  align="center">
+00
+</td>
+<td style="font-size:10.5pt" align="center">
+00
+</td>
+<td bgcolor=#ffffff></td>
+<td align="center">
+789
+</td>
+</tr>
+<tr style="font-weight:bold" align="center" style="vertical-align:middle" bgcolor=#ffffcc  >
+<td bgcolor=#ffffff></td><td ></td><td colspan=2  align="left">
+SubTotal
+</td>
+<td bgcolor=#ffffff></td>
+<td>
+138
+</td>
+<td>
+196
+</td>
+<td>
+284
+</td>
+<td>
+147
+</td>
+<td>
+24
+</td>
+<td>
+00
+</td>
+<td>
+00
+</td>
+<td>
+00
+</td>
+<td>
+00
+</td>
+<td>
+00
+</td>
+<td>
+00
+</td>
+<td>
+00
+</td>
+<td bgcolor=#ffffff></td>
+<td>
+00
+</td>
+</tr>
+<td colspan=4 bgcolor=#f2f2f2><b> <b>
+CLUSTER AUTO SERVICIO DE PIEDRAS NEGRAS
+</b></td>
+</b></td> </tr><td ></td>
+<td style="font-size:10.5pt" align="center" > 
+30707
+</font> </td>
+<td style="font-size:10.5pt" align="left">
+CDK Piedras Negras
+</td>
+<td  style="font-size:10.5pt" align="center">
+CDK
+</td>
+<td>
+ 
+</td>
+<td style="font-size:10.5pt" align="center">
+0
+</td>
+<td style= "font-size:10.5pt" align="center">
+0
+</td>
+<td style="font-size:10.5pt"  align="center">
+0
+</td>
+<td style="font-size:10.5pt"  align="center">
+0
+</td > 
+<td style="font-size:10.5pt"  align="center">
+0
+</td>
+<td style="font-size:10.5pt"  align="center">
+0
+</td>
+<td style="font-size:10.5pt"  align="center" width="55px">
+0
+</td>
+<td style="font-size:10.5pt"  align="center">
+0
+</td>
+<td style="font-size:10.5pt"  align="center">
+0
+</td>
+<td style="font-size:10.5pt" align="center">
+0
+</td>
+<td style="font-size:10.5pt"  align="center">
+0
+</td>
+<td style="font-size:10.5pt" align="center">
+0
+</td>
+<td bgcolor=#ffffff></td>
+<td align="center">
+00
+</td>
+</tr>
+<tr style="font-weight:bold"  bgcolor=#ffffcc align="center" > 
+<td bgcolor=#ffffff></td><td></td><td colspan=2 align="left">
+SubTotal
+</b></td>
+<td bgcolor=#ffffff></td><td>
+00
+</td>
+<td>
+00
+</td>
+<td>
+00
+</td>
+<td>
+00
+</td>
+<td>
+00
+</td>
+<td>
+00
+</td>
+<td>
+00
+</td>
+<td>
+00
+</td>
+<td>
+00
+</td>
+<td>
+00
+</td>
+<td>
+00
+</td>
+<td>
+00
+</td>
+<td></td><td bgcolor=#ffffcc >
+00
+</td>
+</tr>
+<tr style="font-weight:bold;font-size:16px;"  bgcolor=#FFFF00 align="center" >   
+<td></td><td></td> <td colspan=2>
+TOTAL
+ </td>
+<td bgcolor=#ffffff></td><td><b> 
+23,185
+</b></td>
+<td>
+23,570
+</td>
+<td>
+25,408
+</td>
+<td>
+22,535
+</td>
+<td>
+568
+</td>
+<td>
+00
+</td>
+<td>
+00
+</td>
+<td>
+00
+</td>
+<td>
+00
+</td>
+<td>
+00
+</td>
+<td>
+00
+</td>
+<td>
+00
+</td>
+<td bgcolor=#ffffff></td>
+<td>
+95,266
+</td>
+</tr>

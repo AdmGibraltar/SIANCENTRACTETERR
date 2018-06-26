@@ -1,0 +1,59 @@
+namespace LibreriaReportes
+{
+    using System;
+    using System.ComponentModel;
+    using System.Drawing;
+    using System.Windows.Forms;
+    using Telerik.Reporting;
+    using Telerik.Reporting.Drawing;
+
+    /// <summary>
+    /// Summary description for repClienteMayorAdeudoDetalleSeguimiento.
+    /// </summary>
+    public partial class repClienteMayorAdeudoDetalleSeguimiento : Telerik.Reporting.Report
+    {
+        public repClienteMayorAdeudoDetalleSeguimiento()
+        {
+            try
+            {
+                InitializeComponent();
+                this.DataSource = null;
+            }
+            catch (Exception ex)
+            {
+
+                throw ex;
+            }
+        }
+
+        private void repClienteMayorAdeudoDetalleSeguimiento_NeedDataSource_1(object sender, EventArgs e)
+        {
+            try
+            {
+                Telerik.Reporting.Processing.Report rptq = (Telerik.Reporting.Processing.Report)sender;
+                this.sqlConnection1.ConnectionString = rptq.Parameters["Conexion"].Value.ToString();
+
+                string fecha = Convert.ToDateTime(rptq.Parameters["FechaCorte"].Value.ToString()).ToString("dd/MM/yyy");
+                string[] arrayFechaCorte = fecha.Split(new char[] { '/' });
+                string FCorte = null;
+                if (arrayFechaCorte.Length == 3)
+                {
+                    FCorte = string.Concat(arrayFechaCorte[2], ".", arrayFechaCorte[1], ".", arrayFechaCorte[0]) + " 23:59:59.000";
+                }
+                this.sqlDataAdapter1.SelectCommand.Parameters["@Id_Cd"].Value = rptq.Parameters["Id_Cd"].Value;
+                this.sqlDataAdapter1.SelectCommand.Parameters["@Tipo"].Value = 1;
+                this.sqlDataAdapter1.SelectCommand.Parameters["@Id_DocSerie"].Value = rptq.Parameters["Id_DocSerie"].Value;
+                this.sqlDataAdapter1.SelectCommand.Parameters["@FechaCorte"].Value = FCorte;
+                Telerik.Reporting.Processing.Report report = (Telerik.Reporting.Processing.Report)sender;
+                report.DataSource = this.sqlDataAdapter1;
+
+            }
+            catch (Exception ex)
+            {
+                throw ex;
+            }
+        }
+
+
+    }
+}

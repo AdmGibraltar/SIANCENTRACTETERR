@@ -1,0 +1,4 @@
+C:\Users\raul.borquez\Documents\_Fuentessiancentral01Junio2016\_Fuentes\CapaEntidad\bin\Release\CapaEntidad.dll
+C:\Users\raul.borquez\Documents\_Fuentessiancentral01Junio2016\_Fuentes\CapaEntidad\bin\Release\CapaEntidad.pdb
+C:\Users\raul.borquez\Documents\_Fuentessiancentral01Junio2016\_Fuentes\CapaEntidad\obj\Release\CapaEntidad.dll
+C:\Users\raul.borquez\Documents\_Fuentessiancentral01Junio2016\_Fuentes\CapaEntidad\obj\Release\CapaEntidad.pdb

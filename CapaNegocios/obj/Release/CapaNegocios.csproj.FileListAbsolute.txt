@@ -1,0 +1,16 @@
+C:\Users\raul.borquez\Documents\_Fuentessiancentral01Junio2016\_Fuentes\CapaNegocios\bin\Release\CapaNegocios.dll
+C:\Users\raul.borquez\Documents\_Fuentessiancentral01Junio2016\_Fuentes\CapaNegocios\bin\Release\CapaNegocios.pdb
+C:\Users\raul.borquez\Documents\_Fuentessiancentral01Junio2016\_Fuentes\CapaNegocios\bin\Release\CapaDatos.dll
+C:\Users\raul.borquez\Documents\_Fuentessiancentral01Junio2016\_Fuentes\CapaNegocios\bin\Release\CapaEntidad.dll
+C:\Users\raul.borquez\Documents\_Fuentessiancentral01Junio2016\_Fuentes\CapaNegocios\bin\Release\EntityFramework.dll
+C:\Users\raul.borquez\Documents\_Fuentessiancentral01Junio2016\_Fuentes\CapaNegocios\bin\Release\EntityFramework.SqlServer.dll
+C:\Users\raul.borquez\Documents\_Fuentessiancentral01Junio2016\_Fuentes\CapaNegocios\bin\Release\Telerik.Web.UI.dll
+C:\Users\raul.borquez\Documents\_Fuentessiancentral01Junio2016\_Fuentes\CapaNegocios\bin\Release\Telerik.Web.UI.Skins.dll
+C:\Users\raul.borquez\Documents\_Fuentessiancentral01Junio2016\_Fuentes\CapaNegocios\bin\Release\CapaDatos.pdb
+C:\Users\raul.borquez\Documents\_Fuentessiancentral01Junio2016\_Fuentes\CapaNegocios\bin\Release\CapaEntidad.pdb
+C:\Users\raul.borquez\Documents\_Fuentessiancentral01Junio2016\_Fuentes\CapaNegocios\bin\Release\EntityFramework.xml
+C:\Users\raul.borquez\Documents\_Fuentessiancentral01Junio2016\_Fuentes\CapaNegocios\bin\Release\EntityFramework.SqlServer.xml
+C:\Users\raul.borquez\Documents\_Fuentessiancentral01Junio2016\_Fuentes\CapaNegocios\bin\Release\Telerik.Web.UI.xml
+C:\Users\raul.borquez\Documents\_Fuentessiancentral01Junio2016\_Fuentes\CapaNegocios\obj\Release\CapaNegocios.csprojResolveAssemblyReference.cache
+C:\Users\raul.borquez\Documents\_Fuentessiancentral01Junio2016\_Fuentes\CapaNegocios\obj\Release\CapaNegocios.dll
+C:\Users\raul.borquez\Documents\_Fuentessiancentral01Junio2016\_Fuentes\CapaNegocios\obj\Release\CapaNegocios.pdb

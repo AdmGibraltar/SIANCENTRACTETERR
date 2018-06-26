@@ -1,0 +1,15 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="LibreriaReportes.ProEmbarque_Pro" Collapsed="true">
+    <Position X="0.5" Y="0.5" Width="1.5" />
+    <Members>
+      <Field Name="groupFooterSection1" Hidden="true" />
+      <Field Name="groupHeaderSection1" Hidden="true" />
+    </Members>
+    <TypeIdentifier>
+      <HashCode>QCAAAAQAAQgAAACAEAgAACBCIhAAAAAAEAAIAQAIAIA=</HashCode>
+      <FileName>ProEmbarque_Pro.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>

@@ -1,0 +1,80 @@
+C:\TF_Central\SIANWEBCENTRAL\Producto\_Fuentes\CapaEntidad\bin\Debug\CapaEntidad.dll
+C:\TF_Central\SIANWEBCENTRAL\Producto\_Fuentes\CapaEntidad\bin\Debug\CapaEntidad.pdb
+C:\TF_Central\SIANWEBCENTRAL\Producto\_Fuentes\CapaEntidad\obj\Debug\CapaEntidad.dll
+C:\TF_Central\SIANWEBCENTRAL\Producto\_Fuentes\CapaEntidad\obj\Debug\CapaEntidad.pdb
+F:\Key Quimical\_FuentesCentral_28112014\_Fuentes\CapaEntidad\bin\Debug\CapaEntidad.dll
+F:\Key Quimical\_FuentesCentral_28112014\_Fuentes\CapaEntidad\bin\Debug\CapaEntidad.pdb
+F:\Key Quimical\_FuentesCentral_28112014\_Fuentes\CapaEntidad\obj\Debug\ResolveAssemblyReference.cache
+F:\Key Quimical\_FuentesCentral_28112014\_Fuentes\CapaEntidad\obj\Debug\CapaEntidad.dll
+F:\Key Quimical\_FuentesCentral_28112014\_Fuentes\CapaEntidad\obj\Debug\CapaEntidad.pdb
+F:\Reportes_Cobranza\_FuentesCentral_28112014\_Fuentes\CapaEntidad\bin\Debug\CapaEntidad.dll
+F:\Reportes_Cobranza\_FuentesCentral_28112014\_Fuentes\CapaEntidad\bin\Debug\CapaEntidad.pdb
+F:\Reportes_Cobranza\_FuentesCentral_28112014\_Fuentes\CapaEntidad\obj\Debug\ResolveAssemblyReference.cache
+F:\Reportes_Cobranza\_FuentesCentral_28112014\_Fuentes\CapaEntidad\obj\Debug\CapaEntidad.dll
+F:\Reportes_Cobranza\_FuentesCentral_28112014\_Fuentes\CapaEntidad\obj\Debug\CapaEntidad.pdb
+F:\Reporte de Contacto\_Fuentes\CapaEntidad\bin\Debug\CapaEntidad.dll
+F:\Reporte de Contacto\_Fuentes\CapaEntidad\bin\Debug\CapaEntidad.pdb
+F:\Reporte de Contacto\_Fuentes\CapaEntidad\obj\Debug\ResolveAssemblyReference.cache
+F:\Reporte de Contacto\_Fuentes\CapaEntidad\obj\Debug\CapaEntidad.dll
+F:\Reporte de Contacto\_Fuentes\CapaEntidad\obj\Debug\CapaEntidad.pdb
+F:\Proyectos\Reporte de Cumplimiento\_Fuentes\CapaEntidad\bin\Debug\CapaEntidad.dll
+F:\Proyectos\Reporte de Cumplimiento\_Fuentes\CapaEntidad\bin\Debug\CapaEntidad.pdb
+F:\Proyectos\Reporte de Cumplimiento\_Fuentes\CapaEntidad\obj\Debug\ResolveAssemblyReference.cache
+F:\Proyectos\Reporte de Cumplimiento\_Fuentes\CapaEntidad\obj\Debug\CapaEntidad.dll
+F:\Proyectos\Reporte de Cumplimiento\_Fuentes\CapaEntidad\obj\Debug\CapaEntidad.pdb
+F:\SIANCentral Ultima Version\_Fuentes\CapaEntidad\bin\Debug\CapaEntidad.dll
+F:\SIANCentral Ultima Version\_Fuentes\CapaEntidad\bin\Debug\CapaEntidad.pdb
+F:\SIANCentral Ultima Version\_Fuentes\CapaEntidad\obj\Debug\ResolveAssemblyReference.cache
+F:\SIANCentral Ultima Version\_Fuentes\CapaEntidad\obj\Debug\CapaEntidad.dll
+F:\SIANCentral Ultima Version\_Fuentes\CapaEntidad\obj\Debug\CapaEntidad.pdb
+F:\Proyectos\Reporte_cobranza_Fese2\_Fuentes\CapaEntidad\bin\Debug\CapaEntidad.dll
+F:\Proyectos\Reporte_cobranza_Fese2\_Fuentes\CapaEntidad\bin\Debug\CapaEntidad.pdb
+F:\Proyectos\Reporte_cobranza_Fese2\_Fuentes\CapaEntidad\obj\Debug\ResolveAssemblyReference.cache
+F:\Proyectos\Reporte_cobranza_Fese2\_Fuentes\CapaEntidad\obj\Debug\CapaEntidad.dll
+F:\Proyectos\Reporte_cobranza_Fese2\_Fuentes\CapaEntidad\obj\Debug\CapaEntidad.pdb
+C:\Mario\BackUps Fuentes\_Fuentes_Central\_Fuentes\CapaEntidad\bin\Debug\CapaEntidad.dll
+C:\Mario\BackUps Fuentes\_Fuentes_Central\_Fuentes\CapaEntidad\bin\Debug\CapaEntidad.pdb
+C:\Mario\BackUps Fuentes\_Fuentes_Central\_Fuentes\CapaEntidad\obj\Debug\CapaEntidad.dll
+C:\Mario\BackUps Fuentes\_Fuentes_Central\_Fuentes\CapaEntidad\obj\Debug\CapaEntidad.pdb
+F:\Proyectos\_Fuentes\CapaEntidad\bin\Debug\CapaEntidad.dll
+F:\Proyectos\_Fuentes\CapaEntidad\bin\Debug\CapaEntidad.pdb
+F:\Proyectos\_Fuentes\CapaEntidad\obj\Debug\ResolveAssemblyReference.cache
+F:\Proyectos\_Fuentes\CapaEntidad\obj\Debug\CapaEntidad.dll
+F:\Proyectos\_Fuentes\CapaEntidad\obj\Debug\CapaEntidad.pdb
+C:\tfs\SIANWEBCENTRAL\Producto\Versiones\SIANWEBCENTRALv1.0\_Fuentes\CapaEntidad\bin\Debug\CapaEntidad.dll
+C:\tfs\SIANWEBCENTRAL\Producto\Versiones\SIANWEBCENTRALv1.0\_Fuentes\CapaEntidad\bin\Debug\CapaEntidad.pdb
+C:\tfs\SIANWEBCENTRAL\Producto\Versiones\SIANWEBCENTRALv1.0\_Fuentes\CapaEntidad\obj\Debug\ResolveAssemblyReference.cache
+C:\tfs\SIANWEBCENTRAL\Producto\Versiones\SIANWEBCENTRALv1.0\_Fuentes\CapaEntidad\obj\Debug\CapaEntidad.dll
+C:\tfs\SIANWEBCENTRAL\Producto\Versiones\SIANWEBCENTRALv1.0\_Fuentes\CapaEntidad\obj\Debug\CapaEntidad.pdb
+C:\files\files\key\sianwebcambio\siancentral15122015\SIANWEBCENTRALv1.0\_Fuentes\CapaEntidad\bin\Debug\CapaEntidad.dll
+C:\files\files\key\sianwebcambio\siancentral15122015\SIANWEBCENTRALv1.0\_Fuentes\CapaEntidad\bin\Debug\CapaEntidad.pdb
+C:\files\files\key\sianwebcambio\siancentral15122015\SIANWEBCENTRALv1.0\_Fuentes\CapaEntidad\obj\Debug\CapaEntidad.dll
+C:\files\files\key\sianwebcambio\siancentral15122015\SIANWEBCENTRALv1.0\_Fuentes\CapaEntidad\obj\Debug\CapaEntidad.pdb
+C:\files\files\key\sianwebcambio\SIANCENTRAL\_Fuentes siancentral\_Fuentes\CapaEntidad\bin\Debug\CapaEntidad.dll
+C:\files\files\key\sianwebcambio\SIANCENTRAL\_Fuentes siancentral\_Fuentes\CapaEntidad\bin\Debug\CapaEntidad.pdb
+C:\files\files\key\sianwebcambio\SIANCENTRAL\_Fuentes siancentral\_Fuentes\CapaEntidad\obj\Debug\CapaEntidad.dll
+C:\files\files\key\sianwebcambio\SIANCENTRAL\_Fuentes siancentral\_Fuentes\CapaEntidad\obj\Debug\CapaEntidad.pdb
+C:\Users\raul.borquez\Desktop\_Fuentessiancentral07Feb2016\_Fuentes\CapaEntidad\bin\Debug\CapaEntidad.dll
+C:\Users\raul.borquez\Desktop\_Fuentessiancentral07Feb2016\_Fuentes\CapaEntidad\bin\Debug\CapaEntidad.pdb
+C:\Users\raul.borquez\Desktop\_Fuentessiancentral07Feb2016\_Fuentes\CapaEntidad\obj\Debug\CapaEntidad.dll
+C:\Users\raul.borquez\Desktop\_Fuentessiancentral07Feb2016\_Fuentes\CapaEntidad\obj\Debug\CapaEntidad.pdb
+C:\Users\raul.borquez\Documents\_Fuentessiancentral01Junio2016\_Fuentes\CapaEntidad\bin\Debug\CapaEntidad.dll
+C:\Users\raul.borquez\Documents\_Fuentessiancentral01Junio2016\_Fuentes\CapaEntidad\bin\Debug\CapaEntidad.pdb
+C:\Users\raul.borquez\Documents\_Fuentessiancentral01Junio2016\_Fuentes\CapaEntidad\obj\Debug\CapaEntidad.dll
+C:\Users\raul.borquez\Documents\_Fuentessiancentral01Junio2016\_Fuentes\CapaEntidad\obj\Debug\CapaEntidad.pdb
+C:\KEYQUIMICA\_Fuentessiancentral01Junio2017\_Fuentes\CapaEntidad\bin\Debug\CapaEntidad.dll
+C:\KEYQUIMICA\_Fuentessiancentral01Junio2017\_Fuentes\CapaEntidad\bin\Debug\CapaEntidad.pdb
+C:\KEYQUIMICA\_Fuentessiancentral01Junio2017\_Fuentes\CapaEntidad\obj\Debug\CapaEntidad.dll
+C:\KEYQUIMICA\_Fuentessiancentral01Junio2017\_Fuentes\CapaEntidad\obj\Debug\CapaEntidad.pdb
+C:\Proyectos\SIANCENTRALSEP2017\_Fuentes\CapaEntidad\bin\Debug\CapaEntidad.dll
+C:\Proyectos\SIANCENTRALSEP2017\_Fuentes\CapaEntidad\bin\Debug\CapaEntidad.pdb
+C:\Proyectos\SIANCENTRALSEP2017\_Fuentes\CapaEntidad\obj\Debug\CapaEntidad.dll
+C:\Proyectos\SIANCENTRALSEP2017\_Fuentes\CapaEntidad\obj\Debug\CapaEntidad.pdb
+C:\Proyectos\SIANCENTRAL3OCT\_Fuentes\CapaEntidad\bin\Debug\CapaEntidad.dll
+C:\Proyectos\SIANCENTRAL3OCT\_Fuentes\CapaEntidad\bin\Debug\CapaEntidad.pdb
+C:\Proyectos\SIANCENTRAL3OCT\_Fuentes\CapaEntidad\obj\Debug\CapaEntidad.dll
+C:\Proyectos\SIANCENTRAL3OCT\_Fuentes\CapaEntidad\obj\Debug\CapaEntidad.pdb
+C:\files\files\key\sianwebcentral\_FuentesSIANCENTRAL_23MAY2018_FC\_Fuentes\CapaEntidad\bin\Debug\CapaEntidad.dll
+C:\files\files\key\sianwebcentral\_FuentesSIANCENTRAL_23MAY2018_FC\_Fuentes\CapaEntidad\bin\Debug\CapaEntidad.pdb
+C:\files\files\key\sianwebcentral\_FuentesSIANCENTRAL_23MAY2018_FC\_Fuentes\CapaEntidad\obj\Debug\CapaEntidad.dll
+C:\files\files\key\sianwebcentral\_FuentesSIANCENTRAL_23MAY2018_FC\_Fuentes\CapaEntidad\obj\Debug\CapaEntidad.pdb

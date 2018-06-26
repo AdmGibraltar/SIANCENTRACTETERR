@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<cfdi:Comprobante Certificado="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" Fecha="2018-02-02T11:14:41" Folio="20180121/013008-FOP" FormaPago="01" LugarExpedicion="91000" MetodoPago="PUE" Moneda="MXN" NoCertificado="00001000000401907477" Sello="S+y5wXVY9I6KM1Ad4gFEuq0eInJMqcaEWNCs6CbD6RVNfhBrXfEeI1g/fi81DrPGaK7/EqY1mpuhB/fCcoVUPaaIPFXaCaf1KuXWXOPTiryr36Qb8rSFbO8lXQ+6lkEZMe/OVZrh1W5THjJ5li+E2mFrn+AVkEtObY8KqfC5Zq17GTRHDEYQZVpHwdwDcplYLTkVM2yIinz3+7L/ISpGS1PgddDFkfJdJapapMBy+ynHhCdc0333WixbnAyg2lq4jsyALatdKUWsgFYPVgWQKj57mnmj8xnlZAspqVso+aE5VBzS9Kf7sJ6GcAGFzQP4o0nh8XOvBrtqSVtzZl3DzQ==" SubTotal="75.86" TipoDeComprobante="I" Total="88.00" Version="3.3" xmlns:cfdi="http://www.sat.gob.mx/cfd/3" xmlns:fm="http://facturame.mx/ns/addenda/1" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.sat.gob.mx/cfd/3 http://www.sat.gob.mx/sitio_internet/cfd/3/cfdv33.xsd">
+  <cfdi:Emisor Nombre="CAMS" RegimenFiscal="601" Rfc="CAM061114VE5"/>
+  <cfdi:Receptor Nombre="KEY QUIMICA S.A DE C.V." Rfc="KQU6911016X5" UsoCFDI="G03"/>
+  <cfdi:Conceptos>
+    <cfdi:Concepto Cantidad="1" ClaveProdServ="95111603" ClaveUnidad="E48" Descripcion="Via 113 AUTO    " Importe="75.86" Unidad="E48" ValorUnitario="75.86">
+      <cfdi:Impuestos>
+        <cfdi:Traslados>
+          <cfdi:Traslado Base="75.86" Importe="12.14" Impuesto="002" TasaOCuota="0.160000" TipoFactor="Tasa"/>
+          </cfdi:Traslados>
+        </cfdi:Impuestos>
+      </cfdi:Concepto>
+    </cfdi:Conceptos>
+  <cfdi:Impuestos TotalImpuestosTrasladados="12.14">
+    <cfdi:Traslados>
+      <cfdi:Traslado Importe="12.14" Impuesto="002" TasaOCuota="0.160000" TipoFactor="Tasa"/>
+      </cfdi:Traslados>
+    </cfdi:Impuestos>
+  <cfdi:Complemento>
+        <tfd:TimbreFiscalDigital xmlns:tfd="http://www.sat.gob.mx/TimbreFiscalDigital" xsi:schemaLocation="http://www.sat.gob.mx/TimbreFiscalDigital http://www.sat.gob.mx/sitio_internet/cfd/TimbreFiscalDigital/TimbreFiscalDigitalv11.xsd" Version="1.1" UUID="0722727e-2529-467a-ada2-6f74189dd562" RfcProvCertif="DIA031002LZ2" FechaTimbrado="2018-02-02T11:14:41" SelloCFD="S+y5wXVY9I6KM1Ad4gFEuq0eInJMqcaEWNCs6CbD6RVNfhBrXfEeI1g/fi81DrPGaK7/EqY1mpuhB/fCcoVUPaaIPFXaCaf1KuXWXOPTiryr36Qb8rSFbO8lXQ+6lkEZMe/OVZrh1W5THjJ5li+E2mFrn+AVkEtObY8KqfC5Zq17GTRHDEYQZVpHwdwDcplYLTkVM2yIinz3+7L/ISpGS1PgddDFkfJdJapapMBy+ynHhCdc0333WixbnAyg2lq4jsyALatdKUWsgFYPVgWQKj57mnmj8xnlZAspqVso+aE5VBzS9Kf7sJ6GcAGFzQP4o0nh8XOvBrtqSVtzZl3DzQ==" NoCertificadoSAT="00001000000404614920" SelloSAT="jrdAVsechdrCa0meolAghXX2qAvi7tkpuX/z+PGbnozJQPwxnLpArzDjEbdI51tqeXjyQOO+dSLQmt6lRnMLYWLkytjzR3FqXLSBCKlrqyI3X2hHCwpOnt480GOOsVLnrRNlfx2dI3Gu8HdxKMfRiie66kWqvCHk7sy8/v84sPd3MasFahtRKsam3+utGt9WO/IqAdrn1iPL8sF7Hn44JJhyuvwKE3oyHBLMplG+tpcNtT0U+soBF8v9Tq2bZJFF/w7gVNgJao+kgeO3X8qF/mUm5xu+D0d+2yXvCygMRdrvUeliZZEvU+d32YSXRBqK8tbaqlCra1CZ2zsZYh7UOA=="/>
+    </cfdi:Complemento><cfdi:Addenda xmlns:cfdi="http://www.sat.gob.mx/cfd/3">
+    <fm:AddendaFacturame version="1.0" xmlns:fm="http://facturame.mx/ns/addenda/1">
+      <Ticket number="5123359461117166335"/>
+      </fm:AddendaFacturame>
+    </cfdi:Addenda>
+</cfdi:Comprobante>

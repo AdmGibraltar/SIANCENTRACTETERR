@@ -1,0 +1,1625 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Schema Namespace="SIANCENTRAL_CCModel" Alias="Self" xmlns:annotation="http://schemas.microsoft.com/ado/2009/02/edm/annotation" xmlns="http://schemas.microsoft.com/ado/2008/09/edm">
+  <EntityContainer Name="SIANCENTRAL_CCEntities1" annotation:LazyLoadingEnabled="true">
+    <FunctionImport Name="spCC_ConsultarAfiliaciones" ReturnType="Collection(SIANCENTRAL_CCModel.spCC_ConsultarAfiliaciones_Result)">
+      <Parameter Name="Id" Mode="In" Type="Int32" />
+    </FunctionImport>
+    <EntitySet Name="CatACYS_Cliente" EntityType="SIANCENTRAL_CCModel.CatACYS_Cliente" />
+    <EntitySet Name="CatACYS_CondPago" EntityType="SIANCENTRAL_CCModel.CatACYS_CondPago" />
+    <EntitySet Name="CatACYS_DirFiscales" EntityType="SIANCENTRAL_CCModel.CatACYS_DirFiscales" />
+    <EntitySet Name="CatACYS_OtrosApoyos" EntityType="SIANCENTRAL_CCModel.CatACYS_OtrosApoyos" />
+    <EntitySet Name="CatAcys_Productos" EntityType="SIANCENTRAL_CCModel.CatAcys_Productos" />
+    <EntitySet Name="CatACYS_RecPedido" EntityType="SIANCENTRAL_CCModel.CatACYS_RecPedido" />
+    <EntitySet Name="CatACYS_ServValor" EntityType="SIANCENTRAL_CCModel.CatACYS_ServValor" />
+    <EntitySet Name="CatACYS_SIANCENTRAL" EntityType="SIANCENTRAL_CCModel.CatACYS_SIANCENTRAL" />
+    <EntitySet Name="CatDomicilioFiscal" EntityType="SIANCENTRAL_CCModel.CatDomicilioFiscal" />
+    <EntitySet Name="CatProducto" EntityType="SIANCENTRAL_CCModel.CatProducto" />
+    <EntitySet Name="CatClienteMatriz_Afiliaciones" EntityType="SIANCENTRAL_CCModel.CatClienteMatriz_Afiliaciones" />
+    <EntitySet Name="CatClienteMatriz_Permisos" EntityType="SIANCENTRAL_CCModel.CatClienteMatriz_Permisos" />
+    <AssociationSet Name="CatClienteMatriz_Afiliaciones_Id_DomicilioFiscal_FK" Association="SIANCENTRAL_CCModel.CatClienteMatriz_Afiliaciones_Id_DomicilioFiscal_FK">
+      <End Role="CatDomicilioFiscal" EntitySet="CatDomicilioFiscal" />
+      <End Role="CatClienteMatriz_Afiliaciones" EntitySet="CatClienteMatriz_Afiliaciones" />
+    </AssociationSet>
+    <EntitySet Name="CatTMoneda" EntityType="SIANCENTRAL_CCModel.CatTMoneda" />
+    <EntitySet Name="CatCNac_Addenda" EntityType="SIANCENTRAL_CCModel.CatCNac_Addenda" />
+    <EntitySet Name="CatCNac_CatalogoEspecial" EntityType="SIANCENTRAL_CCModel.CatCNac_CatalogoEspecial" />
+    <EntitySet Name="CatCNac_MetPago" EntityType="SIANCENTRAL_CCModel.CatCNac_MetPago" />
+    <EntitySet Name="CatCNac_ProductosPermitidos" EntityType="SIANCENTRAL_CCModel.CatCNac_ProductosPermitidos" />
+    <EntitySet Name="CatCNac_TipoNotaCred" EntityType="SIANCENTRAL_CCModel.CatCNac_TipoNotaCred" />
+    <EntitySet Name="CatCNac_Soportes" EntityType="SIANCENTRAL_CCModel.CatCNac_Soportes" />
+    <EntitySet Name="CatCNac_IntranetFran" EntityType="SIANCENTRAL_CCModel.CatCNac_IntranetFran" />
+    <EntitySet Name="CatCNac_IntranetListaFranq" EntityType="SIANCENTRAL_CCModel.CatCNac_IntranetListaFranq" />
+    <EntitySet Name="CatCNac_SistemasPV" EntityType="SIANCENTRAL_CCModel.CatCNac_SistemasPV" />
+    <EntitySet Name="CatCNac_ACYS" EntityType="SIANCENTRAL_CCModel.CatCNac_ACYS" />
+    <EntitySet Name="CatCNac_TipoCuenta" EntityType="SIANCENTRAL_CCModel.CatCNac_TipoCuenta" />
+    <FunctionImport Name="spComboNiveles" ReturnType="Collection(SIANCENTRAL_CCModel.spComboNiveles_Result)">
+      <Parameter Name="Id_Matriz" Mode="In" Type="Int32" />
+    </FunctionImport>
+    <EntitySet Name="CatCNac_PermisosCamposACYS" EntityType="SIANCENTRAL_CCModel.CatCNac_PermisosCamposACYS" />
+    <AssociationSet Name="CatACYS_Cliente_Id_FK1" Association="SIANCENTRAL_CCModel.CatACYS_Cliente_Id_FK1">
+      <End Role="CatCNac_ACYS" EntitySet="CatCNac_ACYS" />
+      <End Role="CatACYS_Cliente" EntitySet="CatACYS_Cliente" />
+    </AssociationSet>
+    <AssociationSet Name="CatACYS_CondPagoId_FK1" Association="SIANCENTRAL_CCModel.CatACYS_CondPagoId_FK1">
+      <End Role="CatCNac_ACYS" EntitySet="CatCNac_ACYS" />
+      <End Role="CatACYS_CondPago" EntitySet="CatACYS_CondPago" />
+    </AssociationSet>
+    <AssociationSet Name="FK_CatACYS_OtrosApoyos_Id1" Association="SIANCENTRAL_CCModel.FK_CatACYS_OtrosApoyos_Id1">
+      <End Role="CatCNac_ACYS" EntitySet="CatCNac_ACYS" />
+      <End Role="CatACYS_OtrosApoyos" EntitySet="CatACYS_OtrosApoyos" />
+    </AssociationSet>
+    <AssociationSet Name="FK_CatAcys_Productos_Id1" Association="SIANCENTRAL_CCModel.FK_CatAcys_Productos_Id1">
+      <End Role="CatCNac_ACYS" EntitySet="CatCNac_ACYS" />
+      <End Role="CatAcys_Productos" EntitySet="CatAcys_Productos" />
+    </AssociationSet>
+    <AssociationSet Name="CatACYS_RecPedido_Id_FK1" Association="SIANCENTRAL_CCModel.CatACYS_RecPedido_Id_FK1">
+      <End Role="CatCNac_ACYS" EntitySet="CatCNac_ACYS" />
+      <End Role="CatACYS_RecPedido" EntitySet="CatACYS_RecPedido" />
+    </AssociationSet>
+    <AssociationSet Name="FK_CatACYS_ServValor_Id1" Association="SIANCENTRAL_CCModel.FK_CatACYS_ServValor_Id1">
+      <End Role="CatCNac_ACYS" EntitySet="CatCNac_ACYS" />
+      <End Role="CatACYS_ServValor" EntitySet="CatACYS_ServValor" />
+    </AssociationSet>
+    <EntitySet Name="CatCNac_Matriz" EntityType="SIANCENTRAL_CCModel.CatCNac_Matriz" />
+    <AssociationSet Name="FK__CatClienteMa__Id__6C2FB402" Association="SIANCENTRAL_CCModel.FK__CatClienteMa__Id__6C2FB402">
+      <End Role="CatCNac_Matriz" EntitySet="CatCNac_Matriz" />
+      <End Role="CatClienteMatriz_Permisos" EntitySet="CatClienteMatriz_Permisos" />
+    </AssociationSet>
+    <AssociationSet Name="FK__CatCNac_A__Id_Ma__131476F9" Association="SIANCENTRAL_CCModel.FK__CatCNac_A__Id_Ma__131476F9">
+      <End Role="CatCNac_Matriz" EntitySet="CatCNac_Matriz" />
+      <End Role="CatCNac_ACYS" EntitySet="CatCNac_ACYS" />
+    </AssociationSet>
+    <AssociationSet Name="FK__CatCNac_I__Id_Ma__7E195A13" Association="SIANCENTRAL_CCModel.FK__CatCNac_I__Id_Ma__7E195A13">
+      <End Role="CatCNac_Matriz" EntitySet="CatCNac_Matriz" />
+      <End Role="CatCNac_IntranetListaFranq" EntitySet="CatCNac_IntranetListaFranq" />
+    </AssociationSet>
+    <AssociationSet Name="FK__CatDomici__Id_Cl__171A1207" Association="SIANCENTRAL_CCModel.FK__CatDomici__Id_Cl__171A1207">
+      <End Role="CatCNac_Matriz" EntitySet="CatCNac_Matriz" />
+      <End Role="CatDomicilioFiscal" EntitySet="CatDomicilioFiscal" />
+    </AssociationSet>
+    <EntitySet Name="CatACYS_Productos_DatosGar" EntityType="SIANCENTRAL_CCModel.CatACYS_Productos_DatosGar" />
+    <AssociationSet Name="CatACYS_Productos_Id_Acys_FK" Association="SIANCENTRAL_CCModel.CatACYS_Productos_Id_Acys_FK">
+      <End Role="CatCNac_ACYS" EntitySet="CatCNac_ACYS" />
+      <End Role="CatACYS_Productos_DatosGar" EntitySet="CatACYS_Productos_DatosGar" />
+    </AssociationSet>
+    <EntitySet Name="CatACYS_Productos_DatosGar_Fechas" EntityType="SIANCENTRAL_CCModel.CatACYS_Productos_DatosGar_Fechas" />
+    <AssociationSet Name="CatACYSProductos_DatosGar_Fechas_IdACYS_FK" Association="SIANCENTRAL_CCModel.CatACYSProductos_DatosGar_Fechas_IdACYS_FK">
+      <End Role="CatCNac_ACYS" EntitySet="CatCNac_ACYS" />
+      <End Role="CatACYS_Productos_DatosGar_Fechas" EntitySet="CatACYS_Productos_DatosGar_Fechas" />
+    </AssociationSet>
+    <EntitySet Name="CatCNac_Condiciones" EntityType="SIANCENTRAL_CCModel.CatCNac_Condiciones" />
+    <EntitySet Name="CatCDI" EntityType="SIANCENTRAL_CCModel.CatCDI" />
+    <FunctionImport Name="spCNacDireccionesFiscalesACYS" ReturnType="Collection(SIANCENTRAL_CCModel.spCNacDireccionesFiscalesACYS_Result)">
+      <Parameter Name="Id_ACYS" Mode="In" Type="Int32" />
+    </FunctionImport>
+    <EntitySet Name="CatUsuario" EntityType="SIANCENTRAL_CCModel.CatUsuario" />
+    <EntitySet Name="CatCNac_Estructura" EntityType="SIANCENTRAL_CCModel.CatCNac_Estructura" />
+    <AssociationSet Name="CatCNac_Estructura_Id_Matriz_FK" Association="SIANCENTRAL_CCModel.CatCNac_Estructura_Id_Matriz_FK">
+      <End Role="CatCNac_Matriz" EntitySet="CatCNac_Matriz" />
+      <End Role="CatCNac_Estructura" EntitySet="CatCNac_Estructura" />
+    </AssociationSet>
+    <AssociationSet Name="CatCNac_Estructura_IdAcys_FK" Association="SIANCENTRAL_CCModel.CatCNac_Estructura_IdAcys_FK">
+      <End Role="CatCNac_ACYS" EntitySet="CatCNac_ACYS" />
+      <End Role="CatCNac_Estructura" EntitySet="CatCNac_Estructura" />
+    </AssociationSet>
+    <EntitySet Name="CatCNac_Usuario" EntityType="SIANCENTRAL_CCModel.CatCNac_Usuario" />
+    <AssociationSet Name="CatCNac_Usuario_IdUsuario_FK1" Association="SIANCENTRAL_CCModel.CatCNac_Usuario_IdUsuario_FK1">
+      <End Role="CatCNac_Matriz" EntitySet="CatCNac_Matriz" />
+      <End Role="CatCNac_Usuario" EntitySet="CatCNac_Usuario" />
+    </AssociationSet>
+    <EntitySet Name="CatCNac_RolAuditorias" EntityType="SIANCENTRAL_CCModel.CatCNac_RolAuditorias" />
+    <EntitySet Name="CatCNac_RolECommerce" EntityType="SIANCENTRAL_CCModel.CatCNac_RolECommerce" />
+    <AssociationSet Name="CatCNac_Usuario_RolAuditorias_FK" Association="SIANCENTRAL_CCModel.CatCNac_Usuario_RolAuditorias_FK">
+      <End Role="CatCNac_RolAuditorias" EntitySet="CatCNac_RolAuditorias" />
+      <End Role="CatCNac_Usuario" EntitySet="CatCNac_Usuario" />
+    </AssociationSet>
+    <AssociationSet Name="CatCNac_Usuario_RolECommerce_FK" Association="SIANCENTRAL_CCModel.CatCNac_Usuario_RolECommerce_FK">
+      <End Role="CatCNac_RolECommerce" EntitySet="CatCNac_RolECommerce" />
+      <End Role="CatCNac_Usuario" EntitySet="CatCNac_Usuario" />
+    </AssociationSet>
+    <EntitySet Name="CatCNac_UsuarioPermisos" EntityType="SIANCENTRAL_CCModel.CatCNac_UsuarioPermisos" />
+    <AssociationSet Name="CatCNac_UsuarioPermisos_IdEstructura_FK" Association="SIANCENTRAL_CCModel.CatCNac_UsuarioPermisos_IdEstructura_FK">
+      <End Role="CatCNac_Estructura" EntitySet="CatCNac_Estructura" />
+      <End Role="CatCNac_UsuarioPermisos" EntitySet="CatCNac_UsuarioPermisos" />
+    </AssociationSet>
+    <AssociationSet Name="CatCNac_UsuarioPermisos_IdUsuario_FK" Association="SIANCENTRAL_CCModel.CatCNac_UsuarioPermisos_IdUsuario_FK">
+      <End Role="CatCNac_Usuario" EntitySet="CatCNac_Usuario" />
+      <End Role="CatCNac_UsuarioPermisos" EntitySet="CatCNac_UsuarioPermisos" />
+    </AssociationSet>
+    <AssociationSet Name="FK__CatACYS_D__Id_Cl__4753350E" Association="SIANCENTRAL_CCModel.FK__CatACYS_D__Id_Cl__4753350E">
+      <End Role="CatCNac_Matriz" EntitySet="CatCNac_Matriz" />
+      <End Role="CatACYS_DirFiscales" EntitySet="CatACYS_DirFiscales" />
+    </AssociationSet>
+    <AssociationSet Name="FK_CatACYS_SIANCENTRAL_Id" Association="SIANCENTRAL_CCModel.FK_CatACYS_SIANCENTRAL_Id">
+      <End Role="CatCNac_Matriz" EntitySet="CatCNac_Matriz" />
+      <End Role="CatACYS_SIANCENTRAL" EntitySet="CatACYS_SIANCENTRAL" />
+    </AssociationSet>
+    <AssociationSet Name="FK_CatCNac_IntranetFran_Id1" Association="SIANCENTRAL_CCModel.FK_CatCNac_IntranetFran_Id1">
+      <End Role="CatCNac_Matriz" EntitySet="CatCNac_Matriz" />
+      <End Role="CatCNac_IntranetFran" EntitySet="CatCNac_IntranetFran" />
+    </AssociationSet>
+    <EntitySet Name="CatCNac_EstatusSolicitudes" EntityType="SIANCENTRAL_CCModel.CatCNac_EstatusSolicitudes" />
+    <EntitySet Name="CatCNac_Solicitudes" EntityType="SIANCENTRAL_CCModel.CatCNac_Solicitudes" />
+    <EntitySet Name="CatCNac_Solicitudes_DirFiscal" EntityType="SIANCENTRAL_CCModel.CatCNac_Solicitudes_DirFiscal" />
+    <AssociationSet Name="FK__CatCNac_S__Id_Es__7331B74C" Association="SIANCENTRAL_CCModel.FK__CatCNac_S__Id_Es__7331B74C">
+      <End Role="CatCNac_Estructura" EntitySet="CatCNac_Estructura" />
+      <End Role="CatCNac_Solicitudes" EntitySet="CatCNac_Solicitudes" />
+    </AssociationSet>
+    <AssociationSet Name="FK__CatCNac_S__Id_Ma__723D9313" Association="SIANCENTRAL_CCModel.FK__CatCNac_S__Id_Ma__723D9313">
+      <End Role="CatCNac_Matriz" EntitySet="CatCNac_Matriz" />
+      <End Role="CatCNac_Solicitudes" EntitySet="CatCNac_Solicitudes" />
+    </AssociationSet>
+    <AssociationSet Name="FK__CatCNac_S__Aseso__7425DB85" Association="SIANCENTRAL_CCModel.FK__CatCNac_S__Aseso__7425DB85">
+      <End Role="CatCNac_Usuario" EntitySet="CatCNac_Usuario" />
+      <End Role="CatCNac_Solicitudes" EntitySet="CatCNac_Solicitudes" />
+    </AssociationSet>
+    <AssociationSet Name="FK__CatCNac_S__Estat__7519FFBE" Association="SIANCENTRAL_CCModel.FK__CatCNac_S__Estat__7519FFBE">
+      <End Role="CatCNac_Usuario" EntitySet="CatCNac_Usuario" />
+      <End Role="CatCNac_Solicitudes" EntitySet="CatCNac_Solicitudes" />
+    </AssociationSet>
+    <EntitySet Name="CatCNac_RemisionesMov80" EntityType="SIANCENTRAL_CCModel.CatCNac_RemisionesMov80" />
+    <AssociationSet Name="FK__CatCNac_S__Remis__7F978E31" Association="SIANCENTRAL_CCModel.FK__CatCNac_S__Remis__7F978E31">
+      <End Role="CatCNac_RemisionesMov80" EntitySet="CatCNac_RemisionesMov80" />
+      <End Role="CatCNac_Solicitudes" EntitySet="CatCNac_Solicitudes" />
+    </AssociationSet>
+    <AssociationSet Name="FK_Dir_Solic" Association="SIANCENTRAL_CCModel.FK_Dir_Solic">
+      <End Role="CatCNac_Solicitudes" EntitySet="CatCNac_Solicitudes" />
+      <End Role="CatCNac_Solicitudes_DirFiscal" EntitySet="CatCNac_Solicitudes_DirFiscal" />
+    </AssociationSet>
+    <AssociationSet Name="FK__CatCNac_S__Sucur__7AD2D914" Association="SIANCENTRAL_CCModel.FK__CatCNac_S__Sucur__7AD2D914">
+      <End Role="CatCDI" EntitySet="CatCDI" />
+      <End Role="CatCNac_Solicitudes" EntitySet="CatCNac_Solicitudes" />
+    </AssociationSet>
+    <AssociationSet Name="FK__CatCNac_S__Estat__78EA90A2" Association="SIANCENTRAL_CCModel.FK__CatCNac_S__Estat__78EA90A2">
+      <End Role="CatCNac_EstatusSolicitudes" EntitySet="CatCNac_EstatusSolicitudes" />
+      <End Role="CatCNac_Solicitudes" EntitySet="CatCNac_Solicitudes" />
+    </AssociationSet>
+    <EntitySet Name="CatCNac_IntranetUsuarios" EntityType="SIANCENTRAL_CCModel.CatCNac_IntranetUsuarios" />
+    <AssociationSet Name="CatCNac_IntranetListaFranq_Moneds_FK" Association="SIANCENTRAL_CCModel.CatCNac_IntranetListaFranq_Moneds_FK">
+      <End Role="CatTMoneda" EntitySet="CatTMoneda" />
+      <End Role="CatCNac_IntranetListaFranq" EntitySet="CatCNac_IntranetListaFranq" />
+    </AssociationSet>
+    <AssociationSet Name="CatCNac_IntranetListaFranq_Productos_FK" Association="SIANCENTRAL_CCModel.CatCNac_IntranetListaFranq_Productos_FK">
+      <End Role="CatCNac_ProductosPermitidos" EntitySet="CatCNac_ProductosPermitidos" />
+      <End Role="CatCNac_IntranetListaFranq" EntitySet="CatCNac_IntranetListaFranq" />
+    </AssociationSet>
+    <AssociationSet Name="CatCNac_IntranetListaFranq_UsuarioIntranet_FK" Association="SIANCENTRAL_CCModel.CatCNac_IntranetListaFranq_UsuarioIntranet_FK">
+      <End Role="CatCNac_IntranetUsuarios" EntitySet="CatCNac_IntranetUsuarios" />
+      <End Role="CatCNac_IntranetListaFranq" EntitySet="CatCNac_IntranetListaFranq" />
+    </AssociationSet>
+    <FunctionImport Name="spCatCN_DuplicarACYS">
+      <Parameter Name="Id_AcysADuplicar" Mode="In" Type="Int32" />
+    </FunctionImport>
+  </EntityContainer>
+  <ComplexType Name="spCC_ConsultarAfiliaciones_Result">
+    <Property Type="Int32" Name="Id" Nullable="false" />
+    <Property Type="Int32" Name="Id_Emp" Nullable="false" />
+    <Property Type="Int32" Name="Id_Cd" Nullable="false" />
+    <Property Type="String" Name="Db_CdNombre" Nullable="true" />
+    <Property Type="Int32" Name="Id_Cte" Nullable="false" />
+    <Property Type="Int32" Name="Id_Ter" Nullable="false" />
+    <Property Type="String" Name="Convenio" Nullable="true" MaxLength="50" />
+    <Property Type="DateTime" Name="Fecha_Alta" Nullable="true" Precision="23" />
+    <Property Type="String" Name="RazonSocial" Nullable="true" MaxLength="500" />
+    <Property Type="String" Name="DirFiscal" Nullable="true" MaxLength="2804" />
+    <Property Type="String" Name="Usuario" Nullable="true" MaxLength="50" />
+    <Property Type="Boolean" Name="Estatus" Nullable="true" />
+  </ComplexType>
+  <ComplexType Name="ComplexType1">
+    <Property Type="Int32" Name="Frecuencia" />
+  </ComplexType>
+  <EntityType Name="CatACYS_Cliente">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Type="Int32" Name="Id" Nullable="false" />
+    <Property Type="Int32" Name="Id_Cte" />
+    <Property Type="String" Name="Nombre_Cte" Nullable="true" />
+    <Property Type="String" Name="Sucursal" MaxLength="100" FixedLength="false" Unicode="false" />
+    <Property Type="String" Name="Segmento" MaxLength="100" FixedLength="false" Unicode="false" />
+    <Property Type="String" Name="Direccion" MaxLength="1000" FixedLength="false" Unicode="false" />
+    <Property Type="String" Name="Colonia" MaxLength="100" FixedLength="false" Unicode="false" />
+    <Property Type="String" Name="Municipio" MaxLength="100" FixedLength="false" Unicode="false" />
+    <Property Type="String" Name="Estado" MaxLength="100" FixedLength="false" Unicode="false" />
+    <Property Type="String" Name="CP" MaxLength="20" FixedLength="false" Unicode="false" />
+    <Property Type="String" Name="RFC" MaxLength="50" FixedLength="false" Unicode="false" />
+    <Property Type="Boolean" Name="Addenda" />
+    <Property Type="Boolean" Name="CuentaCorp" />
+    <Property Type="String" Name="E_mailFacElectronica" MaxLength="100" FixedLength="false" Unicode="false" />
+    <Property Type="String" Name="TipoCliente" MaxLength="1" FixedLength="false" Unicode="false" />
+    <Property Type="String" Name="AsignacionPedido" MaxLength="200" FixedLength="false" Unicode="false" />
+    <Property Type="String" Name="Com_Nombre" MaxLength="100" FixedLength="false" Unicode="false" />
+    <Property Type="String" Name="Com_DirEntrega" MaxLength="200" FixedLength="false" Unicode="false" />
+    <Property Type="String" Name="Com_Colonia" MaxLength="100" FixedLength="false" Unicode="false" />
+    <Property Type="String" Name="Com_Municipio" MaxLength="100" FixedLength="false" Unicode="false" />
+    <Property Type="String" Name="Com_Estado" MaxLength="100" FixedLength="false" Unicode="false" />
+    <Property Type="String" Name="Com_CP" MaxLength="20" FixedLength="false" Unicode="false" />
+    <Property Type="String" Name="Com_NoProv" MaxLength="50" FixedLength="false" Unicode="false" />
+    <Property Type="String" Name="Com_Contacto" MaxLength="200" FixedLength="false" Unicode="false" />
+    <Property Type="String" Name="Com_Puesto" MaxLength="100" FixedLength="false" Unicode="false" />
+    <Property Type="String" Name="Com_Telefono" MaxLength="20" FixedLength="false" Unicode="false" />
+    <Property Type="Int32" Name="Com_Id_Territorio" />
+    <Property Type="String" Name="Com_Territorio" MaxLength="100" FixedLength="false" Unicode="false" />
+    <Property Type="Int32" Name="Com_IdRepresentanteVentas" />
+    <Property Type="String" Name="Com_RepresentanteVentas" MaxLength="100" FixedLength="false" Unicode="false" />
+    <Property Type="Int32" Name="Com_IdRutaServicio" />
+    <Property Type="String" Name="Com_RutaServicio" MaxLength="200" FixedLength="false" Unicode="false" />
+    <Property Type="Int32" Name="Com_IdRutaEntrega" />
+    <Property Type="String" Name="Com_RutaEntrega" MaxLength="200" FixedLength="false" Unicode="false" />
+    <Property Type="Boolean" Name="Garantia" />
+    <Property Type="Boolean" Name="Servicios" />
+    <NavigationProperty Name="CatCNac_ACYS" Relationship="SIANCENTRAL_CCModel.CatACYS_Cliente_Id_FK1" FromRole="CatACYS_Cliente" ToRole="CatCNac_ACYS" />
+    <Property Type="String" Name="FormatoACYS" MaxLength="100" FixedLength="false" Unicode="false" />
+    <Property Type="Int32" Name="AsignacionDePedido" />
+  </EntityType>
+  <EntityType Name="CatACYS_CondPago">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Type="Int32" Name="Id" Nullable="false" />
+    <Property Type="Boolean" Name="Credito" />
+    <Property Type="Int32" Name="Dias" />
+    <Property Type="Int32" Name="Limite" />
+    <Property Type="Boolean" Name="Contado" />
+    <Property Type="Boolean" Name="Efectivo" />
+    <Property Type="Boolean" Name="Deposito" />
+    <Property Type="Boolean" Name="Factoraje" />
+    <Property Type="Boolean" Name="TarjetaDebito" />
+    <Property Type="Boolean" Name="Transferencia" />
+    <Property Type="Boolean" Name="TarjetaCredito" />
+    <Property Type="Boolean" Name="Cheque" />
+    <Property Type="Boolean" Name="RevisionLunes" />
+    <Property Type="Boolean" Name="RevisionMartes" />
+    <Property Type="Boolean" Name="RevisionMiercoles" />
+    <Property Type="Boolean" Name="RevisionJueves" />
+    <Property Type="Boolean" Name="RevisionViernes" />
+    <Property Type="Boolean" Name="RevisionSabado" />
+    <Property Type="String" Name="RevisionMañanaInicio" MaxLength="6" FixedLength="false" Unicode="false" />
+    <Property Type="String" Name="RevisionMañanaFin" MaxLength="6" FixedLength="false" Unicode="false" />
+    <Property Type="String" Name="RevisionTardeInicio" MaxLength="6" FixedLength="false" Unicode="false" />
+    <Property Type="String" Name="RevisionTardeFin" MaxLength="6" FixedLength="false" Unicode="false" />
+    <Property Type="Boolean" Name="RevFolio" />
+    <Property Type="Boolean" Name="RevEntrada" />
+    <Property Type="Boolean" Name="RevOrden" />
+    <Property Type="Boolean" Name="RevReporte" />
+    <Property Type="Boolean" Name="RevCopia" />
+    <Property Type="String" Name="RevOtro" MaxLength="100" FixedLength="false" Unicode="false" />
+    <Property Type="Boolean" Name="PagoLunes" />
+    <Property Type="Boolean" Name="PagoMartes" />
+    <Property Type="Boolean" Name="PagoMiercoles" />
+    <Property Type="Boolean" Name="PagoJueves" />
+    <Property Type="Boolean" Name="PagoViernes" />
+    <Property Type="Boolean" Name="PagoSabado" />
+    <Property Type="String" Name="PagoMañanaInicio" MaxLength="6" FixedLength="false" Unicode="false" />
+    <Property Type="String" Name="PagoMañanaFin" MaxLength="6" FixedLength="false" Unicode="false" />
+    <Property Type="String" Name="PagoTardeInicio" MaxLength="6" FixedLength="false" Unicode="false" />
+    <Property Type="String" Name="PagoTardeFin" MaxLength="6" FixedLength="false" Unicode="false" />
+    <NavigationProperty Name="CatCNac_ACYS" Relationship="SIANCENTRAL_CCModel.CatACYS_CondPagoId_FK1" FromRole="CatACYS_CondPago" ToRole="CatCNac_ACYS" />
+    <Property Type="String" Name="CPNumCuenta" MaxLength="200" FixedLength="false" Unicode="false" />
+    <Property Type="String" Name="CPRefTecleada" MaxLength="200" FixedLength="false" Unicode="false" />
+    <Property Type="String" Name="CPCuentasPagar" MaxLength="200" FixedLength="false" Unicode="false" />
+    <Property Type="String" Name="CPCuentaPago" MaxLength="200" FixedLength="false" Unicode="false" />
+    <Property Type="Boolean" Name="RevFacContraEntrega" />
+    <Property Type="Boolean" Name="RevFacVisGestorCobranza" />
+    <Property Type="String" Name="RevFacDireccion" MaxLength="200" FixedLength="false" Unicode="false" />
+    <Property Type="String" Name="RevFacColonia" MaxLength="200" FixedLength="false" Unicode="false" />
+    <Property Type="String" Name="RevFacMunicipio" MaxLength="200" FixedLength="false" Unicode="false" />
+    <Property Type="String" Name="RevFacEstado" MaxLength="200" FixedLength="false" Unicode="false" />
+    <Property Type="String" Name="RevFacCP" MaxLength="200" FixedLength="false" Unicode="false" />
+    <Property Type="String" Name="RevFacCiudad" MaxLength="200" FixedLength="false" Unicode="false" />
+    <Property Type="String" Name="RevFacTeléfonos" MaxLength="200" FixedLength="false" Unicode="false" />
+    <Property Type="String" Name="RevFacEmailTexto" MaxLength="200" FixedLength="false" Unicode="false" />
+    <Property Type="String" Name="RevFacHttp" MaxLength="200" FixedLength="false" Unicode="false" />
+    <Property Type="String" Name="RevFacUsuario" MaxLength="200" FixedLength="false" Unicode="false" />
+    <Property Type="String" Name="RevFacContrasenia" MaxLength="200" FixedLength="false" Unicode="false" />
+    <Property Type="Boolean" Name="RevFacPortal" />
+    <Property Type="Boolean" Name="RevFacEmail" />
+    <Property Type="Boolean" Name="CPFactFranquiciaEnt" />
+    <Property Type="Int32" Name="CPFactFranquiciaEntCop" />
+    <Property Type="Boolean" Name="CPFactFranquiciaRec" />
+    <Property Type="Int32" Name="CPFactFranquiciaRecCop" />
+    <Property Type="Boolean" Name="CPFactKeyEnt" />
+    <Property Type="Int32" Name="CPFactKeyEntCop" />
+    <Property Type="Boolean" Name="CPFactKeyRec" />
+    <Property Type="Int32" Name="CPFactKeyRecCop" />
+    <Property Type="Boolean" Name="CPOrdCompraEnt" />
+    <Property Type="Int32" Name="CPOrdCompraEntCop" />
+    <Property Type="Boolean" Name="CPOrdCompraRec" />
+    <Property Type="Int32" Name="CPOrdCompraRecCop" />
+    <Property Type="Boolean" Name="CPOrdReposEnt" />
+    <Property Type="Int32" Name="CPOrdReposEntCop" />
+    <Property Type="Boolean" Name="CPOrdReposRec" />
+    <Property Type="Int32" Name="CPOrdReposRecCop" />
+    <Property Type="Boolean" Name="CPCopPedidoEnt" />
+    <Property Type="Int32" Name="CPCopPedidoEntCop" />
+    <Property Type="Boolean" Name="CPCopPedidoRec" />
+    <Property Type="Int32" Name="CPCopPedidoRecCop" />
+    <Property Type="Boolean" Name="CPRemisionEnt" />
+    <Property Type="Int32" Name="CPRemisionEntCop" />
+    <Property Type="Boolean" Name="CPRemisionRec" />
+    <Property Type="Int32" Name="CPRemisionRecCop" />
+    <Property Type="Boolean" Name="CPFolioEnt" />
+    <Property Type="Int32" Name="CPFolioEntCop" />
+    <Property Type="Boolean" Name="CPFolioRec" />
+    <Property Type="Int32" Name="CPFolioRecCop" />
+    <Property Type="Boolean" Name="CPContraRecEnt" />
+    <Property Type="Int32" Name="CPContraRecEntCop" />
+    <Property Type="Boolean" Name="CPContraRecRec" />
+    <Property Type="Int32" Name="CPContraRecRecCop" />
+    <Property Type="Boolean" Name="CPEntAlmacenEnt" />
+    <Property Type="Int32" Name="CPEntAlmacenEntCop" />
+    <Property Type="Boolean" Name="CPEntAlmacenRec" />
+    <Property Type="Int32" Name="CPEntAlmacenRecCop" />
+    <Property Type="Boolean" Name="CPNomFirmaEnt" />
+    <Property Type="Int32" Name="CPNomFirmaEntCop" />
+    <Property Type="Boolean" Name="CPNomFirmaoRec" />
+    <Property Type="Int32" Name="CPNomFirmaRecCop" />
+    <Property Type="Boolean" Name="CPRecCitaEnt" />
+    <Property Type="Int32" Name="CPRecCitaEntCop" />
+    <Property Type="Boolean" Name="CPRecCitaRec" />
+    <Property Type="Int32" Name="CPRecCitaRecCop" />
+    <Property Type="Boolean" Name="CPSopServicioEnt" />
+    <Property Type="Int32" Name="CPSopServicioEntCop" />
+    <Property Type="Boolean" Name="CPSopServicioRec" />
+    <Property Type="Int32" Name="CPSopServicioRecCop" />
+  </EntityType>
+  <EntityType Name="CatACYS_DirFiscales">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Type="Int32" Name="Id" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Type="Int32" Name="Id_ClienteMatriz" />
+    <Property Type="String" Name="ClienteDirFis" MaxLength="100" FixedLength="false" Unicode="false" />
+    <Property Type="String" Name="DireccionDirFis" MaxLength="500" FixedLength="false" Unicode="false" />
+    <Property Type="String" Name="EstadoDirFis" MaxLength="100" FixedLength="false" Unicode="false" />
+    <Property Type="String" Name="ColoniaDirFis" MaxLength="100" FixedLength="false" Unicode="false" />
+    <Property Type="String" Name="CPDirFis" MaxLength="20" FixedLength="false" Unicode="false" />
+    <Property Type="String" Name="MunicipioDirFis" MaxLength="100" FixedLength="false" Unicode="false" />
+    <Property Type="String" Name="RFCDirFis" MaxLength="50" FixedLength="false" Unicode="false" />
+    <Property Type="String" Name="EmailFacturasDirFis" MaxLength="50" FixedLength="false" Unicode="false" />
+    <NavigationProperty Name="CatCNac_Matriz" Relationship="SIANCENTRAL_CCModel.FK__CatACYS_D__Id_Cl__4753350E" FromRole="CatACYS_DirFiscales" ToRole="CatCNac_Matriz" />
+  </EntityType>
+  <EntityType Name="CatACYS_OtrosApoyos">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Type="Int32" Name="Id" Nullable="false" />
+    <Property Type="String" Name="Notas" MaxLength="Max" FixedLength="false" Unicode="false" />
+    <Property Type="String" Name="ContactoClientePagos" MaxLength="200" FixedLength="false" Unicode="false" />
+    <Property Type="String" Name="ContactoClientePagosTel" MaxLength="50" FixedLength="false" Unicode="false" />
+    <Property Type="String" Name="ContactoClientePagosEmail" MaxLength="50" FixedLength="false" Unicode="false" />
+    <Property Type="String" Name="ContactoClientecompra" MaxLength="200" FixedLength="false" Unicode="false" />
+    <Property Type="String" Name="ContactoClientecompraTel" MaxLength="50" FixedLength="false" Unicode="false" />
+    <Property Type="String" Name="ContactoClientecompraEmail" MaxLength="50" FixedLength="false" Unicode="false" />
+    <Property Type="String" Name="ContactoClientealmacen" MaxLength="200" FixedLength="false" Unicode="false" />
+    <Property Type="String" Name="ContactoClientealmacenTel" MaxLength="50" FixedLength="false" Unicode="false" />
+    <Property Type="String" Name="txtContactoClientealmacenEmail" MaxLength="50" FixedLength="false" Unicode="false" />
+    <Property Type="String" Name="ContactoClienteMantenimiento" MaxLength="200" FixedLength="false" Unicode="false" />
+    <Property Type="String" Name="ContactoClienteMantenimientoTel" MaxLength="50" FixedLength="false" Unicode="false" />
+    <Property Type="String" Name="ContactoClienteMantenimientoEmail" MaxLength="50" FixedLength="false" Unicode="false" />
+    <Property Type="String" Name="ContactoClienteOtro" MaxLength="200" FixedLength="false" Unicode="false" />
+    <Property Type="String" Name="ContactoClienteOtroTel" MaxLength="50" FixedLength="false" Unicode="false" />
+    <Property Type="String" Name="ContactoClienteOtroEmail" MaxLength="50" FixedLength="false" Unicode="false" />
+    <NavigationProperty Name="CatCNac_ACYS" Relationship="SIANCENTRAL_CCModel.FK_CatACYS_OtrosApoyos_Id1" FromRole="CatACYS_OtrosApoyos" ToRole="CatCNac_ACYS" />
+  </EntityType>
+  <EntityType Name="CatAcys_Productos">
+    <Key>
+      <PropertyRef Name="Id_Prd" />
+      <PropertyRef Name="Id_TG" />
+      <PropertyRef Name="Id_ACYS" />
+    </Key>
+    <Property Type="Int32" Name="Id_Prd" Nullable="false" />
+    <Property Type="Int32" Name="Id_TG" Nullable="false" />
+    <Property Type="Int32" Name="Cantidad" />
+    <Property Type="Double" Name="Precio" />
+    <Property Type="Double" Name="Subtotal" />
+    <Property Type="Int32" Name="Frecuencia" />
+    <Property Type="Boolean" Name="Lun" />
+    <Property Type="Boolean" Name="Mar" />
+    <Property Type="Boolean" Name="Mie" />
+    <Property Type="Boolean" Name="Jue" />
+    <Property Type="Boolean" Name="Vie" />
+    <Property Type="Boolean" Name="Sab" />
+    <Property Type="String" Name="Documento" MaxLength="1" FixedLength="false" Unicode="false" />
+    <Property Type="Int32" Name="Id_ACYS" Nullable="false" />
+    <NavigationProperty Name="CatCNac_ACYS" Relationship="SIANCENTRAL_CCModel.FK_CatAcys_Productos_Id1" FromRole="CatAcys_Productos" ToRole="CatCNac_ACYS" />
+    <Property Type="String" Name="Descripcion" MaxLength="100" FixedLength="false" Unicode="false" />
+    <Property Type="String" Name="Unidad" MaxLength="20" FixedLength="false" Unicode="false" />
+    <Property Type="String" Name="Presentacion" MaxLength="20" FixedLength="false" Unicode="false" />
+  </EntityType>
+  <EntityType Name="CatACYS_RecPedido">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Type="Int32" Name="Id" Nullable="false" />
+    <Property Type="Boolean" Name="Email" />
+    <Property Type="Boolean" Name="Fax" />
+    <Property Type="Boolean" Name="Telefono" />
+    <Property Type="Boolean" Name="RepVenta" />
+    <Property Type="String" Name="PedidoOtro" MaxLength="100" FixedLength="false" Unicode="false" />
+    <Property Type="String" Name="PedidoEncargarEnviar" MaxLength="100" FixedLength="false" Unicode="false" />
+    <Property Type="String" Name="PedidoPuesto" MaxLength="100" FixedLength="false" Unicode="false" />
+    <Property Type="String" Name="PedidoTelefono" MaxLength="50" FixedLength="false" Unicode="false" />
+    <Property Type="String" Name="PedidoEmail" MaxLength="100" FixedLength="false" Unicode="false" />
+    <Property Type="Boolean" Name="RecDocOrdenCompra" />
+    <Property Type="Boolean" Name="RecDocReposicion" />
+    <Property Type="Boolean" Name="RecDocFolio" />
+    <Property Type="String" Name="RecDocOtro" MaxLength="100" FixedLength="false" Unicode="false" />
+    <NavigationProperty Name="CatCNac_ACYS" Relationship="SIANCENTRAL_CCModel.CatACYS_RecPedido_Id_FK1" FromRole="CatACYS_RecPedido" ToRole="CatCNac_ACYS" />
+    <Property Type="Boolean" Name="RecRevLunes" />
+    <Property Type="Boolean" Name="RecRevMartes" />
+    <Property Type="Boolean" Name="RecRevMiercoles" />
+    <Property Type="Boolean" Name="RecRevJueves" />
+    <Property Type="Boolean" Name="RecRevViernes" />
+    <Property Type="Boolean" Name="RecRevSabado" />
+    <Property Type="String" Name="RecRevHora1Ini" MaxLength="10" FixedLength="false" Unicode="false" />
+    <Property Type="String" Name="RecRevHora1Fin" MaxLength="10" FixedLength="false" Unicode="false" />
+    <Property Type="String" Name="RecRevHora2Ini" MaxLength="10" FixedLength="false" Unicode="false" />
+    <Property Type="String" Name="RecRevHora2Fin" MaxLength="10" FixedLength="false" Unicode="false" />
+    <Property Type="String" Name="RecPersonaRecibe" MaxLength="200" FixedLength="false" Unicode="false" />
+    <Property Type="String" Name="RecPuesto" MaxLength="200" FixedLength="false" Unicode="false" />
+    <Property Type="Boolean" Name="RecCitaMismoDia" />
+    <Property Type="Boolean" Name="RecCitaSinCita" />
+    <Property Type="Boolean" Name="RecCitaPrevia" />
+    <Property Type="String" Name="RecCitaContacto" MaxLength="200" FixedLength="false" Unicode="false" />
+    <Property Type="String" Name="RecCitaTelefono" MaxLength="200" FixedLength="false" Unicode="false" />
+    <Property Type="Int32" Name="RecCitaDiasdeAnticipacion" />
+    <Property Type="Boolean" Name="RecAreaPropia" />
+    <Property Type="Boolean" Name="RecAreaPlaza" />
+    <Property Type="Boolean" Name="RecAreaCalle" />
+    <Property Type="Boolean" Name="RecAreaAvTransitada" />
+    <Property Type="Boolean" Name="RecEstCortesia" />
+    <Property Type="Boolean" Name="RecEstCosto" />
+    <Property Type="Double" Name="RecEstMonto" />
+    <Property Type="Boolean" Name="RecDocFactFranquiciaEnt" />
+    <Property Type="Int32" Name="RecDocFactFranquiciaEntCop" />
+    <Property Type="Boolean" Name="RecDocFactFranquiciaRec" />
+    <Property Type="Int32" Name="RecDocFactFranquiciaRecCop" />
+    <Property Type="Boolean" Name="RecDocFactKeyEnt" />
+    <Property Type="Int32" Name="RecDocFactKeyEntCop" />
+    <Property Type="Boolean" Name="RecDocFactKeyRec" />
+    <Property Type="Int32" Name="RecDocFactKeyRecCop" />
+    <Property Type="Boolean" Name="RecDocOrdCompraEnt" />
+    <Property Type="Int32" Name="RecDocOrdCompraEntCop" />
+    <Property Type="Boolean" Name="RecDocOrdCompraRec" />
+    <Property Type="Int32" Name="RecDocOrdCompraRecCop" />
+    <Property Type="Boolean" Name="RecDocOrdReposEnt" />
+    <Property Type="Int32" Name="RecDocOrdReposEntCop" />
+    <Property Type="Boolean" Name="RecDocOrdReposRec" />
+    <Property Type="Int32" Name="RecDocOrdReposRecCop" />
+    <Property Type="Boolean" Name="RecDocCopPedidoEnt" />
+    <Property Type="Int32" Name="RecDocCopPedidoEntCop" />
+    <Property Type="Boolean" Name="RecDocCopPedidoRec" />
+    <Property Type="Int32" Name="RecDocCopPedidoRecCop" />
+    <Property Type="Boolean" Name="RecDocRemisionEnt" />
+    <Property Type="Int32" Name="RecDocRemisionEntCop" />
+    <Property Type="Boolean" Name="RecDocRemisionRec" />
+    <Property Type="Int32" Name="RecDocRemisionRecCop" />
+    <Property Type="Boolean" Name="RecDocFolioEnt" />
+    <Property Type="Int32" Name="RecDocFolioEntCop" />
+    <Property Type="Boolean" Name="RecDocFolioRec" />
+    <Property Type="Int32" Name="RecDocFolioRecCop" />
+    <Property Type="Boolean" Name="RecDocContraRecEnt" />
+    <Property Type="Int32" Name="RecDocContraRecEntCop" />
+    <Property Type="Boolean" Name="RecDocContraRecRec" />
+    <Property Type="Int32" Name="RecDocContraRecRecCop" />
+    <Property Type="Boolean" Name="RecDocEntAlmacenEnt" />
+    <Property Type="Int32" Name="RecDocEntAlmacenEntCop" />
+    <Property Type="Boolean" Name="RecDocEntAlmacenRec" />
+    <Property Type="Int32" Name="RecDocEntAlmacenRecCop" />
+    <Property Type="Boolean" Name="RecDocSopServicioEnt" />
+    <Property Type="Int32" Name="RecDocSopServicioEntCop" />
+    <Property Type="Boolean" Name="RecDocSopServicioRec" />
+    <Property Type="Int32" Name="RecDocSopServicioRecCop" />
+    <Property Type="Boolean" Name="RecDocNomFirmaEnt" />
+    <Property Type="Int32" Name="RecDocNomFirmaEntCop" />
+    <Property Type="Boolean" Name="RecDocNomFirmaoRec" />
+    <Property Type="Int32" Name="RecDocNomFirmaRecCop" />
+    <Property Type="Boolean" Name="RecCitaEnt" />
+    <Property Type="Int32" Name="RecCitaEntCop" />
+    <Property Type="Boolean" Name="RecCitaRec" />
+    <Property Type="Int32" Name="RecCitaRecCop" />
+  </EntityType>
+  <EntityType Name="CatACYS_ServValor">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Type="Int32" Name="Id" Nullable="false" />
+    <Property Type="Int32" Name="Frecuncia" />
+    <Property Type="String" Name="VisitaOtro" MaxLength="200" FixedLength="false" Unicode="false" />
+    <Property Type="Boolean" Name="ServAsesoria" />
+    <Property Type="Boolean" Name="ServTecnicoRelleno" />
+    <Property Type="Boolean" Name="ServMantenimiento" />
+    <NavigationProperty Name="CatCNac_ACYS" Relationship="SIANCENTRAL_CCModel.FK_CatACYS_ServValor_Id1" FromRole="CatACYS_ServValor" ToRole="CatCNac_ACYS" />
+    <Property Type="Boolean" Name="ServAseDocFactFranquiciaEnt" />
+    <Property Type="Int32" Name="ServAseDocFactFranquiciaEntCop" />
+    <Property Type="Boolean" Name="ServAseDocFactFranquiciaRec" />
+    <Property Type="Int32" Name="ServAseDocFactFranquiciaRecCop" />
+    <Property Type="Boolean" Name="ServAseDocFactKeyEnt" />
+    <Property Type="Int32" Name="ServAseDocFactKeyEntCop" />
+    <Property Type="Boolean" Name="ServAseDocFactKeyRec" />
+    <Property Type="Int32" Name="ServAseDocFactKeyRecCop" />
+    <Property Type="Boolean" Name="ServAseDocOrdCompraEnt" />
+    <Property Type="Int32" Name="ServAseDocOrdCompraEntCop" />
+    <Property Type="Boolean" Name="ServAseDocOrdCompraRec" />
+    <Property Type="Int32" Name="ServAseDocOrdCompraRecCop" />
+    <Property Type="Boolean" Name="ServAseDocOrdReposEnt" />
+    <Property Type="Int32" Name="ServAseDocOrdReposEntCop" />
+    <Property Type="Boolean" Name="ServAseDocOrdReposRec" />
+    <Property Type="Int32" Name="ServAseDocOrdReposRecCop" />
+    <Property Type="Boolean" Name="ServAseDocCopPedidoEnt" />
+    <Property Type="Int32" Name="ServAseDocCopPedidoEntCop" />
+    <Property Type="Boolean" Name="ServAseDocCopPedidoRec" />
+    <Property Type="Int32" Name="ServAseDocCopPedidoRecCop" />
+    <Property Type="Boolean" Name="ServAseDocRemisionEnt" />
+    <Property Type="Int32" Name="ServAseDocRemisionEntCop" />
+    <Property Type="Boolean" Name="ServAseDocRemisionRec" />
+    <Property Type="Int32" Name="ServAseDocRemisionRecCop" />
+    <Property Type="Boolean" Name="ServAseDocFolioEnt" />
+    <Property Type="Int32" Name="ServAseDocFolioEntCop" />
+    <Property Type="Boolean" Name="ServAseDocFolioRec" />
+    <Property Type="Int32" Name="ServAseDocFolioRecCop" />
+    <Property Type="Boolean" Name="ServAseDocContraRecEnt" />
+    <Property Type="Int32" Name="ServAseDocContraRecEntCop" />
+    <Property Type="Boolean" Name="ServAseDocContraRecRec" />
+    <Property Type="Int32" Name="ServAseDocContraRecRecCop" />
+    <Property Type="Boolean" Name="ServAseDocEntAlmacenEnt" />
+    <Property Type="Int32" Name="ServAseDocEntAlmacenEntCop" />
+    <Property Type="Boolean" Name="ServAseDocEntAlmacenRec" />
+    <Property Type="Int32" Name="ServAseDocEntAlmacenRecCop" />
+    <Property Type="Boolean" Name="ServAseDocNomFirmaEnt" />
+    <Property Type="Int32" Name="ServAseDocNomFirmaEntCop" />
+    <Property Type="Boolean" Name="ServAseDocNomFirmaoRec" />
+    <Property Type="Int32" Name="ServAseDocNomFirmaRecCop" />
+    <Property Type="Boolean" Name="ServAseDocRecCitaEnt" />
+    <Property Type="Int32" Name="ServAseDocRecCitaEntCop" />
+    <Property Type="Boolean" Name="ServAseDocRecCitaRec" />
+    <Property Type="Int32" Name="ServAseDocRecCitaRecCop" />
+    <Property Type="Boolean" Name="ServAseDocSopServicioEnt" />
+    <Property Type="Int32" Name="ServAseDocSopServicioEntCop" />
+    <Property Type="Boolean" Name="ServAseDocSopServicioRec" />
+    <Property Type="Int32" Name="ServAseDocSopServicioRecCop" />
+    <Property Type="Boolean" Name="ServTecDocFactFranquiciaEnt" />
+    <Property Type="Int32" Name="ServTecDocFactFranquiciaEntCop" />
+    <Property Type="Boolean" Name="ServTecDocFactFranquiciaRec" />
+    <Property Type="Int32" Name="ServTecDocFactFranquiciaRecCop" />
+    <Property Type="Boolean" Name="ServTecDocFactKeyEnt" />
+    <Property Type="Int32" Name="ServTecDocFactKeyEntCop" />
+    <Property Type="Boolean" Name="ServTecDocFactKeyRec" />
+    <Property Type="Int32" Name="ServTecDocFactKeyRecCop" />
+    <Property Type="Boolean" Name="ServTecDocOrdCompraEnt" />
+    <Property Type="Int32" Name="ServTecDocOrdCompraEntCop" />
+    <Property Type="Boolean" Name="ServTecDocOrdCompraRec" />
+    <Property Type="Int32" Name="ServTecDocOrdCompraRecCop" />
+    <Property Type="Boolean" Name="ServTecDocOrdReposEnt" />
+    <Property Type="Int32" Name="ServTecDocOrdReposEntCop" />
+    <Property Type="Boolean" Name="ServTecDocOrdReposRec" />
+    <Property Type="Int32" Name="ServTecDocOrdReposRecCop" />
+    <Property Type="Boolean" Name="ServTecDocCopPedidoEnt" />
+    <Property Type="Int32" Name="ServTecDocCopPedidoEntCop" />
+    <Property Type="Boolean" Name="ServTecDocCopPedidoRec" />
+    <Property Type="Int32" Name="ServTecDocCopPedidoRecCop" />
+    <Property Type="Boolean" Name="ServTecDocRemisionEnt" />
+    <Property Type="Int32" Name="ServTecDocRemisionEntCop" />
+    <Property Type="Boolean" Name="ServTecDocRemisionRec" />
+    <Property Type="Int32" Name="ServTecDocRemisionRecCop" />
+    <Property Type="Boolean" Name="ServTecDocFolioEnt" />
+    <Property Type="Int32" Name="ServTecDocFolioEntCop" />
+    <Property Type="Boolean" Name="ServTecDocFolioRec" />
+    <Property Type="Int32" Name="ServTecDocFolioRecCop" />
+    <Property Type="Boolean" Name="ServTecDocContraRecEnt" />
+    <Property Type="Int32" Name="ServTecDocContraRecEntCop" />
+    <Property Type="Boolean" Name="ServTecDocContraRecRec" />
+    <Property Type="Int32" Name="ServTecDocContraRecRecCop" />
+    <Property Type="Boolean" Name="ServTecDocEntAlmacenEnt" />
+    <Property Type="Int32" Name="ServTecDocEntAlmacenEntCop" />
+    <Property Type="Boolean" Name="ServTecDocEntAlmacenRec" />
+    <Property Type="Int32" Name="ServTecDocEntAlmacenRecCop" />
+    <Property Type="Boolean" Name="ServTecDocNomFirmaEnt" />
+    <Property Type="Int32" Name="ServTecDocNomFirmaEntCop" />
+    <Property Type="Boolean" Name="ServTecDocNomFirmaoRec" />
+    <Property Type="Int32" Name="ServTecDocNomFirmaRecCop" />
+    <Property Type="Boolean" Name="ServTecDocRecCitaEnt" />
+    <Property Type="Int32" Name="ServTecDocRecCitaEntCop" />
+    <Property Type="Boolean" Name="ServTecDocRecCitaRec" />
+    <Property Type="Int32" Name="ServTecDocRecCitaRecCop" />
+    <Property Type="Boolean" Name="ServTecDocSopServicioEnt" />
+    <Property Type="Int32" Name="ServTecDocSopServicioEntCop" />
+    <Property Type="Boolean" Name="ServTecDocSopServicioRec" />
+    <Property Type="Int32" Name="ServTecDocSopServicioRecCop" />
+  </EntityType>
+  <EntityType Name="CatACYS_SIANCENTRAL">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Type="Int32" Name="Id" Nullable="false" />
+    <Property Type="Int32" Name="NumClienteMac" />
+    <Property Type="String" Name="NombreClienteMac" MaxLength="200" FixedLength="false" Unicode="false" />
+    <Property Type="String" Name="CalleClienteMac" MaxLength="200" FixedLength="false" Unicode="false" />
+    <Property Type="String" Name="CiudadClienteMac" MaxLength="200" FixedLength="false" Unicode="false" />
+    <Property Type="String" Name="ZonaPostalClienteMac" MaxLength="50" FixedLength="false" Unicode="false" />
+    <Property Type="String" Name="PaisClienteMac" MaxLength="200" FixedLength="false" Unicode="false" />
+    <Property Type="String" Name="EstadoClienteMac" MaxLength="200" FixedLength="false" Unicode="false" />
+    <Property Type="Int32" Name="TerritorioClienteMac" />
+    <Property Type="Int32" Name="VendedorClienteMac" />
+    <Property Type="Int32" Name="TarifaImpClienteMac" />
+    <Property Type="Boolean" Name="GravableClienteMac" />
+    <Property Type="Boolean" Name="PagoComisionClienteMac" />
+    <Property Type="Boolean" Name="ActCostoGarantíaClienteMac" />
+    <Property Type="String" Name="RFCClienteMac" MaxLength="100" FixedLength="false" Unicode="false" />
+    <Property Type="String" Name="ColoniaClienteMac" MaxLength="100" FixedLength="false" Unicode="false" />
+    <Property Type="String" Name="StrCondicionesClienteMac" MaxLength="3" FixedLength="false" Unicode="false" />
+    <Property Type="Int32" Name="StrTipoClienteMac" />
+    <Property Type="String" Name="MedioEnvioClienteMac" MaxLength="3" FixedLength="false" Unicode="false" />
+    <NavigationProperty Name="CatCNac_Matriz" Relationship="SIANCENTRAL_CCModel.FK_CatACYS_SIANCENTRAL_Id" FromRole="CatACYS_SIANCENTRAL" ToRole="CatCNac_Matriz" />
+    <Property Type="Int32" Name="ConvenioId" />
+    <Property Type="String" Name="ConvenioNombre" MaxLength="200" FixedLength="false" Unicode="false" />
+  </EntityType>
+  <EntityType Name="CatDomicilioFiscal">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Type="Int32" Name="Id" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Type="Int32" Name="Id_ClienteMatriz" />
+    <Property Type="String" Name="Direccion" MaxLength="2000" FixedLength="false" Unicode="false" />
+    <Property Type="String" Name="Colonia" MaxLength="500" FixedLength="false" Unicode="false" />
+    <Property Type="String" Name="CP" MaxLength="100" FixedLength="false" Unicode="false" />
+    <Property Type="String" Name="Municipio" MaxLength="100" FixedLength="false" Unicode="false" />
+    <Property Type="String" Name="Estado" MaxLength="100" FixedLength="false" Unicode="false" />
+    <Property Type="String" Name="RFC" MaxLength="100" FixedLength="false" Unicode="false" />
+    <Property Type="String" Name="Email_Fac" MaxLength="100" FixedLength="false" Unicode="false" />
+    <NavigationProperty Name="CatClienteMatriz_Afiliaciones" Relationship="SIANCENTRAL_CCModel.CatClienteMatriz_Afiliaciones_Id_DomicilioFiscal_FK" FromRole="CatDomicilioFiscal" ToRole="CatClienteMatriz_Afiliaciones" />
+    <NavigationProperty Name="CatCNac_Matriz" Relationship="SIANCENTRAL_CCModel.FK__CatDomici__Id_Cl__171A1207" FromRole="CatDomicilioFiscal" ToRole="CatCNac_Matriz" />
+  </EntityType>
+  <EntityType Name="CatProducto">
+    <Key>
+      <PropertyRef Name="Id_Emp" />
+      <PropertyRef Name="Id_Prd" />
+    </Key>
+    <Property Type="Int32" Name="Id_Emp" Nullable="false" />
+    <Property Type="Int32" Name="Id_Cd" />
+    <Property Type="Int32" Name="Id_Prd" Nullable="false" />
+    <Property Type="Int32" Name="Id_PrdLoc" />
+    <Property Type="Int32" Name="Id_Spo" />
+    <Property Type="Int32" Name="Id_Ptp" Nullable="false" />
+    <Property Type="Int32" Name="Id_Cpr" />
+    <Property Type="Int32" Name="Id_Fam" />
+    <Property Type="Int32" Name="Id_Sub" />
+    <Property Type="Int32" Name="Id_Pvd" />
+    <Property Type="String" Name="Prd_Descripcion" Nullable="false" MaxLength="100" FixedLength="false" Unicode="true" />
+    <Property Type="String" Name="Prd_Presentacion" Nullable="false" MaxLength="10" FixedLength="false" Unicode="true" />
+    <Property Type="Int32" Name="Prd_AgrupadoSpo" />
+    <Property Type="Double" Name="Prd_FactorConv" />
+    <Property Type="Boolean" Name="Prd_AparatoSisProp" />
+    <Property Type="Int32" Name="Prd_InvSeg" />
+    <Property Type="String" Name="Prd_UniNe" MaxLength="3" FixedLength="false" Unicode="true" />
+    <Property Type="String" Name="Prd_UniNs" MaxLength="3" FixedLength="false" Unicode="true" />
+    <Property Type="Int32" Name="Prd_Unico" />
+    <Property Type="Double" Name="Prd_UniEmp" />
+    <Property Type="Boolean" Name="Prd_Colo" />
+    <Property Type="String" Name="Prd_Ren" MaxLength="3" FixedLength="false" Unicode="true" />
+    <Property Type="Int32" Name="Prd_Mes" />
+    <Property Type="String" Name="Prd_Ubicacion" MaxLength="5" FixedLength="false" Unicode="true" />
+    <Property Type="Double" Name="Prd_Contribucion" />
+    <Property Type="Boolean" Name="Prd_Nuevo" />
+    <Property Type="Decimal" Name="Prd_PesConTecnico" Precision="19" Scale="4" />
+    <Property Type="String" Name="Prd_CptSv" MaxLength="1" FixedLength="false" Unicode="true" />
+    <Property Type="Boolean" Name="Prd_Activo" />
+    <Property Type="DateTime" Name="Prd_FecAlta" />
+    <Property Type="Double" Name="Prd_PorUtilidades" />
+    <Property Type="String" Name="Prd_PlanAbasto" MaxLength="20" FixedLength="false" Unicode="false" />
+    <Property Type="Int32" Name="Prd_Minimo" />
+  </EntityType>
+  <EntityType Name="CatClienteMatriz_Afiliaciones">
+    <Key>
+      <PropertyRef Name="Id" />
+      <PropertyRef Name="Id_Emp" />
+      <PropertyRef Name="Id_Cd" />
+      <PropertyRef Name="Id_Cte" />
+      <PropertyRef Name="Id_Ter" />
+    </Key>
+    <Property Type="Int32" Name="Id" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Type="Int32" Name="Id_Emp" Nullable="false" />
+    <Property Type="Int32" Name="Id_Cd" Nullable="false" />
+    <Property Type="Int32" Name="Id_Cte" Nullable="false" />
+    <Property Type="Int32" Name="Id_Ter" Nullable="false" />
+    <Property Type="String" Name="Convenio" MaxLength="50" FixedLength="false" Unicode="false" />
+    <Property Type="DateTime" Name="Fecha_Alta" />
+    <Property Type="String" Name="RazonSocial" MaxLength="500" FixedLength="false" Unicode="false" />
+    <Property Type="Int32" Name="Id_DomicilioFiscal" />
+    <Property Type="String" Name="Usuario" MaxLength="50" FixedLength="false" Unicode="false" />
+    <Property Type="Boolean" Name="Estatus" />
+    <NavigationProperty Name="CatDomicilioFiscal" Relationship="SIANCENTRAL_CCModel.CatClienteMatriz_Afiliaciones_Id_DomicilioFiscal_FK" FromRole="CatClienteMatriz_Afiliaciones" ToRole="CatDomicilioFiscal" />
+  </EntityType>
+  <EntityType Name="CatClienteMatriz_Permisos">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Type="Int32" Name="Id" Nullable="false" />
+    <Property Type="Boolean" Name="DiasCredito" />
+    <Property Type="Boolean" Name="AcuerdoEcon" />
+    <Property Type="Boolean" Name="DatosFisc" />
+    <Property Type="Boolean" Name="AsigRIK" />
+    <Property Type="Boolean" Name="MOV80" />
+    <NavigationProperty Name="CatCNac_Matriz" Relationship="SIANCENTRAL_CCModel.FK__CatClienteMa__Id__6C2FB402" FromRole="CatClienteMatriz_Permisos" ToRole="CatCNac_Matriz" />
+  </EntityType>
+  <Association Name="CatClienteMatriz_Afiliaciones_Id_DomicilioFiscal_FK">
+    <End Type="SIANCENTRAL_CCModel.CatDomicilioFiscal" Role="CatDomicilioFiscal" Multiplicity="0..1" />
+    <End Type="SIANCENTRAL_CCModel.CatClienteMatriz_Afiliaciones" Role="CatClienteMatriz_Afiliaciones" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="CatDomicilioFiscal">
+        <PropertyRef Name="Id" />
+      </Principal>
+      <Dependent Role="CatClienteMatriz_Afiliaciones">
+        <PropertyRef Name="Id_DomicilioFiscal" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <EntityType Name="CatTMoneda">
+    <Key>
+      <PropertyRef Name="Id_Emp" />
+      <PropertyRef Name="Id_Mon" />
+    </Key>
+    <Property Type="Int32" Name="Id_Emp" Nullable="false" />
+    <Property Type="Int32" Name="Id_Mon" Nullable="false" />
+    <Property Type="String" Name="Mon_Descripcion" MaxLength="40" FixedLength="false" Unicode="true" />
+    <Property Type="String" Name="Mon_Abrev" MaxLength="20" FixedLength="false" Unicode="true" />
+    <Property Type="Double" Name="Mon_TipCambio" Nullable="false" />
+    <Property Type="Boolean" Name="Mon_Activo" />
+    <Property Type="Int32" Name="Id_Cd" Nullable="false" />
+    <NavigationProperty Name="CatCNac_IntranetListaFranq" Relationship="SIANCENTRAL_CCModel.CatCNac_IntranetListaFranq_Moneds_FK" FromRole="CatTMoneda" ToRole="CatCNac_IntranetListaFranq" />
+  </EntityType>
+  <EntityType Name="CatCNac_Addenda">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Type="Int32" Name="Id" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Type="String" Name="Descripcion" MaxLength="200" FixedLength="false" Unicode="false" />
+  </EntityType>
+  <EntityType Name="CatCNac_CatalogoEspecial">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Type="Int32" Name="Id" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Type="String" Name="Descripcion" MaxLength="200" FixedLength="false" Unicode="false" />
+  </EntityType>
+  <EntityType Name="CatCNac_MetPago">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Type="Int32" Name="Id" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Type="String" Name="Descripcion" MaxLength="200" FixedLength="false" Unicode="false" />
+  </EntityType>
+  <EntityType Name="CatCNac_ProductosPermitidos">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Type="Int32" Name="Id" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Type="String" Name="Descripcion" MaxLength="200" FixedLength="false" Unicode="false" />
+    <NavigationProperty Name="CatCNac_IntranetListaFranq" Relationship="SIANCENTRAL_CCModel.CatCNac_IntranetListaFranq_Productos_FK" FromRole="CatCNac_ProductosPermitidos" ToRole="CatCNac_IntranetListaFranq" />
+  </EntityType>
+  <EntityType Name="CatCNac_TipoNotaCred">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Type="Int32" Name="Id" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Type="String" Name="Descripcion" MaxLength="200" FixedLength="false" Unicode="false" />
+  </EntityType>
+  <EntityType Name="CatCNac_Soportes">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Type="Int32" Name="Id" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Type="String" Name="Descripcion" MaxLength="200" FixedLength="false" Unicode="false" />
+  </EntityType>
+  <EntityType Name="CatCNac_IntranetFran">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Type="Int32" Name="Id" Nullable="false" />
+    <Property Type="Int32" Name="TipoMoneda" />
+    <Property Type="Int32" Name="ProdPermitidos" />
+    <Property Type="Int32" Name="CatEspecial" />
+    <Property Type="Boolean" Name="Factura" />
+    <Property Type="Boolean" Name="FacturaExt" />
+    <Property Type="Boolean" Name="NotaCredito" />
+    <Property Type="Boolean" Name="NotaCargo" />
+    <Property Type="Boolean" Name="Cancelacion" />
+    <Property Type="Int32" Name="DiasCredito" />
+    <Property Type="Boolean" Name="CargaAcuse" />
+    <Property Type="Boolean" Name="Addenda" />
+    <Property Type="Boolean" Name="Descuentos" />
+    <Property Type="Double" Name="PorcRequerido" />
+    <Property Type="Int32" Name="MetodoPago" />
+    <Property Type="String" Name="NumTarjeta" MaxLength="100" FixedLength="false" Unicode="false" />
+    <Property Type="String" Name="Soportes" />
+    <Property Type="Int32" Name="AddendaTipo" />
+    <Property Type="Int32" Name="TipoNotaCred" />
+    <NavigationProperty Name="CatCNac_Matriz" Relationship="SIANCENTRAL_CCModel.FK_CatCNac_IntranetFran_Id1" FromRole="CatCNac_IntranetFran" ToRole="CatCNac_Matriz" />
+  </EntityType>
+  <EntityType Name="CatCNac_IntranetListaFranq">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Type="Int32" Name="Id" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Type="Int32" Name="Id_Matriz" />
+    <Property Type="Int32" Name="FranqConsecionada" />
+    <Property Type="Int32" Name="ClienteMac" />
+    <Property Type="Int32" Name="UsuarioIntranet" />
+    <Property Type="Int32" Name="Moneda" />
+    <Property Type="Int32" Name="Productos" />
+    <Property Type="Int32" Name="SistemaPV" />
+    <Property Type="Int32" Name="DirFacturas" />
+    <Property Type="Int32" Name="ValorAgrCump" />
+    <NavigationProperty Name="CatCNac_Matriz" Relationship="SIANCENTRAL_CCModel.FK__CatCNac_I__Id_Ma__7E195A13" FromRole="CatCNac_IntranetListaFranq" ToRole="CatCNac_Matriz" />
+    <Property Type="Int32" Name="id_Emp" />
+    <NavigationProperty Name="CatTMoneda" Relationship="SIANCENTRAL_CCModel.CatCNac_IntranetListaFranq_Moneds_FK" FromRole="CatCNac_IntranetListaFranq" ToRole="CatTMoneda" />
+    <NavigationProperty Name="CatCNac_ProductosPermitidos" Relationship="SIANCENTRAL_CCModel.CatCNac_IntranetListaFranq_Productos_FK" FromRole="CatCNac_IntranetListaFranq" ToRole="CatCNac_ProductosPermitidos" />
+    <NavigationProperty Name="CatCNac_IntranetUsuarios" Relationship="SIANCENTRAL_CCModel.CatCNac_IntranetListaFranq_UsuarioIntranet_FK" FromRole="CatCNac_IntranetListaFranq" ToRole="CatCNac_IntranetUsuarios" />
+  </EntityType>
+  <EntityType Name="CatCNac_SistemasPV">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Type="Int32" Name="Id" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Type="String" Name="Descripcion" MaxLength="200" FixedLength="false" Unicode="false" />
+  </EntityType>
+  <EntityType Name="CatCNac_ACYS">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Type="Int32" Name="Id" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Type="Int32" Name="Id_Matriz" />
+    <Property Type="String" Name="Nombre" MaxLength="200" FixedLength="false" Unicode="false" />
+    <Property Type="String" Name="EjecCuenta" MaxLength="200" FixedLength="false" Unicode="false" />
+    <Property Type="String" Name="LiderTecnico" MaxLength="200" FixedLength="false" Unicode="false" />
+    <Property Type="Boolean" Name="DiasCredito" />
+    <Property Type="Boolean" Name="AcuerdoEcon" />
+    <Property Type="Boolean" Name="DatosFisc" />
+    <Property Type="Boolean" Name="AsigRIK" />
+    <Property Type="Boolean" Name="MOV80" />
+    <Property Type="Int32" Name="NivelAcys" />
+    <Property Type="Int32" Name="TipoCuenta" />
+    <Property Type="DateTime" Name="FechaUltimaAct" />
+    <Property Type="DateTime" Name="FechaVencimiento" />
+    <Property Type="Boolean" Name="Activo" />
+    <NavigationProperty Name="CatACYS_Cliente" Relationship="SIANCENTRAL_CCModel.CatACYS_Cliente_Id_FK1" FromRole="CatCNac_ACYS" ToRole="CatACYS_Cliente" />
+    <NavigationProperty Name="CatACYS_CondPago" Relationship="SIANCENTRAL_CCModel.CatACYS_CondPagoId_FK1" FromRole="CatCNac_ACYS" ToRole="CatACYS_CondPago" />
+    <NavigationProperty Name="CatACYS_OtrosApoyos" Relationship="SIANCENTRAL_CCModel.FK_CatACYS_OtrosApoyos_Id1" FromRole="CatCNac_ACYS" ToRole="CatACYS_OtrosApoyos" />
+    <NavigationProperty Name="CatAcys_Productos" Relationship="SIANCENTRAL_CCModel.FK_CatAcys_Productos_Id1" FromRole="CatCNac_ACYS" ToRole="CatAcys_Productos" />
+    <NavigationProperty Name="CatACYS_RecPedido" Relationship="SIANCENTRAL_CCModel.CatACYS_RecPedido_Id_FK1" FromRole="CatCNac_ACYS" ToRole="CatACYS_RecPedido" />
+    <NavigationProperty Name="CatACYS_ServValor" Relationship="SIANCENTRAL_CCModel.FK_CatACYS_ServValor_Id1" FromRole="CatCNac_ACYS" ToRole="CatACYS_ServValor" />
+    <NavigationProperty Name="CatCNac_Matriz" Relationship="SIANCENTRAL_CCModel.FK__CatCNac_A__Id_Ma__131476F9" FromRole="CatCNac_ACYS" ToRole="CatCNac_Matriz" />
+    <NavigationProperty Name="CatACYS_Productos_DatosGar" Relationship="SIANCENTRAL_CCModel.CatACYS_Productos_Id_Acys_FK" FromRole="CatCNac_ACYS" ToRole="CatACYS_Productos_DatosGar" />
+    <NavigationProperty Name="CatACYS_Productos_DatosGar_Fechas" Relationship="SIANCENTRAL_CCModel.CatACYSProductos_DatosGar_Fechas_IdACYS_FK" FromRole="CatCNac_ACYS" ToRole="CatACYS_Productos_DatosGar_Fechas" />
+    <NavigationProperty Name="CatCNac_Estructura" Relationship="SIANCENTRAL_CCModel.CatCNac_Estructura_IdAcys_FK" FromRole="CatCNac_ACYS" ToRole="CatCNac_Estructura" />
+    <Property Type="DateTime" Name="Fecha" />
+    <Property Type="DateTime" Name="FechaInicio" />
+    <Property Type="DateTime" Name="FechaFin" />
+  </EntityType>
+  <EntityType Name="CatCNac_TipoCuenta">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Type="Int32" Name="Id" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Type="String" Name="Descripcion" MaxLength="200" FixedLength="false" Unicode="false" />
+  </EntityType>
+  <ComplexType Name="spComboNiveles_Result">
+    <Property Type="Int32" Name="Id" Nullable="false" />
+    <Property Type="String" Name="Descripcion" Nullable="true" MaxLength="200" />
+  </ComplexType>
+  <EntityType Name="CatCNac_PermisosCamposACYS">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Type="Int32" Name="Id" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Type="String" Name="NOMBRE" MaxLength="255" FixedLength="false" Unicode="true" />
+    <Property Type="String" Name="Campo" MaxLength="255" FixedLength="false" Unicode="true" />
+    <Property Type="String" Name="ACYS_CENTRAL" MaxLength="255" FixedLength="false" Unicode="true" />
+    <Property Type="String" Name="CDIK" MaxLength="255" FixedLength="false" Unicode="true" />
+    <Property Type="String" Name="obligatorio" MaxLength="255" FixedLength="false" Unicode="true" />
+    <Property Type="String" Name="Cnacional" MaxLength="255" FixedLength="false" Unicode="true" />
+    <Property Type="String" Name="Coordinada" MaxLength="255" FixedLength="false" Unicode="true" />
+    <Property Type="String" Name="CEDIS" MaxLength="255" FixedLength="false" Unicode="true" />
+    <Property Type="String" Name="Otra" MaxLength="255" FixedLength="false" Unicode="true" />
+  </EntityType>
+  <Association Name="CatACYS_Cliente_Id_FK1">
+    <End Type="SIANCENTRAL_CCModel.CatCNac_ACYS" Role="CatCNac_ACYS" Multiplicity="1" />
+    <End Type="SIANCENTRAL_CCModel.CatACYS_Cliente" Role="CatACYS_Cliente" Multiplicity="0..1" />
+    <ReferentialConstraint>
+      <Principal Role="CatCNac_ACYS">
+        <PropertyRef Name="Id" />
+      </Principal>
+      <Dependent Role="CatACYS_Cliente">
+        <PropertyRef Name="Id" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="CatACYS_CondPagoId_FK1">
+    <End Type="SIANCENTRAL_CCModel.CatCNac_ACYS" Role="CatCNac_ACYS" Multiplicity="1" />
+    <End Type="SIANCENTRAL_CCModel.CatACYS_CondPago" Role="CatACYS_CondPago" Multiplicity="0..1" />
+    <ReferentialConstraint>
+      <Principal Role="CatCNac_ACYS">
+        <PropertyRef Name="Id" />
+      </Principal>
+      <Dependent Role="CatACYS_CondPago">
+        <PropertyRef Name="Id" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_CatACYS_OtrosApoyos_Id1">
+    <End Type="SIANCENTRAL_CCModel.CatCNac_ACYS" Role="CatCNac_ACYS" Multiplicity="1" />
+    <End Type="SIANCENTRAL_CCModel.CatACYS_OtrosApoyos" Role="CatACYS_OtrosApoyos" Multiplicity="0..1" />
+    <ReferentialConstraint>
+      <Principal Role="CatCNac_ACYS">
+        <PropertyRef Name="Id" />
+      </Principal>
+      <Dependent Role="CatACYS_OtrosApoyos">
+        <PropertyRef Name="Id" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_CatAcys_Productos_Id1">
+    <End Type="SIANCENTRAL_CCModel.CatCNac_ACYS" Role="CatCNac_ACYS" Multiplicity="1" />
+    <End Type="SIANCENTRAL_CCModel.CatAcys_Productos" Role="CatAcys_Productos" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="CatCNac_ACYS">
+        <PropertyRef Name="Id" />
+      </Principal>
+      <Dependent Role="CatAcys_Productos">
+        <PropertyRef Name="Id_ACYS" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="CatACYS_RecPedido_Id_FK1">
+    <End Type="SIANCENTRAL_CCModel.CatCNac_ACYS" Role="CatCNac_ACYS" Multiplicity="1" />
+    <End Type="SIANCENTRAL_CCModel.CatACYS_RecPedido" Role="CatACYS_RecPedido" Multiplicity="0..1" />
+    <ReferentialConstraint>
+      <Principal Role="CatCNac_ACYS">
+        <PropertyRef Name="Id" />
+      </Principal>
+      <Dependent Role="CatACYS_RecPedido">
+        <PropertyRef Name="Id" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_CatACYS_ServValor_Id1">
+    <End Type="SIANCENTRAL_CCModel.CatCNac_ACYS" Role="CatCNac_ACYS" Multiplicity="1" />
+    <End Type="SIANCENTRAL_CCModel.CatACYS_ServValor" Role="CatACYS_ServValor" Multiplicity="0..1" />
+    <ReferentialConstraint>
+      <Principal Role="CatCNac_ACYS">
+        <PropertyRef Name="Id" />
+      </Principal>
+      <Dependent Role="CatACYS_ServValor">
+        <PropertyRef Name="Id" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <EntityType Name="CatCNac_Matriz">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Type="Int32" Name="Id" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Type="String" Name="Nombre" MaxLength="100" FixedLength="false" Unicode="false" />
+    <Property Type="DateTime" Name="FechaInicio" />
+    <Property Type="DateTime" Name="FechaFin" />
+    <Property Type="Boolean" Name="Estatus" Nullable="false" />
+    <Property Type="Boolean" Name="Activo" />
+    <Property Type="Boolean" Name="Presupuesto" />
+    <Property Type="Boolean" Name="ReqAutorizacion" />
+    <Property Type="Boolean" Name="Nivel_1" />
+    <Property Type="String" Name="Desc_Nivel_1" MaxLength="200" FixedLength="false" Unicode="false" />
+    <Property Type="Boolean" Name="Nivel_2" />
+    <Property Type="String" Name="Desc_Nivel_2" MaxLength="200" FixedLength="false" Unicode="false" />
+    <Property Type="Boolean" Name="Nivel_3" />
+    <Property Type="String" Name="Desc_Nivel_3" MaxLength="200" FixedLength="false" Unicode="false" />
+    <Property Type="Boolean" Name="Nivel_4" />
+    <Property Type="String" Name="Desc_Nivel_4" MaxLength="200" FixedLength="false" Unicode="false" />
+    <Property Type="Binary" Name="Logo" MaxLength="Max" FixedLength="false" />
+    <NavigationProperty Name="CatClienteMatriz_Permisos" Relationship="SIANCENTRAL_CCModel.FK__CatClienteMa__Id__6C2FB402" FromRole="CatCNac_Matriz" ToRole="CatClienteMatriz_Permisos" />
+    <NavigationProperty Name="CatCNac_ACYS" Relationship="SIANCENTRAL_CCModel.FK__CatCNac_A__Id_Ma__131476F9" FromRole="CatCNac_Matriz" ToRole="CatCNac_ACYS" />
+    <NavigationProperty Name="CatCNac_IntranetListaFranq" Relationship="SIANCENTRAL_CCModel.FK__CatCNac_I__Id_Ma__7E195A13" FromRole="CatCNac_Matriz" ToRole="CatCNac_IntranetListaFranq" />
+    <NavigationProperty Name="CatDomicilioFiscal" Relationship="SIANCENTRAL_CCModel.FK__CatDomici__Id_Cl__171A1207" FromRole="CatCNac_Matriz" ToRole="CatDomicilioFiscal" />
+    <NavigationProperty Name="CatCNac_Estructura" Relationship="SIANCENTRAL_CCModel.CatCNac_Estructura_Id_Matriz_FK" FromRole="CatCNac_Matriz" ToRole="CatCNac_Estructura" />
+    <NavigationProperty Name="CatCNac_Usuario" Relationship="SIANCENTRAL_CCModel.CatCNac_Usuario_IdUsuario_FK1" FromRole="CatCNac_Matriz" ToRole="CatCNac_Usuario" />
+    <NavigationProperty Name="CatACYS_DirFiscales" Relationship="SIANCENTRAL_CCModel.FK__CatACYS_D__Id_Cl__4753350E" FromRole="CatCNac_Matriz" ToRole="CatACYS_DirFiscales" />
+    <NavigationProperty Name="CatACYS_SIANCENTRAL" Relationship="SIANCENTRAL_CCModel.FK_CatACYS_SIANCENTRAL_Id" FromRole="CatCNac_Matriz" ToRole="CatACYS_SIANCENTRAL" />
+    <NavigationProperty Name="CatCNac_IntranetFran" Relationship="SIANCENTRAL_CCModel.FK_CatCNac_IntranetFran_Id1" FromRole="CatCNac_Matriz" ToRole="CatCNac_IntranetFran" />
+    <NavigationProperty Name="CatCNac_Solicitudes" Relationship="SIANCENTRAL_CCModel.FK__CatCNac_S__Id_Ma__723D9313" FromRole="CatCNac_Matriz" ToRole="CatCNac_Solicitudes" />
+  </EntityType>
+  <Association Name="FK__CatClienteMa__Id__6C2FB402">
+    <End Type="SIANCENTRAL_CCModel.CatCNac_Matriz" Role="CatCNac_Matriz" Multiplicity="1" />
+    <End Type="SIANCENTRAL_CCModel.CatClienteMatriz_Permisos" Role="CatClienteMatriz_Permisos" Multiplicity="0..1" />
+    <ReferentialConstraint>
+      <Principal Role="CatCNac_Matriz">
+        <PropertyRef Name="Id" />
+      </Principal>
+      <Dependent Role="CatClienteMatriz_Permisos">
+        <PropertyRef Name="Id" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK__CatCNac_A__Id_Ma__131476F9">
+    <End Type="SIANCENTRAL_CCModel.CatCNac_Matriz" Role="CatCNac_Matriz" Multiplicity="0..1" />
+    <End Type="SIANCENTRAL_CCModel.CatCNac_ACYS" Role="CatCNac_ACYS" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="CatCNac_Matriz">
+        <PropertyRef Name="Id" />
+      </Principal>
+      <Dependent Role="CatCNac_ACYS">
+        <PropertyRef Name="Id_Matriz" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK__CatCNac_I__Id_Ma__7E195A13">
+    <End Type="SIANCENTRAL_CCModel.CatCNac_Matriz" Role="CatCNac_Matriz" Multiplicity="0..1" />
+    <End Type="SIANCENTRAL_CCModel.CatCNac_IntranetListaFranq" Role="CatCNac_IntranetListaFranq" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="CatCNac_Matriz">
+        <PropertyRef Name="Id" />
+      </Principal>
+      <Dependent Role="CatCNac_IntranetListaFranq">
+        <PropertyRef Name="Id_Matriz" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK__CatDomici__Id_Cl__171A1207">
+    <End Type="SIANCENTRAL_CCModel.CatCNac_Matriz" Role="CatCNac_Matriz" Multiplicity="0..1" />
+    <End Type="SIANCENTRAL_CCModel.CatDomicilioFiscal" Role="CatDomicilioFiscal" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="CatCNac_Matriz">
+        <PropertyRef Name="Id" />
+      </Principal>
+      <Dependent Role="CatDomicilioFiscal">
+        <PropertyRef Name="Id_ClienteMatriz" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <EntityType Name="CatACYS_Productos_DatosGar">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Type="Int32" Name="Id" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Type="Int32" Name="Id_ACYS" />
+    <Property Type="Int32" Name="Id_TG" Nullable="false" />
+    <Property Type="Double" Name="FactorGarantia" />
+    <Property Type="Double" Name="UPrimaNeta" />
+    <Property Type="DateTime" Name="FechaCorte" />
+    <NavigationProperty Name="CatCNac_ACYS" Relationship="SIANCENTRAL_CCModel.CatACYS_Productos_Id_Acys_FK" FromRole="CatACYS_Productos_DatosGar" ToRole="CatCNac_ACYS" />
+  </EntityType>
+  <Association Name="CatACYS_Productos_Id_Acys_FK">
+    <End Type="SIANCENTRAL_CCModel.CatCNac_ACYS" Role="CatCNac_ACYS" Multiplicity="0..1" />
+    <End Type="SIANCENTRAL_CCModel.CatACYS_Productos_DatosGar" Role="CatACYS_Productos_DatosGar" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="CatCNac_ACYS">
+        <PropertyRef Name="Id" />
+      </Principal>
+      <Dependent Role="CatACYS_Productos_DatosGar">
+        <PropertyRef Name="Id_ACYS" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <EntityType Name="CatACYS_Productos_DatosGar_Fechas">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Type="Int32" Name="Id" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Type="Int32" Name="Id_ACYS" />
+    <Property Type="Int32" Name="Id_TG" />
+    <Property Type="Int32" Name="Mes" />
+    <Property Type="DateTime" Name="FechaCorte" />
+    <Property Type="Boolean" Name="Facturado" />
+    <NavigationProperty Name="CatCNac_ACYS" Relationship="SIANCENTRAL_CCModel.CatACYSProductos_DatosGar_Fechas_IdACYS_FK" FromRole="CatACYS_Productos_DatosGar_Fechas" ToRole="CatCNac_ACYS" />
+  </EntityType>
+  <Association Name="CatACYSProductos_DatosGar_Fechas_IdACYS_FK">
+    <End Type="SIANCENTRAL_CCModel.CatCNac_ACYS" Role="CatCNac_ACYS" Multiplicity="0..1" />
+    <End Type="SIANCENTRAL_CCModel.CatACYS_Productos_DatosGar_Fechas" Role="CatACYS_Productos_DatosGar_Fechas" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="CatCNac_ACYS">
+        <PropertyRef Name="Id" />
+      </Principal>
+      <Dependent Role="CatACYS_Productos_DatosGar_Fechas">
+        <PropertyRef Name="Id_ACYS" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <EntityType Name="CatCNac_Condiciones">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Type="String" Name="Id" Nullable="false" MaxLength="2" FixedLength="false" Unicode="false" />
+    <Property Type="String" Name="Descripcion" MaxLength="200" FixedLength="false" Unicode="false" />
+  </EntityType>
+  <EntityType Name="CatCDI">
+    <Key>
+      <PropertyRef Name="Id_Cd" />
+    </Key>
+    <Property Type="Int32" Name="Id_Cd" Nullable="false" />
+    <Property Type="String" Name="Cd_Nombre" MaxLength="100" FixedLength="false" Unicode="true" />
+    <Property Type="String" Name="Cd_DescCorta" MaxLength="100" FixedLength="false" Unicode="true" />
+    <Property Type="Int32" Name="Cd_Tipo" />
+    <NavigationProperty Name="CatCNac_Solicitudes" Relationship="SIANCENTRAL_CCModel.FK__CatCNac_S__Sucur__7AD2D914" FromRole="CatCDI" ToRole="CatCNac_Solicitudes" />
+  </EntityType>
+  <ComplexType Name="spCNacDireccionesFiscalesACYS_Result">
+    <Property Type="Int32" Name="Id" Nullable="false" />
+    <Property Type="String" Name="ClienteDirFis" Nullable="true" MaxLength="200" />
+    <Property Type="String" Name="DireccionDirFis" Nullable="true" MaxLength="500" />
+    <Property Type="String" Name="MunicipioDirFis" Nullable="true" MaxLength="200" />
+    <Property Type="String" Name="Pais" Nullable="true" MaxLength="200" />
+    <Property Type="String" Name="CPDirFis" Nullable="true" MaxLength="50" />
+    <Property Type="String" Name="EstadoDirFis" Nullable="true" MaxLength="200" />
+    <Property Type="String" Name="RFCDirFis" Nullable="true" MaxLength="50" />
+    <Property Type="String" Name="EmailFacturasDirFis" Nullable="true" MaxLength="50" />
+    <Property Type="String" Name="ColoniaDirFis" Nullable="true" MaxLength="100" />
+  </ComplexType>
+  <EntityType Name="CatUsuario">
+    <Key>
+      <PropertyRef Name="Id_Emp" />
+      <PropertyRef Name="Id_Cd" />
+      <PropertyRef Name="Id_U" />
+    </Key>
+    <Property Type="Int32" Name="Id_Emp" Nullable="false" />
+    <Property Type="Int32" Name="Id_Cd" Nullable="false" />
+    <Property Type="Int32" Name="Id_U" Nullable="false" />
+    <Property Type="String" Name="U_Nombre" MaxLength="50" FixedLength="false" Unicode="true" />
+    <Property Type="String" Name="U_NombreCorto" MaxLength="5" FixedLength="false" Unicode="true" />
+    <Property Type="String" Name="U_Correo" MaxLength="50" FixedLength="false" Unicode="true" />
+    <Property Type="DateTime" Name="U_FNac" />
+    <Property Type="String" Name="U_NumNomina" MaxLength="20" FixedLength="false" Unicode="true" />
+    <Property Type="Boolean" Name="U_Activo" />
+    <Property Type="Int32" Name="id_id_U" />
+    <Property Type="Int32" Name="Id_Tu" />
+    <Property Type="Boolean" Name="U_VerTodo" />
+    <Property Type="Boolean" Name="U_MultiOfi" />
+    <Property Type="Int32" Name="Id_Rik" />
+    <Property Type="Boolean" Name="U_SusCredito" />
+    <Property Type="Int32" Name="U_DiasVencimiento" />
+    <Property Type="Boolean" Name="U_AutorizaPrecio" />
+  </EntityType>
+  <EntityType Name="CatCNac_Estructura">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Type="Int32" Name="Id" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Type="Int32" Name="Id_Matriz" />
+    <Property Type="String" Name="NombreNodo" MaxLength="100" FixedLength="false" Unicode="false" />
+    <Property Type="Int32" Name="Nivel" />
+    <Property Type="Int32" Name="NodoPadre" />
+    <NavigationProperty Name="CatCNac_Matriz" Relationship="SIANCENTRAL_CCModel.CatCNac_Estructura_Id_Matriz_FK" FromRole="CatCNac_Estructura" ToRole="CatCNac_Matriz" />
+    <Property Type="Int32" Name="Nivel_ACYS" />
+    <Property Type="Int32" Name="Sucursal" />
+    <Property Type="String" Name="NombreSucursal" MaxLength="200" FixedLength="false" Unicode="false" />
+    <Property Type="Int32" Name="id_Acys" />
+    <NavigationProperty Name="CatCNac_ACYS" Relationship="SIANCENTRAL_CCModel.CatCNac_Estructura_IdAcys_FK" FromRole="CatCNac_Estructura" ToRole="CatCNac_ACYS" />
+    <NavigationProperty Name="CatCNac_UsuarioPermisos" Relationship="SIANCENTRAL_CCModel.CatCNac_UsuarioPermisos_IdEstructura_FK" FromRole="CatCNac_Estructura" ToRole="CatCNac_UsuarioPermisos" />
+    <NavigationProperty Name="CatCNac_Solicitudes" Relationship="SIANCENTRAL_CCModel.FK__CatCNac_S__Id_Es__7331B74C" FromRole="CatCNac_Estructura" ToRole="CatCNac_Solicitudes" />
+    <Property Type="Int32" Name="id_Cte" />
+    <Property Type="Int32" Name="id_Emp" />
+    <Property Type="Int32" Name="id_Cd" />
+    <Property Type="String" Name="NombreCliente" MaxLength="200" FixedLength="false" Unicode="false" />
+    <Property Type="Int32" Name="Id_Ter" />
+  </EntityType>
+  <Association Name="CatCNac_Estructura_Id_Matriz_FK">
+    <End Type="SIANCENTRAL_CCModel.CatCNac_Matriz" Role="CatCNac_Matriz" Multiplicity="0..1" />
+    <End Type="SIANCENTRAL_CCModel.CatCNac_Estructura" Role="CatCNac_Estructura" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="CatCNac_Matriz">
+        <PropertyRef Name="Id" />
+      </Principal>
+      <Dependent Role="CatCNac_Estructura">
+        <PropertyRef Name="Id_Matriz" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="CatCNac_Estructura_IdAcys_FK">
+    <End Type="SIANCENTRAL_CCModel.CatCNac_ACYS" Role="CatCNac_ACYS" Multiplicity="0..1" />
+    <End Type="SIANCENTRAL_CCModel.CatCNac_Estructura" Role="CatCNac_Estructura" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="CatCNac_ACYS">
+        <PropertyRef Name="Id" />
+      </Principal>
+      <Dependent Role="CatCNac_Estructura">
+        <PropertyRef Name="id_Acys" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <EntityType Name="CatCNac_Usuario">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Type="Int32" Name="Id" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Type="Int32" Name="IdMatriz" />
+    <Property Type="String" Name="Correo" MaxLength="100" FixedLength="false" Unicode="false" />
+    <Property Type="String" Name="CDIK" MaxLength="100" FixedLength="false" Unicode="false" />
+    <Property Type="String" Name="Telefono" MaxLength="100" FixedLength="false" Unicode="false" />
+    <Property Type="String" Name="Contrasenia" MaxLength="Max" FixedLength="false" Unicode="false" />
+    <Property Type="Int32" Name="Rol_Auditorias" />
+    <Property Type="Int32" Name="Rol_Ecommerce" />
+    <Property Type="Boolean" Name="AdminCliente" />
+    <Property Type="String" Name="Nombre" MaxLength="100" FixedLength="false" Unicode="false" />
+    <NavigationProperty Name="CatCNac_Matriz" Relationship="SIANCENTRAL_CCModel.CatCNac_Usuario_IdUsuario_FK1" FromRole="CatCNac_Usuario" ToRole="CatCNac_Matriz" />
+    <NavigationProperty Name="CatCNac_RolAuditorias" Relationship="SIANCENTRAL_CCModel.CatCNac_Usuario_RolAuditorias_FK" FromRole="CatCNac_Usuario" ToRole="CatCNac_RolAuditorias" />
+    <NavigationProperty Name="CatCNac_RolECommerce" Relationship="SIANCENTRAL_CCModel.CatCNac_Usuario_RolECommerce_FK" FromRole="CatCNac_Usuario" ToRole="CatCNac_RolECommerce" />
+    <NavigationProperty Name="CatCNac_UsuarioPermisos" Relationship="SIANCENTRAL_CCModel.CatCNac_UsuarioPermisos_IdUsuario_FK" FromRole="CatCNac_Usuario" ToRole="CatCNac_UsuarioPermisos" />
+    <NavigationProperty Name="CatCNac_Solicitudes" Relationship="SIANCENTRAL_CCModel.FK__CatCNac_S__Aseso__7425DB85" FromRole="CatCNac_Usuario" ToRole="CatCNac_Solicitudes" />
+    <NavigationProperty Name="CatCNac_Solicitudes1" Relationship="SIANCENTRAL_CCModel.FK__CatCNac_S__Estat__7519FFBE" FromRole="CatCNac_Usuario" ToRole="CatCNac_Solicitudes" />
+  </EntityType>
+  <Association Name="CatCNac_Usuario_IdUsuario_FK1">
+    <End Type="SIANCENTRAL_CCModel.CatCNac_Matriz" Role="CatCNac_Matriz" Multiplicity="0..1" />
+    <End Type="SIANCENTRAL_CCModel.CatCNac_Usuario" Role="CatCNac_Usuario" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="CatCNac_Matriz">
+        <PropertyRef Name="Id" />
+      </Principal>
+      <Dependent Role="CatCNac_Usuario">
+        <PropertyRef Name="IdMatriz" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <EntityType Name="CatCNac_RolAuditorias">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Type="Int32" Name="Id" Nullable="false" />
+    <Property Type="String" Name="Nombre" MaxLength="200" FixedLength="false" Unicode="false" />
+    <NavigationProperty Name="CatCNac_Usuario" Relationship="SIANCENTRAL_CCModel.CatCNac_Usuario_RolAuditorias_FK" FromRole="CatCNac_RolAuditorias" ToRole="CatCNac_Usuario" />
+  </EntityType>
+  <EntityType Name="CatCNac_RolECommerce">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Type="Int32" Name="Id" Nullable="false" />
+    <Property Type="String" Name="Nombre" MaxLength="200" FixedLength="false" Unicode="false" />
+    <NavigationProperty Name="CatCNac_Usuario" Relationship="SIANCENTRAL_CCModel.CatCNac_Usuario_RolECommerce_FK" FromRole="CatCNac_RolECommerce" ToRole="CatCNac_Usuario" />
+  </EntityType>
+  <Association Name="CatCNac_Usuario_RolAuditorias_FK">
+    <End Type="SIANCENTRAL_CCModel.CatCNac_RolAuditorias" Role="CatCNac_RolAuditorias" Multiplicity="0..1" />
+    <End Type="SIANCENTRAL_CCModel.CatCNac_Usuario" Role="CatCNac_Usuario" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="CatCNac_RolAuditorias">
+        <PropertyRef Name="Id" />
+      </Principal>
+      <Dependent Role="CatCNac_Usuario">
+        <PropertyRef Name="Rol_Auditorias" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="CatCNac_Usuario_RolECommerce_FK">
+    <End Type="SIANCENTRAL_CCModel.CatCNac_RolECommerce" Role="CatCNac_RolECommerce" Multiplicity="0..1" />
+    <End Type="SIANCENTRAL_CCModel.CatCNac_Usuario" Role="CatCNac_Usuario" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="CatCNac_RolECommerce">
+        <PropertyRef Name="Id" />
+      </Principal>
+      <Dependent Role="CatCNac_Usuario">
+        <PropertyRef Name="Rol_Ecommerce" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <EntityType Name="CatCNac_UsuarioPermisos">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Type="Int32" Name="Id" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Type="Int32" Name="Id_Usuario" Nullable="false" />
+    <Property Type="Int32" Name="Id_Estructura" Nullable="false" />
+    <NavigationProperty Name="CatCNac_Estructura" Relationship="SIANCENTRAL_CCModel.CatCNac_UsuarioPermisos_IdEstructura_FK" FromRole="CatCNac_UsuarioPermisos" ToRole="CatCNac_Estructura" />
+    <NavigationProperty Name="CatCNac_Usuario" Relationship="SIANCENTRAL_CCModel.CatCNac_UsuarioPermisos_IdUsuario_FK" FromRole="CatCNac_UsuarioPermisos" ToRole="CatCNac_Usuario" />
+  </EntityType>
+  <Association Name="CatCNac_UsuarioPermisos_IdEstructura_FK">
+    <End Type="SIANCENTRAL_CCModel.CatCNac_Estructura" Role="CatCNac_Estructura" Multiplicity="1" />
+    <End Type="SIANCENTRAL_CCModel.CatCNac_UsuarioPermisos" Role="CatCNac_UsuarioPermisos" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="CatCNac_Estructura">
+        <PropertyRef Name="Id" />
+      </Principal>
+      <Dependent Role="CatCNac_UsuarioPermisos">
+        <PropertyRef Name="Id_Estructura" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="CatCNac_UsuarioPermisos_IdUsuario_FK">
+    <End Type="SIANCENTRAL_CCModel.CatCNac_Usuario" Role="CatCNac_Usuario" Multiplicity="1" />
+    <End Type="SIANCENTRAL_CCModel.CatCNac_UsuarioPermisos" Role="CatCNac_UsuarioPermisos" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="CatCNac_Usuario">
+        <PropertyRef Name="Id" />
+      </Principal>
+      <Dependent Role="CatCNac_UsuarioPermisos">
+        <PropertyRef Name="Id_Usuario" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK__CatACYS_D__Id_Cl__4753350E">
+    <End Type="SIANCENTRAL_CCModel.CatCNac_Matriz" Role="CatCNac_Matriz" Multiplicity="0..1" />
+    <End Type="SIANCENTRAL_CCModel.CatACYS_DirFiscales" Role="CatACYS_DirFiscales" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="CatCNac_Matriz">
+        <PropertyRef Name="Id" />
+      </Principal>
+      <Dependent Role="CatACYS_DirFiscales">
+        <PropertyRef Name="Id_ClienteMatriz" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_CatACYS_SIANCENTRAL_Id">
+    <End Type="SIANCENTRAL_CCModel.CatCNac_Matriz" Role="CatCNac_Matriz" Multiplicity="1" />
+    <End Type="SIANCENTRAL_CCModel.CatACYS_SIANCENTRAL" Role="CatACYS_SIANCENTRAL" Multiplicity="0..1" />
+    <ReferentialConstraint>
+      <Principal Role="CatCNac_Matriz">
+        <PropertyRef Name="Id" />
+      </Principal>
+      <Dependent Role="CatACYS_SIANCENTRAL">
+        <PropertyRef Name="Id" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_CatCNac_IntranetFran_Id1">
+    <End Type="SIANCENTRAL_CCModel.CatCNac_Matriz" Role="CatCNac_Matriz" Multiplicity="1" />
+    <End Type="SIANCENTRAL_CCModel.CatCNac_IntranetFran" Role="CatCNac_IntranetFran" Multiplicity="0..1" />
+    <ReferentialConstraint>
+      <Principal Role="CatCNac_Matriz">
+        <PropertyRef Name="Id" />
+      </Principal>
+      <Dependent Role="CatCNac_IntranetFran">
+        <PropertyRef Name="Id" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <EntityType Name="CatCNac_EstatusSolicitudes">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Type="Int32" Name="Id" Nullable="false" />
+    <Property Type="String" Name="Nombre" MaxLength="200" FixedLength="false" Unicode="false" />
+    <NavigationProperty Name="CatCNac_Solicitudes" Relationship="SIANCENTRAL_CCModel.FK__CatCNac_S__Estat__78EA90A2" FromRole="CatCNac_EstatusSolicitudes" ToRole="CatCNac_Solicitudes" />
+  </EntityType>
+  <EntityType Name="CatCNac_Solicitudes">
+    <Key>
+      <PropertyRef Name="Id" />
+      <PropertyRef Name="Sucursal" />
+    </Key>
+    <Property Type="Int32" Name="Id" Nullable="false" />
+    <Property Type="Int32" Name="Id_Matriz" />
+    <Property Type="Int32" Name="Id_Estructura" />
+    <Property Type="Int32" Name="Sucursal" Nullable="false" />
+    <Property Type="Int32" Name="ClienteSIAN" />
+    <Property Type="Int32" Name="Territorio" />
+    <Property Type="String" Name="RazonSocial" MaxLength="200" FixedLength="false" Unicode="false" />
+    <Property Type="Int32" Name="Remision_Cta_Nac" />
+    <Property Type="String" Name="Remision_Cta_Nac_Nombre" MaxLength="200" FixedLength="false" Unicode="false" />
+    <Property Type="Int32" Name="ConvenioId" />
+    <Property Type="String" Name="ConvenioNombre" MaxLength="200" FixedLength="false" Unicode="false" />
+    <Property Type="Int32" Name="AsesorId" />
+    <Property Type="String" Name="Comentarios" MaxLength="100" FixedLength="false" Unicode="false" />
+    <Property Type="Int32" Name="Estatus" />
+    <NavigationProperty Name="CatCNac_Estructura" Relationship="SIANCENTRAL_CCModel.FK__CatCNac_S__Id_Es__7331B74C" FromRole="CatCNac_Solicitudes" ToRole="CatCNac_Estructura" />
+    <NavigationProperty Name="CatCNac_Matriz" Relationship="SIANCENTRAL_CCModel.FK__CatCNac_S__Id_Ma__723D9313" FromRole="CatCNac_Solicitudes" ToRole="CatCNac_Matriz" />
+    <NavigationProperty Name="CatCNac_Usuario" Relationship="SIANCENTRAL_CCModel.FK__CatCNac_S__Aseso__7425DB85" FromRole="CatCNac_Solicitudes" ToRole="CatCNac_Usuario" />
+    <Property Type="DateTime" Name="Fecha" />
+    <Property Type="String" Name="Usuario" MaxLength="100" FixedLength="false" Unicode="false" />
+    <NavigationProperty Name="CatCNac_RemisionesMov80" Relationship="SIANCENTRAL_CCModel.FK__CatCNac_S__Remis__7F978E31" FromRole="CatCNac_Solicitudes" ToRole="CatCNac_RemisionesMov80" />
+    <Property Type="Int32" Name="Id_Emp" />
+    <Property Type="Int32" Name="Id_Cd" />
+    <Property Type="Int32" Name="Accion" />
+    <Property Type="String" Name="ComentariosAdministrador" MaxLength="Max" FixedLength="false" Unicode="false" />
+    <NavigationProperty Name="CatCNac_Solicitudes_DirFiscal_1" Relationship="SIANCENTRAL_CCModel.FK_Dir_Solic" FromRole="CatCNac_Solicitudes" ToRole="CatCNac_Solicitudes_DirFiscal" />
+    <NavigationProperty Name="CatCDI" Relationship="SIANCENTRAL_CCModel.FK__CatCNac_S__Sucur__7AD2D914" FromRole="CatCNac_Solicitudes" ToRole="CatCDI" />
+    <NavigationProperty Name="CatCNac_EstatusSolicitudes" Relationship="SIANCENTRAL_CCModel.FK__CatCNac_S__Estat__78EA90A2" FromRole="CatCNac_Solicitudes" ToRole="CatCNac_EstatusSolicitudes" />
+  </EntityType>
+  <EntityType Name="CatCNac_Solicitudes_DirFiscal">
+    <Key>
+      <PropertyRef Name="Id" />
+      <PropertyRef Name="sucursal" />
+    </Key>
+    <Property Type="Int32" Name="Id" Nullable="false" />
+    <Property Type="String" Name="Calle" MaxLength="200" FixedLength="false" Unicode="false" />
+    <Property Type="Int32" Name="NumInterior" />
+    <Property Type="Int32" Name="NumExterior" />
+    <Property Type="String" Name="Colonia" MaxLength="200" FixedLength="false" Unicode="false" />
+    <Property Type="String" Name="Municipio" MaxLength="200" FixedLength="false" Unicode="false" />
+    <Property Type="String" Name="CP" MaxLength="10" FixedLength="false" Unicode="false" />
+    <Property Type="String" Name="Estado" MaxLength="200" FixedLength="false" Unicode="false" />
+    <Property Type="String" Name="RFC" MaxLength="50" FixedLength="false" Unicode="false" />
+    <Property Type="String" Name="Telefonos" MaxLength="100" FixedLength="false" Unicode="false" />
+    <Property Type="String" Name="FAX" MaxLength="20" FixedLength="false" Unicode="false" />
+    <Property Type="Int32" Name="sucursal" Nullable="false" />
+    <NavigationProperty Name="CatCNac_Solicitudes_1" Relationship="SIANCENTRAL_CCModel.FK_Dir_Solic" FromRole="CatCNac_Solicitudes_DirFiscal" ToRole="CatCNac_Solicitudes" />
+  </EntityType>
+  <Association Name="FK__CatCNac_S__Id_Es__7331B74C">
+    <End Type="SIANCENTRAL_CCModel.CatCNac_Estructura" Role="CatCNac_Estructura" Multiplicity="0..1" />
+    <End Type="SIANCENTRAL_CCModel.CatCNac_Solicitudes" Role="CatCNac_Solicitudes" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="CatCNac_Estructura">
+        <PropertyRef Name="Id" />
+      </Principal>
+      <Dependent Role="CatCNac_Solicitudes">
+        <PropertyRef Name="Id_Estructura" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK__CatCNac_S__Id_Ma__723D9313">
+    <End Type="SIANCENTRAL_CCModel.CatCNac_Matriz" Role="CatCNac_Matriz" Multiplicity="0..1" />
+    <End Type="SIANCENTRAL_CCModel.CatCNac_Solicitudes" Role="CatCNac_Solicitudes" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="CatCNac_Matriz">
+        <PropertyRef Name="Id" />
+      </Principal>
+      <Dependent Role="CatCNac_Solicitudes">
+        <PropertyRef Name="Id_Matriz" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK__CatCNac_S__Aseso__7425DB85">
+    <End Type="SIANCENTRAL_CCModel.CatCNac_Usuario" Role="CatCNac_Usuario" Multiplicity="0..1" />
+    <End Type="SIANCENTRAL_CCModel.CatCNac_Solicitudes" Role="CatCNac_Solicitudes" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="CatCNac_Usuario">
+        <PropertyRef Name="Id" />
+      </Principal>
+      <Dependent Role="CatCNac_Solicitudes">
+        <PropertyRef Name="AsesorId" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK__CatCNac_S__Estat__7519FFBE">
+    <End Type="SIANCENTRAL_CCModel.CatCNac_Usuario" Role="CatCNac_Usuario" Multiplicity="0..1" />
+    <End Type="SIANCENTRAL_CCModel.CatCNac_Solicitudes" Role="CatCNac_Solicitudes" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="CatCNac_Usuario">
+        <PropertyRef Name="Id" />
+      </Principal>
+      <Dependent Role="CatCNac_Solicitudes">
+        <PropertyRef Name="Estatus" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <EntityType Name="CatCNac_RemisionesMov80">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Type="Int32" Name="Id" Nullable="false" />
+    <Property Type="String" Name="Nombre" MaxLength="200" FixedLength="false" Unicode="false" />
+    <NavigationProperty Name="CatCNac_Solicitudes" Relationship="SIANCENTRAL_CCModel.FK__CatCNac_S__Remis__7F978E31" FromRole="CatCNac_RemisionesMov80" ToRole="CatCNac_Solicitudes" />
+  </EntityType>
+  <Association Name="FK__CatCNac_S__Remis__7F978E31">
+    <End Type="SIANCENTRAL_CCModel.CatCNac_RemisionesMov80" Role="CatCNac_RemisionesMov80" Multiplicity="0..1" />
+    <End Type="SIANCENTRAL_CCModel.CatCNac_Solicitudes" Role="CatCNac_Solicitudes" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="CatCNac_RemisionesMov80">
+        <PropertyRef Name="Id" />
+      </Principal>
+      <Dependent Role="CatCNac_Solicitudes">
+        <PropertyRef Name="Remision_Cta_Nac" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_Dir_Solic">
+    <End Type="SIANCENTRAL_CCModel.CatCNac_Solicitudes" Role="CatCNac_Solicitudes" Multiplicity="1" />
+    <End Type="SIANCENTRAL_CCModel.CatCNac_Solicitudes_DirFiscal" Role="CatCNac_Solicitudes_DirFiscal" Multiplicity="0..1" />
+    <ReferentialConstraint>
+      <Principal Role="CatCNac_Solicitudes">
+        <PropertyRef Name="Id" />
+        <PropertyRef Name="Sucursal" />
+      </Principal>
+      <Dependent Role="CatCNac_Solicitudes_DirFiscal">
+        <PropertyRef Name="Id" />
+        <PropertyRef Name="sucursal" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK__CatCNac_S__Sucur__7AD2D914">
+    <End Type="SIANCENTRAL_CCModel.CatCDI" Role="CatCDI" Multiplicity="1" />
+    <End Type="SIANCENTRAL_CCModel.CatCNac_Solicitudes" Role="CatCNac_Solicitudes" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="CatCDI">
+        <PropertyRef Name="Id_Cd" />
+      </Principal>
+      <Dependent Role="CatCNac_Solicitudes">
+        <PropertyRef Name="Sucursal" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK__CatCNac_S__Estat__78EA90A2">
+    <End Type="SIANCENTRAL_CCModel.CatCNac_EstatusSolicitudes" Role="CatCNac_EstatusSolicitudes" Multiplicity="0..1" />
+    <End Type="SIANCENTRAL_CCModel.CatCNac_Solicitudes" Role="CatCNac_Solicitudes" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="CatCNac_EstatusSolicitudes">
+        <PropertyRef Name="Id" />
+      </Principal>
+      <Dependent Role="CatCNac_Solicitudes">
+        <PropertyRef Name="Estatus" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <EntityType Name="CatCNac_IntranetUsuarios">
+    <Key>
+      <PropertyRef Name="Usu_IdUsuario" />
+    </Key>
+    <Property Type="Int32" Name="Usu_IdUsuario" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Type="String" Name="Usu_Nombre" MaxLength="50" FixedLength="false" Unicode="false" />
+    <Property Type="String" Name="Usu_ApPaterno" MaxLength="50" FixedLength="false" Unicode="false" />
+    <Property Type="String" Name="Usu_ApMaterno" MaxLength="50" FixedLength="false" Unicode="false" />
+    <Property Type="String" Name="Usu_Domicilio" MaxLength="100" FixedLength="false" Unicode="false" />
+    <Property Type="String" Name="Usu_Colonia" MaxLength="100" FixedLength="false" Unicode="false" />
+    <Property Type="String" Name="Usu_CodigoPostal" MaxLength="100" FixedLength="false" Unicode="false" />
+    <Property Type="String" Name="Usu_Ciudad" MaxLength="50" FixedLength="false" Unicode="false" />
+    <Property Type="Byte" Name="Usu_IdEstado" />
+    <Property Type="String" Name="Usu_RegFed" MaxLength="50" FixedLength="false" Unicode="false" />
+    <Property Type="String" Name="Usu_SegSocial" MaxLength="50" FixedLength="false" Unicode="false" />
+    <Property Type="String" Name="Usu_LugarNac" MaxLength="50" FixedLength="false" Unicode="false" />
+    <Property Type="String" Name="Usu_Nacionalidad" MaxLength="50" FixedLength="false" Unicode="false" />
+    <Property Type="String" Name="Usu_Curp" MaxLength="50" FixedLength="false" Unicode="false" />
+    <Property Type="String" Name="Usu_Email" MaxLength="100" FixedLength="false" Unicode="false" />
+    <Property Type="String" Name="Usu_Usuario" MaxLength="50" FixedLength="false" Unicode="false" />
+    <Property Type="String" Name="Usu_Clave" MaxLength="50" FixedLength="false" Unicode="false" />
+    <Property Type="String" Name="Usu_ClaveNomina" MaxLength="50" FixedLength="false" Unicode="false" />
+    <Property Type="DateTime" Name="Usu_FecAltaNomina" />
+    <Property Type="Int32" Name="Usu_NumUsuario" />
+    <Property Type="Int32" Name="Emp_IdEmpresa" />
+    <Property Type="Int32" Name="CenDi_Clave" />
+    <Property Type="Int16" Name="Dep_IdDepartamento" />
+    <Property Type="Boolean" Name="Usu_EstatusRegistro" />
+    <Property Type="Int32" Name="Pue_IdPuesto" />
+    <Property Type="String" Name="Usu_Telefono" MaxLength="100" FixedLength="false" Unicode="false" />
+    <Property Type="String" Name="Usu_Fax" MaxLength="100" FixedLength="false" Unicode="false" />
+    <Property Type="String" Name="Usu_Extension" MaxLength="100" FixedLength="false" Unicode="false" />
+    <Property Type="String" Name="Usu_Messenger" MaxLength="100" FixedLength="false" Unicode="false" />
+    <Property Type="String" Name="Usu_Skype" MaxLength="100" FixedLength="false" Unicode="false" />
+    <Property Type="String" Name="Usu_Radio" MaxLength="100" FixedLength="false" Unicode="false" />
+    <Property Type="String" Name="Usu_TelefonoMovil" MaxLength="100" FixedLength="false" Unicode="false" />
+    <Property Type="String" Name="Usu_TelefonoPersonal" MaxLength="100" FixedLength="false" Unicode="false" />
+    <Property Type="DateTime" Name="Usu_FecNac" />
+    <Property Type="DateTime" Name="Usu_FecReg" />
+    <Property Type="DateTime" Name="Usu_FecVigI" />
+    <Property Type="DateTime" Name="Usu_FecVigF" />
+    <Property Type="Int32" Name="Usu_Agente" />
+    <Property Type="Int32" Name="Usu_Agente1" />
+    <Property Type="Int32" Name="Usu_JefeDirecto" />
+    <Property Type="Int32" Name="Usu_CteMacola" />
+    <Property Type="Int32" Name="Usu_AdminEd" />
+    <Property Type="Int32" Name="Usu_CteMacolaAntes" />
+    <Property Type="String" Name="Usu_RFCCDIK" MaxLength="13" FixedLength="false" Unicode="false" />
+    <Property Type="Int32" Name="Usu_NoCDIK_Sian" />
+    <Property Type="Int32" Name="id_Emp" />
+    <NavigationProperty Name="CatCNac_IntranetListaFranq" Relationship="SIANCENTRAL_CCModel.CatCNac_IntranetListaFranq_UsuarioIntranet_FK" FromRole="CatCNac_IntranetUsuarios" ToRole="CatCNac_IntranetListaFranq" />
+  </EntityType>
+  <Association Name="CatCNac_IntranetListaFranq_Moneds_FK">
+    <End Type="SIANCENTRAL_CCModel.CatTMoneda" Role="CatTMoneda" Multiplicity="0..1" />
+    <End Type="SIANCENTRAL_CCModel.CatCNac_IntranetListaFranq" Role="CatCNac_IntranetListaFranq" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="CatTMoneda">
+        <PropertyRef Name="Id_Emp" />
+        <PropertyRef Name="Id_Mon" />
+      </Principal>
+      <Dependent Role="CatCNac_IntranetListaFranq">
+        <PropertyRef Name="id_Emp" />
+        <PropertyRef Name="Moneda" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="CatCNac_IntranetListaFranq_Productos_FK">
+    <End Type="SIANCENTRAL_CCModel.CatCNac_ProductosPermitidos" Role="CatCNac_ProductosPermitidos" Multiplicity="0..1" />
+    <End Type="SIANCENTRAL_CCModel.CatCNac_IntranetListaFranq" Role="CatCNac_IntranetListaFranq" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="CatCNac_ProductosPermitidos">
+        <PropertyRef Name="Id" />
+      </Principal>
+      <Dependent Role="CatCNac_IntranetListaFranq">
+        <PropertyRef Name="Productos" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="CatCNac_IntranetListaFranq_UsuarioIntranet_FK">
+    <End Type="SIANCENTRAL_CCModel.CatCNac_IntranetUsuarios" Role="CatCNac_IntranetUsuarios" Multiplicity="0..1" />
+    <End Type="SIANCENTRAL_CCModel.CatCNac_IntranetListaFranq" Role="CatCNac_IntranetListaFranq" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="CatCNac_IntranetUsuarios">
+        <PropertyRef Name="Usu_IdUsuario" />
+      </Principal>
+      <Dependent Role="CatCNac_IntranetListaFranq">
+        <PropertyRef Name="UsuarioIntranet" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+</Schema>

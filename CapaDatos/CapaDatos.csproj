@@ -1,0 +1,401 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>8.0.30703</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{9E51465B-9C5D-43F3-8BFB-A5D36B0A3308}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>CapaDatos</RootNamespace>
+    <AssemblyName>CapaDatos</AssemblyName>
+    <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <SccProjectName>
+    </SccProjectName>
+    <SccLocalPath>
+    </SccLocalPath>
+    <SccAuxPath>
+    </SccAuxPath>
+    <SccProvider>
+    </SccProvider>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="EntityFramework, Version=6.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>bin\Debug\EntityFramework.dll</HintPath>
+    </Reference>
+    <Reference Include="EntityFramework.SqlServer, Version=6.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>bin\Debug\EntityFramework.SqlServer.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Runtime.Serialization" />
+    <Reference Include="System.Security" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="CatACYS_Cliente.cs">
+      <DependentUpon>SIANCENTRAL.tt</DependentUpon>
+    </Compile>
+    <Compile Include="CatACYS_CondPago.cs">
+      <DependentUpon>SIANCENTRAL.tt</DependentUpon>
+    </Compile>
+    <Compile Include="CatACYS_DirFiscales.cs">
+      <DependentUpon>SIANCENTRAL.tt</DependentUpon>
+    </Compile>
+    <Compile Include="CatACYS_OtrosApoyos.cs">
+      <DependentUpon>SIANCENTRAL.tt</DependentUpon>
+    </Compile>
+    <Compile Include="CatAcys_Productos.cs">
+      <DependentUpon>SIANCENTRAL.tt</DependentUpon>
+    </Compile>
+    <Compile Include="CatACYS_Productos_DatosGar.cs">
+      <DependentUpon>SIANCENTRAL.tt</DependentUpon>
+    </Compile>
+    <Compile Include="CatACYS_Productos_DatosGar_Fechas.cs">
+      <DependentUpon>SIANCENTRAL.tt</DependentUpon>
+    </Compile>
+    <Compile Include="CatACYS_RecPedido.cs">
+      <DependentUpon>SIANCENTRAL.tt</DependentUpon>
+    </Compile>
+    <Compile Include="CatACYS_ServValor.cs">
+      <DependentUpon>SIANCENTRAL.tt</DependentUpon>
+    </Compile>
+    <Compile Include="CatACYS_SIANCENTRAL.cs">
+      <DependentUpon>SIANCENTRAL.tt</DependentUpon>
+    </Compile>
+    <Compile Include="CatCDI.cs">
+      <DependentUpon>SIANCENTRAL.tt</DependentUpon>
+    </Compile>
+    <Compile Include="CatClienteMatriz_Afiliaciones.cs">
+      <DependentUpon>SIANCENTRAL.tt</DependentUpon>
+    </Compile>
+    <Compile Include="CatClienteMatriz_Permisos.cs">
+      <DependentUpon>SIANCENTRAL.tt</DependentUpon>
+    </Compile>
+    <Compile Include="CatCNac_ACYS.cs">
+      <DependentUpon>SIANCENTRAL.tt</DependentUpon>
+    </Compile>
+    <Compile Include="CatCNac_Addenda.cs">
+      <DependentUpon>SIANCENTRAL.tt</DependentUpon>
+    </Compile>
+    <Compile Include="CatCNac_CatalogoEspecial.cs">
+      <DependentUpon>SIANCENTRAL.tt</DependentUpon>
+    </Compile>
+    <Compile Include="CatCNac_Condiciones.cs">
+      <DependentUpon>SIANCENTRAL.tt</DependentUpon>
+    </Compile>
+    <Compile Include="CatCNac_EstatusSolicitudes.cs">
+      <DependentUpon>SIANCENTRAL.tt</DependentUpon>
+    </Compile>
+    <Compile Include="CatCNac_Estructura.cs">
+      <DependentUpon>SIANCENTRAL.tt</DependentUpon>
+    </Compile>
+    <Compile Include="CatCNac_IntranetFran.cs">
+      <DependentUpon>SIANCENTRAL.tt</DependentUpon>
+    </Compile>
+    <Compile Include="CatCNac_IntranetListaFranq.cs">
+      <DependentUpon>SIANCENTRAL.tt</DependentUpon>
+    </Compile>
+    <Compile Include="CatCNac_IntranetUsuarios.cs">
+      <DependentUpon>SIANCENTRAL.tt</DependentUpon>
+    </Compile>
+    <Compile Include="CatCNac_Matriz.cs">
+      <DependentUpon>SIANCENTRAL.tt</DependentUpon>
+    </Compile>
+    <Compile Include="CatCNac_MetPago.cs">
+      <DependentUpon>SIANCENTRAL.tt</DependentUpon>
+    </Compile>
+    <Compile Include="CatCNac_PermisosCamposACYS.cs">
+      <DependentUpon>SIANCENTRAL.tt</DependentUpon>
+    </Compile>
+    <Compile Include="CatCNac_ProductosPermitidos.cs">
+      <DependentUpon>SIANCENTRAL.tt</DependentUpon>
+    </Compile>
+    <Compile Include="CatCNac_RemisionesMov80.cs">
+      <DependentUpon>SIANCENTRAL.tt</DependentUpon>
+    </Compile>
+    <Compile Include="CatCNac_RolAuditorias.cs">
+      <DependentUpon>SIANCENTRAL.tt</DependentUpon>
+    </Compile>
+    <Compile Include="CatCNac_RolECommerce.cs">
+      <DependentUpon>SIANCENTRAL.tt</DependentUpon>
+    </Compile>
+    <Compile Include="CatCNac_SistemasPV.cs">
+      <DependentUpon>SIANCENTRAL.tt</DependentUpon>
+    </Compile>
+    <Compile Include="CatCNac_Solicitudes.cs">
+      <DependentUpon>SIANCENTRAL.tt</DependentUpon>
+    </Compile>
+    <Compile Include="CatCNac_Solicitudes_DirFiscal.cs">
+      <DependentUpon>SIANCENTRAL.tt</DependentUpon>
+    </Compile>
+    <Compile Include="CatCNac_Soportes.cs">
+      <DependentUpon>SIANCENTRAL.tt</DependentUpon>
+    </Compile>
+    <Compile Include="CatCNac_TipoCuenta.cs">
+      <DependentUpon>SIANCENTRAL.tt</DependentUpon>
+    </Compile>
+    <Compile Include="CatCNac_TipoNotaCred.cs">
+      <DependentUpon>SIANCENTRAL.tt</DependentUpon>
+    </Compile>
+    <Compile Include="CatCNac_Usuario.cs">
+      <DependentUpon>SIANCENTRAL.tt</DependentUpon>
+    </Compile>
+    <Compile Include="CatCNac_UsuarioPermisos.cs">
+      <DependentUpon>SIANCENTRAL.tt</DependentUpon>
+    </Compile>
+    <Compile Include="CatDomicilioFiscal.cs">
+      <DependentUpon>SIANCENTRAL.tt</DependentUpon>
+    </Compile>
+    <Compile Include="CatProducto.cs">
+      <DependentUpon>SIANCENTRAL.tt</DependentUpon>
+    </Compile>
+    <Compile Include="CatTMoneda.cs">
+      <DependentUpon>SIANCENTRAL.tt</DependentUpon>
+    </Compile>
+    <Compile Include="CatUsuario.cs">
+      <DependentUpon>SIANCENTRAL.tt</DependentUpon>
+    </Compile>
+    <Compile Include="CD_BloqueoPeriodo.cs" />
+    <Compile Include="CD_CapAjusteBaseInstalada.cs" />
+    <Compile Include="CD_CapEntSalCentral.cs" />
+    <Compile Include="CD_CapFacturaAlmacenCobro.cs" />
+    <Compile Include="CD_CapFacturaLegal.cs" />
+    <Compile Include="CD_CapFacturaRevisionCobro.cs" />
+    <Compile Include="CD_CapFacturaSvtaAlmacen.cs" />
+    <Compile Include="CD_CapGastoViaje.cs" />
+    <Compile Include="CD_CapGastoViajeComprobante.cs" />
+    <Compile Include="CD_CapPagoElectronico.cs" />
+    <Compile Include="CD_CapPedidoVtaInst.cs" />
+    <Compile Include="CD_CapRemisionSvtaAlmacen.cs" />
+    <Compile Include="CD_CapRutaServicio.cs" />
+    <Compile Include="CD_Amortizacion.cs" />
+    <Compile Include="CD_CapAcys.cs" />
+    <Compile Include="CD_CapDevolucion.cs" />
+    <Compile Include="CD_CapEntradaSalida.cs" />
+    <Compile Include="CD_CapFactura.cs" />
+    <Compile Include="CD_CapFacturaDet.cs" />
+    <Compile Include="CD_CapFisico.cs" />
+    <Compile Include="CD_CapNotaCargo.cs" />
+    <Compile Include="CD_CapNotaCredito.cs" />
+    <Compile Include="CD_CapOrdenCompra.cs" />
+    <Compile Include="CD_CapOrdenCompraDet.cs" />
+    <Compile Include="CD_CapPago.cs" />
+    <Compile Include="CD_CapPedido.cs" />
+    <Compile Include="CD_CapRemision.cs" />
+    <Compile Include="CD_CapValuacionProyecto.cs" />
+    <Compile Include="CD_CapValuacionProyectoCtasMarg.cs" />
+    <Compile Include="CD_CatAcreedor.cs" />
+    <Compile Include="CD_CatAdenda.cs" />
+    <Compile Include="CD_CatAgrupador.cs" />
+    <Compile Include="CD_CatAlmacen.cs" />
+    <Compile Include="CD_CatAplicacion.cs" />
+    <Compile Include="CD_CatArea.cs" />
+    <Compile Include="CD_CatAsesoria.cs" />
+    <Compile Include="CD_CatBanco.cs" />
+    <Compile Include="CD_CatCalendario.cs" />
+    <Compile Include="CD_CatCampanas.cs" />
+    <Compile Include="CD_CatCentroDistribucion.cs" />
+    <Compile Include="CD_CatCliente.cs" />
+    <Compile Include="CD_CatClienteMatriz.cs" />
+    <Compile Include="CD_CatClienteProd.cs" />
+    <Compile Include="CD_CatCNac_ACYS.cs" />
+    <Compile Include="CD_CatCNac_Estructura.cs" />
+    <Compile Include="CD_CatCNac_Matriz.cs" />
+    <Compile Include="CD_CatCNac_Solicitudes.cs" />
+    <Compile Include="CD_CatCNac_Usuario.cs" />
+    <Compile Include="CD_CatColaborador.cs" />
+    <Compile Include="CD_CatCompensacion.cs" />
+    <Compile Include="CD_CatCuentasCorp.cs" />
+    <Compile Include="CD_CatEmpresa.cs" />
+    <Compile Include="CD_CatEstatus.cs" />
+    <Compile Include="CD_CatFamProducto.cs" />
+    <Compile Include="CD_CatGasto.cs" />
+    <Compile Include="CD_CatMeta.cs" />
+    <Compile Include="CD_CatMovimientos.cs" />
+    <Compile Include="CD_CatNoConformidades.cs" />
+    <Compile Include="CD_CatPosicion.cs" />
+    <Compile Include="CD_CatProducto.cs" />
+    <Compile Include="CD_CatProducto_Categoria.cs" />
+    <Compile Include="CD_CatProducto_Segmento.cs" />
+    <Compile Include="CD_CatProveedores.cs" />
+    <Compile Include="CD_CatRegion.cs" />
+    <Compile Include="CD_CatRentabilidad.cs" />
+    <Compile Include="CD_CatRepresentantes.cs" />
+    <Compile Include="CD_CatRutaEntrega.cs" />
+    <Compile Include="CD_CatRutas.cs" />
+    <Compile Include="CD_CatSegmentos.cs" />
+    <Compile Include="CD_CatSemana.cs" />
+    <Compile Include="CD_CatSisPropietarios.cs" />
+    <Compile Include="CD_CatSistemasPropietarios.cs" />
+    <Compile Include="CD_CatSolucion.cs" />
+    <Compile Include="CD_CatSubFamProducto.cs" />
+    <Compile Include="CD_CatTerritorios.cs" />
+    <Compile Include="CD_CatTipoCosto.cs" />
+    <Compile Include="CD_CatTipoMoneda.cs" />
+    <Compile Include="CD_CatTipoPrecio.cs" />
+    <Compile Include="CD_CatTipoProducto.cs" />
+    <Compile Include="CD_CatTiposUsuario.cs" />
+    <Compile Include="CD_CatUen.cs" />
+    <Compile Include="CD_CatUnidad.cs" />
+    <Compile Include="CD_CatUsuario.cs" />
+    <Compile Include="CD_CatZonas.cs" />
+    <Compile Include="CD_CierreMes.cs" />
+    <Compile Include="CD_ClienteMayorAdeudo.cs" />
+    <Compile Include="CD_Configuracion.cs" />
+    <Compile Include="CD_ConfiguracionCobranza.cs" />
+    <Compile Include="CD_ConfiguracionDias.cs" />
+    <Compile Include="CD_ConsecutivoFE.cs" />
+    <Compile Include="CD_Contraseña.cs" />
+    <Compile Include="CD_ContratoComodato.cs" />
+    <Compile Include="CD_Convenio.cs" />
+    <Compile Include="CD_Correos.cs" />
+    <Compile Include="CD_CrmCatAplicacion.cs" />
+    <Compile Include="CD_CrmCatSoluciones.cs" />
+    <Compile Include="CD_CrmContacto.cs" />
+    <Compile Include="CD_CRMGraficas.cs" />
+    <Compile Include="CD_CrmInformes.cs" />
+    <Compile Include="CD_CrmOportunidad.cs" />
+    <Compile Include="CD_CrmPromocion.cs" />
+    <Compile Include="CD_Ctrl.cs" />
+    <Compile Include="CD_CumpVentaInstalada.cs" />
+    <Compile Include="CD_Cuotas.cs" />
+    <Compile Include="CD_Datos.cs" />
+    <Compile Include="CD_DevParcial_Detalle.cs" />
+    <Compile Include="CD_Embarques.cs" />
+    <Compile Include="CD_EmbarquesDet.cs" />
+    <Compile Include="CD_EmbarquesRemision.cs" />
+    <Compile Include="CD_FacturasEntrega.cs" />
+    <Compile Include="CD_FacturasRutaEntrega.cs" />
+    <Compile Include="CD_GestionRentabilidad.cs" />
+    <Compile Include="CD_GestionRentabilidadSeguimiento.cs" />
+    <Compile Include="CD_GestionRentabilidadSimulador.cs" />
+    <Compile Include="CD_GestorCobranza.cs" />
+    <Compile Include="CD_InvExcesoInventario.cs" />
+    <Compile Include="CD_Login.cs" />
+    <Compile Include="CD_Menu.cs" />
+    <Compile Include="CD_MenuItem.cs" />
+    <Compile Include="CD_MonitoreoIndicadoresUtilidad.cs" />
+    <Compile Include="CD_Pagina.cs" />
+    <Compile Include="CD_PermisosTU.cs" />
+    <Compile Include="CD_PermisosU.cs" />
+    <Compile Include="CD_Poliza.cs" />
+    <Compile Include="CD_ProCancelaMenores.cs" />
+    <Compile Include="CD_ProCompraLocal.cs" />
+    <Compile Include="CD_ProDesasignaPedido_Aut.cs" />
+    <Compile Include="CD_ProductoPrecios.cs" />
+    <Compile Include="CD_ProFacturaRuta_Embarque.cs" />
+    <Compile Include="CD_ProFactura_Embarque.cs" />
+    <Compile Include="CD_ProGenPoliza_Compaq.cs" />
+    <Compile Include="CD_PronosticoCobranza.cs" />
+    <Compile Include="CD_ProPrecioEspecial.cs" />
+    <Compile Include="CD_CapReclamaciones.cs" />
+    <Compile Include="CD_ProSeguimientoPrd.cs" />
+    <Compile Include="CD_Rastreo.cs" />
+    <Compile Include="CD_RemisionesEntrega.cs" />
+    <Compile Include="CD_Rendimientos.cs" />
+    <Compile Include="CD_Rep_Franquicia_VentaMensual.cs" />
+    <Compile Include="CD_RotacionInventario.cs" />
+    <Compile Include="CD_RotInventarios.cs" />
+    <Compile Include="CD_SegCobranza.cs" />
+    <Compile Include="CD_SerAmortizacionSisP.cs" />
+    <Compile Include="CD_SerRutaServicio.cs" />
+    <Compile Include="CD_SolConvenio.cs" />
+    <Compile Include="CD_wfrmCampanas.cs" />
+    <Compile Include="CD__Comun.cs" />
+    <Compile Include="CD_DevParcial_Lista.cs" />
+    <Compile Include="CD_CatFormaPago.cs" />
+    <Compile Include="CD_Rep_InvValorizacionInventario.cs" />
+    <Compile Include="CD_Rep_InvExceso.cs" />
+    <Compile Include="CD_RepCfd.cs" />
+    <Compile Include="ComplexType1.cs">
+      <DependentUpon>SIANCENTRAL.tt</DependentUpon>
+    </Compile>
+    <Compile Include="dbAccess.cs" />
+    <Compile Include="Funciones.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="SIANCENTRAL.Context.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>SIANCENTRAL.Context.tt</DependentUpon>
+    </Compile>
+    <Compile Include="SIANCENTRAL.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>SIANCENTRAL.tt</DependentUpon>
+    </Compile>
+    <Compile Include="SIANCENTRAL.Designer.cs">
+      <DependentUpon>SIANCENTRAL.edmx</DependentUpon>
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <Compile Include="spCC_ConsultarAfiliaciones_Result.cs">
+      <DependentUpon>SIANCENTRAL.tt</DependentUpon>
+    </Compile>
+    <Compile Include="spCNacDireccionesFiscalesACYS_Result.cs">
+      <DependentUpon>SIANCENTRAL.tt</DependentUpon>
+    </Compile>
+    <Compile Include="spComboNiveles_Result.cs">
+      <DependentUpon>SIANCENTRAL.tt</DependentUpon>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\CapaEntidad\CapaEntidad.csproj">
+      <Project>{8F1CBBBC-7A12-43B0-8CCD-709BCA8250A0}</Project>
+      <Name>CapaEntidad</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <EntityDeploy Include="SIANCENTRAL.edmx">
+      <Generator>EntityModelCodeGenerator</Generator>
+      <LastGenOutput>SIANCENTRAL.Designer.cs</LastGenOutput>
+    </EntityDeploy>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.Config" />
+    <None Include="SIANCENTRAL.Context.tt">
+      <Generator>TextTemplatingFileGenerator</Generator>
+      <LastGenOutput>SIANCENTRAL.Context.cs</LastGenOutput>
+    </None>
+    <None Include="SIANCENTRAL.tt">
+      <Generator>TextTemplatingFileGenerator</Generator>
+      <LastGenOutput>SIANCENTRAL.cs</LastGenOutput>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <Service Include="{508349B6-6B84-4DF5-91F0-309BEEBAD82D}" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

@@ -1,0 +1,3347 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Data>
+	<Parametros>
+	    <Id_RIK>869</Id_RIK>
+		<Rik_Nombre>869 Ramiro Ramirez de León</Rik_Nombre>
+		<Rik_Nombre>869 Ramiro Ramirez de León</Rik_Nombre>
+		<Cd_Nombre>110 Monterrey</Cd_Nombre>
+		<Titulo>REPORTE DE VENTA INCREMENTAL (Multiplicador)</Titulo>
+		<Mes_Nombre>Abril</Mes_Nombre>
+		<Anio_Nombre>2016</Anio_Nombre>
+	</Parametros>
+	<Resumen>
+			<VtaInstIncrementalMes1>33538.56</VtaInstIncrementalMes1>
+			<VtaInstIncrementalMes2>15135.54</VtaInstIncrementalMes2>
+			<VtaInstIncrementalMes3>10933.10</VtaInstIncrementalMes3>
+			<VtaInstIncrementalTPromedio>10933.10</VtaInstIncrementalTPromedio>
+			<ObjetivoMes1>10000</ObjetivoMes1>
+			<ObjetivoMes2>10000</ObjetivoMes2>
+			<ObjetivoMes3>10000</ObjetivoMes3>
+			<ObjetivoTotal>10000</ObjetivoTotal>
+			<ObjetivoAcumuladoMes1>30000</ObjetivoAcumuladoMes1>
+			<ObjetivoAcumuladoMes2>30000</ObjetivoAcumuladoMes2>
+			<ObjetivoAcumuladoMes3>30000</ObjetivoAcumuladoMes3>
+			<ObjetivoAcumuladoTotal>30000</ObjetivoAcumuladoTotal>	
+			<PorcVtaIncrementa>66.23</PorcVtaIncrementa>
+			<PorcMultiplicador>60</PorcMultiplicador>
+			
+			
+	</Resumen>
+		<Cliente>
+		<Id_Cte>1029</Id_Cte>
+		<Cte_NomComercial>1029 - CONDUCTORES MONTERREY, S.A. DE C.V.</Cte_NomComercial>
+		<GrupoVtasInstaladas>
+			<GrupoVtaInstalada>
+				<NombreGrupoVtaInstalada>Venta Instalada</NombreGrupoVtaInstalada>
+				<Categorias>
+						<Categoria>
+							<NombreCategoria>Linea Industrial</NombreCategoria>
+							<Productos>
+								<Producto>
+									<Id_Prd>160</Id_Prd>
+									<Prd_Descripcion>KEY LIMPIAMANOS PASTA 4 KGS</Prd_Descripcion>
+									<Prd_Presentacion>4         </Prd_Presentacion>
+									<Est_IFeb>0</Est_IFeb>
+									<Est_IMar>8400</Est_IMar>
+									<Est_IAbr>0</Est_IAbr>
+								</Producto>
+								<Producto>
+									<Id_Prd>2494</Id_Prd>
+									<Prd_Descripcion>KEY SUPER D</Prd_Descripcion>
+									<Prd_Presentacion>20.00</Prd_Presentacion>
+									<Est_IFeb>0</Est_IFeb>
+									<Est_IMar>2694</Est_IMar>
+									<Est_IAbr>0</Est_IAbr>
+								</Producto>
+							</Productos>
+						</Categoria>
+				</Categorias>
+			</GrupoVtaInstalada>
+			
+		</GrupoVtasInstaladas>
+	</Cliente>
+	
+	<Cliente>
+		<Id_Cte>1039</Id_Cte>
+		<Cte_NomComercial>1039 - ESAB MEXICO, S.A. DE C.V.</Cte_NomComercial>
+		<GrupoVtasInstaladas>
+			<GrupoVtaInstalada>
+				<NombreGrupoVtaInstalada>Venta Instalada</NombreGrupoVtaInstalada>
+				<Categorias>
+						<Categoria>
+							<NombreCategoria>Linea Industrial</NombreCategoria>
+							<Productos>
+								<Producto>
+									<Id_Prd>2054</Id_Prd>
+									<Prd_Descripcion>ECOSOLV 100 20 LTS</Prd_Descripcion>
+									<Prd_Presentacion>20</Prd_Presentacion>
+									<Est_IFeb>3499.83</Est_IFeb>
+									<Est_IMar>2333.22</Est_IMar>
+									<Est_IAbr>2333.22</Est_IAbr>
+								</Producto>
+							</Productos>
+						</Categoria>
+				</Categorias>
+			</GrupoVtaInstalada>
+			
+		</GrupoVtasInstaladas>
+	</Cliente>
+	<Cliente>
+			<Id_Cte>1859</Id_Cte>
+			<Cte_NomComercial>1859 - INDUSTRIAL TUK S.A. DE C.V.</Cte_NomComercial>
+			<GrupoVtasInstaladas>
+				<GrupoVtaInstalada>
+					<NombreGrupoVtaInstalada>Venta Instalada</NombreGrupoVtaInstalada>
+					<Categorias>
+							<Categoria>
+								<NombreCategoria>Linea Industrial</NombreCategoria>
+								<Productos>
+									<Producto>
+										<Id_Prd>466</Id_Prd>
+										<Prd_Descripcion>KEY DUP AEROSOL 0.4 KGS</Prd_Descripcion>
+										<Prd_Presentacion>0.4</Prd_Presentacion>
+										<Est_IFeb>0</Est_IFeb>
+										<Est_IMar>6720.00</Est_IMar>
+										<Est_IAbr>7680.00</Est_IAbr>
+									</Producto>
+								</Productos>
+							</Categoria>
+					</Categorias>
+				</GrupoVtaInstalada>
+				<GrupoVtaInstalada>
+					<NombreGrupoVtaInstalada>Venta Instalada Incremental</NombreGrupoVtaInstalada>
+					<Categorias>
+							<Categoria>
+								<NombreCategoria>Linea Industrial</NombreCategoria>
+								<Productos>
+									<Producto>
+										<Id_Prd>466</Id_Prd>
+										<Prd_Descripcion>KEY DUP AEROSOL 0.4 KGS</Prd_Descripcion>
+										<Prd_Presentacion>0.4</Prd_Presentacion>
+										<Est_IFeb>4800</Est_IFeb>
+										<Est_IMar>0</Est_IMar>
+										<Est_IAbr>0</Est_IAbr>
+									</Producto>
+								</Productos>
+							</Categoria>
+					</Categorias>
+				</GrupoVtaInstalada>
+			</GrupoVtasInstaladas>
+		</Cliente>	
+		
+		<Cliente>
+			<Id_Cte>2734</Id_Cte>
+			<Cte_NomComercial>2734 - CERVECERIA CUAHUTEMOC MOCTEZUMA, S.A. DE C.V.</Cte_NomComercial>
+			<GrupoVtasInstaladas>
+				<GrupoVtaInstalada>
+					<NombreGrupoVtaInstalada>Venta Instalada Incremental</NombreGrupoVtaInstalada>
+					<Categorias>
+							<Categoria>
+								<NombreCategoria>Linea Industrial</NombreCategoria>
+								<Productos>
+									<Producto>
+										<Id_Prd>934</Id_Prd>
+										<Prd_Descripcion>PRO SH-1 20 LTS</Prd_Descripcion>
+										<Prd_Presentacion>20</Prd_Presentacion>
+										<Est_IFeb>2793</Est_IFeb>
+										<Est_IMar>0</Est_IMar>
+										<Est_IAbr>0</Est_IAbr>
+									</Producto>
+									<Producto>
+										<Id_Prd>2054</Id_Prd>
+										<Prd_Descripcion>ECOSOLV 100 20 LTS</Prd_Descripcion>
+										<Prd_Presentacion>20</Prd_Presentacion>
+										<Est_IFeb>5452</Est_IFeb>
+										<Est_IMar>0</Est_IMar>
+										<Est_IAbr>0</Est_IAbr>
+									</Producto>
+								</Productos>
+							</Categoria>
+					</Categorias>
+				</GrupoVtaInstalada>
+				
+			</GrupoVtasInstaladas>
+		</Cliente>
+	
+	
+	<Cliente>
+			<Id_Cte>3793</Id_Cte>
+			<Cte_NomComercial>3793 - VESUVIUS MEXICO S.A. DE C.V.</Cte_NomComercial>
+			<GrupoVtasInstaladas>
+				<GrupoVtaInstalada>
+					<NombreGrupoVtaInstalada>Venta Instalada</NombreGrupoVtaInstalada>
+					<Categorias>
+							<Categoria>
+								<NombreCategoria>Aseo General</NombreCategoria>
+								<Productos>
+									<Producto>
+										<Id_Prd>29</Id_Prd>
+										<Prd_Descripcion>P. ORIGEN: MEXICO</Prd_Descripcion>
+										<Prd_Presentacion>20</Prd_Presentacion>
+										<Est_IFeb>8307</Est_IFeb>
+										<Est_IMar>0</Est_IMar>
+										<Est_IAbr>0</Est_IAbr>
+									</Producto>
+								</Productos>
+							</Categoria>
+					</Categorias>
+				</GrupoVtaInstalada>
+			</GrupoVtasInstaladas>
+		</Cliente>	
+		
+	
+	<Cliente>
+		<Id_Cte>4789</Id_Cte>
+		<Cte_NomComercial>4789 - VEGE DE MEXICO, S.A. DE C.V.</Cte_NomComercial>
+		<CteVtaCob>1130.88</CteVtaCob>
+		<CteUP>-781.71</CteUP>
+		<CteAN>0</CteAN>
+		<CteGST>0</CteGST>
+		<CteAA>0</CteAA>
+		<CteMO>0</CteMO>
+		<CteAE>0</CteAE>
+		<CteUB>0</CteUB>
+		<CteAjCobranza>0</CteAjCobranza>
+		<CteUBAj>0</CteUBAj>
+		<CtePPPA>12.5</CtePPPA>
+		<CteCP>0</CteCP>
+		<CteFR>0</CteFR>
+		<CteCB>1340</CteCB>
+		<GrupoVtasInstaladas>
+			<GrupoVtaInstalada>
+			<NombreGrupoVtaInstalada>NO Venta Instalada</NombreGrupoVtaInstalada>
+				<Categorias>
+						<Categoria>
+							<NombreCategoria>Otros Productos</NombreCategoria>
+							<Productos>
+								<Producto>
+									<Id_Prd>111703</Id_Prd>
+									<Prd_Descripcion>ALCOHOL ISOPROPILICO</Prd_Descripcion>
+									<Prd_Presentacion>1         </Prd_Presentacion>
+									<Est_IFeb>703</Est_IFeb>
+									<Est_IMar>0</Est_IMar>
+									<Est_IAbr>2200</Est_IAbr>
+									<VentaCurso>3420</VentaCurso>
+									<Promedio>0</Promedio>
+									<Incremento>0</Incremento>
+									<UBIncremento>0</UBIncremento>
+									<Orden1>NO Venta Instalada</Orden1>
+									<Orden2>Otros Productos</Orden2>
+									<BonoMesVta>0</BonoMesVta>
+									<BonoMesUB>0</BonoMesUB>
+									<BonoAPagar>00</BonoAPagar>
+								</Producto>
+								<Producto>
+									<Id_Prd>111716</Id_Prd>
+									<Prd_Descripcion>TAMBO VACIO LAMINA</Prd_Descripcion>
+									<Prd_Presentacion>1         </Prd_Presentacion>
+									<Est_IFeb>220</Est_IFeb>
+									<Est_IMar>660</Est_IMar>
+									<Est_IAbr>220</Est_IAbr>
+									<VentaCurso>0</VentaCurso>
+									<Promedio>0</Promedio>
+									<Incremento>0</Incremento>
+									<UBIncremento>0</UBIncremento>
+									<Orden1>NO Venta Instalada</Orden1>
+									<Orden2>Otros Productos</Orden2>
+									<BonoMesVta>0</BonoMesVta>
+									<BonoMesUB>0</BonoMesUB>
+									<BonoAPagar>00</BonoAPagar>
+								</Producto>
+								<Producto>
+									<Id_Prd>111739</Id_Prd>
+									<Prd_Descripcion>VARSOL</Prd_Descripcion>
+									<Prd_Presentacion>1         </Prd_Presentacion>
+									<Est_IFeb>0</Est_IFeb>
+									<Est_IMar>5280</Est_IMar>
+									<Est_IAbr>5500</Est_IAbr>
+									<VentaCurso>0</VentaCurso>
+									<Promedio>0</Promedio>
+									<Incremento>0</Incremento>
+									<UBIncremento>0</UBIncremento>
+									<Orden1>NO Venta Instalada</Orden1>
+									<Orden2>Otros Productos</Orden2>
+									<BonoMesVta>0</BonoMesVta>
+									<BonoMesUB>0</BonoMesUB>
+									<BonoAPagar>00</BonoAPagar>
+								</Producto>
+							</Productos>
+						</Categoria>
+				</Categorias>
+			</GrupoVtaInstalada>
+			<GrupoVtaInstalada>
+			<NombreGrupoVtaInstalada>Venta Instalada</NombreGrupoVtaInstalada>
+				<Categorias>
+						<Categoria>
+							<NombreCategoria>Linea Industrial</NombreCategoria>
+							<Productos>
+								<Producto>
+									<Id_Prd>420</Id_Prd>
+									<Prd_Descripcion>KEY AFLOJATODO 200 LTS</Prd_Descripcion>
+									<Prd_Presentacion>200</Prd_Presentacion>
+									<Est_IFeb>22160</Est_IFeb>
+									<Est_IMar>11080</Est_IMar>
+									<Est_IAbr>11080</Est_IAbr>
+									<VentaCurso>50968</VentaCurso>
+									<Promedio>0</Promedio>
+									<Incremento>0</Incremento>
+									<UBIncremento>0</UBIncremento>
+									<BonoMesVta>0</BonoMesVta>
+									<BonoMesUB>0</BonoMesUB>
+									<BonoAPagar>00</BonoAPagar>
+								</Producto>
+								<Producto>
+									<Id_Prd>577</Id_Prd>
+									<Prd_Descripcion>KEY LIMPIAMANOS PASTA 1 LT.</Prd_Descripcion>
+									<Prd_Presentacion>1         </Prd_Presentacion>
+									<Est_IFeb>1064</Est_IFeb>
+									<Est_IMar>665</Est_IMar>
+									<Est_IAbr>1439.67</Est_IAbr>
+									<VentaCurso>917.64</VentaCurso>
+									<Promedio>0</Promedio>
+									<Incremento>0</Incremento>
+									<UBIncremento>0</UBIncremento>
+									<BonoMesVta>0</BonoMesVta>
+									<BonoMesUB>0</BonoMesUB>
+									<BonoAPagar>00</BonoAPagar>
+								</Producto>
+							</Productos>
+						</Categoria>
+						<Categoria>
+							<NombreCategoria>Jarcería</NombreCategoria>
+							<Productos>
+								<Producto>
+									<Id_Prd>926</Id_Prd>
+									<Prd_Descripcion>BOTELLA DE PLASTICO 1 LT</Prd_Descripcion>
+									<Prd_Presentacion>1</Prd_Presentacion>
+									<Est_IFeb>133</Est_IFeb>
+									<Est_IMar>0</Est_IMar>
+									<Est_IAbr>120</Est_IAbr>
+									<VentaCurso>540</VentaCurso>
+									<Promedio>0</Promedio>
+									<Incremento>0</Incremento>
+									<UBIncremento>0</UBIncremento>
+									<BonoMesVta>0</BonoMesVta>
+									<BonoMesUB>0</BonoMesUB>
+									<BonoAPagar>00</BonoAPagar>
+								</Producto>
+							</Productos>
+						</Categoria>
+						<Categoria>
+							<NombreCategoria>A.B.C.</NombreCategoria>
+							<Productos>
+								<Producto>
+									<Id_Prd>5226</Id_Prd>
+									<Prd_Descripcion>MARLI 400 MTS HD CAJA C/6 ROLLOS</Prd_Descripcion>
+									<Prd_Presentacion>1</Prd_Presentacion>
+									<Est_IFeb>0</Est_IFeb>
+									<Est_IMar>0</Est_IMar>
+									<Est_IAbr>0</Est_IAbr>
+									<VentaCurso>3422.1</VentaCurso>
+									<Promedio>0</Promedio>
+									<Incremento>0</Incremento>
+									<UBIncremento>0</UBIncremento>
+									<BonoMesVta>0</BonoMesVta>
+									<BonoMesUB>0</BonoMesUB>
+									<BonoAPagar>00</BonoAPagar>
+								</Producto>
+							</Productos>
+						</Categoria>
+				</Categorias>
+			</GrupoVtaInstalada>
+			<GrupoVtaInstalada>
+			<NombreGrupoVtaInstalada>Venta Instalada Incremental</NombreGrupoVtaInstalada>
+				<Categorias>
+						<Categoria>
+							<NombreCategoria>Jarcería</NombreCategoria>
+							<Productos>
+								<Producto>
+									<Id_Prd>1592</Id_Prd>
+									<Prd_Descripcion>PISTOLA ATOMIZADORA BCO/AZUL</Prd_Descripcion>
+									<Prd_Presentacion>1</Prd_Presentacion>
+									<Est_IFeb>0</Est_IFeb>
+									<Est_IMar>0</Est_IMar>
+									<Est_IAbr>650</Est_IAbr>
+									<VentaCurso>0</VentaCurso>
+									<Promedio>0</Promedio>
+									<Incremento>650</Incremento>
+									<UBIncremento>122.5</UBIncremento>
+									<BonoMesVta>650</BonoMesVta>
+									<BonoMesUB>122.5</BonoMesUB>
+									<BonoAPagar>18.375</BonoAPagar>
+								</Producto>
+							</Productos>
+						</Categoria>
+						<Categoria>
+							<NombreCategoria>Aseo General</NombreCategoria>
+							<Productos>
+								<Producto>
+									<Id_Prd>70081</Id_Prd>
+									<Prd_Descripcion>VANG. SARRICIDA 18 LTS</Prd_Descripcion>
+									<Prd_Presentacion>18</Prd_Presentacion>
+									<Est_IFeb>0</Est_IFeb>
+									<Est_IMar>325</Est_IMar>
+									<Est_IAbr>0</Est_IAbr>
+									<VentaCurso>0</VentaCurso>
+									<Promedio>0</Promedio>
+									<Incremento>325</Incremento>
+									<UBIncremento>130.11</UBIncremento>
+									<BonoMesVta>325</BonoMesVta>
+									<BonoMesUB>130.11</BonoMesUB>
+									<BonoAPagar>19.5165</BonoAPagar>
+								</Producto>
+							</Productos>
+						</Categoria>
+				</Categorias>
+			</GrupoVtaInstalada>
+		</GrupoVtasInstaladas>
+	</Cliente>
+	<Cliente>
+		<Id_Cte>2222</Id_Cte>
+		<Cte_NomComercial>4789 - VEGE DE MEXICO, S.A. DE C.V.</Cte_NomComercial>
+		<CteVtaCob>1130.88</CteVtaCob>
+		<CteUP>-781.71</CteUP>
+		<CteAN>0</CteAN>
+		<CteGST>0</CteGST>
+		<CteAA>0</CteAA>
+		<CteMO>0</CteMO>
+		<CteAE>0</CteAE>
+		<CteUB>0</CteUB>
+		<CteAjCobranza>0</CteAjCobranza>
+		<CteUBAj>0</CteUBAj>
+		<CtePPPA>12.5</CtePPPA>
+		<CteCP>0</CteCP>
+		<CteFR>0</CteFR>
+		<CteCB>1340</CteCB>
+		<GrupoVtasInstaladas>
+			<GrupoVtaInstalada>
+			<NombreGrupoVtaInstalada>NO Venta Instalada</NombreGrupoVtaInstalada>
+				<Categorias>
+						<Categoria>
+							<NombreCategoria>Otros Productos</NombreCategoria>
+							<Productos>
+								<Producto>
+									<Id_Prd>111703</Id_Prd>
+									<Prd_Descripcion>ALCOHOL ISOPROPILICO</Prd_Descripcion>
+									<Prd_Presentacion>1         </Prd_Presentacion>
+									<Est_IFeb>703</Est_IFeb>
+									<Est_IMar>0</Est_IMar>
+									<Est_IAbr>2200</Est_IAbr>
+									<VentaCurso>3420</VentaCurso>
+									<Promedio>0</Promedio>
+									<Incremento>0</Incremento>
+									<UBIncremento>0</UBIncremento>
+									<Orden1>NO Venta Instalada</Orden1>
+									<Orden2>Otros Productos</Orden2>
+									<BonoMesVta>0</BonoMesVta>
+									<BonoMesUB>0</BonoMesUB>
+									<BonoAPagar>00</BonoAPagar>
+								</Producto>
+								<Producto>
+									<Id_Prd>111716</Id_Prd>
+									<Prd_Descripcion>TAMBO VACIO LAMINA</Prd_Descripcion>
+									<Prd_Presentacion>1         </Prd_Presentacion>
+									<Est_IFeb>220</Est_IFeb>
+									<Est_IMar>660</Est_IMar>
+									<Est_IAbr>220</Est_IAbr>
+									<VentaCurso>0</VentaCurso>
+									<Promedio>0</Promedio>
+									<Incremento>0</Incremento>
+									<UBIncremento>0</UBIncremento>
+									<Orden1>NO Venta Instalada</Orden1>
+									<Orden2>Otros Productos</Orden2>
+									<BonoMesVta>0</BonoMesVta>
+									<BonoMesUB>0</BonoMesUB>
+									<BonoAPagar>00</BonoAPagar>
+								</Producto>
+								<Producto>
+									<Id_Prd>111739</Id_Prd>
+									<Prd_Descripcion>VARSOL</Prd_Descripcion>
+									<Prd_Presentacion>1         </Prd_Presentacion>
+									<Est_IFeb>0</Est_IFeb>
+									<Est_IMar>5280</Est_IMar>
+									<Est_IAbr>5500</Est_IAbr>
+									<VentaCurso>0</VentaCurso>
+									<Promedio>0</Promedio>
+									<Incremento>0</Incremento>
+									<UBIncremento>0</UBIncremento>
+									<Orden1>NO Venta Instalada</Orden1>
+									<Orden2>Otros Productos</Orden2>
+									<BonoMesVta>0</BonoMesVta>
+									<BonoMesUB>0</BonoMesUB>
+									<BonoAPagar>00</BonoAPagar>
+								</Producto>
+								 <Producto>
+    <Id_Prd>2054</Id_Prd>
+    <Prd_Descripcion>ECOSOLV 100 20 LTS</Prd_Descripcion>
+    <Prd_Presentacion>20.00</Prd_Presentacion>
+    <Est_IFeb>1166.61</Est_IFeb>
+    <Est_IMar>3499.83</Est_IMar>
+    <Est_IAbr>2333.22</Est_IAbr>
+    <VentaCurso>2333.22</VentaCurso>
+    <Promedio>0</Promedio>
+    <Incremento>0.00</Incremento>
+    <UBIncremento>0.00</UBIncremento>
+    <Orden1>Venta Instalada</Orden1>
+    <Orden2>Linea Industrial</Orden2>
+    <BonoMesVta>0.00</BonoMesVta>
+    <BonoMesUB>0.00</BonoMesUB>
+    <BonoAPagar>0.00</BonoAPagar>
+  </Producto>
+  <Producto>
+    <Id_Prd>466</Id_Prd>
+    <Prd_Descripcion>KEY DLP AEROSOL 0.4 KGS</Prd_Descripcion>
+    <Prd_Presentacion>0.4</Prd_Presentacion>
+    <Est_IFeb>4800.00</Est_IFeb>
+    <Est_IMar>4800.00</Est_IMar>
+    <Est_IAbr>6720.00</Est_IAbr>
+    <VentaCurso>7680.00</VentaCurso>
+    <Promedio>0</Promedio>
+    <Incremento>0.00</Incremento>
+    <UBIncremento>0.00</UBIncremento>
+    <Orden1>Venta Instalada</Orden1>
+    <Orden2>Linea Industrial</Orden2>
+    <BonoMesVta>0.00</BonoMesVta>
+    <BonoMesUB>0.00</BonoMesUB>
+    <BonoAPagar>0.00</BonoAPagar>
+  </Producto>
+  <Producto>
+    <Id_Prd>934</Id_Prd>
+    <Prd_Descripcion>PRO SH-1 20 LTS                </Prd_Descripcion>
+    <Prd_Presentacion>20</Prd_Presentacion>
+    <Est_IFeb>0.00</Est_IFeb>
+    <Est_IMar>2793.00</Est_IMar>
+    <Est_IAbr>0.00</Est_IAbr>
+    <VentaCurso>0.00</VentaCurso>
+    <Promedio>0</Promedio>
+    <Incremento>2793.00</Incremento>
+    <UBIncremento>1116.69</UBIncremento>
+    <Orden1>Venta Instalada Incremental</Orden1>
+    <Orden2>Linea Industrial</Orden2>
+    <BonoMesVta>2793.00</BonoMesVta>
+    <BonoMesUB>1116.69</BonoMesUB>
+    <BonoAPagar>167.50</BonoAPagar>
+  </Producto>
+  <Producto>
+    <Id_Prd>2054</Id_Prd>
+    <Prd_Descripcion>ECOSOLV 100 20 LTS</Prd_Descripcion>
+    <Prd_Presentacion>20.00</Prd_Presentacion>
+    <Est_IFeb>0.00</Est_IFeb>
+    <Est_IMar>5452.00</Est_IMar>
+    <Est_IAbr>0.00</Est_IAbr>
+    <VentaCurso>0.00</VentaCurso>
+    <Promedio>0</Promedio>
+    <Incremento>5452.00</Incremento>
+    <UBIncremento>2180.36</UBIncremento>
+    <Orden1>Venta Instalada Incremental</Orden1>
+    <Orden2>Linea Industrial</Orden2>
+    <BonoMesVta>5452.00</BonoMesVta>
+    <BonoMesUB>2180.36</BonoMesUB>
+    <BonoAPagar>327.05</BonoAPagar>
+  </Producto>
+  <Producto>
+    <Id_Prd>110790</Id_Prd>
+    <Prd_Descripcion>PORRON DE 20 LTS</Prd_Descripcion>
+    <Prd_Presentacion>1         </Prd_Presentacion>
+    <Est_IFeb>200.00</Est_IFeb>
+    <Est_IMar>0.00</Est_IMar>
+    <Est_IAbr>0.00</Est_IAbr>
+    <VentaCurso>0.00</VentaCurso>
+    <Promedio>0</Promedio>
+    <Incremento>0.00</Incremento>
+    <UBIncremento>0.00</UBIncremento>
+    <Orden1>NO Venta Instalada</Orden1>
+    <Orden2>Otros Productos</Orden2>
+    <BonoMesVta>0.00</BonoMesVta>
+    <BonoMesUB>0.00</BonoMesUB>
+    <BonoAPagar>0.00</BonoAPagar>
+  </Producto>
+  <Producto>
+    <Id_Prd>111739</Id_Prd>
+    <Prd_Descripcion>VARSOL</Prd_Descripcion>
+    <Prd_Presentacion>1         </Prd_Presentacion>
+    <Est_IFeb>4460.00</Est_IFeb>
+    <Est_IMar>0.00</Est_IMar>
+    <Est_IAbr>0.00</Est_IAbr>
+    <VentaCurso>0.00</VentaCurso>
+    <Promedio>0</Promedio>
+    <Incremento>4460.00</Incremento>
+    <UBIncremento>2664.00</UBIncremento>
+    <Orden1>NO Venta Instalada</Orden1>
+    <Orden2>Otros Productos</Orden2>
+    <BonoMesVta>0.00</BonoMesVta>
+    <BonoMesUB>0.00</BonoMesUB>
+    <BonoAPagar>0.00</BonoAPagar>
+  </Producto>
+  <Producto>
+    <Id_Prd>29</Id_Prd>
+    <Prd_Descripcion>KEY LD 20 LTS                  P.ORIGEN: MEXICO   </Prd_Descripcion>
+    <Prd_Presentacion>20</Prd_Presentacion>
+    <Est_IFeb>3826.00</Est_IFeb>
+    <Est_IMar>8307.00</Est_IMar>
+    <Est_IAbr>0.00</Est_IAbr>
+    <VentaCurso>0.00</VentaCurso>
+    <Promedio>0</Promedio>
+    <Incremento>0.00</Incremento>
+    <UBIncremento>0.00</UBIncremento>
+    <Orden1>Venta Instalada</Orden1>
+    <Orden2>Aseo General</Orden2>
+    <BonoMesVta>0.00</BonoMesVta>
+    <BonoMesUB>0.00</BonoMesUB>
+    <BonoAPagar>0.00</BonoAPagar>
+  </Producto>
+  <Producto>
+    <Id_Prd>934</Id_Prd>
+    <Prd_Descripcion>PRO SH-1 20 LTS                </Prd_Descripcion>
+    <Prd_Presentacion>20</Prd_Presentacion>
+    <Est_IFeb>4660.00</Est_IFeb>
+    <Est_IMar>-4660.00</Est_IMar>
+    <Est_IAbr>0.00</Est_IAbr>
+    <VentaCurso>0.00</VentaCurso>
+    <Promedio>0</Promedio>
+    <Incremento>0.00</Incremento>
+    <UBIncremento>0.00</UBIncremento>
+    <Orden1>Venta Instalada</Orden1>
+    <Orden2>Linea Industrial</Orden2>
+    <BonoMesVta>0.00</BonoMesVta>
+    <BonoMesUB>0.00</BonoMesUB>
+    <BonoAPagar>0.00</BonoAPagar>
+  </Producto>
+  <Producto>
+    <Id_Prd>111703</Id_Prd>
+    <Prd_Descripcion>ALCOHOL ISOPROPILICO</Prd_Descripcion>
+    <Prd_Presentacion>1         </Prd_Presentacion>
+    <Est_IFeb>703.00</Est_IFeb>
+    <Est_IMar>0.00</Est_IMar>
+    <Est_IAbr>2200.00</Est_IAbr>
+    <VentaCurso>3420.00</VentaCurso>
+    <Promedio>0</Promedio>
+    <Incremento>0.00</Incremento>
+    <UBIncremento>0.00</UBIncremento>
+    <Orden1>NO Venta Instalada</Orden1>
+    <Orden2>Otros Productos</Orden2>
+    <BonoMesVta>0.00</BonoMesVta>
+    <BonoMesUB>0.00</BonoMesUB>
+    <BonoAPagar>0.00</BonoAPagar>
+  </Producto>
+  <Producto>
+    <Id_Prd>111716</Id_Prd>
+    <Prd_Descripcion>TAMBO VACIO LAMINA</Prd_Descripcion>
+    <Prd_Presentacion>1         </Prd_Presentacion>
+    <Est_IFeb>220.00</Est_IFeb>
+    <Est_IMar>660.00</Est_IMar>
+    <Est_IAbr>220.00</Est_IAbr>
+    <VentaCurso>0.00</VentaCurso>
+    <Promedio>0</Promedio>
+    <Incremento>0.00</Incremento>
+    <UBIncremento>0.00</UBIncremento>
+    <Orden1>NO Venta Instalada</Orden1>
+    <Orden2>Otros Productos</Orden2>
+    <BonoMesVta>0.00</BonoMesVta>
+    <BonoMesUB>0.00</BonoMesUB>
+    <BonoAPagar>0.00</BonoAPagar>
+  </Producto>
+  <Producto>
+    <Id_Prd>111739</Id_Prd>
+    <Prd_Descripcion>VARSOL</Prd_Descripcion>
+    <Prd_Presentacion>1         </Prd_Presentacion>
+    <Est_IFeb>0.00</Est_IFeb>
+    <Est_IMar>5280.00</Est_IMar>
+    <Est_IAbr>5500.00</Est_IAbr>
+    <VentaCurso>5500.00</VentaCurso>
+    <Promedio>0</Promedio>
+    <Incremento>0.00</Incremento>
+    <UBIncremento>0.00</UBIncremento>
+    <Orden1>NO Venta Instalada</Orden1>
+    <Orden2>Otros Productos</Orden2>
+    <BonoMesVta>0.00</BonoMesVta>
+    <BonoMesUB>0.00</BonoMesUB>
+    <BonoAPagar>0.00</BonoAPagar>
+  </Producto>
+  <Producto>
+    <Id_Prd>111743</Id_Prd>
+    <Prd_Descripcion>THINER</Prd_Descripcion>
+    <Prd_Presentacion>1         </Prd_Presentacion>
+    <Est_IFeb>7180.00</Est_IFeb>
+    <Est_IMar>3480.00</Est_IMar>
+    <Est_IAbr>6960.00</Est_IAbr>
+    <VentaCurso>7400.00</VentaCurso>
+    <Promedio>0</Promedio>
+    <Incremento>0.00</Incremento>
+    <UBIncremento>0.00</UBIncremento>
+    <Orden1>NO Venta Instalada</Orden1>
+    <Orden2>Otros Productos</Orden2>
+    <BonoMesVta>0.00</BonoMesVta>
+    <BonoMesUB>0.00</BonoMesUB>
+    <BonoAPagar>0.00</BonoAPagar>
+  </Producto>
+  <Producto>
+    <Id_Prd>111744</Id_Prd>
+    <Prd_Descripcion>PETROLEO</Prd_Descripcion>
+    <Prd_Presentacion>1         </Prd_Presentacion>
+    <Est_IFeb>0.00</Est_IFeb>
+    <Est_IMar>5480.00</Est_IMar>
+    <Est_IAbr>5700.00</Est_IAbr>
+    <VentaCurso>11400.00</VentaCurso>
+    <Promedio>0</Promedio>
+    <Incremento>0.00</Incremento>
+    <UBIncremento>0.00</UBIncremento>
+    <Orden1>NO Venta Instalada</Orden1>
+    <Orden2>Otros Productos</Orden2>
+    <BonoMesVta>0.00</BonoMesVta>
+    <BonoMesUB>0.00</BonoMesUB>
+    <BonoAPagar>0.00</BonoAPagar>
+  </Producto>
+  <Producto>
+    <Id_Prd>420</Id_Prd>
+    <Prd_Descripcion>KEY AFLOJATODO 200 LTS</Prd_Descripcion>
+    <Prd_Presentacion>200</Prd_Presentacion>
+    <Est_IFeb>22160.00</Est_IFeb>
+    <Est_IMar>11080.00</Est_IMar>
+    <Est_IAbr>11080.00</Est_IAbr>
+    <VentaCurso>50968.00</VentaCurso>
+    <Promedio>0</Promedio>
+    <Incremento>0.00</Incremento>
+    <UBIncremento>0.00</UBIncremento>
+    <Orden1>Venta Instalada</Orden1>
+    <Orden2>Linea Industrial</Orden2>
+    <BonoMesVta>0.00</BonoMesVta>
+    <BonoMesUB>0.00</BonoMesUB>
+    <BonoAPagar>0.00</BonoAPagar>
+  </Producto>
+  <Producto>
+    <Id_Prd>577</Id_Prd>
+    <Prd_Descripcion>KEY LIMPIAMANOS PASTA 1 LT.</Prd_Descripcion>
+    <Prd_Presentacion>1</Prd_Presentacion>
+    <Est_IFeb>1064.00</Est_IFeb>
+    <Est_IMar>665.00</Est_IMar>
+    <Est_IAbr>1439.67</Est_IAbr>
+    <VentaCurso>917.64</VentaCurso>
+    <Promedio>0</Promedio>
+    <Incremento>0.00</Incremento>
+    <UBIncremento>0.00</UBIncremento>
+    <Orden1>Venta Instalada</Orden1>
+    <Orden2>Linea Industrial</Orden2>
+    <BonoMesVta>0.00</BonoMesVta>
+    <BonoMesUB>0.00</BonoMesUB>
+    <BonoAPagar>0.00</BonoAPagar>
+  </Producto>
+  <Producto>
+    <Id_Prd>926</Id_Prd>
+    <Prd_Descripcion>BOTELLA DE PLASTICO 1 LT</Prd_Descripcion>
+    <Prd_Presentacion>1         </Prd_Presentacion>
+    <Est_IFeb>133.00</Est_IFeb>
+    <Est_IMar>0.00</Est_IMar>
+    <Est_IAbr>120.00</Est_IAbr>
+    <VentaCurso>540.00</VentaCurso>
+    <Promedio>0</Promedio>
+    <Incremento>0.00</Incremento>
+    <UBIncremento>0.00</UBIncremento>
+    <Orden1>Venta Instalada</Orden1>
+    <Orden2>Jarcería</Orden2>
+    <BonoMesVta>0.00</BonoMesVta>
+    <BonoMesUB>0.00</BonoMesUB>
+    <BonoAPagar>0.00</BonoAPagar>
+  </Producto>
+  <Producto>
+    <Id_Prd>5226</Id_Prd>
+    <Prd_Descripcion>MARLI  400 MTS HD CAJA C/6 ROLLOS</Prd_Descripcion>
+    <Prd_Presentacion>1.00</Prd_Presentacion>
+    <Est_IFeb>0.00</Est_IFeb>
+    <Est_IMar>0.00</Est_IMar>
+    <Est_IAbr>0.00</Est_IAbr>
+    <VentaCurso>3422.10</VentaCurso>
+    <Promedio>0</Promedio>
+    <Incremento>0.00</Incremento>
+    <UBIncremento>0.00</UBIncremento>
+    <Orden1>Venta Instalada</Orden1>
+    <Orden2>A.B.C.</Orden2>
+    <BonoMesVta>0.00</BonoMesVta>
+    <BonoMesUB>0.00</BonoMesUB>
+    <BonoAPagar>0.00</BonoAPagar>
+  </Producto>
+  <Producto>
+    <Id_Prd>1592</Id_Prd>
+    <Prd_Descripcion>PISTOLA ATOMIZADORA BCO/AZUL</Prd_Descripcion>
+    <Prd_Presentacion>1</Prd_Presentacion>
+    <Est_IFeb>0.00</Est_IFeb>
+    <Est_IMar>0.00</Est_IMar>
+    <Est_IAbr>650.00</Est_IAbr>
+    <VentaCurso>0.00</VentaCurso>
+    <Promedio>0</Promedio>
+    <Incremento>650.00</Incremento>
+    <UBIncremento>122.50</UBIncremento>
+    <Orden1>Venta Instalada Incremental</Orden1>
+    <Orden2>Jarcería</Orden2>
+    <BonoMesVta>650.00</BonoMesVta>
+    <BonoMesUB>122.50</BonoMesUB>
+    <BonoAPagar>18.38</BonoAPagar>
+  </Producto>
+  <Producto>
+    <Id_Prd>70081</Id_Prd>
+    <Prd_Descripcion>VANG. SARRICIDA 18 LTS</Prd_Descripcion>
+    <Prd_Presentacion>18</Prd_Presentacion>
+    <Est_IFeb>0.00</Est_IFeb>
+    <Est_IMar>325.00</Est_IMar>
+    <Est_IAbr>0.00</Est_IAbr>
+    <VentaCurso>0.00</VentaCurso>
+    <Promedio>0</Promedio>
+    <Incremento>325.00</Incremento>
+    <UBIncremento>130.11</UBIncremento>
+    <Orden1>Venta Instalada Incremental</Orden1>
+    <Orden2>Aseo General</Orden2>
+    <BonoMesVta>325.00</BonoMesVta>
+    <BonoMesUB>130.11</BonoMesUB>
+    <BonoAPagar>19.52</BonoAPagar>
+  </Producto>
+  <Producto>
+    <Id_Prd>882</Id_Prd>
+    <Prd_Descripcion>PRO EM-1</Prd_Descripcion>
+    <Prd_Presentacion>20.00</Prd_Presentacion>
+    <Est_IFeb>0.00</Est_IFeb>
+    <Est_IMar>2995.38</Est_IMar>
+    <Est_IAbr>0.00</Est_IAbr>
+    <VentaCurso>0.00</VentaCurso>
+    <Promedio>0</Promedio>
+    <Incremento>0.00</Incremento>
+    <UBIncremento>0.00</UBIncremento>
+    <Orden1>Venta Instalada</Orden1>
+    <Orden2>Linea Industrial</Orden2>
+    <BonoMesVta>0.00</BonoMesVta>
+    <BonoMesUB>0.00</BonoMesUB>
+    <BonoAPagar>0.00</BonoAPagar>
+  </Producto>
+  <Producto>
+    <Id_Prd>934</Id_Prd>
+    <Prd_Descripcion>PRO SH-1 20 LTS                </Prd_Descripcion>
+    <Prd_Presentacion>20</Prd_Presentacion>
+    <Est_IFeb>0.00</Est_IFeb>
+    <Est_IMar>2793.00</Est_IMar>
+    <Est_IAbr>0.00</Est_IAbr>
+    <VentaCurso>0.00</VentaCurso>
+    <Promedio>0</Promedio>
+    <Incremento>2793.00</Incremento>
+    <UBIncremento>1116.69</UBIncremento>
+    <Orden1>Venta Instalada Incremental</Orden1>
+    <Orden2>Linea Industrial</Orden2>
+    <BonoMesVta>2793.00</BonoMesVta>
+    <BonoMesUB>1116.69</BonoMesUB>
+    <BonoAPagar>167.50</BonoAPagar>
+  </Producto>
+  <Producto>
+    <Id_Prd>2054</Id_Prd>
+    <Prd_Descripcion>ECOSOLV 100 20 LTS</Prd_Descripcion>
+    <Prd_Presentacion>20.00</Prd_Presentacion>
+    <Est_IFeb>0.00</Est_IFeb>
+    <Est_IMar>5452.00</Est_IMar>
+    <Est_IAbr>0.00</Est_IAbr>
+    <VentaCurso>0.00</VentaCurso>
+    <Promedio>0</Promedio>
+    <Incremento>5452.00</Incremento>
+    <UBIncremento>2180.36</UBIncremento>
+    <Orden1>Venta Instalada Incremental</Orden1>
+    <Orden2>Linea Industrial</Orden2>
+    <BonoMesVta>5452.00</BonoMesVta>
+    <BonoMesUB>2180.36</BonoMesUB>
+    <BonoAPagar>327.05</BonoAPagar>
+  </Producto>
+  <Producto>
+    <Id_Prd>958</Id_Prd>
+    <Prd_Descripcion>ASPERSOR P/ACIDOS ( 1 PZA</Prd_Descripcion>
+    <Prd_Presentacion>1</Prd_Presentacion>
+    <Est_IFeb>2030.00</Est_IFeb>
+    <Est_IMar>0.00</Est_IMar>
+    <Est_IAbr>0.00</Est_IAbr>
+    <VentaCurso>0.00</VentaCurso>
+    <Promedio>0</Promedio>
+    <Incremento>2030.00</Incremento>
+    <UBIncremento>406.13</UBIncremento>
+    <Orden1>NO Venta Instalada</Orden1>
+    <Orden2>Otros Productos</Orden2>
+    <BonoMesVta>0.00</BonoMesVta>
+    <BonoMesUB>0.00</BonoMesUB>
+    <BonoAPagar>0.00</BonoAPagar>
+  </Producto>
+  <Producto>
+    <Id_Prd>469</Id_Prd>
+    <Prd_Descripcion>KEY REMOVEDOR DE POLVO (0.350 KGS)</Prd_Descripcion>
+    <Prd_Presentacion>1</Prd_Presentacion>
+    <Est_IFeb>6888.96</Est_IFeb>
+    <Est_IMar>2583.36</Est_IMar>
+    <Est_IAbr>6156.00</Est_IAbr>
+    <VentaCurso>4218.00</VentaCurso>
+    <Promedio>0</Promedio>
+    <Incremento>0.00</Incremento>
+    <UBIncremento>0.00</UBIncremento>
+    <Orden1>Venta Instalada</Orden1>
+    <Orden2>Linea Industrial</Orden2>
+    <BonoMesVta>0.00</BonoMesVta>
+    <BonoMesUB>0.00</BonoMesUB>
+    <BonoAPagar>0.00</BonoAPagar>
+  </Producto>
+  <Producto>
+    <Id_Prd>472</Id_Prd>
+    <Prd_Descripcion>KEY ECOSOLVETRON 0.28 KGS</Prd_Descripcion>
+    <Prd_Presentacion>1         </Prd_Presentacion>
+    <Est_IFeb>770.00</Est_IFeb>
+    <Est_IMar>0.00</Est_IMar>
+    <Est_IAbr>1320.00</Est_IAbr>
+    <VentaCurso>0.00</VentaCurso>
+    <Promedio>0</Promedio>
+    <Incremento>0.00</Incremento>
+    <UBIncremento>0.00</UBIncremento>
+    <Orden1>Venta Instalada</Orden1>
+    <Orden2>Linea Industrial</Orden2>
+    <BonoMesVta>0.00</BonoMesVta>
+    <BonoMesUB>0.00</BonoMesUB>
+    <BonoAPagar>0.00</BonoAPagar>
+  </Producto>
+  <Producto>
+    <Id_Prd>2099</Id_Prd>
+    <Prd_Descripcion>KEY JABON ANTIPLOMO</Prd_Descripcion>
+    <Prd_Presentacion>20</Prd_Presentacion>
+    <Est_IFeb>22761.60</Est_IFeb>
+    <Est_IMar>37936.00</Est_IMar>
+    <Est_IAbr>11835.90</Est_IAbr>
+    <VentaCurso>23671.80</VentaCurso>
+    <Promedio>0</Promedio>
+    <Incremento>0.00</Incremento>
+    <UBIncremento>0.00</UBIncremento>
+    <Orden1>Venta Instalada</Orden1>
+    <Orden2>Linea Industrial</Orden2>
+    <BonoMesVta>0.00</BonoMesVta>
+    <BonoMesUB>0.00</BonoMesUB>
+    <BonoAPagar>0.00</BonoAPagar>
+  </Producto>
+  <Producto>
+    <Id_Prd>417</Id_Prd>
+    <Prd_Descripcion>KEY AFLOJATODO 1 LTO. (PET)</Prd_Descripcion>
+    <Prd_Presentacion>1.00</Prd_Presentacion>
+    <Est_IFeb>0.00</Est_IFeb>
+    <Est_IMar>0.00</Est_IMar>
+    <Est_IAbr>750.36</Est_IAbr>
+    <VentaCurso>0.00</VentaCurso>
+    <Promedio>0</Promedio>
+    <Incremento>0.00</Incremento>
+    <UBIncremento>0.00</UBIncremento>
+    <Orden1>Venta Instalada</Orden1>
+    <Orden2>Linea Industrial</Orden2>
+    <BonoMesVta>0.00</BonoMesVta>
+    <BonoMesUB>0.00</BonoMesUB>
+    <BonoAPagar>0.00</BonoAPagar>
+  </Producto>
+  <Producto>
+    <Id_Prd>472</Id_Prd>
+    <Prd_Descripcion>KEY ECOSOLVETRON 0.28 KGS</Prd_Descripcion>
+    <Prd_Presentacion>1         </Prd_Presentacion>
+    <Est_IFeb>16519.50</Est_IFeb>
+    <Est_IMar>17841.06</Est_IMar>
+    <Est_IAbr>10506.50</Est_IAbr>
+    <VentaCurso>16875.00</VentaCurso>
+    <Promedio>0</Promedio>
+    <Incremento>0.00</Incremento>
+    <UBIncremento>0.00</UBIncremento>
+    <Orden1>Venta Instalada</Orden1>
+    <Orden2>Linea Industrial</Orden2>
+    <BonoMesVta>0.00</BonoMesVta>
+    <BonoMesUB>0.00</BonoMesUB>
+    <BonoAPagar>0.00</BonoAPagar>
+  </Producto>
+  <Producto>
+    <Id_Prd>2143</Id_Prd>
+    <Prd_Descripcion>KEY DERM-O-WIPE (NUEVO) 0.8 LT P.ORIGEN: MEXICO   </Prd_Descripcion>
+    <Prd_Presentacion>0.8</Prd_Presentacion>
+    <Est_IFeb>0.00</Est_IFeb>
+    <Est_IMar>1728.00</Est_IMar>
+    <Est_IAbr>0.00</Est_IAbr>
+    <VentaCurso>0.00</VentaCurso>
+    <Promedio>0</Promedio>
+    <Incremento>0.00</Incremento>
+    <UBIncremento>0.00</UBIncremento>
+    <Orden1>Venta Instalada</Orden1>
+    <Orden2>Alisan</Orden2>
+    <BonoMesVta>0.00</BonoMesVta>
+    <BonoMesUB>0.00</BonoMesUB>
+    <BonoAPagar>0.00</BonoAPagar>
+  </Producto>
+  <Producto>
+    <Id_Prd>2493</Id_Prd>
+    <Prd_Descripcion>KEY SUPER D 4 LTS</Prd_Descripcion>
+    <Prd_Presentacion>4</Prd_Presentacion>
+    <Est_IFeb>0.00</Est_IFeb>
+    <Est_IMar>340.00</Est_IMar>
+    <Est_IAbr>364.00</Est_IAbr>
+    <VentaCurso>364.00</VentaCurso>
+    <Promedio>0</Promedio>
+    <Incremento>0.00</Incremento>
+    <UBIncremento>0.00</UBIncremento>
+    <Orden1>Venta Instalada</Orden1>
+    <Orden2>Linea Industrial</Orden2>
+    <BonoMesVta>0.00</BonoMesVta>
+    <BonoMesUB>0.00</BonoMesUB>
+    <BonoAPagar>0.00</BonoAPagar>
+  </Producto>
+  <Producto>
+    <Id_Prd>29</Id_Prd>
+    <Prd_Descripcion>KEY LD 20 LTS                  P.ORIGEN: MEXICO   </Prd_Descripcion>
+    <Prd_Presentacion>20</Prd_Presentacion>
+    <Est_IFeb>0.00</Est_IFeb>
+    <Est_IMar>3340.00</Est_IMar>
+    <Est_IAbr>835.20</Est_IAbr>
+    <VentaCurso>835.00</VentaCurso>
+    <Promedio>0</Promedio>
+    <Incremento>0.00</Incremento>
+    <UBIncremento>0.00</UBIncremento>
+    <Orden1>Venta Instalada</Orden1>
+    <Orden2>Aseo General</Orden2>
+    <BonoMesVta>0.00</BonoMesVta>
+    <BonoMesUB>0.00</BonoMesUB>
+    <BonoAPagar>0.00</BonoAPagar>
+  </Producto>
+  <Producto>
+    <Id_Prd>472</Id_Prd>
+    <Prd_Descripcion>KEY ECOSOLVETRON 0.28 KGS</Prd_Descripcion>
+    <Prd_Presentacion>1         </Prd_Presentacion>
+    <Est_IFeb>3969.00</Est_IFeb>
+    <Est_IMar>0.00</Est_IMar>
+    <Est_IAbr>1701.00</Est_IAbr>
+    <VentaCurso>1587.60</VentaCurso>
+    <Promedio>0</Promedio>
+    <Incremento>0.00</Incremento>
+    <UBIncremento>0.00</UBIncremento>
+    <Orden1>Venta Instalada</Orden1>
+    <Orden2>Linea Industrial</Orden2>
+    <BonoMesVta>0.00</BonoMesVta>
+    <BonoMesUB>0.00</BonoMesUB>
+    <BonoAPagar>0.00</BonoAPagar>
+  </Producto>
+  <Producto>
+    <Id_Prd>934</Id_Prd>
+    <Prd_Descripcion>PRO SH-1 20 LTS                </Prd_Descripcion>
+    <Prd_Presentacion>20</Prd_Presentacion>
+    <Est_IFeb>0.00</Est_IFeb>
+    <Est_IMar>1867.30</Est_IMar>
+    <Est_IAbr>0.00</Est_IAbr>
+    <VentaCurso>0.00</VentaCurso>
+    <Promedio>0</Promedio>
+    <Incremento>0.00</Incremento>
+    <UBIncremento>0.00</UBIncremento>
+    <Orden1>Venta Instalada</Orden1>
+    <Orden2>Linea Industrial</Orden2>
+    <BonoMesVta>0.00</BonoMesVta>
+    <BonoMesUB>0.00</BonoMesUB>
+    <BonoAPagar>0.00</BonoAPagar>
+  </Producto>
+  <Producto>
+    <Id_Prd>188</Id_Prd>
+    <Prd_Descripcion>KEY JABON CREMA ALMENDRAS</Prd_Descripcion>
+    <Prd_Presentacion>4.00</Prd_Presentacion>
+    <Est_IFeb>0.00</Est_IFeb>
+    <Est_IMar>0.00</Est_IMar>
+    <Est_IAbr>446.73</Est_IAbr>
+    <VentaCurso>0.00</VentaCurso>
+    <Promedio>0</Promedio>
+    <Incremento>0.00</Incremento>
+    <UBIncremento>0.00</UBIncremento>
+    <Orden1>Venta Instalada</Orden1>
+    <Orden2>A.B.C.</Orden2>
+    <BonoMesVta>0.00</BonoMesVta>
+    <BonoMesUB>0.00</BonoMesUB>
+    <BonoAPagar>0.00</BonoAPagar>
+  </Producto>
+  <Producto>
+    <Id_Prd>1919</Id_Prd>
+    <Prd_Descripcion>AR-100  20 LT</Prd_Descripcion>
+    <Prd_Presentacion>20</Prd_Presentacion>
+    <Est_IFeb>0.00</Est_IFeb>
+    <Est_IMar>3100.00</Est_IMar>
+    <Est_IAbr>3100.00</Est_IAbr>
+    <VentaCurso>3100.00</VentaCurso>
+    <Promedio>0</Promedio>
+    <Incremento>0.00</Incremento>
+    <UBIncremento>0.00</UBIncremento>
+    <Orden1>Venta Instalada</Orden1>
+    <Orden2>Linea Industrial</Orden2>
+    <BonoMesVta>0.00</BonoMesVta>
+    <BonoMesUB>0.00</BonoMesUB>
+    <BonoAPagar>0.00</BonoAPagar>
+  </Producto>
+  <Producto>
+    <Id_Prd>44</Id_Prd>
+    <Prd_Descripcion>SS</Prd_Descripcion>
+    <Prd_Presentacion>20.00</Prd_Presentacion>
+    <Est_IFeb>2600.00</Est_IFeb>
+    <Est_IMar>0.00</Est_IMar>
+    <Est_IAbr>0.00</Est_IAbr>
+    <VentaCurso>0.00</VentaCurso>
+    <Promedio>0</Promedio>
+    <Incremento>2600.00</Incremento>
+    <UBIncremento>1073.40</UBIncremento>
+    <Orden1>Venta Instalada Incremental</Orden1>
+    <Orden2>Linea Industrial</Orden2>
+    <BonoMesVta>2600.00</BonoMesVta>
+    <BonoMesUB>1073.40</BonoMesUB>
+    <BonoAPagar>161.01</BonoAPagar>
+  </Producto>
+  <Producto>
+    <Id_Prd>472</Id_Prd>
+    <Prd_Descripcion>KEY ECOSOLVETRON 0.28 KGS</Prd_Descripcion>
+    <Prd_Presentacion>1         </Prd_Presentacion>
+    <Est_IFeb>0.00</Est_IFeb>
+    <Est_IMar>0.00</Est_IMar>
+    <Est_IAbr>784.80</Est_IAbr>
+    <VentaCurso>0.00</VentaCurso>
+    <Promedio>0</Promedio>
+    <Incremento>784.80</Incremento>
+    <UBIncremento>227.04</UBIncremento>
+    <Orden1>Venta Instalada Incremental</Orden1>
+    <Orden2>Linea Industrial</Orden2>
+    <BonoMesVta>784.80</BonoMesVta>
+    <BonoMesUB>227.04</BonoMesUB>
+    <BonoAPagar>34.06</BonoAPagar>
+  </Producto>
+  <Producto>
+    <Id_Prd>477</Id_Prd>
+    <Prd_Descripcion>ECOSOLVETRON II 0.3 KGS</Prd_Descripcion>
+    <Prd_Presentacion>0.3</Prd_Presentacion>
+    <Est_IFeb>0.00</Est_IFeb>
+    <Est_IMar>0.00</Est_IMar>
+    <Est_IAbr>1600.00</Est_IAbr>
+    <VentaCurso>0.00</VentaCurso>
+    <Promedio>0</Promedio>
+    <Incremento>1600.00</Incremento>
+    <UBIncremento>633.00</UBIncremento>
+    <Orden1>Venta Instalada Incremental</Orden1>
+    <Orden2>Linea Industrial</Orden2>
+    <BonoMesVta>1600.00</BonoMesVta>
+    <BonoMesUB>633.00</BonoMesUB>
+    <BonoAPagar>94.95</BonoAPagar>
+  </Producto>
+  <Producto>
+    <Id_Prd>472</Id_Prd>
+    <Prd_Descripcion>KEY ECOSOLVETRON 0.28 KGS</Prd_Descripcion>
+    <Prd_Presentacion>1         </Prd_Presentacion>
+    <Est_IFeb>1740.00</Est_IFeb>
+    <Est_IMar>0.00</Est_IMar>
+    <Est_IAbr>0.00</Est_IAbr>
+    <VentaCurso>0.00</VentaCurso>
+    <Promedio>0</Promedio>
+    <Incremento>1740.00</Incremento>
+    <UBIncremento>686.28</UBIncremento>
+    <Orden1>Venta Instalada Incremental</Orden1>
+    <Orden2>Linea Industrial</Orden2>
+    <BonoMesVta>1740.00</BonoMesVta>
+    <BonoMesUB>686.28</BonoMesUB>
+    <BonoAPagar>102.94</BonoAPagar>
+  </Producto>
+  <Producto>
+    <Id_Prd>538</Id_Prd>
+    <Prd_Descripcion>KEY LUBOL 5OO AEROS 1 PZA</Prd_Descripcion>
+    <Prd_Presentacion>1</Prd_Presentacion>
+    <Est_IFeb>0.00</Est_IFeb>
+    <Est_IMar>8880.00</Est_IMar>
+    <Est_IAbr>4440.00</Est_IAbr>
+    <VentaCurso>0.00</VentaCurso>
+    <Promedio>0</Promedio>
+    <Incremento>0.00</Incremento>
+    <UBIncremento>0.00</UBIncremento>
+    <Orden1>Venta Instalada</Orden1>
+    <Orden2>Linea Industrial</Orden2>
+    <BonoMesVta>0.00</BonoMesVta>
+    <BonoMesUB>0.00</BonoMesUB>
+    <BonoAPagar>0.00</BonoAPagar>
+  </Producto>
+  <Producto>
+    <Id_Prd>110181</Id_Prd>
+    <Prd_Descripcion>ACEITE HIDRAULICO SAE 20</Prd_Descripcion>
+    <Prd_Presentacion>1         </Prd_Presentacion>
+    <Est_IFeb>0.00</Est_IFeb>
+    <Est_IMar>0.00</Est_IMar>
+    <Est_IAbr>0.00</Est_IAbr>
+    <VentaCurso>3620.00</VentaCurso>
+    <Promedio>0</Promedio>
+    <Incremento>0.00</Incremento>
+    <UBIncremento>0.00</UBIncremento>
+    <Orden1>NO Venta Instalada</Orden1>
+    <Orden2>Otros Productos</Orden2>
+    <BonoMesVta>0.00</BonoMesVta>
+    <BonoMesUB>0.00</BonoMesUB>
+    <BonoAPagar>0.00</BonoAPagar>
+  </Producto>
+  <Producto>
+    <Id_Prd>119</Id_Prd>
+    <Prd_Descripcion>KEY IMAN 20 LTS</Prd_Descripcion>
+    <Prd_Presentacion>20</Prd_Presentacion>
+    <Est_IFeb>0.00</Est_IFeb>
+    <Est_IMar>0.00</Est_IMar>
+    <Est_IAbr>3392.00</Est_IAbr>
+    <VentaCurso>0.00</VentaCurso>
+    <Promedio>0</Promedio>
+    <Incremento>0.00</Incremento>
+    <UBIncremento>0.00</UBIncremento>
+    <Orden1>Venta Instalada</Orden1>
+    <Orden2>Aseo General</Orden2>
+    <BonoMesVta>0.00</BonoMesVta>
+    <BonoMesUB>0.00</BonoMesUB>
+    <BonoAPagar>0.00</BonoAPagar>
+  </Producto>
+  <Producto>
+    <Id_Prd>1286</Id_Prd>
+    <Prd_Descripcion>REPUESTO MOP SECO 24" (NAC)    ART. 6202          </Prd_Descripcion>
+    <Prd_Presentacion>1</Prd_Presentacion>
+    <Est_IFeb>0.00</Est_IFeb>
+    <Est_IMar>0.00</Est_IMar>
+    <Est_IAbr>1008.00</Est_IAbr>
+    <VentaCurso>0.00</VentaCurso>
+    <Promedio>0</Promedio>
+    <Incremento>1008.00</Incremento>
+    <UBIncremento>302.72</UBIncremento>
+    <Orden1>Venta Instalada Incremental</Orden1>
+    <Orden2>Jarcería</Orden2>
+    <BonoMesVta>1008.00</BonoMesVta>
+    <BonoMesUB>302.72</BonoMesUB>
+    <BonoAPagar>45.41</BonoAPagar>
+  </Producto>
+  <Producto>
+    <Id_Prd>44</Id_Prd>
+    <Prd_Descripcion>SS</Prd_Descripcion>
+    <Prd_Presentacion>20.00</Prd_Presentacion>
+    <Est_IFeb>1273.00</Est_IFeb>
+    <Est_IMar>0.00</Est_IMar>
+    <Est_IAbr>0.00</Est_IAbr>
+    <VentaCurso>0.00</VentaCurso>
+    <Promedio>0</Promedio>
+    <Incremento>1273.00</Incremento>
+    <UBIncremento>509.70</UBIncremento>
+    <Orden1>Venta Instalada Incremental</Orden1>
+    <Orden2>Linea Industrial</Orden2>
+    <BonoMesVta>1273.00</BonoMesVta>
+    <BonoMesUB>509.70</BonoMesUB>
+    <BonoAPagar>76.45</BonoAPagar>
+  </Producto>
+  <Producto>
+    <Id_Prd>224</Id_Prd>
+    <Prd_Descripcion>KEY BIOACTIV 100</Prd_Descripcion>
+    <Prd_Presentacion>20.00</Prd_Presentacion>
+    <Est_IFeb>494.22</Est_IFeb>
+    <Est_IMar>0.00</Est_IMar>
+    <Est_IAbr>0.00</Est_IAbr>
+    <VentaCurso>0.00</VentaCurso>
+    <Promedio>0</Promedio>
+    <Incremento>494.22</Incremento>
+    <UBIncremento>247.11</UBIncremento>
+    <Orden1>Venta Instalada Incremental</Orden1>
+    <Orden2>Linea Industrial</Orden2>
+    <BonoMesVta>494.22</BonoMesVta>
+    <BonoMesUB>247.11</BonoMesUB>
+    <BonoAPagar>37.07</BonoAPagar>
+  </Producto>
+  <Producto>
+    <Id_Prd>225</Id_Prd>
+    <Prd_Descripcion>KEY BIOACTIV 100</Prd_Descripcion>
+    <Prd_Presentacion>200.00</Prd_Presentacion>
+    <Est_IFeb>3884.00</Est_IFeb>
+    <Est_IMar>0.00</Est_IMar>
+    <Est_IAbr>0.00</Est_IAbr>
+    <VentaCurso>0.00</VentaCurso>
+    <Promedio>0</Promedio>
+    <Incremento>3884.00</Incremento>
+    <UBIncremento>1553.50</UBIncremento>
+    <Orden1>Venta Instalada Incremental</Orden1>
+    <Orden2>Linea Industrial</Orden2>
+    <BonoMesVta>3884.00</BonoMesVta>
+    <BonoMesUB>1553.50</BonoMesUB>
+    <BonoAPagar>233.02</BonoAPagar>
+  </Producto>
+  <Producto>
+    <Id_Prd>472</Id_Prd>
+    <Prd_Descripcion>KEY ECOSOLVETRON 0.28 KGS</Prd_Descripcion>
+    <Prd_Presentacion>1         </Prd_Presentacion>
+    <Est_IFeb>146.35</Est_IFeb>
+    <Est_IMar>0.00</Est_IMar>
+    <Est_IAbr>0.00</Est_IAbr>
+    <VentaCurso>1872.00</VentaCurso>
+    <Promedio>0</Promedio>
+    <Incremento>146.35</Incremento>
+    <UBIncremento>58.54</UBIncremento>
+    <Orden1>Venta Instalada Incremental</Orden1>
+    <Orden2>Linea Industrial</Orden2>
+    <BonoMesVta>146.35</BonoMesVta>
+    <BonoMesUB>58.54</BonoMesUB>
+    <BonoAPagar>8.78</BonoAPagar>
+  </Producto>
+  <Producto>
+    <Id_Prd>2054</Id_Prd>
+    <Prd_Descripcion>ECOSOLV 100 20 LTS</Prd_Descripcion>
+    <Prd_Presentacion>20.00</Prd_Presentacion>
+    <Est_IFeb>1364.00</Est_IFeb>
+    <Est_IMar>0.00</Est_IMar>
+    <Est_IAbr>0.00</Est_IAbr>
+    <VentaCurso>0.00</VentaCurso>
+    <Promedio>0</Promedio>
+    <Incremento>1364.00</Incremento>
+    <UBIncremento>546.09</UBIncremento>
+    <Orden1>Venta Instalada Incremental</Orden1>
+    <Orden2>Linea Industrial</Orden2>
+    <BonoMesVta>1364.00</BonoMesVta>
+    <BonoMesUB>546.09</BonoMesUB>
+    <BonoAPagar>81.91</BonoAPagar>
+  </Producto>
+  <Producto>
+    <Id_Prd>4703</Id_Prd>
+    <Prd_Descripcion>KEY TERMINOX 4 LT</Prd_Descripcion>
+    <Prd_Presentacion>4</Prd_Presentacion>
+    <Est_IFeb>1440.00</Est_IFeb>
+    <Est_IMar>0.00</Est_IMar>
+    <Est_IAbr>0.00</Est_IAbr>
+    <VentaCurso>0.00</VentaCurso>
+    <Promedio>0</Promedio>
+    <Incremento>1440.00</Incremento>
+    <UBIncremento>575.96</UBIncremento>
+    <Orden1>Venta Instalada Incremental</Orden1>
+    <Orden2>Linea Industrial</Orden2>
+    <BonoMesVta>1440.00</BonoMesVta>
+    <BonoMesUB>575.96</BonoMesUB>
+    <BonoAPagar>86.39</BonoAPagar>
+  </Producto>
+  <Producto>
+    <Id_Prd>314</Id_Prd>
+    <Prd_Descripcion>KEY BM 20 KGS</Prd_Descripcion>
+    <Prd_Presentacion>20</Prd_Presentacion>
+    <Est_IFeb>0.00</Est_IFeb>
+    <Est_IMar>519.00</Est_IMar>
+    <Est_IAbr>0.00</Est_IAbr>
+    <VentaCurso>519.00</VentaCurso>
+    <Promedio>0</Promedio>
+    <Incremento>0.00</Incremento>
+    <UBIncremento>0.00</UBIncremento>
+    <Orden1>Venta Instalada</Orden1>
+    <Orden2>Linea Industrial</Orden2>
+    <BonoMesVta>0.00</BonoMesVta>
+    <BonoMesUB>0.00</BonoMesUB>
+    <BonoAPagar>0.00</BonoAPagar>
+  </Producto>
+  <Producto>
+    <Id_Prd>2103</Id_Prd>
+    <Prd_Descripcion>KEY LUMEN SELLADOR ACABADO 4 L</Prd_Descripcion>
+    <Prd_Presentacion>4</Prd_Presentacion>
+    <Est_IFeb>327.00</Est_IFeb>
+    <Est_IMar>1308.00</Est_IMar>
+    <Est_IAbr>0.00</Est_IAbr>
+    <VentaCurso>0.00</VentaCurso>
+    <Promedio>0</Promedio>
+    <Incremento>0.00</Incremento>
+    <UBIncremento>0.00</UBIncremento>
+    <Orden1>Venta Instalada</Orden1>
+    <Orden2>Aseo General</Orden2>
+    <BonoMesVta>0.00</BonoMesVta>
+    <BonoMesUB>0.00</BonoMesUB>
+    <BonoAPagar>0.00</BonoAPagar>
+  </Producto>
+  <Producto>
+    <Id_Prd>7653</Id_Prd>
+    <Prd_Descripcion>KEY CITRA-D  4 KG.</Prd_Descripcion>
+    <Prd_Presentacion>4</Prd_Presentacion>
+    <Est_IFeb>397.53</Est_IFeb>
+    <Est_IMar>927.57</Est_IMar>
+    <Est_IAbr>662.55</Est_IAbr>
+    <VentaCurso>976.00</VentaCurso>
+    <Promedio>0</Promedio>
+    <Incremento>0.00</Incremento>
+    <UBIncremento>0.00</UBIncremento>
+    <Orden1>Venta Instalada</Orden1>
+    <Orden2>Linea Industrial</Orden2>
+    <BonoMesVta>0.00</BonoMesVta>
+    <BonoMesUB>0.00</BonoMesUB>
+    <BonoAPagar>0.00</BonoAPagar>
+  </Producto>
+  <Producto>
+    <Id_Prd>148</Id_Prd>
+    <Prd_Descripcion>KEY LIMPIAMANOS LIQ. 4 LT</Prd_Descripcion>
+    <Prd_Presentacion>4.00</Prd_Presentacion>
+    <Est_IFeb>0.00</Est_IFeb>
+    <Est_IMar>0.00</Est_IMar>
+    <Est_IAbr>958.08</Est_IAbr>
+    <VentaCurso>0.00</VentaCurso>
+    <Promedio>0</Promedio>
+    <Incremento>958.08</Incremento>
+    <UBIncremento>271.84</UBIncremento>
+    <Orden1>Venta Instalada Incremental</Orden1>
+    <Orden2>A.B.C.</Orden2>
+    <BonoMesVta>958.08</BonoMesVta>
+    <BonoMesUB>271.84</BonoMesUB>
+    <BonoAPagar>40.78</BonoAPagar>
+  </Producto>
+  <Producto>
+    <Id_Prd>110790</Id_Prd>
+    <Prd_Descripcion>PORRON DE 20 LTS</Prd_Descripcion>
+    <Prd_Presentacion>1         </Prd_Presentacion>
+    <Est_IFeb>544.00</Est_IFeb>
+    <Est_IMar>544.00</Est_IMar>
+    <Est_IAbr>544.00</Est_IAbr>
+    <VentaCurso>1088.00</VentaCurso>
+    <Promedio>0</Promedio>
+    <Incremento>0.00</Incremento>
+    <UBIncremento>0.00</UBIncremento>
+    <Orden1>NO Venta Instalada</Orden1>
+    <Orden2>Otros Productos</Orden2>
+    <BonoMesVta>0.00</BonoMesVta>
+    <BonoMesUB>0.00</BonoMesUB>
+    <BonoAPagar>0.00</BonoAPagar>
+  </Producto>
+  <Producto>
+    <Id_Prd>111745</Id_Prd>
+    <Prd_Descripcion>ALCOHOL ETILICO</Prd_Descripcion>
+    <Prd_Presentacion>1         </Prd_Presentacion>
+    <Est_IFeb>4000.00</Est_IFeb>
+    <Est_IMar>6272.00</Est_IMar>
+    <Est_IAbr>4000.00</Est_IAbr>
+    <VentaCurso>8000.00</VentaCurso>
+    <Promedio>0</Promedio>
+    <Incremento>0.00</Incremento>
+    <UBIncremento>0.00</UBIncremento>
+    <Orden1>NO Venta Instalada</Orden1>
+    <Orden2>Otros Productos</Orden2>
+    <BonoMesVta>0.00</BonoMesVta>
+    <BonoMesUB>0.00</BonoMesUB>
+    <BonoAPagar>0.00</BonoAPagar>
+  </Producto>
+  <Producto>
+    <Id_Prd>2054</Id_Prd>
+    <Prd_Descripcion>ECOSOLV 100 20 LTS</Prd_Descripcion>
+    <Prd_Presentacion>20.00</Prd_Presentacion>
+    <Est_IFeb>1363.00</Est_IFeb>
+    <Est_IMar>0.00</Est_IMar>
+    <Est_IAbr>0.00</Est_IAbr>
+    <VentaCurso>0.00</VentaCurso>
+    <Promedio>0</Promedio>
+    <Incremento>1363.00</Incremento>
+    <UBIncremento>545.09</UBIncremento>
+    <Orden1>Venta Instalada Incremental</Orden1>
+    <Orden2>Linea Industrial</Orden2>
+    <BonoMesVta>1363.00</BonoMesVta>
+    <BonoMesUB>545.09</BonoMesUB>
+    <BonoAPagar>81.76</BonoAPagar>
+  </Producto>
+  <Producto>
+    <Id_Prd>314</Id_Prd>
+    <Prd_Descripcion>KEY BM 20 KGS</Prd_Descripcion>
+    <Prd_Presentacion>20</Prd_Presentacion>
+    <Est_IFeb>519.00</Est_IFeb>
+    <Est_IMar>1038.00</Est_IMar>
+    <Est_IAbr>0.00</Est_IAbr>
+    <VentaCurso>1038.00</VentaCurso>
+    <Promedio>0</Promedio>
+    <Incremento>519.00</Incremento>
+    <UBIncremento>207.59</UBIncremento>
+    <Orden1>Venta Instalada Incremental</Orden1>
+    <Orden2>Linea Industrial</Orden2>
+    <BonoMesVta>519.00</BonoMesVta>
+    <BonoMesUB>207.59</BonoMesUB>
+    <BonoAPagar>31.14</BonoAPagar>
+  </Producto>
+  <Producto>
+    <Id_Prd>388</Id_Prd>
+    <Prd_Descripcion>KEY BRILLO 4 LTS               </Prd_Descripcion>
+    <Prd_Presentacion>4</Prd_Presentacion>
+    <Est_IFeb>0.00</Est_IFeb>
+    <Est_IMar>184.56</Est_IMar>
+    <Est_IAbr>0.00</Est_IAbr>
+    <VentaCurso>0.00</VentaCurso>
+    <Promedio>0</Promedio>
+    <Incremento>184.56</Incremento>
+    <UBIncremento>61.19</UBIncremento>
+    <Orden1>Venta Instalada Incremental</Orden1>
+    <Orden2>Aseo General</Orden2>
+    <BonoMesVta>184.56</BonoMesVta>
+    <BonoMesUB>61.19</BonoMesUB>
+    <BonoAPagar>9.18</BonoAPagar>
+  </Producto>
+  <Producto>
+    <Id_Prd>926</Id_Prd>
+    <Prd_Descripcion>BOTELLA DE PLASTICO 1 LT</Prd_Descripcion>
+    <Prd_Presentacion>1         </Prd_Presentacion>
+    <Est_IFeb>0.00</Est_IFeb>
+    <Est_IMar>26.00</Est_IMar>
+    <Est_IAbr>0.00</Est_IAbr>
+    <VentaCurso>0.00</VentaCurso>
+    <Promedio>0</Promedio>
+    <Incremento>26.00</Incremento>
+    <UBIncremento>1.12</UBIncremento>
+    <Orden1>Venta Instalada Incremental</Orden1>
+    <Orden2>Jarcería</Orden2>
+    <BonoMesVta>26.00</BonoMesVta>
+    <BonoMesUB>1.12</BonoMesUB>
+    <BonoAPagar>0.17</BonoAPagar>
+  </Producto>
+  <Producto>
+    <Id_Prd>4213</Id_Prd>
+    <Prd_Descripcion>KEY REMOVEDOR DE ETIQUETAS Y GRAFITTI S/B</Prd_Descripcion>
+    <Prd_Presentacion>4.00</Prd_Presentacion>
+    <Est_IFeb>0.00</Est_IFeb>
+    <Est_IMar>286.00</Est_IMar>
+    <Est_IAbr>0.00</Est_IAbr>
+    <VentaCurso>0.00</VentaCurso>
+    <Promedio>0</Promedio>
+    <Incremento>286.00</Incremento>
+    <UBIncremento>94.44</UBIncremento>
+    <Orden1>Venta Instalada Incremental</Orden1>
+    <Orden2>Aseo General</Orden2>
+    <BonoMesVta>286.00</BonoMesVta>
+    <BonoMesUB>94.44</BonoMesUB>
+    <BonoAPagar>14.17</BonoAPagar>
+  </Producto>
+  <Producto>
+    <Id_Prd>6492</Id_Prd>
+    <Prd_Descripcion>KEY LUSTRADOR DE ACERO INOX.1L</Prd_Descripcion>
+    <Prd_Presentacion>1</Prd_Presentacion>
+    <Est_IFeb>0.00</Est_IFeb>
+    <Est_IMar>604.00</Est_IMar>
+    <Est_IAbr>0.00</Est_IAbr>
+    <VentaCurso>0.00</VentaCurso>
+    <Promedio>0</Promedio>
+    <Incremento>604.00</Incremento>
+    <UBIncremento>205.00</UBIncremento>
+    <Orden1>Venta Instalada Incremental</Orden1>
+    <Orden2>Alisan</Orden2>
+    <BonoMesVta>604.00</BonoMesVta>
+    <BonoMesUB>205.00</BonoMesUB>
+    <BonoAPagar>30.75</BonoAPagar>
+  </Producto>
+  <Producto>
+    <Id_Prd>2494</Id_Prd>
+    <Prd_Descripcion>KEY SUPER D</Prd_Descripcion>
+    <Prd_Presentacion>20.00</Prd_Presentacion>
+    <Est_IFeb>0.00</Est_IFeb>
+    <Est_IMar>0.00</Est_IMar>
+    <Est_IAbr>0.00</Est_IAbr>
+    <VentaCurso>536.00</VentaCurso>
+    <Promedio>0</Promedio>
+    <Incremento>0.00</Incremento>
+    <UBIncremento>0.00</UBIncremento>
+    <Orden1>Venta Instalada</Orden1>
+    <Orden2>Linea Industrial</Orden2>
+    <BonoMesVta>0.00</BonoMesVta>
+    <BonoMesUB>0.00</BonoMesUB>
+    <BonoAPagar>0.00</BonoAPagar>
+  </Producto>
+  <Producto>
+    <Id_Prd>110036</Id_Prd>
+    <Prd_Descripcion>ACETONA</Prd_Descripcion>
+    <Prd_Presentacion>1         </Prd_Presentacion>
+    <Est_IFeb>0.00</Est_IFeb>
+    <Est_IMar>8298.00</Est_IMar>
+    <Est_IAbr>8298.00</Est_IAbr>
+    <VentaCurso>0.00</VentaCurso>
+    <Promedio>0</Promedio>
+    <Incremento>0.00</Incremento>
+    <UBIncremento>0.00</UBIncremento>
+    <Orden1>NO Venta Instalada</Orden1>
+    <Orden2>Otros Productos</Orden2>
+    <BonoMesVta>0.00</BonoMesVta>
+    <BonoMesUB>0.00</BonoMesUB>
+    <BonoAPagar>0.00</BonoAPagar>
+  </Producto>
+  <Producto>
+    <Id_Prd>110790</Id_Prd>
+    <Prd_Descripcion>PORRON DE 20 LTS</Prd_Descripcion>
+    <Prd_Presentacion>1         </Prd_Presentacion>
+    <Est_IFeb>840.00</Est_IFeb>
+    <Est_IMar>288.00</Est_IMar>
+    <Est_IAbr>288.00</Est_IAbr>
+    <VentaCurso>0.00</VentaCurso>
+    <Promedio>0</Promedio>
+    <Incremento>0.00</Incremento>
+    <UBIncremento>0.00</UBIncremento>
+    <Orden1>NO Venta Instalada</Orden1>
+    <Orden2>Otros Productos</Orden2>
+    <BonoMesVta>0.00</BonoMesVta>
+    <BonoMesUB>0.00</BonoMesUB>
+    <BonoAPagar>0.00</BonoAPagar>
+  </Producto>
+  <Producto>
+    <Id_Prd>111703</Id_Prd>
+    <Prd_Descripcion>ALCOHOL ISOPROPILICO</Prd_Descripcion>
+    <Prd_Presentacion>1         </Prd_Presentacion>
+    <Est_IFeb>8708.00</Est_IFeb>
+    <Est_IMar>0.00</Est_IMar>
+    <Est_IAbr>0.00</Est_IAbr>
+    <VentaCurso>0.00</VentaCurso>
+    <Promedio>0</Promedio>
+    <Incremento>0.00</Incremento>
+    <UBIncremento>0.00</UBIncremento>
+    <Orden1>NO Venta Instalada</Orden1>
+    <Orden2>Otros Productos</Orden2>
+    <BonoMesVta>0.00</BonoMesVta>
+    <BonoMesUB>0.00</BonoMesUB>
+    <BonoAPagar>0.00</BonoAPagar>
+  </Producto>
+  <Producto>
+    <Id_Prd>111723</Id_Prd>
+    <Prd_Descripcion>HIPOCLORITO DE CALCIO TABLETA 22.7 Kg</Prd_Descripcion>
+    <Prd_Presentacion>1         </Prd_Presentacion>
+    <Est_IFeb>6256.32</Est_IFeb>
+    <Est_IMar>0.00</Est_IMar>
+    <Est_IAbr>0.00</Est_IAbr>
+    <VentaCurso>0.00</VentaCurso>
+    <Promedio>0</Promedio>
+    <Incremento>6256.32</Incremento>
+    <UBIncremento>2477.37</UBIncremento>
+    <Orden1>NO Venta Instalada</Orden1>
+    <Orden2>Otros Productos</Orden2>
+    <BonoMesVta>0.00</BonoMesVta>
+    <BonoMesUB>0.00</BonoMesUB>
+    <BonoAPagar>0.00</BonoAPagar>
+  </Producto>
+  <Producto>
+    <Id_Prd>1333</Id_Prd>
+    <Prd_Descripcion>KEY TRIPLE ACCION  LIMON S/B</Prd_Descripcion>
+    <Prd_Presentacion>4.00</Prd_Presentacion>
+    <Est_IFeb>615.88</Est_IFeb>
+    <Est_IMar>0.00</Est_IMar>
+    <Est_IAbr>0.00</Est_IAbr>
+    <VentaCurso>0.00</VentaCurso>
+    <Promedio>0</Promedio>
+    <Incremento>615.88</Incremento>
+    <UBIncremento>284.24</UBIncremento>
+    <Orden1>Venta Instalada Incremental</Orden1>
+    <Orden2>Aseo General</Orden2>
+    <BonoMesVta>615.88</BonoMesVta>
+    <BonoMesUB>284.24</BonoMesUB>
+    <BonoAPagar>42.64</BonoAPagar>
+  </Producto>
+  <Producto>
+    <Id_Prd>2054</Id_Prd>
+    <Prd_Descripcion>ECOSOLV 100 20 LTS</Prd_Descripcion>
+    <Prd_Presentacion>20.00</Prd_Presentacion>
+    <Est_IFeb>0.00</Est_IFeb>
+    <Est_IMar>2100.00</Est_IMar>
+    <Est_IAbr>0.00</Est_IAbr>
+    <VentaCurso>0.00</VentaCurso>
+    <Promedio>0</Promedio>
+    <Incremento>2100.00</Incremento>
+    <UBIncremento>620.86</UBIncremento>
+    <Orden1>Venta Instalada Incremental</Orden1>
+    <Orden2>Linea Industrial</Orden2>
+    <BonoMesVta>2100.00</BonoMesVta>
+    <BonoMesUB>620.86</BonoMesUB>
+    <BonoAPagar>93.13</BonoAPagar>
+  </Producto>
+  <Producto>
+    <Id_Prd>6368</Id_Prd>
+    <Prd_Descripcion>DESENGRASANTE  PLUS</Prd_Descripcion>
+    <Prd_Presentacion>4.00</Prd_Presentacion>
+    <Est_IFeb>356.00</Est_IFeb>
+    <Est_IMar>0.00</Est_IMar>
+    <Est_IAbr>0.00</Est_IAbr>
+    <VentaCurso>0.00</VentaCurso>
+    <Promedio>0</Promedio>
+    <Incremento>356.00</Incremento>
+    <UBIncremento>147.48</UBIncremento>
+    <Orden1>Venta Instalada Incremental</Orden1>
+    <Orden2>Alisan</Orden2>
+    <BonoMesVta>356.00</BonoMesVta>
+    <BonoMesUB>147.48</BonoMesUB>
+    <BonoAPagar>22.12</BonoAPagar>
+  </Producto>
+  <Producto>
+    <Id_Prd>6423</Id_Prd>
+    <Prd_Descripcion>KEY LIMP.PARRILLAS (PASO 1) 4L</Prd_Descripcion>
+    <Prd_Presentacion>4</Prd_Presentacion>
+    <Est_IFeb>695.20</Est_IFeb>
+    <Est_IMar>0.00</Est_IMar>
+    <Est_IAbr>0.00</Est_IAbr>
+    <VentaCurso>0.00</VentaCurso>
+    <Promedio>0</Promedio>
+    <Incremento>695.20</Incremento>
+    <UBIncremento>284.68</UBIncremento>
+    <Orden1>Venta Instalada Incremental</Orden1>
+    <Orden2>Alisan</Orden2>
+    <BonoMesVta>695.20</BonoMesVta>
+    <BonoMesUB>284.68</BonoMesUB>
+    <BonoAPagar>42.70</BonoAPagar>
+  </Producto>
+  <Producto>
+    <Id_Prd>8670</Id_Prd>
+    <Prd_Descripcion>DETERGENTE POLVO  9 KG</Prd_Descripcion>
+    <Prd_Presentacion>1.00</Prd_Presentacion>
+    <Est_IFeb>376.22</Est_IFeb>
+    <Est_IMar>0.00</Est_IMar>
+    <Est_IAbr>0.00</Est_IAbr>
+    <VentaCurso>0.00</VentaCurso>
+    <Promedio>0</Promedio>
+    <Incremento>376.22</Incremento>
+    <UBIncremento>122.28</UBIncremento>
+    <Orden1>Venta Instalada Incremental</Orden1>
+    <Orden2>Aseo General</Orden2>
+    <BonoMesVta>376.22</BonoMesVta>
+    <BonoMesUB>122.28</BonoMesUB>
+    <BonoAPagar>18.34</BonoAPagar>
+  </Producto>
+  <Producto>
+    <Id_Prd>558</Id_Prd>
+    <Prd_Descripcion>KEY LX-100 4 LTS</Prd_Descripcion>
+    <Prd_Presentacion>4</Prd_Presentacion>
+    <Est_IFeb>0.00</Est_IFeb>
+    <Est_IMar>0.00</Est_IMar>
+    <Est_IAbr>345.00</Est_IAbr>
+    <VentaCurso>0.00</VentaCurso>
+    <Promedio>0</Promedio>
+    <Incremento>345.00</Incremento>
+    <UBIncremento>131.22</UBIncremento>
+    <Orden1>Venta Instalada Incremental</Orden1>
+    <Orden2>Aseo General</Orden2>
+    <BonoMesVta>345.00</BonoMesVta>
+    <BonoMesUB>131.22</BonoMesUB>
+    <BonoAPagar>19.68</BonoAPagar>
+  </Producto>
+  <Producto>
+    <Id_Prd>1975</Id_Prd>
+    <Prd_Descripcion>DISCO BLANCO EXTRAGRUESO 19 4119 WHITE</Prd_Descripcion>
+    <Prd_Presentacion>1.00</Prd_Presentacion>
+    <Est_IFeb>236.22</Est_IFeb>
+    <Est_IMar>0.00</Est_IMar>
+    <Est_IAbr>0.00</Est_IAbr>
+    <VentaCurso>0.00</VentaCurso>
+    <Promedio>0</Promedio>
+    <Incremento>236.22</Incremento>
+    <UBIncremento>89.76</UBIncremento>
+    <Orden1>Venta Instalada Incremental</Orden1>
+    <Orden2>Aseo General</Orden2>
+    <BonoMesVta>236.22</BonoMesVta>
+    <BonoMesUB>89.76</BonoMesUB>
+    <BonoAPagar>13.46</BonoAPagar>
+  </Producto>
+  <Producto>
+    <Id_Prd>1717</Id_Prd>
+    <Prd_Descripcion>KEY PLOMERO  1 LTS</Prd_Descripcion>
+    <Prd_Presentacion>1.00</Prd_Presentacion>
+    <Est_IFeb>0.00</Est_IFeb>
+    <Est_IMar>0.00</Est_IMar>
+    <Est_IAbr>0.00</Est_IAbr>
+    <VentaCurso>1340.00</VentaCurso>
+    <Promedio>0</Promedio>
+    <Incremento>0.00</Incremento>
+    <UBIncremento>0.00</UBIncremento>
+    <Orden1>Venta Instalada</Orden1>
+    <Orden2>Aseo General</Orden2>
+    <BonoMesVta>0.00</BonoMesVta>
+    <BonoMesUB>0.00</BonoMesUB>
+    <BonoAPagar>0.00</BonoAPagar>
+  </Producto>
+  <Producto>
+    <Id_Prd>304</Id_Prd>
+    <Prd_Descripcion>KEY BF 20 KGS</Prd_Descripcion>
+    <Prd_Presentacion>20</Prd_Presentacion>
+    <Est_IFeb>1170.00</Est_IFeb>
+    <Est_IMar>0.00</Est_IMar>
+    <Est_IAbr>0.00</Est_IAbr>
+    <VentaCurso>0.00</VentaCurso>
+    <Promedio>0</Promedio>
+    <Incremento>0.00</Incremento>
+    <UBIncremento>0.00</UBIncremento>
+    <Orden1>Venta Instalada</Orden1>
+    <Orden2>Linea Industrial</Orden2>
+    <BonoMesVta>0.00</BonoMesVta>
+    <BonoMesUB>0.00</BonoMesUB>
+    <BonoAPagar>0.00</BonoAPagar>
+  </Producto>
+  <Producto>
+    <Id_Prd>100</Id_Prd>
+    <Prd_Descripcion>SSK</Prd_Descripcion>
+    <Prd_Presentacion>200.00</Prd_Presentacion>
+    <Est_IFeb>21300.00</Est_IFeb>
+    <Est_IMar>21300.00</Est_IMar>
+    <Est_IAbr>31950.00</Est_IAbr>
+    <VentaCurso>63900.00</VentaCurso>
+    <Promedio>0</Promedio>
+    <Incremento>0.00</Incremento>
+    <UBIncremento>0.00</UBIncremento>
+    <Orden1>Venta Instalada</Orden1>
+    <Orden2>Linea Industrial</Orden2>
+    <BonoMesVta>0.00</BonoMesVta>
+    <BonoMesUB>0.00</BonoMesUB>
+    <BonoAPagar>0.00</BonoAPagar>
+  </Producto>
+  <Producto>
+    <Id_Prd>314</Id_Prd>
+    <Prd_Descripcion>KEY BM 20 KGS</Prd_Descripcion>
+    <Prd_Presentacion>20</Prd_Presentacion>
+    <Est_IFeb>8052.40</Est_IFeb>
+    <Est_IMar>4026.20</Est_IMar>
+    <Est_IAbr>8052.40</Est_IAbr>
+    <VentaCurso>4026.20</VentaCurso>
+    <Promedio>0</Promedio>
+    <Incremento>0.00</Incremento>
+    <UBIncremento>0.00</UBIncremento>
+    <Orden1>Venta Instalada</Orden1>
+    <Orden2>Linea Industrial</Orden2>
+    <BonoMesVta>0.00</BonoMesVta>
+    <BonoMesUB>0.00</BonoMesUB>
+    <BonoAPagar>0.00</BonoAPagar>
+  </Producto>
+  <Producto>
+    <Id_Prd>472</Id_Prd>
+    <Prd_Descripcion>KEY ECOSOLVETRON 0.28 KGS</Prd_Descripcion>
+    <Prd_Presentacion>1         </Prd_Presentacion>
+    <Est_IFeb>620.00</Est_IFeb>
+    <Est_IMar>0.00</Est_IMar>
+    <Est_IAbr>310.00</Est_IAbr>
+    <VentaCurso>0.00</VentaCurso>
+    <Promedio>0</Promedio>
+    <Incremento>0.00</Incremento>
+    <UBIncremento>0.00</UBIncremento>
+    <Orden1>Venta Instalada</Orden1>
+    <Orden2>Linea Industrial</Orden2>
+    <BonoMesVta>0.00</BonoMesVta>
+    <BonoMesUB>0.00</BonoMesUB>
+    <BonoAPagar>0.00</BonoAPagar>
+  </Producto>
+  <Producto>
+    <Id_Prd>7653</Id_Prd>
+    <Prd_Descripcion>KEY CITRA-D  4 KG.</Prd_Descripcion>
+    <Prd_Presentacion>4</Prd_Presentacion>
+    <Est_IFeb>0.00</Est_IFeb>
+    <Est_IMar>1643.00</Est_IMar>
+    <Est_IAbr>1643.00</Est_IAbr>
+    <VentaCurso>0.00</VentaCurso>
+    <Promedio>0</Promedio>
+    <Incremento>0.00</Incremento>
+    <UBIncremento>0.00</UBIncremento>
+    <Orden1>Venta Instalada</Orden1>
+    <Orden2>Linea Industrial</Orden2>
+    <BonoMesVta>0.00</BonoMesVta>
+    <BonoMesUB>0.00</BonoMesUB>
+    <BonoAPagar>0.00</BonoAPagar>
+  </Producto>
+  <Producto>
+    <Id_Prd>188</Id_Prd>
+    <Prd_Descripcion>KEY JABON CREMA ALMENDRAS</Prd_Descripcion>
+    <Prd_Presentacion>4.00</Prd_Presentacion>
+    <Est_IFeb>129.00</Est_IFeb>
+    <Est_IMar>0.00</Est_IMar>
+    <Est_IAbr>0.00</Est_IAbr>
+    <VentaCurso>0.00</VentaCurso>
+    <Promedio>0</Promedio>
+    <Incremento>0.00</Incremento>
+    <UBIncremento>0.00</UBIncremento>
+    <Orden1>Venta Instalada</Orden1>
+    <Orden2>A.B.C.</Orden2>
+    <BonoMesVta>0.00</BonoMesVta>
+    <BonoMesUB>0.00</BonoMesUB>
+    <BonoAPagar>0.00</BonoAPagar>
+  </Producto>
+  <Producto>
+    <Id_Prd>70148</Id_Prd>
+    <Prd_Descripcion>VANGUARD JABON DE MANOS CREMA</Prd_Descripcion>
+    <Prd_Presentacion>4.00</Prd_Presentacion>
+    <Est_IFeb>197.94</Est_IFeb>
+    <Est_IMar>0.00</Est_IMar>
+    <Est_IAbr>0.00</Est_IAbr>
+    <VentaCurso>0.00</VentaCurso>
+    <Promedio>0</Promedio>
+    <Incremento>0.00</Incremento>
+    <UBIncremento>0.00</UBIncremento>
+    <Orden1>Venta Instalada</Orden1>
+    <Orden2>A.B.C.</Orden2>
+    <BonoMesVta>0.00</BonoMesVta>
+    <BonoMesUB>0.00</BonoMesUB>
+    <BonoAPagar>0.00</BonoAPagar>
+  </Producto>
+  <Producto>
+    <Id_Prd>5214</Id_Prd>
+    <Prd_Descripcion>T. INTERDOB. SANITAS 100 H.BCO CAJA C/20 (92231)  </Prd_Descripcion>
+    <Prd_Presentacion>1         </Prd_Presentacion>
+    <Est_IFeb>312.00</Est_IFeb>
+    <Est_IMar>0.00</Est_IMar>
+    <Est_IAbr>0.00</Est_IAbr>
+    <VentaCurso>0.00</VentaCurso>
+    <Promedio>0</Promedio>
+    <Incremento>312.00</Incremento>
+    <UBIncremento>94.20</UBIncremento>
+    <Orden1>Venta Instalada Incremental</Orden1>
+    <Orden2>A.B.C.</Orden2>
+    <BonoMesVta>312.00</BonoMesVta>
+    <BonoMesUB>94.20</BonoMesUB>
+    <BonoAPagar>14.13</BonoAPagar>
+  </Producto>
+  <Producto>
+    <Id_Prd>5545</Id_Prd>
+    <Prd_Descripcion>TORK ADVANCED HIGIENICO CONVEN BCO.176H/D C/96(24X</Prd_Descripcion>
+    <Prd_Presentacion>1</Prd_Presentacion>
+    <Est_IFeb>230.00</Est_IFeb>
+    <Est_IMar>0.00</Est_IMar>
+    <Est_IAbr>0.00</Est_IAbr>
+    <VentaCurso>0.00</VentaCurso>
+    <Promedio>0</Promedio>
+    <Incremento>230.00</Incremento>
+    <UBIncremento>90.80</UBIncremento>
+    <Orden1>Venta Instalada Incremental</Orden1>
+    <Orden2>A.B.C.</Orden2>
+    <BonoMesVta>230.00</BonoMesVta>
+    <BonoMesUB>90.80</BonoMesUB>
+    <BonoAPagar>13.62</BonoAPagar>
+  </Producto>
+  <Producto>
+    <Id_Prd>70108</Id_Prd>
+    <Prd_Descripcion>CLORO VANGUARD 3.75 LTS         P.ORIGEN: MEXICO  </Prd_Descripcion>
+    <Prd_Presentacion>3.75</Prd_Presentacion>
+    <Est_IFeb>80.00</Est_IFeb>
+    <Est_IMar>0.00</Est_IMar>
+    <Est_IAbr>0.00</Est_IAbr>
+    <VentaCurso>0.00</VentaCurso>
+    <Promedio>0</Promedio>
+    <Incremento>80.00</Incremento>
+    <UBIncremento>24.22</UBIncremento>
+    <Orden1>Venta Instalada Incremental</Orden1>
+    <Orden2>Aseo General</Orden2>
+    <BonoMesVta>80.00</BonoMesVta>
+    <BonoMesUB>24.22</BonoMesUB>
+    <BonoAPagar>3.63</BonoAPagar>
+  </Producto>
+  <Producto>
+    <Id_Prd>70149</Id_Prd>
+    <Prd_Descripcion>VANGUARD JABON DE MANOS CREMA</Prd_Descripcion>
+    <Prd_Presentacion>18.00</Prd_Presentacion>
+    <Est_IFeb>0.00</Est_IFeb>
+    <Est_IMar>848.00</Est_IMar>
+    <Est_IAbr>0.00</Est_IAbr>
+    <VentaCurso>0.00</VentaCurso>
+    <Promedio>0</Promedio>
+    <Incremento>848.00</Incremento>
+    <UBIncremento>340.08</UBIncremento>
+    <Orden1>Venta Instalada Incremental</Orden1>
+    <Orden2>A.B.C.</Orden2>
+    <BonoMesVta>848.00</BonoMesVta>
+    <BonoMesUB>340.08</BonoMesUB>
+    <BonoAPagar>51.01</BonoAPagar>
+  </Producto>
+  <Producto>
+    <Id_Prd>110721</Id_Prd>
+    <Prd_Descripcion>Coagulante inorganico</Prd_Descripcion>
+    <Prd_Presentacion>1         </Prd_Presentacion>
+    <Est_IFeb>0.00</Est_IFeb>
+    <Est_IMar>3087.00</Est_IMar>
+    <Est_IAbr>0.00</Est_IAbr>
+    <VentaCurso>0.00</VentaCurso>
+    <Promedio>0</Promedio>
+    <Incremento>0.00</Incremento>
+    <UBIncremento>0.00</UBIncremento>
+    <Orden1>NO Venta Instalada</Orden1>
+    <Orden2>Otros Productos</Orden2>
+    <BonoMesVta>0.00</BonoMesVta>
+    <BonoMesUB>0.00</BonoMesUB>
+    <BonoAPagar>0.00</BonoAPagar>
+  </Producto>
+  <Producto>
+    <Id_Prd>111723</Id_Prd>
+    <Prd_Descripcion>HIPOCLORITO DE CALCIO TABLETA 22.7 Kg</Prd_Descripcion>
+    <Prd_Presentacion>1         </Prd_Presentacion>
+    <Est_IFeb>8341.76</Est_IFeb>
+    <Est_IMar>4170.88</Est_IMar>
+    <Est_IAbr>8341.76</Est_IAbr>
+    <VentaCurso>8341.76</VentaCurso>
+    <Promedio>0</Promedio>
+    <Incremento>0.00</Incremento>
+    <UBIncremento>0.00</UBIncremento>
+    <Orden1>NO Venta Instalada</Orden1>
+    <Orden2>Otros Productos</Orden2>
+    <BonoMesVta>0.00</BonoMesVta>
+    <BonoMesUB>0.00</BonoMesUB>
+    <BonoAPagar>0.00</BonoAPagar>
+  </Producto>
+  <Producto>
+    <Id_Prd>1732</Id_Prd>
+    <Prd_Descripcion>TELA REMOVEDORA DE GRAFFITI (C/40)</Prd_Descripcion>
+    <Prd_Presentacion>1.00</Prd_Presentacion>
+    <Est_IFeb>0.00</Est_IFeb>
+    <Est_IMar>0.00</Est_IMar>
+    <Est_IAbr>0.00</Est_IAbr>
+    <VentaCurso>1000.00</VentaCurso>
+    <Promedio>0</Promedio>
+    <Incremento>0.00</Incremento>
+    <UBIncremento>0.00</UBIncremento>
+    <Orden1>Venta Instalada</Orden1>
+    <Orden2>Aseo General</Orden2>
+    <BonoMesVta>0.00</BonoMesVta>
+    <BonoMesUB>0.00</BonoMesUB>
+    <BonoAPagar>0.00</BonoAPagar>
+  </Producto>
+  <Producto>
+    <Id_Prd>2054</Id_Prd>
+    <Prd_Descripcion>ECOSOLV 100 20 LTS</Prd_Descripcion>
+    <Prd_Presentacion>20.00</Prd_Presentacion>
+    <Est_IFeb>7350.00</Est_IFeb>
+    <Est_IMar>15750.00</Est_IMar>
+    <Est_IAbr>3150.00</Est_IAbr>
+    <VentaCurso>8400.00</VentaCurso>
+    <Promedio>0</Promedio>
+    <Incremento>0.00</Incremento>
+    <UBIncremento>0.00</UBIncremento>
+    <Orden1>Venta Instalada</Orden1>
+    <Orden2>Linea Industrial</Orden2>
+    <BonoMesVta>0.00</BonoMesVta>
+    <BonoMesUB>0.00</BonoMesUB>
+    <BonoAPagar>0.00</BonoAPagar>
+  </Producto>
+  <Producto>
+    <Id_Prd>472</Id_Prd>
+    <Prd_Descripcion>KEY ECOSOLVETRON 0.28 KGS</Prd_Descripcion>
+    <Prd_Presentacion>1         </Prd_Presentacion>
+    <Est_IFeb>0.00</Est_IFeb>
+    <Est_IMar>0.00</Est_IMar>
+    <Est_IAbr>375.00</Est_IAbr>
+    <VentaCurso>375.00</VentaCurso>
+    <Promedio>0</Promedio>
+    <Incremento>375.00</Incremento>
+    <UBIncremento>96.12</UBIncremento>
+    <Orden1>Venta Instalada Incremental</Orden1>
+    <Orden2>Linea Industrial</Orden2>
+    <BonoMesVta>375.00</BonoMesVta>
+    <BonoMesUB>96.12</BonoMesUB>
+    <BonoAPagar>14.42</BonoAPagar>
+  </Producto>
+  <Producto>
+    <Id_Prd>304</Id_Prd>
+    <Prd_Descripcion>KEY BF 20 KGS</Prd_Descripcion>
+    <Prd_Presentacion>20</Prd_Presentacion>
+    <Est_IFeb>2010.00</Est_IFeb>
+    <Est_IMar>0.00</Est_IMar>
+    <Est_IAbr>0.00</Est_IAbr>
+    <VentaCurso>3015.00</VentaCurso>
+    <Promedio>0</Promedio>
+    <Incremento>0.00</Incremento>
+    <UBIncremento>0.00</UBIncremento>
+    <Orden1>Venta Instalada</Orden1>
+    <Orden2>Linea Industrial</Orden2>
+    <BonoMesVta>0.00</BonoMesVta>
+    <BonoMesUB>0.00</BonoMesUB>
+    <BonoAPagar>0.00</BonoAPagar>
+  </Producto>
+  <Producto>
+    <Id_Prd>477</Id_Prd>
+    <Prd_Descripcion>ECOSOLVETRON II 0.3 KGS</Prd_Descripcion>
+    <Prd_Presentacion>0.3</Prd_Presentacion>
+    <Est_IFeb>8692.00</Est_IFeb>
+    <Est_IMar>8200.00</Est_IMar>
+    <Est_IAbr>8200.00</Est_IAbr>
+    <VentaCurso>8200.00</VentaCurso>
+    <Promedio>0</Promedio>
+    <Incremento>0.00</Incremento>
+    <UBIncremento>0.00</UBIncremento>
+    <Orden1>Venta Instalada</Orden1>
+    <Orden2>Linea Industrial</Orden2>
+    <BonoMesVta>0.00</BonoMesVta>
+    <BonoMesUB>0.00</BonoMesUB>
+    <BonoAPagar>0.00</BonoAPagar>
+  </Producto>
+  <Producto>
+    <Id_Prd>2054</Id_Prd>
+    <Prd_Descripcion>ECOSOLV 100 20 LTS</Prd_Descripcion>
+    <Prd_Presentacion>20.00</Prd_Presentacion>
+    <Est_IFeb>7776.00</Est_IFeb>
+    <Est_IMar>0.00</Est_IMar>
+    <Est_IAbr>7776.00</Est_IAbr>
+    <VentaCurso>0.00</VentaCurso>
+    <Promedio>0</Promedio>
+    <Incremento>0.00</Incremento>
+    <UBIncremento>0.00</UBIncremento>
+    <Orden1>Venta Instalada</Orden1>
+    <Orden2>Linea Industrial</Orden2>
+    <BonoMesVta>0.00</BonoMesVta>
+    <BonoMesUB>0.00</BonoMesUB>
+    <BonoAPagar>0.00</BonoAPagar>
+  </Producto>
+  <Producto>
+    <Id_Prd>111737</Id_Prd>
+    <Prd_Descripcion>Acido sulfurico</Prd_Descripcion>
+    <Prd_Presentacion>1         </Prd_Presentacion>
+    <Est_IFeb>1800.00</Est_IFeb>
+    <Est_IMar>0.00</Est_IMar>
+    <Est_IAbr>0.00</Est_IAbr>
+    <VentaCurso>0.00</VentaCurso>
+    <Promedio>0</Promedio>
+    <Incremento>0.00</Incremento>
+    <UBIncremento>0.00</UBIncremento>
+    <Orden1>NO Venta Instalada</Orden1>
+    <Orden2>Otros Productos</Orden2>
+    <BonoMesVta>0.00</BonoMesVta>
+    <BonoMesUB>0.00</BonoMesUB>
+    <BonoAPagar>0.00</BonoAPagar>
+  </Producto>
+  <Producto>
+    <Id_Prd>471</Id_Prd>
+    <Prd_Descripcion>KEY ELECTROLUB AERO 0.3 KGS</Prd_Descripcion>
+    <Prd_Presentacion>0.3</Prd_Presentacion>
+    <Est_IFeb>823.20</Est_IFeb>
+    <Est_IMar>823.20</Est_IMar>
+    <Est_IAbr>0.00</Est_IAbr>
+    <VentaCurso>823.20</VentaCurso>
+    <Promedio>0</Promedio>
+    <Incremento>0.00</Incremento>
+    <UBIncremento>0.00</UBIncremento>
+    <Orden1>Venta Instalada</Orden1>
+    <Orden2>Linea Industrial</Orden2>
+    <BonoMesVta>0.00</BonoMesVta>
+    <BonoMesUB>0.00</BonoMesUB>
+    <BonoAPagar>0.00</BonoAPagar>
+  </Producto>
+  <Producto>
+    <Id_Prd>188</Id_Prd>
+    <Prd_Descripcion>KEY JABON CREMA ALMENDRAS</Prd_Descripcion>
+    <Prd_Presentacion>4.00</Prd_Presentacion>
+    <Est_IFeb>1533.15</Est_IFeb>
+    <Est_IMar>0.00</Est_IMar>
+    <Est_IAbr>0.00</Est_IAbr>
+    <VentaCurso>0.00</VentaCurso>
+    <Promedio>0</Promedio>
+    <Incremento>0.00</Incremento>
+    <UBIncremento>0.00</UBIncremento>
+    <Orden1>Venta Instalada</Orden1>
+    <Orden2>A.B.C.</Orden2>
+    <BonoMesVta>0.00</BonoMesVta>
+    <BonoMesUB>0.00</BonoMesUB>
+    <BonoAPagar>0.00</BonoAPagar>
+  </Producto>
+  <Producto>
+    <Id_Prd>111743</Id_Prd>
+    <Prd_Descripcion>THINER</Prd_Descripcion>
+    <Prd_Presentacion>1         </Prd_Presentacion>
+    <Est_IFeb>3300.00</Est_IFeb>
+    <Est_IMar>3300.00</Est_IMar>
+    <Est_IAbr>3300.00</Est_IAbr>
+    <VentaCurso>3300.00</VentaCurso>
+    <Promedio>0</Promedio>
+    <Incremento>0.00</Incremento>
+    <UBIncremento>0.00</UBIncremento>
+    <Orden1>NO Venta Instalada</Orden1>
+    <Orden2>Otros Productos</Orden2>
+    <BonoMesVta>0.00</BonoMesVta>
+    <BonoMesUB>0.00</BonoMesUB>
+    <BonoAPagar>0.00</BonoAPagar>
+  </Producto>
+  <Producto>
+    <Id_Prd>111745</Id_Prd>
+    <Prd_Descripcion>ALCOHOL ETILICO</Prd_Descripcion>
+    <Prd_Presentacion>1         </Prd_Presentacion>
+    <Est_IFeb>600.00</Est_IFeb>
+    <Est_IMar>800.00</Est_IMar>
+    <Est_IAbr>1400.00</Est_IAbr>
+    <VentaCurso>800.00</VentaCurso>
+    <Promedio>0</Promedio>
+    <Incremento>0.00</Incremento>
+    <UBIncremento>0.00</UBIncremento>
+    <Orden1>NO Venta Instalada</Orden1>
+    <Orden2>Otros Productos</Orden2>
+    <BonoMesVta>0.00</BonoMesVta>
+    <BonoMesUB>0.00</BonoMesUB>
+    <BonoAPagar>0.00</BonoAPagar>
+  </Producto>
+  <Producto>
+    <Id_Prd>225</Id_Prd>
+    <Prd_Descripcion>KEY BIOACTIV 100</Prd_Descripcion>
+    <Prd_Presentacion>200.00</Prd_Presentacion>
+    <Est_IFeb>0.00</Est_IFeb>
+    <Est_IMar>16954.15</Est_IMar>
+    <Est_IAbr>10172.49</Est_IAbr>
+    <VentaCurso>13563.32</VentaCurso>
+    <Promedio>0</Promedio>
+    <Incremento>0.00</Incremento>
+    <UBIncremento>0.00</UBIncremento>
+    <Orden1>Venta Instalada</Orden1>
+    <Orden2>Linea Industrial</Orden2>
+    <BonoMesVta>0.00</BonoMesVta>
+    <BonoMesUB>0.00</BonoMesUB>
+    <BonoAPagar>0.00</BonoAPagar>
+  </Producto>
+  <Producto>
+    <Id_Prd>926</Id_Prd>
+    <Prd_Descripcion>BOTELLA DE PLASTICO 1 LT</Prd_Descripcion>
+    <Prd_Presentacion>1         </Prd_Presentacion>
+    <Est_IFeb>450.00</Est_IFeb>
+    <Est_IMar>600.00</Est_IMar>
+    <Est_IAbr>1050.00</Est_IAbr>
+    <VentaCurso>600.00</VentaCurso>
+    <Promedio>0</Promedio>
+    <Incremento>0.00</Incremento>
+    <UBIncremento>0.00</UBIncremento>
+    <Orden1>Venta Instalada</Orden1>
+    <Orden2>Jarcería</Orden2>
+    <BonoMesVta>0.00</BonoMesVta>
+    <BonoMesUB>0.00</BonoMesUB>
+    <BonoAPagar>0.00</BonoAPagar>
+  </Producto>
+  <Producto>
+    <Id_Prd>7653</Id_Prd>
+    <Prd_Descripcion>KEY CITRA-D  4 KG.</Prd_Descripcion>
+    <Prd_Presentacion>4</Prd_Presentacion>
+    <Est_IFeb>0.00</Est_IFeb>
+    <Est_IMar>925.00</Est_IMar>
+    <Est_IAbr>0.00</Est_IAbr>
+    <VentaCurso>0.00</VentaCurso>
+    <Promedio>0</Promedio>
+    <Incremento>0.00</Incremento>
+    <UBIncremento>0.00</UBIncremento>
+    <Orden1>Venta Instalada</Orden1>
+    <Orden2>Linea Industrial</Orden2>
+    <BonoMesVta>0.00</BonoMesVta>
+    <BonoMesUB>0.00</BonoMesUB>
+    <BonoAPagar>0.00</BonoAPagar>
+  </Producto>
+  <Producto>
+    <Id_Prd>1732</Id_Prd>
+    <Prd_Descripcion>TELA REMOVEDORA DE GRAFFITI (C/40)</Prd_Descripcion>
+    <Prd_Presentacion>1.00</Prd_Presentacion>
+    <Est_IFeb>0.00</Est_IFeb>
+    <Est_IMar>255.00</Est_IMar>
+    <Est_IAbr>0.00</Est_IAbr>
+    <VentaCurso>0.00</VentaCurso>
+    <Promedio>0</Promedio>
+    <Incremento>255.00</Incremento>
+    <UBIncremento>88.13</UBIncremento>
+    <Orden1>Venta Instalada Incremental</Orden1>
+    <Orden2>Aseo General</Orden2>
+    <BonoMesVta>255.00</BonoMesVta>
+    <BonoMesUB>88.13</BonoMesUB>
+    <BonoAPagar>13.22</BonoAPagar>
+  </Producto>
+  <Producto>
+    <Id_Prd>2494</Id_Prd>
+    <Prd_Descripcion>KEY SUPER D</Prd_Descripcion>
+    <Prd_Presentacion>20.00</Prd_Presentacion>
+    <Est_IFeb>1826.76</Est_IFeb>
+    <Est_IMar>5480.28</Est_IMar>
+    <Est_IAbr>0.00</Est_IAbr>
+    <VentaCurso>0.00</VentaCurso>
+    <Promedio>0</Promedio>
+    <Incremento>0.00</Incremento>
+    <UBIncremento>0.00</UBIncremento>
+    <Orden1>Venta Instalada</Orden1>
+    <Orden2>Linea Industrial</Orden2>
+    <BonoMesVta>0.00</BonoMesVta>
+    <BonoMesUB>0.00</BonoMesUB>
+    <BonoAPagar>0.00</BonoAPagar>
+  </Producto>
+  <Producto>
+    <Id_Prd>6492</Id_Prd>
+    <Prd_Descripcion>KEY LUSTRADOR DE ACERO INOX.1L</Prd_Descripcion>
+    <Prd_Presentacion>1</Prd_Presentacion>
+    <Est_IFeb>0.00</Est_IFeb>
+    <Est_IMar>0.00</Est_IMar>
+    <Est_IAbr>0.00</Est_IAbr>
+    <VentaCurso>344.00</VentaCurso>
+    <Promedio>0</Promedio>
+    <Incremento>0.00</Incremento>
+    <UBIncremento>0.00</UBIncremento>
+    <Orden1>Venta Instalada</Orden1>
+    <Orden2>Alisan</Orden2>
+    <BonoMesVta>0.00</BonoMesVta>
+    <BonoMesUB>0.00</BonoMesUB>
+    <BonoAPagar>0.00</BonoAPagar>
+  </Producto>
+  <Producto>
+    <Id_Prd>2494</Id_Prd>
+    <Prd_Descripcion>KEY SUPER D</Prd_Descripcion>
+    <Prd_Presentacion>20.00</Prd_Presentacion>
+    <Est_IFeb>0.00</Est_IFeb>
+    <Est_IMar>0.00</Est_IMar>
+    <Est_IAbr>0.00</Est_IAbr>
+    <VentaCurso>2126.00</VentaCurso>
+    <Promedio>0</Promedio>
+    <Incremento>0.00</Incremento>
+    <UBIncremento>0.00</UBIncremento>
+    <Orden1>Venta Instalada</Orden1>
+    <Orden2>Linea Industrial</Orden2>
+    <BonoMesVta>0.00</BonoMesVta>
+    <BonoMesUB>0.00</BonoMesUB>
+    <BonoAPagar>0.00</BonoAPagar>
+  </Producto>
+  <Producto>
+    <Id_Prd>577</Id_Prd>
+    <Prd_Descripcion>KEY LIMPIAMANOS PASTA 1 LT.</Prd_Descripcion>
+    <Prd_Presentacion>1</Prd_Presentacion>
+    <Est_IFeb>0.00</Est_IFeb>
+    <Est_IMar>0.00</Est_IMar>
+    <Est_IAbr>2472.00</Est_IAbr>
+    <VentaCurso>0.00</VentaCurso>
+    <Promedio>0</Promedio>
+    <Incremento>0.00</Incremento>
+    <UBIncremento>0.00</UBIncremento>
+    <Orden1>Venta Instalada</Orden1>
+    <Orden2>Linea Industrial</Orden2>
+    <BonoMesVta>0.00</BonoMesVta>
+    <BonoMesUB>0.00</BonoMesUB>
+    <BonoAPagar>0.00</BonoAPagar>
+  </Producto>
+  <Producto>
+    <Id_Prd>6634</Id_Prd>
+    <Prd_Descripcion>CLG-200 20 LTS                 </Prd_Descripcion>
+    <Prd_Presentacion>20.00</Prd_Presentacion>
+    <Est_IFeb>648.00</Est_IFeb>
+    <Est_IMar>0.00</Est_IMar>
+    <Est_IAbr>0.00</Est_IAbr>
+    <VentaCurso>0.00</VentaCurso>
+    <Promedio>0</Promedio>
+    <Incremento>0.00</Incremento>
+    <UBIncremento>0.00</UBIncremento>
+    <Orden1>Venta Instalada</Orden1>
+    <Orden2>Alimentaria</Orden2>
+    <BonoMesVta>0.00</BonoMesVta>
+    <BonoMesUB>0.00</BonoMesUB>
+    <BonoAPagar>0.00</BonoAPagar>
+  </Producto>
+  <Producto>
+    <Id_Prd>6635</Id_Prd>
+    <Prd_Descripcion>CLG-200 200 LTS                </Prd_Descripcion>
+    <Prd_Presentacion>200.00</Prd_Presentacion>
+    <Est_IFeb>12372.00</Est_IFeb>
+    <Est_IMar>0.00</Est_IMar>
+    <Est_IAbr>12372.00</Est_IAbr>
+    <VentaCurso>24744.00</VentaCurso>
+    <Promedio>0</Promedio>
+    <Incremento>0.00</Incremento>
+    <UBIncremento>0.00</UBIncremento>
+    <Orden1>Venta Instalada</Orden1>
+    <Orden2>Alimentaria</Orden2>
+    <BonoMesVta>0.00</BonoMesVta>
+    <BonoMesUB>0.00</BonoMesUB>
+    <BonoAPagar>0.00</BonoAPagar>
+  </Producto>
+  <Producto>
+    <Id_Prd>874</Id_Prd>
+    <Prd_Descripcion>PRO AUTOSHAMPOO 20 LTS</Prd_Descripcion>
+    <Prd_Presentacion>20</Prd_Presentacion>
+    <Est_IFeb>5068.00</Est_IFeb>
+    <Est_IMar>0.00</Est_IMar>
+    <Est_IAbr>2027.20</Est_IAbr>
+    <VentaCurso>2533.65</VentaCurso>
+    <Promedio>0</Promedio>
+    <Incremento>5068.00</Incremento>
+    <UBIncremento>3066.40</UBIncremento>
+    <Orden1>Venta Instalada Incremental</Orden1>
+    <Orden2>Linea Industrial</Orden2>
+    <BonoMesVta>5068.00</BonoMesVta>
+    <BonoMesUB>3066.40</BonoMesUB>
+    <BonoAPagar>459.96</BonoAPagar>
+  </Producto>
+  <Producto>
+    <Id_Prd>314</Id_Prd>
+    <Prd_Descripcion>KEY BM 20 KGS</Prd_Descripcion>
+    <Prd_Presentacion>20</Prd_Presentacion>
+    <Est_IFeb>0.00</Est_IFeb>
+    <Est_IMar>566.00</Est_IMar>
+    <Est_IAbr>0.00</Est_IAbr>
+    <VentaCurso>0.00</VentaCurso>
+    <Promedio>0</Promedio>
+    <Incremento>566.00</Incremento>
+    <UBIncremento>254.59</UBIncremento>
+    <Orden1>Venta Instalada Incremental</Orden1>
+    <Orden2>Linea Industrial</Orden2>
+    <BonoMesVta>566.00</BonoMesVta>
+    <BonoMesUB>254.59</BonoMesUB>
+    <BonoAPagar>38.19</BonoAPagar>
+  </Producto>
+  <Producto>
+    <Id_Prd>6338</Id_Prd>
+    <Prd_Descripcion>KEY DESINCRUSTANTE 4 LTS</Prd_Descripcion>
+    <Prd_Presentacion>4</Prd_Presentacion>
+    <Est_IFeb>0.00</Est_IFeb>
+    <Est_IMar>0.00</Est_IMar>
+    <Est_IAbr>550.00</Est_IAbr>
+    <VentaCurso>0.00</VentaCurso>
+    <Promedio>0</Promedio>
+    <Incremento>0.00</Incremento>
+    <UBIncremento>0.00</UBIncremento>
+    <Orden1>Venta Instalada</Orden1>
+    <Orden2>Alisan</Orden2>
+    <BonoMesVta>0.00</BonoMesVta>
+    <BonoMesUB>0.00</BonoMesUB>
+    <BonoAPagar>0.00</BonoAPagar>
+  </Producto>
+  <Producto>
+    <Id_Prd>2054</Id_Prd>
+    <Prd_Descripcion>ECOSOLV 100 20 LTS</Prd_Descripcion>
+    <Prd_Presentacion>20.00</Prd_Presentacion>
+    <Est_IFeb>0.00</Est_IFeb>
+    <Est_IMar>0.00</Est_IMar>
+    <Est_IAbr>1380.00</Est_IAbr>
+    <VentaCurso>0.00</VentaCurso>
+    <Promedio>0</Promedio>
+    <Incremento>1380.00</Incremento>
+    <UBIncremento>552.43</UBIncremento>
+    <Orden1>Venta Instalada Incremental</Orden1>
+    <Orden2>Linea Industrial</Orden2>
+    <BonoMesVta>1380.00</BonoMesVta>
+    <BonoMesUB>552.43</BonoMesUB>
+    <BonoAPagar>82.86</BonoAPagar>
+  </Producto>
+  <Producto>
+    <Id_Prd>948</Id_Prd>
+    <Prd_Descripcion>PRO BA-1 20 LTS</Prd_Descripcion>
+    <Prd_Presentacion>20</Prd_Presentacion>
+    <Est_IFeb>693.00</Est_IFeb>
+    <Est_IMar>0.00</Est_IMar>
+    <Est_IAbr>0.00</Est_IAbr>
+    <VentaCurso>0.00</VentaCurso>
+    <Promedio>0</Promedio>
+    <Incremento>0.00</Incremento>
+    <UBIncremento>0.00</UBIncremento>
+    <Orden1>Venta Instalada</Orden1>
+    <Orden2>Linea Industrial</Orden2>
+    <BonoMesVta>0.00</BonoMesVta>
+    <BonoMesUB>0.00</BonoMesUB>
+    <BonoAPagar>0.00</BonoAPagar>
+  </Producto>
+  <Producto>
+    <Id_Prd>477</Id_Prd>
+    <Prd_Descripcion>ECOSOLVETRON II 0.3 KGS</Prd_Descripcion>
+    <Prd_Presentacion>0.3</Prd_Presentacion>
+    <Est_IFeb>0.00</Est_IFeb>
+    <Est_IMar>0.00</Est_IMar>
+    <Est_IAbr>0.00</Est_IAbr>
+    <VentaCurso>948.00</VentaCurso>
+    <Promedio>0</Promedio>
+    <Incremento>0.00</Incremento>
+    <UBIncremento>0.00</UBIncremento>
+    <Orden1>Venta Instalada</Orden1>
+    <Orden2>Linea Industrial</Orden2>
+    <BonoMesVta>0.00</BonoMesVta>
+    <BonoMesUB>0.00</BonoMesUB>
+    <BonoAPagar>0.00</BonoAPagar>
+  </Producto>
+  <Producto>
+    <Id_Prd>5101</Id_Prd>
+    <Prd_Descripcion>VANGUARD PAPEL MAXIROLLO HD360 90538              </Prd_Descripcion>
+    <Prd_Presentacion>1</Prd_Presentacion>
+    <Est_IFeb>0.00</Est_IFeb>
+    <Est_IMar>440.00</Est_IMar>
+    <Est_IAbr>0.00</Est_IAbr>
+    <VentaCurso>660.00</VentaCurso>
+    <Promedio>0</Promedio>
+    <Incremento>0.00</Incremento>
+    <UBIncremento>0.00</UBIncremento>
+    <Orden1>Venta Instalada</Orden1>
+    <Orden2>A.B.C.</Orden2>
+    <BonoMesVta>0.00</BonoMesVta>
+    <BonoMesUB>0.00</BonoMesUB>
+    <BonoAPagar>0.00</BonoAPagar>
+  </Producto>
+  <Producto>
+    <Id_Prd>273</Id_Prd>
+    <Prd_Descripcion>KEY COB-B 20 LTS</Prd_Descripcion>
+    <Prd_Presentacion>20</Prd_Presentacion>
+    <Est_IFeb>0.00</Est_IFeb>
+    <Est_IMar>0.00</Est_IMar>
+    <Est_IAbr>440.00</Est_IAbr>
+    <VentaCurso>0.00</VentaCurso>
+    <Promedio>0</Promedio>
+    <Incremento>0.00</Incremento>
+    <UBIncremento>0.00</UBIncremento>
+    <Orden1>Venta Instalada</Orden1>
+    <Orden2>Linea Industrial</Orden2>
+    <BonoMesVta>0.00</BonoMesVta>
+    <BonoMesUB>0.00</BonoMesUB>
+    <BonoAPagar>0.00</BonoAPagar>
+  </Producto>
+  <Producto>
+    <Id_Prd>1592</Id_Prd>
+    <Prd_Descripcion>PISTOLA ATOMIZADORA BCO/AZUL</Prd_Descripcion>
+    <Prd_Presentacion>1</Prd_Presentacion>
+    <Est_IFeb>0.00</Est_IFeb>
+    <Est_IMar>0.00</Est_IMar>
+    <Est_IAbr>77.00</Est_IAbr>
+    <VentaCurso>0.00</VentaCurso>
+    <Promedio>0</Promedio>
+    <Incremento>0.00</Incremento>
+    <UBIncremento>0.00</UBIncremento>
+    <Orden1>Venta Instalada</Orden1>
+    <Orden2>Jarcería</Orden2>
+    <BonoMesVta>0.00</BonoMesVta>
+    <BonoMesUB>0.00</BonoMesUB>
+    <BonoAPagar>0.00</BonoAPagar>
+  </Producto>
+  <Producto>
+    <Id_Prd>2179</Id_Prd>
+    <Prd_Descripcion>KEY DEODORIZANTE 20 LT.        </Prd_Descripcion>
+    <Prd_Presentacion>20</Prd_Presentacion>
+    <Est_IFeb>0.00</Est_IFeb>
+    <Est_IMar>0.00</Est_IMar>
+    <Est_IAbr>727.00</Est_IAbr>
+    <VentaCurso>0.00</VentaCurso>
+    <Promedio>0</Promedio>
+    <Incremento>0.00</Incremento>
+    <UBIncremento>0.00</UBIncremento>
+    <Orden1>Venta Instalada</Orden1>
+    <Orden2>Aseo General</Orden2>
+    <BonoMesVta>0.00</BonoMesVta>
+    <BonoMesUB>0.00</BonoMesUB>
+    <BonoAPagar>0.00</BonoAPagar>
+  </Producto>
+  <Producto>
+    <Id_Prd>2494</Id_Prd>
+    <Prd_Descripcion>KEY SUPER D</Prd_Descripcion>
+    <Prd_Presentacion>20.00</Prd_Presentacion>
+    <Est_IFeb>0.00</Est_IFeb>
+    <Est_IMar>0.00</Est_IMar>
+    <Est_IAbr>1384.70</Est_IAbr>
+    <VentaCurso>0.00</VentaCurso>
+    <Promedio>0</Promedio>
+    <Incremento>0.00</Incremento>
+    <UBIncremento>0.00</UBIncremento>
+    <Orden1>Venta Instalada</Orden1>
+    <Orden2>Linea Industrial</Orden2>
+    <BonoMesVta>0.00</BonoMesVta>
+    <BonoMesUB>0.00</BonoMesUB>
+    <BonoAPagar>0.00</BonoAPagar>
+  </Producto>
+  <Producto>
+    <Id_Prd>7653</Id_Prd>
+    <Prd_Descripcion>KEY CITRA-D  4 KG.</Prd_Descripcion>
+    <Prd_Presentacion>4</Prd_Presentacion>
+    <Est_IFeb>0.00</Est_IFeb>
+    <Est_IMar>0.00</Est_IMar>
+    <Est_IAbr>720.00</Est_IAbr>
+    <VentaCurso>0.00</VentaCurso>
+    <Promedio>0</Promedio>
+    <Incremento>0.00</Incremento>
+    <UBIncremento>0.00</UBIncremento>
+    <Orden1>Venta Instalada</Orden1>
+    <Orden2>Linea Industrial</Orden2>
+    <BonoMesVta>0.00</BonoMesVta>
+    <BonoMesUB>0.00</BonoMesUB>
+    <BonoAPagar>0.00</BonoAPagar>
+  </Producto>
+  <Producto>
+    <Id_Prd>2252</Id_Prd>
+    <Prd_Descripcion>KEY ABRILLANTADOR  1 LT.</Prd_Descripcion>
+    <Prd_Presentacion>1         </Prd_Presentacion>
+    <Est_IFeb>0.00</Est_IFeb>
+    <Est_IMar>0.00</Est_IMar>
+    <Est_IAbr>110.00</Est_IAbr>
+    <VentaCurso>0.00</VentaCurso>
+    <Promedio>0</Promedio>
+    <Incremento>110.00</Incremento>
+    <UBIncremento>52.72</UBIncremento>
+    <Orden1>Venta Instalada Incremental</Orden1>
+    <Orden2>Linea Industrial</Orden2>
+    <BonoMesVta>110.00</BonoMesVta>
+    <BonoMesUB>52.72</BonoMesUB>
+    <BonoAPagar>7.91</BonoAPagar>
+  </Producto>
+  <Producto>
+    <Id_Prd>29</Id_Prd>
+    <Prd_Descripcion>KEY LD 20 LTS                  P.ORIGEN: MEXICO   </Prd_Descripcion>
+    <Prd_Presentacion>20</Prd_Presentacion>
+    <Est_IFeb>0.00</Est_IFeb>
+    <Est_IMar>518.00</Est_IMar>
+    <Est_IAbr>0.00</Est_IAbr>
+    <VentaCurso>0.00</VentaCurso>
+    <Promedio>0</Promedio>
+    <Incremento>0.00</Incremento>
+    <UBIncremento>0.00</UBIncremento>
+    <Orden1>Venta Instalada</Orden1>
+    <Orden2>Aseo General</Orden2>
+    <BonoMesVta>0.00</BonoMesVta>
+    <BonoMesUB>0.00</BonoMesUB>
+    <BonoAPagar>0.00</BonoAPagar>
+  </Producto>
+  <Producto>
+    <Id_Prd>7653</Id_Prd>
+    <Prd_Descripcion>KEY CITRA-D  4 KG.</Prd_Descripcion>
+    <Prd_Presentacion>4</Prd_Presentacion>
+    <Est_IFeb>0.00</Est_IFeb>
+    <Est_IMar>170.00</Est_IMar>
+    <Est_IAbr>0.00</Est_IAbr>
+    <VentaCurso>0.00</VentaCurso>
+    <Promedio>0</Promedio>
+    <Incremento>0.00</Incremento>
+    <UBIncremento>0.00</UBIncremento>
+    <Orden1>Venta Instalada</Orden1>
+    <Orden2>Linea Industrial</Orden2>
+    <BonoMesVta>0.00</BonoMesVta>
+    <BonoMesUB>0.00</BonoMesUB>
+    <BonoAPagar>0.00</BonoAPagar>
+  </Producto>
+  <Producto>
+    <Id_Prd>2054</Id_Prd>
+    <Prd_Descripcion>ECOSOLV 100 20 LTS</Prd_Descripcion>
+    <Prd_Presentacion>20.00</Prd_Presentacion>
+    <Est_IFeb>0.00</Est_IFeb>
+    <Est_IMar>0.00</Est_IMar>
+    <Est_IAbr>2380.00</Est_IAbr>
+    <VentaCurso>0.00</VentaCurso>
+    <Promedio>0</Promedio>
+    <Incremento>0.00</Incremento>
+    <UBIncremento>0.00</UBIncremento>
+    <Orden1>Venta Instalada</Orden1>
+    <Orden2>Linea Industrial</Orden2>
+    <BonoMesVta>0.00</BonoMesVta>
+    <BonoMesUB>0.00</BonoMesUB>
+    <BonoAPagar>0.00</BonoAPagar>
+  </Producto>
+  <Producto>
+    <Id_Prd>110702</Id_Prd>
+    <Prd_Descripcion>ESCOBA TIPO INDUSTRIAL AZUL</Prd_Descripcion>
+    <Prd_Presentacion>1         </Prd_Presentacion>
+    <Est_IFeb>0.00</Est_IFeb>
+    <Est_IMar>0.00</Est_IMar>
+    <Est_IAbr>410.04</Est_IAbr>
+    <VentaCurso>0.00</VentaCurso>
+    <Promedio>0</Promedio>
+    <Incremento>410.04</Incremento>
+    <UBIncremento>40.44</UBIncremento>
+    <Orden1>NO Venta Instalada</Orden1>
+    <Orden2>Otros Productos</Orden2>
+    <BonoMesVta>0.00</BonoMesVta>
+    <BonoMesUB>0.00</BonoMesUB>
+    <BonoAPagar>0.00</BonoAPagar>
+  </Producto>
+  <Producto>
+    <Id_Prd>2099</Id_Prd>
+    <Prd_Descripcion>KEY JABON ANTIPLOMO</Prd_Descripcion>
+    <Prd_Presentacion>20</Prd_Presentacion>
+    <Est_IFeb>0.00</Est_IFeb>
+    <Est_IMar>2276.16</Est_IMar>
+    <Est_IAbr>0.00</Est_IAbr>
+    <VentaCurso>0.00</VentaCurso>
+    <Promedio>0</Promedio>
+    <Incremento>0.00</Incremento>
+    <UBIncremento>0.00</UBIncremento>
+    <Orden1>Venta Instalada</Orden1>
+    <Orden2>Linea Industrial</Orden2>
+    <BonoMesVta>0.00</BonoMesVta>
+    <BonoMesUB>0.00</BonoMesUB>
+    <BonoAPagar>0.00</BonoAPagar>
+  </Producto>
+  <Producto>
+    <Id_Prd>1747</Id_Prd>
+    <Prd_Descripcion>TRAPEADOR PABILO               </Prd_Descripcion>
+    <Prd_Presentacion>1</Prd_Presentacion>
+    <Est_IFeb>0.00</Est_IFeb>
+    <Est_IMar>0.00</Est_IMar>
+    <Est_IAbr>301.50</Est_IAbr>
+    <VentaCurso>0.00</VentaCurso>
+    <Promedio>0</Promedio>
+    <Incremento>301.50</Incremento>
+    <UBIncremento>100.10</UBIncremento>
+    <Orden1>Venta Instalada Incremental</Orden1>
+    <Orden2>Jarcería</Orden2>
+    <BonoMesVta>301.50</BonoMesVta>
+    <BonoMesUB>100.10</BonoMesUB>
+    <BonoAPagar>15.01</BonoAPagar>
+  </Producto>
+  <Producto>
+    <Id_Prd>5100</Id_Prd>
+    <Prd_Descripcion>VANGUARD PAPEL MINIROLLO HD180</Prd_Descripcion>
+    <Prd_Presentacion>1         </Prd_Presentacion>
+    <Est_IFeb>0.00</Est_IFeb>
+    <Est_IMar>0.00</Est_IMar>
+    <Est_IAbr>2011.70</Est_IAbr>
+    <VentaCurso>0.00</VentaCurso>
+    <Promedio>0</Promedio>
+    <Incremento>2011.70</Incremento>
+    <UBIncremento>427.50</UBIncremento>
+    <Orden1>Venta Instalada Incremental</Orden1>
+    <Orden2>A.B.C.</Orden2>
+    <BonoMesVta>2011.70</BonoMesVta>
+    <BonoMesUB>427.50</BonoMesUB>
+    <BonoAPagar>64.12</BonoAPagar>
+  </Producto>
+  <Producto>
+    <Id_Prd>8670</Id_Prd>
+    <Prd_Descripcion>DETERGENTE POLVO  9 KG</Prd_Descripcion>
+    <Prd_Presentacion>1.00</Prd_Presentacion>
+    <Est_IFeb>0.00</Est_IFeb>
+    <Est_IMar>440.00</Est_IMar>
+    <Est_IAbr>0.00</Est_IAbr>
+    <VentaCurso>0.00</VentaCurso>
+    <Promedio>0</Promedio>
+    <Incremento>440.00</Incremento>
+    <UBIncremento>186.06</UBIncremento>
+    <Orden1>Venta Instalada Incremental</Orden1>
+    <Orden2>Aseo General</Orden2>
+    <BonoMesVta>440.00</BonoMesVta>
+    <BonoMesUB>186.06</BonoMesUB>
+    <BonoAPagar>27.91</BonoAPagar>
+  </Producto>
+  <Producto>
+    <Id_Prd>70053</Id_Prd>
+    <Prd_Descripcion>VANG. AROM.MANZANA-CANELA 18 L</Prd_Descripcion>
+    <Prd_Presentacion>18</Prd_Presentacion>
+    <Est_IFeb>0.00</Est_IFeb>
+    <Est_IMar>350.00</Est_IMar>
+    <Est_IAbr>350.00</Est_IAbr>
+    <VentaCurso>0.00</VentaCurso>
+    <Promedio>0</Promedio>
+    <Incremento>350.00</Incremento>
+    <UBIncremento>151.90</UBIncremento>
+    <Orden1>Venta Instalada Incremental</Orden1>
+    <Orden2>Aseo General</Orden2>
+    <BonoMesVta>350.00</BonoMesVta>
+    <BonoMesUB>151.90</BonoMesUB>
+    <BonoAPagar>22.78</BonoAPagar>
+  </Producto>
+  <Producto>
+    <Id_Prd>70087</Id_Prd>
+    <Prd_Descripcion>VANG. MURIATICO 4 L</Prd_Descripcion>
+    <Prd_Presentacion>4</Prd_Presentacion>
+    <Est_IFeb>0.00</Est_IFeb>
+    <Est_IMar>240.00</Est_IMar>
+    <Est_IAbr>0.00</Est_IAbr>
+    <VentaCurso>0.00</VentaCurso>
+    <Promedio>0</Promedio>
+    <Incremento>240.00</Incremento>
+    <UBIncremento>113.68</UBIncremento>
+    <Orden1>Venta Instalada Incremental</Orden1>
+    <Orden2>Aseo General</Orden2>
+    <BonoMesVta>240.00</BonoMesVta>
+    <BonoMesUB>113.68</BonoMesUB>
+    <BonoAPagar>17.05</BonoAPagar>
+  </Producto>
+  <Producto>
+    <Id_Prd>70111</Id_Prd>
+    <Prd_Descripcion>CLORO VANGUARD 20 LT.</Prd_Descripcion>
+    <Prd_Presentacion>20.00</Prd_Presentacion>
+    <Est_IFeb>0.00</Est_IFeb>
+    <Est_IMar>0.00</Est_IMar>
+    <Est_IAbr>395.26</Est_IAbr>
+    <VentaCurso>0.00</VentaCurso>
+    <Promedio>0</Promedio>
+    <Incremento>395.26</Incremento>
+    <UBIncremento>98.48</UBIncremento>
+    <Orden1>Venta Instalada Incremental</Orden1>
+    <Orden2>Aseo General</Orden2>
+    <BonoMesVta>395.26</BonoMesVta>
+    <BonoMesUB>98.48</BonoMesUB>
+    <BonoAPagar>14.77</BonoAPagar>
+  </Producto>
+  <Producto>
+    <Id_Prd>110184</Id_Prd>
+    <Prd_Descripcion>CUBETA DE 20 LTS DE ACEITE HIDRAULICO ISO CON ADITIVO ANTIDESGASTANTE</Prd_Descripcion>
+    <Prd_Presentacion>1         </Prd_Presentacion>
+    <Est_IFeb>0.00</Est_IFeb>
+    <Est_IMar>0.00</Est_IMar>
+    <Est_IAbr>0.00</Est_IAbr>
+    <VentaCurso>1810.00</VentaCurso>
+    <Promedio>0</Promedio>
+    <Incremento>0.00</Incremento>
+    <UBIncremento>0.00</UBIncremento>
+    <Orden1>NO Venta Instalada</Orden1>
+    <Orden2>Otros Productos</Orden2>
+    <BonoMesVta>0.00</BonoMesVta>
+    <BonoMesUB>0.00</BonoMesUB>
+    <BonoAPagar>0.00</BonoAPagar>
+  </Producto>
+  <Producto>
+    <Id_Prd>110185</Id_Prd>
+    <Prd_Descripcion>TAMBO DE 200 LTS DE ACEITE HIDRAULICO ISO CON ADITIVO ANTIDESGASTANTE</Prd_Descripcion>
+    <Prd_Presentacion>1         </Prd_Presentacion>
+    <Est_IFeb>0.00</Est_IFeb>
+    <Est_IMar>0.00</Est_IMar>
+    <Est_IAbr>0.00</Est_IAbr>
+    <VentaCurso>15500.00</VentaCurso>
+    <Promedio>0</Promedio>
+    <Incremento>0.00</Incremento>
+    <UBIncremento>0.00</UBIncremento>
+    <Orden1>NO Venta Instalada</Orden1>
+    <Orden2>Otros Productos</Orden2>
+    <BonoMesVta>0.00</BonoMesVta>
+    <BonoMesUB>0.00</BonoMesUB>
+    <BonoAPagar>0.00</BonoAPagar>
+  </Producto>
+  <Producto>
+    <Id_Prd>2104</Id_Prd>
+    <Prd_Descripcion>KEY LUMEN SELLADOR ACABADO 20L</Prd_Descripcion>
+    <Prd_Presentacion>20</Prd_Presentacion>
+    <Est_IFeb>6420.00</Est_IFeb>
+    <Est_IMar>0.00</Est_IMar>
+    <Est_IAbr>0.00</Est_IAbr>
+    <VentaCurso>0.00</VentaCurso>
+    <Promedio>0</Promedio>
+    <Incremento>6420.00</Incremento>
+    <UBIncremento>2568.04</UBIncremento>
+    <Orden1>Venta Instalada Incremental</Orden1>
+    <Orden2>Aseo General</Orden2>
+    <BonoMesVta>6420.00</BonoMesVta>
+    <BonoMesUB>2568.04</BonoMesUB>
+    <BonoAPagar>385.21</BonoAPagar>
+  </Producto>
+  <Producto>
+    <Id_Prd>110813</Id_Prd>
+    <Prd_Descripcion>FIBRA BLANCA 1 PZA</Prd_Descripcion>
+    <Prd_Presentacion>1         </Prd_Presentacion>
+    <Est_IFeb>0.00</Est_IFeb>
+    <Est_IMar>96.00</Est_IMar>
+    <Est_IAbr>0.00</Est_IAbr>
+    <VentaCurso>0.00</VentaCurso>
+    <Promedio>0</Promedio>
+    <Incremento>96.00</Incremento>
+    <UBIncremento>36.48</UBIncremento>
+    <Orden1>NO Venta Instalada</Orden1>
+    <Orden2>Otros Productos</Orden2>
+    <BonoMesVta>0.00</BonoMesVta>
+    <BonoMesUB>0.00</BonoMesUB>
+    <BonoAPagar>0.00</BonoAPagar>
+  </Producto>
+  <Producto>
+    <Id_Prd>948</Id_Prd>
+    <Prd_Descripcion>PRO BA-1 20 LTS</Prd_Descripcion>
+    <Prd_Presentacion>20</Prd_Presentacion>
+    <Est_IFeb>0.00</Est_IFeb>
+    <Est_IMar>680.00</Est_IMar>
+    <Est_IAbr>0.00</Est_IAbr>
+    <VentaCurso>0.00</VentaCurso>
+    <Promedio>0</Promedio>
+    <Incremento>680.00</Incremento>
+    <UBIncremento>301.16</UBIncremento>
+    <Orden1>Venta Instalada Incremental</Orden1>
+    <Orden2>Linea Industrial</Orden2>
+    <BonoMesVta>680.00</BonoMesVta>
+    <BonoMesUB>301.16</BonoMesUB>
+    <BonoAPagar>45.17</BonoAPagar>
+  </Producto>
+  <Producto>
+    <Id_Prd>1733</Id_Prd>
+    <Prd_Descripcion>TELAS LIMPIADORAS P/ACERO INOX (BOTES C/40)</Prd_Descripcion>
+    <Prd_Presentacion>1.00</Prd_Presentacion>
+    <Est_IFeb>0.00</Est_IFeb>
+    <Est_IMar>287.00</Est_IMar>
+    <Est_IAbr>0.00</Est_IAbr>
+    <VentaCurso>861.00</VentaCurso>
+    <Promedio>0</Promedio>
+    <Incremento>287.00</Incremento>
+    <UBIncremento>115.05</UBIncremento>
+    <Orden1>Venta Instalada Incremental</Orden1>
+    <Orden2>Aseo General</Orden2>
+    <BonoMesVta>287.00</BonoMesVta>
+    <BonoMesUB>115.05</BonoMesUB>
+    <BonoAPagar>17.26</BonoAPagar>
+  </Producto>
+  <Producto>
+    <Id_Prd>6383</Id_Prd>
+    <Prd_Descripcion>KEY LIMP.ACERO INOXID. 3 KGS   </Prd_Descripcion>
+    <Prd_Presentacion>3</Prd_Presentacion>
+    <Est_IFeb>0.00</Est_IFeb>
+    <Est_IMar>127.00</Est_IMar>
+    <Est_IAbr>0.00</Est_IAbr>
+    <VentaCurso>0.00</VentaCurso>
+    <Promedio>0</Promedio>
+    <Incremento>127.00</Incremento>
+    <UBIncremento>50.83</UBIncremento>
+    <Orden1>Venta Instalada Incremental</Orden1>
+    <Orden2>Alisan</Orden2>
+    <BonoMesVta>127.00</BonoMesVta>
+    <BonoMesUB>50.83</BonoMesUB>
+    <BonoAPagar>7.62</BonoAPagar>
+  </Producto>
+  <Producto>
+    <Id_Prd>144</Id_Prd>
+    <Prd_Descripcion>KEY LIMON 20 LTS</Prd_Descripcion>
+    <Prd_Presentacion>20</Prd_Presentacion>
+    <Est_IFeb>0.00</Est_IFeb>
+    <Est_IMar>600.00</Est_IMar>
+    <Est_IAbr>0.00</Est_IAbr>
+    <VentaCurso>0.00</VentaCurso>
+    <Promedio>0</Promedio>
+    <Incremento>600.00</Incremento>
+    <UBIncremento>291.49</UBIncremento>
+    <Orden1>Venta Instalada Incremental</Orden1>
+    <Orden2>Aseo General</Orden2>
+    <BonoMesVta>600.00</BonoMesVta>
+    <BonoMesUB>291.49</BonoMesUB>
+    <BonoAPagar>43.72</BonoAPagar>
+  </Producto>
+  <Producto>
+    <Id_Prd>926</Id_Prd>
+    <Prd_Descripcion>BOTELLA DE PLASTICO 1 LT</Prd_Descripcion>
+    <Prd_Presentacion>1         </Prd_Presentacion>
+    <Est_IFeb>0.00</Est_IFeb>
+    <Est_IMar>40.00</Est_IMar>
+    <Est_IAbr>0.00</Est_IAbr>
+    <VentaCurso>0.00</VentaCurso>
+    <Promedio>0</Promedio>
+    <Incremento>40.00</Incremento>
+    <UBIncremento>15.12</UBIncremento>
+    <Orden1>Venta Instalada Incremental</Orden1>
+    <Orden2>Jarcería</Orden2>
+    <BonoMesVta>40.00</BonoMesVta>
+    <BonoMesUB>15.12</BonoMesUB>
+    <BonoAPagar>2.27</BonoAPagar>
+  </Producto>
+  <Producto>
+    <Id_Prd>1592</Id_Prd>
+    <Prd_Descripcion>PISTOLA ATOMIZADORA BCO/AZUL</Prd_Descripcion>
+    <Prd_Presentacion>1</Prd_Presentacion>
+    <Est_IFeb>0.00</Est_IFeb>
+    <Est_IMar>60.00</Est_IMar>
+    <Est_IAbr>0.00</Est_IAbr>
+    <VentaCurso>0.00</VentaCurso>
+    <Promedio>0</Promedio>
+    <Incremento>60.00</Incremento>
+    <UBIncremento>23.12</UBIncremento>
+    <Orden1>Venta Instalada Incremental</Orden1>
+    <Orden2>Jarcería</Orden2>
+    <BonoMesVta>60.00</BonoMesVta>
+    <BonoMesUB>23.12</BonoMesUB>
+    <BonoAPagar>3.47</BonoAPagar>
+  </Producto>
+  <Producto>
+    <Id_Prd>44</Id_Prd>
+    <Prd_Descripcion>SS</Prd_Descripcion>
+    <Prd_Presentacion>20.00</Prd_Presentacion>
+    <Est_IFeb>0.00</Est_IFeb>
+    <Est_IMar>0.00</Est_IMar>
+    <Est_IAbr>1273.00</Est_IAbr>
+    <VentaCurso>1273.00</VentaCurso>
+    <Promedio>0</Promedio>
+    <Incremento>1273.00</Incremento>
+    <UBIncremento>487.75</UBIncremento>
+    <Orden1>Venta Instalada Incremental</Orden1>
+    <Orden2>Linea Industrial</Orden2>
+    <BonoMesVta>1273.00</BonoMesVta>
+    <BonoMesUB>487.75</BonoMesUB>
+    <BonoAPagar>73.16</BonoAPagar>
+  </Producto>
+  <Producto>
+    <Id_Prd>159</Id_Prd>
+    <Prd_Descripcion>KEY LIMPIAMANOS PASTA 17 KGS</Prd_Descripcion>
+    <Prd_Presentacion>17</Prd_Presentacion>
+    <Est_IFeb>0.00</Est_IFeb>
+    <Est_IMar>0.00</Est_IMar>
+    <Est_IAbr>1026.00</Est_IAbr>
+    <VentaCurso>0.00</VentaCurso>
+    <Promedio>0</Promedio>
+    <Incremento>1026.00</Incremento>
+    <UBIncremento>418.20</UBIncremento>
+    <Orden1>Venta Instalada Incremental</Orden1>
+    <Orden2>Linea Industrial</Orden2>
+    <BonoMesVta>1026.00</BonoMesVta>
+    <BonoMesUB>418.20</BonoMesUB>
+    <BonoAPagar>62.73</BonoAPagar>
+  </Producto>
+  <Producto>
+    <Id_Prd>999007101</Id_Prd>
+    <Prd_Descripcion>TORK DESP HIG BOB MINI TWIN 1S ABS T2 BCO         </Prd_Descripcion>
+    <Prd_Presentacion>1</Prd_Presentacion>
+    <Est_IFeb>0.00</Est_IFeb>
+    <Est_IMar>0.00</Est_IMar>
+    <Est_IAbr>605.00</Est_IAbr>
+    <VentaCurso>0.00</VentaCurso>
+    <Promedio>0</Promedio>
+    <Incremento>605.00</Incremento>
+    <UBIncremento>604.00</UBIncremento>
+    <Orden1>NO Venta Instalada</Orden1>
+    <Orden2>Otros Productos</Orden2>
+    <BonoMesVta>0.00</BonoMesVta>
+    <BonoMesUB>0.00</BonoMesUB>
+    <BonoAPagar>0.00</BonoAPagar>
+  </Producto>
+  <Producto>
+    <Id_Prd>1161</Id_Prd>
+    <Prd_Descripcion>REPUESTO LAVADOR DE VIDRIO 18 ITEM 2518-6</Prd_Descripcion>
+    <Prd_Presentacion>1.00</Prd_Presentacion>
+    <Est_IFeb>0.00</Est_IFeb>
+    <Est_IMar>0.00</Est_IMar>
+    <Est_IAbr>35.00</Est_IAbr>
+    <VentaCurso>0.00</VentaCurso>
+    <Promedio>0</Promedio>
+    <Incremento>35.00</Incremento>
+    <UBIncremento>9.06</UBIncremento>
+    <Orden1>Venta Instalada Incremental</Orden1>
+    <Orden2>Jarcería</Orden2>
+    <BonoMesVta>35.00</BonoMesVta>
+    <BonoMesUB>9.06</BonoMesUB>
+    <BonoAPagar>1.36</BonoAPagar>
+  </Producto>
+  <Producto>
+    <Id_Prd>1183</Id_Prd>
+    <Prd_Descripcion>RASTRILLO METAL. P/VIDRIOS 12 COMPLETO (T00300)</Prd_Descripcion>
+    <Prd_Presentacion>1.00</Prd_Presentacion>
+    <Est_IFeb>0.00</Est_IFeb>
+    <Est_IMar>0.00</Est_IMar>
+    <Est_IAbr>155.00</Est_IAbr>
+    <VentaCurso>0.00</VentaCurso>
+    <Promedio>0</Promedio>
+    <Incremento>155.00</Incremento>
+    <UBIncremento>40.83</UBIncremento>
+    <Orden1>Venta Instalada Incremental</Orden1>
+    <Orden2>Jarcería</Orden2>
+    <BonoMesVta>155.00</BonoMesVta>
+    <BonoMesUB>40.83</BonoMesUB>
+    <BonoAPagar>6.12</BonoAPagar>
+  </Producto>
+  <Producto>
+    <Id_Prd>1188</Id_Prd>
+    <Prd_Descripcion>RASTRILLO METAL. P/VIDRIOS 18 COMPLETO (T00450)</Prd_Descripcion>
+    <Prd_Presentacion>1.00</Prd_Presentacion>
+    <Est_IFeb>0.00</Est_IFeb>
+    <Est_IMar>0.00</Est_IMar>
+    <Est_IAbr>350.00</Est_IAbr>
+    <VentaCurso>0.00</VentaCurso>
+    <Promedio>0</Promedio>
+    <Incremento>350.00</Incremento>
+    <UBIncremento>92.04</UBIncremento>
+    <Orden1>Venta Instalada Incremental</Orden1>
+    <Orden2>Jarcería</Orden2>
+    <BonoMesVta>350.00</BonoMesVta>
+    <BonoMesUB>92.04</BonoMesUB>
+    <BonoAPagar>13.81</BonoAPagar>
+  </Producto>
+  <Producto>
+    <Id_Prd>934</Id_Prd>
+    <Prd_Descripcion>PRO SH-1 20 LTS                </Prd_Descripcion>
+    <Prd_Presentacion>20</Prd_Presentacion>
+    <Est_IFeb>950.00</Est_IFeb>
+    <Est_IMar>0.00</Est_IMar>
+    <Est_IAbr>0.00</Est_IAbr>
+    <VentaCurso>0.00</VentaCurso>
+    <Promedio>0</Promedio>
+    <Incremento>950.00</Incremento>
+    <UBIncremento>391.23</UBIncremento>
+    <Orden1>Venta Instalada Incremental</Orden1>
+    <Orden2>Linea Industrial</Orden2>
+    <BonoMesVta>950.00</BonoMesVta>
+    <BonoMesUB>391.23</BonoMesUB>
+    <BonoAPagar>58.68</BonoAPagar>
+  </Producto>
+							</Productos>
+						</Categoria>
+				</Categorias>
+			</GrupoVtaInstalada>
+			<GrupoVtaInstalada>
+			<NombreGrupoVtaInstalada>Venta Instalada</NombreGrupoVtaInstalada>
+				<Categorias>
+						<Categoria>
+							<NombreCategoria>Linea Industrial</NombreCategoria>
+							<Productos>
+								<Producto>
+									<Id_Prd>420</Id_Prd>
+									<Prd_Descripcion>KEY AFLOJATODO 200 LTS</Prd_Descripcion>
+									<Prd_Presentacion>200</Prd_Presentacion>
+									<Est_IFeb>22160</Est_IFeb>
+									<Est_IMar>11080</Est_IMar>
+									<Est_IAbr>11080</Est_IAbr>
+									<VentaCurso>50968</VentaCurso>
+									<Promedio>0</Promedio>
+									<Incremento>0</Incremento>
+									<UBIncremento>0</UBIncremento>
+									<BonoMesVta>0</BonoMesVta>
+									<BonoMesUB>0</BonoMesUB>
+									<BonoAPagar>00</BonoAPagar>
+								</Producto>
+								<Producto>
+									<Id_Prd>577</Id_Prd>
+									<Prd_Descripcion>KEY LIMPIAMANOS PASTA 1 LT.</Prd_Descripcion>
+									<Prd_Presentacion>1         </Prd_Presentacion>
+									<Est_IFeb>1064</Est_IFeb>
+									<Est_IMar>665</Est_IMar>
+									<Est_IAbr>1439.67</Est_IAbr>
+									<VentaCurso>917.64</VentaCurso>
+									<Promedio>0</Promedio>
+									<Incremento>0</Incremento>
+									<UBIncremento>0</UBIncremento>
+									<BonoMesVta>0</BonoMesVta>
+									<BonoMesUB>0</BonoMesUB>
+									<BonoAPagar>00</BonoAPagar>
+								</Producto>
+							</Productos>
+						</Categoria>
+						<Categoria>
+							<NombreCategoria>Jarcería</NombreCategoria>
+							<Productos>
+								<Producto>
+									<Id_Prd>926</Id_Prd>
+									<Prd_Descripcion>BOTELLA DE PLASTICO 1 LT</Prd_Descripcion>
+									<Prd_Presentacion>1</Prd_Presentacion>
+									<Est_IFeb>133</Est_IFeb>
+									<Est_IMar>0</Est_IMar>
+									<Est_IAbr>120</Est_IAbr>
+									<VentaCurso>540</VentaCurso>
+									<Promedio>0</Promedio>
+									<Incremento>0</Incremento>
+									<UBIncremento>0</UBIncremento>
+									<BonoMesVta>0</BonoMesVta>
+									<BonoMesUB>0</BonoMesUB>
+									<BonoAPagar>00</BonoAPagar>
+								</Producto>
+							</Productos>
+						</Categoria>
+						<Categoria>
+							<NombreCategoria>A.B.C.</NombreCategoria>
+							<Productos>
+								<Producto>
+									<Id_Prd>5226</Id_Prd>
+									<Prd_Descripcion>MARLI 400 MTS HD CAJA C/6 ROLLOS</Prd_Descripcion>
+									<Prd_Presentacion>1</Prd_Presentacion>
+									<Est_IFeb>0</Est_IFeb>
+									<Est_IMar>0</Est_IMar>
+									<Est_IAbr>0</Est_IAbr>
+									<VentaCurso>3422.1</VentaCurso>
+									<Promedio>0</Promedio>
+									<Incremento>0</Incremento>
+									<UBIncremento>0</UBIncremento>
+									<BonoMesVta>0</BonoMesVta>
+									<BonoMesUB>0</BonoMesUB>
+									<BonoAPagar>00</BonoAPagar>
+								</Producto>
+							</Productos>
+						</Categoria>
+				</Categorias>
+			</GrupoVtaInstalada>
+			<GrupoVtaInstalada>
+			<NombreGrupoVtaInstalada>Venta Instalada Incremental</NombreGrupoVtaInstalada>
+				<Categorias>
+						<Categoria>
+							<NombreCategoria>Jarcería</NombreCategoria>
+							<Productos>
+								<Producto>
+									<Id_Prd>1592</Id_Prd>
+									<Prd_Descripcion>PISTOLA ATOMIZADORA BCO/AZUL</Prd_Descripcion>
+									<Prd_Presentacion>1</Prd_Presentacion>
+									<Est_IFeb>0</Est_IFeb>
+									<Est_IMar>0</Est_IMar>
+									<Est_IAbr>650</Est_IAbr>
+									<VentaCurso>0</VentaCurso>
+									<Promedio>0</Promedio>
+									<Incremento>650</Incremento>
+									<UBIncremento>122.5</UBIncremento>
+									<BonoMesVta>650</BonoMesVta>
+									<BonoMesUB>122.5</BonoMesUB>
+									<BonoAPagar>18.375</BonoAPagar>
+								</Producto>
+							</Productos>
+						</Categoria>
+						<Categoria>
+							<NombreCategoria>Aseo General</NombreCategoria>
+							<Productos>
+								<Producto>
+									<Id_Prd>70081</Id_Prd>
+									<Prd_Descripcion>VANG. SARRICIDA 18 LTS</Prd_Descripcion>
+									<Prd_Presentacion>18</Prd_Presentacion>
+									<Est_IFeb>0</Est_IFeb>
+									<Est_IMar>325</Est_IMar>
+									<Est_IAbr>0</Est_IAbr>
+									<VentaCurso>0</VentaCurso>
+									<Promedio>0</Promedio>
+									<Incremento>325</Incremento>
+									<UBIncremento>130.11</UBIncremento>
+									<BonoMesVta>325</BonoMesVta>
+									<BonoMesUB>130.11</BonoMesUB>
+									<BonoAPagar>19.5165</BonoAPagar>
+								</Producto>
+							</Productos>
+						</Categoria>
+				</Categorias>
+			</GrupoVtaInstalada>
+		</GrupoVtasInstaladas>
+	</Cliente>
+ 
+	<Cliente>
+		<Id_Cte>3333</Id_Cte>
+		<Cte_NomComercial>4789 - 3333 DE MEXICO, S.A. DE C.V.</Cte_NomComercial>
+		<CteVtaCob>1130.88</CteVtaCob>
+		<CteUP>-781.71</CteUP>
+		<CteAN>0</CteAN>
+		<CteGST>0</CteGST>
+		<CteAA>0</CteAA>
+		<CteMO>0</CteMO>
+		<CteAE>0</CteAE>
+		<CteUB>0</CteUB>
+		<CteAjCobranza>0</CteAjCobranza>
+		<CteUBAj>0</CteUBAj>
+		<CtePPPA>12.5</CtePPPA>
+		<CteCP>0</CteCP>
+		<CteFR>0</CteFR>
+		<CteCB>1340</CteCB>
+		<GrupoVtasInstaladas>
+			<GrupoVtaInstalada>
+			<NombreGrupoVtaInstalada>NO Venta Instalada</NombreGrupoVtaInstalada>
+				<Categorias>
+						<Categoria>
+							<NombreCategoria>Otros Productos</NombreCategoria>
+							<Productos>
+								<Producto>
+									<Id_Prd>111703</Id_Prd>
+									<Prd_Descripcion>ALCOHOL ISOPROPILICO</Prd_Descripcion>
+									<Prd_Presentacion>1         </Prd_Presentacion>
+									<Est_IFeb>703</Est_IFeb>
+									<Est_IMar>0</Est_IMar>
+									<Est_IAbr>2200</Est_IAbr>
+									<VentaCurso>3420</VentaCurso>
+									<Promedio>0</Promedio>
+									<Incremento>0</Incremento>
+									<UBIncremento>0</UBIncremento>
+									<Orden1>NO Venta Instalada</Orden1>
+									<Orden2>Otros Productos</Orden2>
+									<BonoMesVta>0</BonoMesVta>
+									<BonoMesUB>0</BonoMesUB>
+									<BonoAPagar>00</BonoAPagar>
+								</Producto>
+								<Producto>
+									<Id_Prd>111716</Id_Prd>
+									<Prd_Descripcion>TAMBO VACIO LAMINA</Prd_Descripcion>
+									<Prd_Presentacion>1         </Prd_Presentacion>
+									<Est_IFeb>220</Est_IFeb>
+									<Est_IMar>660</Est_IMar>
+									<Est_IAbr>220</Est_IAbr>
+									<VentaCurso>0</VentaCurso>
+									<Promedio>0</Promedio>
+									<Incremento>0</Incremento>
+									<UBIncremento>0</UBIncremento>
+									<Orden1>NO Venta Instalada</Orden1>
+									<Orden2>Otros Productos</Orden2>
+									<BonoMesVta>0</BonoMesVta>
+									<BonoMesUB>0</BonoMesUB>
+									<BonoAPagar>00</BonoAPagar>
+								</Producto>
+								<Producto>
+									<Id_Prd>111739</Id_Prd>
+									<Prd_Descripcion>VARSOL</Prd_Descripcion>
+									<Prd_Presentacion>1         </Prd_Presentacion>
+									<Est_IFeb>0</Est_IFeb>
+									<Est_IMar>5280</Est_IMar>
+									<Est_IAbr>5500</Est_IAbr>
+									<VentaCurso>0</VentaCurso>
+									<Promedio>0</Promedio>
+									<Incremento>0</Incremento>
+									<UBIncremento>0</UBIncremento>
+									<Orden1>NO Venta Instalada</Orden1>
+									<Orden2>Otros Productos</Orden2>
+									<BonoMesVta>0</BonoMesVta>
+									<BonoMesUB>0</BonoMesUB>
+									<BonoAPagar>00</BonoAPagar>
+								</Producto>
+							</Productos>
+						</Categoria>
+				</Categorias>
+			</GrupoVtaInstalada>
+			<GrupoVtaInstalada>
+			<NombreGrupoVtaInstalada>Venta Instalada</NombreGrupoVtaInstalada>
+				<Categorias>
+						<Categoria>
+							<NombreCategoria>Linea Industrial</NombreCategoria>
+							<Productos>
+								<Producto>
+									<Id_Prd>420</Id_Prd>
+									<Prd_Descripcion>KEY AFLOJATODO 200 LTS</Prd_Descripcion>
+									<Prd_Presentacion>200</Prd_Presentacion>
+									<Est_IFeb>22160</Est_IFeb>
+									<Est_IMar>11080</Est_IMar>
+									<Est_IAbr>11080</Est_IAbr>
+									<VentaCurso>50968</VentaCurso>
+									<Promedio>0</Promedio>
+									<Incremento>0</Incremento>
+									<UBIncremento>0</UBIncremento>
+									<BonoMesVta>0</BonoMesVta>
+									<BonoMesUB>0</BonoMesUB>
+									<BonoAPagar>00</BonoAPagar>
+								</Producto>
+								<Producto>
+									<Id_Prd>577</Id_Prd>
+									<Prd_Descripcion>KEY LIMPIAMANOS PASTA 1 LT.</Prd_Descripcion>
+									<Prd_Presentacion>1         </Prd_Presentacion>
+									<Est_IFeb>1064</Est_IFeb>
+									<Est_IMar>665</Est_IMar>
+									<Est_IAbr>1439.67</Est_IAbr>
+									<VentaCurso>917.64</VentaCurso>
+									<Promedio>0</Promedio>
+									<Incremento>0</Incremento>
+									<UBIncremento>0</UBIncremento>
+									<BonoMesVta>0</BonoMesVta>
+									<BonoMesUB>0</BonoMesUB>
+									<BonoAPagar>00</BonoAPagar>
+								</Producto>
+							</Productos>
+						</Categoria>
+						<Categoria>
+							<NombreCategoria>Jarcería</NombreCategoria>
+							<Productos>
+								<Producto>
+									<Id_Prd>926</Id_Prd>
+									<Prd_Descripcion>BOTELLA DE PLASTICO 1 LT</Prd_Descripcion>
+									<Prd_Presentacion>1</Prd_Presentacion>
+									<Est_IFeb>133</Est_IFeb>
+									<Est_IMar>0</Est_IMar>
+									<Est_IAbr>120</Est_IAbr>
+									<VentaCurso>540</VentaCurso>
+									<Promedio>0</Promedio>
+									<Incremento>0</Incremento>
+									<UBIncremento>0</UBIncremento>
+									<BonoMesVta>0</BonoMesVta>
+									<BonoMesUB>0</BonoMesUB>
+									<BonoAPagar>00</BonoAPagar>
+								</Producto>
+							</Productos>
+						</Categoria>
+						<Categoria>
+							<NombreCategoria>A.B.C.</NombreCategoria>
+							<Productos>
+								<Producto>
+									<Id_Prd>5226</Id_Prd>
+									<Prd_Descripcion>MARLI 400 MTS HD CAJA C/6 ROLLOS</Prd_Descripcion>
+									<Prd_Presentacion>1</Prd_Presentacion>
+									<Est_IFeb>0</Est_IFeb>
+									<Est_IMar>0</Est_IMar>
+									<Est_IAbr>0</Est_IAbr>
+									<VentaCurso>3422.1</VentaCurso>
+									<Promedio>0</Promedio>
+									<Incremento>0</Incremento>
+									<UBIncremento>0</UBIncremento>
+									<BonoMesVta>0</BonoMesVta>
+									<BonoMesUB>0</BonoMesUB>
+									<BonoAPagar>00</BonoAPagar>
+								</Producto>
+							</Productos>
+						</Categoria>
+				</Categorias>
+			</GrupoVtaInstalada>
+			<GrupoVtaInstalada>
+			<NombreGrupoVtaInstalada>Venta Instalada Incremental</NombreGrupoVtaInstalada>
+				<Categorias>
+						<Categoria>
+							<NombreCategoria>Jarcería</NombreCategoria>
+							<Productos>
+								<Producto>
+									<Id_Prd>1592</Id_Prd>
+									<Prd_Descripcion>PISTOLA ATOMIZADORA BCO/AZUL</Prd_Descripcion>
+									<Prd_Presentacion>1</Prd_Presentacion>
+									<Est_IFeb>0</Est_IFeb>
+									<Est_IMar>0</Est_IMar>
+									<Est_IAbr>650</Est_IAbr>
+									<VentaCurso>0</VentaCurso>
+									<Promedio>0</Promedio>
+									<Incremento>650</Incremento>
+									<UBIncremento>122.5</UBIncremento>
+									<BonoMesVta>650</BonoMesVta>
+									<BonoMesUB>122.5</BonoMesUB>
+									<BonoAPagar>18.375</BonoAPagar>
+								</Producto>
+							</Productos>
+						</Categoria>
+						<Categoria>
+							<NombreCategoria>Aseo General</NombreCategoria>
+							<Productos>
+								<Producto>
+									<Id_Prd>70081</Id_Prd>
+									<Prd_Descripcion>VANG. SARRICIDA 18 LTS</Prd_Descripcion>
+									<Prd_Presentacion>18</Prd_Presentacion>
+									<Est_IFeb>0</Est_IFeb>
+									<Est_IMar>325</Est_IMar>
+									<Est_IAbr>0</Est_IAbr>
+									<VentaCurso>0</VentaCurso>
+									<Promedio>0</Promedio>
+									<Incremento>325</Incremento>
+									<UBIncremento>130.11</UBIncremento>
+									<BonoMesVta>325</BonoMesVta>
+									<BonoMesUB>130.11</BonoMesUB>
+									<BonoAPagar>19.5165</BonoAPagar>
+								</Producto>
+							</Productos>
+						</Categoria>
+				</Categorias>
+			</GrupoVtaInstalada>
+		</GrupoVtasInstaladas>
+	</Cliente>
+  
+</Data>
+

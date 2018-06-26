@@ -1,0 +1,996 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Mapping Space="C-S" xmlns="http://schemas.microsoft.com/ado/2008/09/mapping/cs">
+  <EntityContainerMapping StorageEntityContainer="SIANCENTRAL_CCModelStoreContainer" CdmEntityContainer="SIANCENTRAL_CCEntities1">
+    <FunctionImportMapping FunctionImportName="spCC_ConsultarAfiliaciones" FunctionName="SIANCENTRAL_CCModel.Store.SpCC_ConsultarAfiliaciones">
+      <ResultMapping>
+        <ComplexTypeMapping TypeName="SIANCENTRAL_CCModel.spCC_ConsultarAfiliaciones_Result">
+          <ScalarProperty Name="Id" ColumnName="Id" />
+          <ScalarProperty Name="Id_Emp" ColumnName="Id_Emp" />
+          <ScalarProperty Name="Id_Cd" ColumnName="Id_Cd" />
+          <ScalarProperty Name="Db_CdNombre" ColumnName="Db_CdNombre" />
+          <ScalarProperty Name="Id_Cte" ColumnName="Id_Cte" />
+          <ScalarProperty Name="Id_Ter" ColumnName="Id_Ter" />
+          <ScalarProperty Name="Convenio" ColumnName="Convenio" />
+          <ScalarProperty Name="Fecha_Alta" ColumnName="Fecha_Alta" />
+          <ScalarProperty Name="RazonSocial" ColumnName="RazonSocial" />
+          <ScalarProperty Name="DirFiscal" ColumnName="DirFiscal" />
+          <ScalarProperty Name="Usuario" ColumnName="Usuario" />
+          <ScalarProperty Name="Estatus" ColumnName="Estatus" />
+        </ComplexTypeMapping>
+      </ResultMapping>
+    </FunctionImportMapping>
+    <EntitySetMapping Name="CatACYS_Cliente">
+      <EntityTypeMapping TypeName="SIANCENTRAL_CCModel.CatACYS_Cliente">
+        <MappingFragment StoreEntitySet="CatACYS_Cliente">
+          <ScalarProperty Name="AsignacionDePedido" ColumnName="AsignacionDePedido" />
+          <ScalarProperty Name="FormatoACYS" ColumnName="FormatoACYS" />
+          <ScalarProperty Name="Servicios" ColumnName="Servicios" />
+          <ScalarProperty Name="Garantia" ColumnName="Garantia" />
+          <ScalarProperty Name="Com_RutaEntrega" ColumnName="Com_RutaEntrega" />
+          <ScalarProperty Name="Com_IdRutaEntrega" ColumnName="Com_IdRutaEntrega" />
+          <ScalarProperty Name="Com_RutaServicio" ColumnName="Com_RutaServicio" />
+          <ScalarProperty Name="Com_IdRutaServicio" ColumnName="Com_IdRutaServicio" />
+          <ScalarProperty Name="Com_RepresentanteVentas" ColumnName="Com_RepresentanteVentas" />
+          <ScalarProperty Name="Com_IdRepresentanteVentas" ColumnName="Com_IdRepresentanteVentas" />
+          <ScalarProperty Name="Com_Territorio" ColumnName="Com_Territorio" />
+          <ScalarProperty Name="Com_Id_Territorio" ColumnName="Com_Id_Territorio" />
+          <ScalarProperty Name="Com_Telefono" ColumnName="Com_Telefono" />
+          <ScalarProperty Name="Com_Puesto" ColumnName="Com_Puesto" />
+          <ScalarProperty Name="Com_Contacto" ColumnName="Com_Contacto" />
+          <ScalarProperty Name="Com_NoProv" ColumnName="Com_NoProv" />
+          <ScalarProperty Name="Com_CP" ColumnName="Com_CP" />
+          <ScalarProperty Name="Com_Estado" ColumnName="Com_Estado" />
+          <ScalarProperty Name="Com_Municipio" ColumnName="Com_Municipio" />
+          <ScalarProperty Name="Com_Colonia" ColumnName="Com_Colonia" />
+          <ScalarProperty Name="Com_DirEntrega" ColumnName="Com_DirEntrega" />
+          <ScalarProperty Name="Com_Nombre" ColumnName="Com_Nombre" />
+          <ScalarProperty Name="AsignacionPedido" ColumnName="AsignacionPedido" />
+          <ScalarProperty Name="TipoCliente" ColumnName="TipoCliente" />
+          <ScalarProperty Name="E_mailFacElectronica" ColumnName="E_mailFacElectronica" />
+          <ScalarProperty Name="CuentaCorp" ColumnName="CuentaCorp" />
+          <ScalarProperty Name="Addenda" ColumnName="Addenda" />
+          <ScalarProperty Name="RFC" ColumnName="RFC" />
+          <ScalarProperty Name="CP" ColumnName="CP" />
+          <ScalarProperty Name="Estado" ColumnName="Estado" />
+          <ScalarProperty Name="Municipio" ColumnName="Municipio" />
+          <ScalarProperty Name="Colonia" ColumnName="Colonia" />
+          <ScalarProperty Name="Direccion" ColumnName="Direccion" />
+          <ScalarProperty Name="Segmento" ColumnName="Segmento" />
+          <ScalarProperty Name="Sucursal" ColumnName="Sucursal" />
+          <ScalarProperty Name="Nombre_Cte" ColumnName="Nombre_Cte" />
+          <ScalarProperty Name="Id_Cte" ColumnName="Id_Cte" />
+          <ScalarProperty Name="Id" ColumnName="Id" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="CatACYS_CondPago">
+      <EntityTypeMapping TypeName="SIANCENTRAL_CCModel.CatACYS_CondPago">
+        <MappingFragment StoreEntitySet="CatACYS_CondPago">
+          <ScalarProperty Name="CPSopServicioRecCop" ColumnName="CPSopServicioRecCop" />
+          <ScalarProperty Name="CPSopServicioRec" ColumnName="CPSopServicioRec" />
+          <ScalarProperty Name="CPSopServicioEntCop" ColumnName="CPSopServicioEntCop" />
+          <ScalarProperty Name="CPSopServicioEnt" ColumnName="CPSopServicioEnt" />
+          <ScalarProperty Name="CPRecCitaRecCop" ColumnName="CPRecCitaRecCop" />
+          <ScalarProperty Name="CPRecCitaRec" ColumnName="CPRecCitaRec" />
+          <ScalarProperty Name="CPRecCitaEntCop" ColumnName="CPRecCitaEntCop" />
+          <ScalarProperty Name="CPRecCitaEnt" ColumnName="CPRecCitaEnt" />
+          <ScalarProperty Name="CPNomFirmaRecCop" ColumnName="CPNomFirmaRecCop" />
+          <ScalarProperty Name="CPNomFirmaoRec" ColumnName="CPNomFirmaoRec" />
+          <ScalarProperty Name="CPNomFirmaEntCop" ColumnName="CPNomFirmaEntCop" />
+          <ScalarProperty Name="CPNomFirmaEnt" ColumnName="CPNomFirmaEnt" />
+          <ScalarProperty Name="CPEntAlmacenRecCop" ColumnName="CPEntAlmacenRecCop" />
+          <ScalarProperty Name="CPEntAlmacenRec" ColumnName="CPEntAlmacenRec" />
+          <ScalarProperty Name="CPEntAlmacenEntCop" ColumnName="CPEntAlmacenEntCop" />
+          <ScalarProperty Name="CPEntAlmacenEnt" ColumnName="CPEntAlmacenEnt" />
+          <ScalarProperty Name="CPContraRecRecCop" ColumnName="CPContraRecRecCop" />
+          <ScalarProperty Name="CPContraRecRec" ColumnName="CPContraRecRec" />
+          <ScalarProperty Name="CPContraRecEntCop" ColumnName="CPContraRecEntCop" />
+          <ScalarProperty Name="CPContraRecEnt" ColumnName="CPContraRecEnt" />
+          <ScalarProperty Name="CPFolioRecCop" ColumnName="CPFolioRecCop" />
+          <ScalarProperty Name="CPFolioRec" ColumnName="CPFolioRec" />
+          <ScalarProperty Name="CPFolioEntCop" ColumnName="CPFolioEntCop" />
+          <ScalarProperty Name="CPFolioEnt" ColumnName="CPFolioEnt" />
+          <ScalarProperty Name="CPRemisionRecCop" ColumnName="CPRemisionRecCop" />
+          <ScalarProperty Name="CPRemisionRec" ColumnName="CPRemisionRec" />
+          <ScalarProperty Name="CPRemisionEntCop" ColumnName="CPRemisionEntCop" />
+          <ScalarProperty Name="CPRemisionEnt" ColumnName="CPRemisionEnt" />
+          <ScalarProperty Name="CPCopPedidoRecCop" ColumnName="CPCopPedidoRecCop" />
+          <ScalarProperty Name="CPCopPedidoRec" ColumnName="CPCopPedidoRec" />
+          <ScalarProperty Name="CPCopPedidoEntCop" ColumnName="CPCopPedidoEntCop" />
+          <ScalarProperty Name="CPCopPedidoEnt" ColumnName="CPCopPedidoEnt" />
+          <ScalarProperty Name="CPOrdReposRecCop" ColumnName="CPOrdReposRecCop" />
+          <ScalarProperty Name="CPOrdReposRec" ColumnName="CPOrdReposRec" />
+          <ScalarProperty Name="CPOrdReposEntCop" ColumnName="CPOrdReposEntCop" />
+          <ScalarProperty Name="CPOrdReposEnt" ColumnName="CPOrdReposEnt" />
+          <ScalarProperty Name="CPOrdCompraRecCop" ColumnName="CPOrdCompraRecCop" />
+          <ScalarProperty Name="CPOrdCompraRec" ColumnName="CPOrdCompraRec" />
+          <ScalarProperty Name="CPOrdCompraEntCop" ColumnName="CPOrdCompraEntCop" />
+          <ScalarProperty Name="CPOrdCompraEnt" ColumnName="CPOrdCompraEnt" />
+          <ScalarProperty Name="CPFactKeyRecCop" ColumnName="CPFactKeyRecCop" />
+          <ScalarProperty Name="CPFactKeyRec" ColumnName="CPFactKeyRec" />
+          <ScalarProperty Name="CPFactKeyEntCop" ColumnName="CPFactKeyEntCop" />
+          <ScalarProperty Name="CPFactKeyEnt" ColumnName="CPFactKeyEnt" />
+          <ScalarProperty Name="CPFactFranquiciaRecCop" ColumnName="CPFactFranquiciaRecCop" />
+          <ScalarProperty Name="CPFactFranquiciaRec" ColumnName="CPFactFranquiciaRec" />
+          <ScalarProperty Name="CPFactFranquiciaEntCop" ColumnName="CPFactFranquiciaEntCop" />
+          <ScalarProperty Name="CPFactFranquiciaEnt" ColumnName="CPFactFranquiciaEnt" />
+          <ScalarProperty Name="RevFacEmail" ColumnName="RevFacEmail" />
+          <ScalarProperty Name="RevFacPortal" ColumnName="RevFacPortal" />
+          <ScalarProperty Name="RevFacContrasenia" ColumnName="RevFacContrasenia" />
+          <ScalarProperty Name="RevFacUsuario" ColumnName="RevFacUsuario" />
+          <ScalarProperty Name="RevFacHttp" ColumnName="RevFacHttp" />
+          <ScalarProperty Name="RevFacEmailTexto" ColumnName="RevFacEmailTexto" />
+          <ScalarProperty Name="RevFacTeléfonos" ColumnName="RevFacTeléfonos" />
+          <ScalarProperty Name="RevFacCiudad" ColumnName="RevFacCiudad" />
+          <ScalarProperty Name="RevFacCP" ColumnName="RevFacCP" />
+          <ScalarProperty Name="RevFacEstado" ColumnName="RevFacEstado" />
+          <ScalarProperty Name="RevFacMunicipio" ColumnName="RevFacMunicipio" />
+          <ScalarProperty Name="RevFacColonia" ColumnName="RevFacColonia" />
+          <ScalarProperty Name="RevFacDireccion" ColumnName="RevFacDireccion" />
+          <ScalarProperty Name="RevFacVisGestorCobranza" ColumnName="RevFacVisGestorCobranza" />
+          <ScalarProperty Name="RevFacContraEntrega" ColumnName="RevFacContraEntrega" />
+          <ScalarProperty Name="CPCuentaPago" ColumnName="CPCuentaPago" />
+          <ScalarProperty Name="CPCuentasPagar" ColumnName="CPCuentasPagar" />
+          <ScalarProperty Name="CPRefTecleada" ColumnName="CPRefTecleada" />
+          <ScalarProperty Name="CPNumCuenta" ColumnName="CPNumCuenta" />
+          <ScalarProperty Name="PagoTardeFin" ColumnName="PagoTardeFin" />
+          <ScalarProperty Name="PagoTardeInicio" ColumnName="PagoTardeInicio" />
+          <ScalarProperty Name="PagoMañanaFin" ColumnName="PagoMañanaFin" />
+          <ScalarProperty Name="PagoMañanaInicio" ColumnName="PagoMañanaInicio" />
+          <ScalarProperty Name="PagoSabado" ColumnName="PagoSabado" />
+          <ScalarProperty Name="PagoViernes" ColumnName="PagoViernes" />
+          <ScalarProperty Name="PagoJueves" ColumnName="PagoJueves" />
+          <ScalarProperty Name="PagoMiercoles" ColumnName="PagoMiercoles" />
+          <ScalarProperty Name="PagoMartes" ColumnName="PagoMartes" />
+          <ScalarProperty Name="PagoLunes" ColumnName="PagoLunes" />
+          <ScalarProperty Name="RevOtro" ColumnName="RevOtro" />
+          <ScalarProperty Name="RevCopia" ColumnName="RevCopia" />
+          <ScalarProperty Name="RevReporte" ColumnName="RevReporte" />
+          <ScalarProperty Name="RevOrden" ColumnName="RevOrden" />
+          <ScalarProperty Name="RevEntrada" ColumnName="RevEntrada" />
+          <ScalarProperty Name="RevFolio" ColumnName="RevFolio" />
+          <ScalarProperty Name="RevisionTardeFin" ColumnName="RevisionTardeFin" />
+          <ScalarProperty Name="RevisionTardeInicio" ColumnName="RevisionTardeInicio" />
+          <ScalarProperty Name="RevisionMañanaFin" ColumnName="RevisionMañanaFin" />
+          <ScalarProperty Name="RevisionMañanaInicio" ColumnName="RevisionMañanaInicio" />
+          <ScalarProperty Name="RevisionSabado" ColumnName="RevisionSabado" />
+          <ScalarProperty Name="RevisionViernes" ColumnName="RevisionViernes" />
+          <ScalarProperty Name="RevisionJueves" ColumnName="RevisionJueves" />
+          <ScalarProperty Name="RevisionMiercoles" ColumnName="RevisionMiercoles" />
+          <ScalarProperty Name="RevisionMartes" ColumnName="RevisionMartes" />
+          <ScalarProperty Name="RevisionLunes" ColumnName="RevisionLunes" />
+          <ScalarProperty Name="Cheque" ColumnName="Cheque" />
+          <ScalarProperty Name="TarjetaCredito" ColumnName="TarjetaCredito" />
+          <ScalarProperty Name="Transferencia" ColumnName="Transferencia" />
+          <ScalarProperty Name="TarjetaDebito" ColumnName="TarjetaDebito" />
+          <ScalarProperty Name="Factoraje" ColumnName="Factoraje" />
+          <ScalarProperty Name="Deposito" ColumnName="Deposito" />
+          <ScalarProperty Name="Efectivo" ColumnName="Efectivo" />
+          <ScalarProperty Name="Contado" ColumnName="Contado" />
+          <ScalarProperty Name="Limite" ColumnName="Limite" />
+          <ScalarProperty Name="Dias" ColumnName="Dias" />
+          <ScalarProperty Name="Credito" ColumnName="Credito" />
+          <ScalarProperty Name="Id" ColumnName="Id" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="CatACYS_DirFiscales">
+      <EntityTypeMapping TypeName="SIANCENTRAL_CCModel.CatACYS_DirFiscales">
+        <MappingFragment StoreEntitySet="CatACYS_DirFiscales">
+          <ScalarProperty Name="EmailFacturasDirFis" ColumnName="EmailFacturasDirFis" />
+          <ScalarProperty Name="RFCDirFis" ColumnName="RFCDirFis" />
+          <ScalarProperty Name="MunicipioDirFis" ColumnName="MunicipioDirFis" />
+          <ScalarProperty Name="CPDirFis" ColumnName="CPDirFis" />
+          <ScalarProperty Name="ColoniaDirFis" ColumnName="ColoniaDirFis" />
+          <ScalarProperty Name="EstadoDirFis" ColumnName="EstadoDirFis" />
+          <ScalarProperty Name="DireccionDirFis" ColumnName="DireccionDirFis" />
+          <ScalarProperty Name="ClienteDirFis" ColumnName="ClienteDirFis" />
+          <ScalarProperty Name="Id_ClienteMatriz" ColumnName="Id_ClienteMatriz" />
+          <ScalarProperty Name="Id" ColumnName="Id" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="CatACYS_OtrosApoyos">
+      <EntityTypeMapping TypeName="SIANCENTRAL_CCModel.CatACYS_OtrosApoyos">
+        <MappingFragment StoreEntitySet="CatACYS_OtrosApoyos">
+          <ScalarProperty Name="ContactoClienteOtroEmail" ColumnName="ContactoClienteOtroEmail" />
+          <ScalarProperty Name="ContactoClienteOtroTel" ColumnName="ContactoClienteOtroTel" />
+          <ScalarProperty Name="ContactoClienteOtro" ColumnName="ContactoClienteOtro" />
+          <ScalarProperty Name="ContactoClienteMantenimientoEmail" ColumnName="ContactoClienteMantenimientoEmail" />
+          <ScalarProperty Name="ContactoClienteMantenimientoTel" ColumnName="ContactoClienteMantenimientoTel" />
+          <ScalarProperty Name="ContactoClienteMantenimiento" ColumnName="ContactoClienteMantenimiento" />
+          <ScalarProperty Name="txtContactoClientealmacenEmail" ColumnName="txtContactoClientealmacenEmail" />
+          <ScalarProperty Name="ContactoClientealmacenTel" ColumnName="ContactoClientealmacenTel" />
+          <ScalarProperty Name="ContactoClientealmacen" ColumnName="ContactoClientealmacen" />
+          <ScalarProperty Name="ContactoClientecompraEmail" ColumnName="ContactoClientecompraEmail" />
+          <ScalarProperty Name="ContactoClientecompraTel" ColumnName="ContactoClientecompraTel" />
+          <ScalarProperty Name="ContactoClientecompra" ColumnName="ContactoClientecompra" />
+          <ScalarProperty Name="ContactoClientePagosEmail" ColumnName="ContactoClientePagosEmail" />
+          <ScalarProperty Name="ContactoClientePagosTel" ColumnName="ContactoClientePagosTel" />
+          <ScalarProperty Name="ContactoClientePagos" ColumnName="ContactoClientePagos" />
+          <ScalarProperty Name="Notas" ColumnName="Notas" />
+          <ScalarProperty Name="Id" ColumnName="Id" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="CatAcys_Productos">
+      <EntityTypeMapping TypeName="SIANCENTRAL_CCModel.CatAcys_Productos">
+        <MappingFragment StoreEntitySet="CatAcys_Productos">
+          <ScalarProperty Name="Presentacion" ColumnName="Presentacion" />
+          <ScalarProperty Name="Unidad" ColumnName="Unidad" />
+          <ScalarProperty Name="Descripcion" ColumnName="Descripcion" />
+          <ScalarProperty Name="Id_ACYS" ColumnName="Id_ACYS" />
+          <ScalarProperty Name="Documento" ColumnName="Documento" />
+          <ScalarProperty Name="Sab" ColumnName="Sab" />
+          <ScalarProperty Name="Vie" ColumnName="Vie" />
+          <ScalarProperty Name="Jue" ColumnName="Jue" />
+          <ScalarProperty Name="Mie" ColumnName="Mie" />
+          <ScalarProperty Name="Mar" ColumnName="Mar" />
+          <ScalarProperty Name="Lun" ColumnName="Lun" />
+          <ScalarProperty Name="Frecuencia" ColumnName="Frecuencia" />
+          <ScalarProperty Name="Subtotal" ColumnName="Subtotal" />
+          <ScalarProperty Name="Precio" ColumnName="Precio" />
+          <ScalarProperty Name="Cantidad" ColumnName="Cantidad" />
+          <ScalarProperty Name="Id_TG" ColumnName="Id_TG" />
+          <ScalarProperty Name="Id_Prd" ColumnName="Id_Prd" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="CatACYS_RecPedido">
+      <EntityTypeMapping TypeName="SIANCENTRAL_CCModel.CatACYS_RecPedido">
+        <MappingFragment StoreEntitySet="CatACYS_RecPedido">
+          <ScalarProperty Name="RecCitaRecCop" ColumnName="RecCitaRecCop" />
+          <ScalarProperty Name="RecCitaRec" ColumnName="RecCitaRec" />
+          <ScalarProperty Name="RecCitaEntCop" ColumnName="RecCitaEntCop" />
+          <ScalarProperty Name="RecCitaEnt" ColumnName="RecCitaEnt" />
+          <ScalarProperty Name="RecDocNomFirmaRecCop" ColumnName="RecDocNomFirmaRecCop" />
+          <ScalarProperty Name="RecDocNomFirmaoRec" ColumnName="RecDocNomFirmaoRec" />
+          <ScalarProperty Name="RecDocNomFirmaEntCop" ColumnName="RecDocNomFirmaEntCop" />
+          <ScalarProperty Name="RecDocNomFirmaEnt" ColumnName="RecDocNomFirmaEnt" />
+          <ScalarProperty Name="RecDocSopServicioRecCop" ColumnName="RecDocSopServicioRecCop" />
+          <ScalarProperty Name="RecDocSopServicioRec" ColumnName="RecDocSopServicioRec" />
+          <ScalarProperty Name="RecDocSopServicioEntCop" ColumnName="RecDocSopServicioEntCop" />
+          <ScalarProperty Name="RecDocSopServicioEnt" ColumnName="RecDocSopServicioEnt" />
+          <ScalarProperty Name="RecDocEntAlmacenRecCop" ColumnName="RecDocEntAlmacenRecCop" />
+          <ScalarProperty Name="RecDocEntAlmacenRec" ColumnName="RecDocEntAlmacenRec" />
+          <ScalarProperty Name="RecDocEntAlmacenEntCop" ColumnName="RecDocEntAlmacenEntCop" />
+          <ScalarProperty Name="RecDocEntAlmacenEnt" ColumnName="RecDocEntAlmacenEnt" />
+          <ScalarProperty Name="RecDocContraRecRecCop" ColumnName="RecDocContraRecRecCop" />
+          <ScalarProperty Name="RecDocContraRecRec" ColumnName="RecDocContraRecRec" />
+          <ScalarProperty Name="RecDocContraRecEntCop" ColumnName="RecDocContraRecEntCop" />
+          <ScalarProperty Name="RecDocContraRecEnt" ColumnName="RecDocContraRecEnt" />
+          <ScalarProperty Name="RecDocFolioRecCop" ColumnName="RecDocFolioRecCop" />
+          <ScalarProperty Name="RecDocFolioRec" ColumnName="RecDocFolioRec" />
+          <ScalarProperty Name="RecDocFolioEntCop" ColumnName="RecDocFolioEntCop" />
+          <ScalarProperty Name="RecDocFolioEnt" ColumnName="RecDocFolioEnt" />
+          <ScalarProperty Name="RecDocRemisionRecCop" ColumnName="RecDocRemisionRecCop" />
+          <ScalarProperty Name="RecDocRemisionRec" ColumnName="RecDocRemisionRec" />
+          <ScalarProperty Name="RecDocRemisionEntCop" ColumnName="RecDocRemisionEntCop" />
+          <ScalarProperty Name="RecDocRemisionEnt" ColumnName="RecDocRemisionEnt" />
+          <ScalarProperty Name="RecDocCopPedidoRecCop" ColumnName="RecDocCopPedidoRecCop" />
+          <ScalarProperty Name="RecDocCopPedidoRec" ColumnName="RecDocCopPedidoRec" />
+          <ScalarProperty Name="RecDocCopPedidoEntCop" ColumnName="RecDocCopPedidoEntCop" />
+          <ScalarProperty Name="RecDocCopPedidoEnt" ColumnName="RecDocCopPedidoEnt" />
+          <ScalarProperty Name="RecDocOrdReposRecCop" ColumnName="RecDocOrdReposRecCop" />
+          <ScalarProperty Name="RecDocOrdReposRec" ColumnName="RecDocOrdReposRec" />
+          <ScalarProperty Name="RecDocOrdReposEntCop" ColumnName="RecDocOrdReposEntCop" />
+          <ScalarProperty Name="RecDocOrdReposEnt" ColumnName="RecDocOrdReposEnt" />
+          <ScalarProperty Name="RecDocOrdCompraRecCop" ColumnName="RecDocOrdCompraRecCop" />
+          <ScalarProperty Name="RecDocOrdCompraRec" ColumnName="RecDocOrdCompraRec" />
+          <ScalarProperty Name="RecDocOrdCompraEntCop" ColumnName="RecDocOrdCompraEntCop" />
+          <ScalarProperty Name="RecDocOrdCompraEnt" ColumnName="RecDocOrdCompraEnt" />
+          <ScalarProperty Name="RecDocFactKeyRecCop" ColumnName="RecDocFactKeyRecCop" />
+          <ScalarProperty Name="RecDocFactKeyRec" ColumnName="RecDocFactKeyRec" />
+          <ScalarProperty Name="RecDocFactKeyEntCop" ColumnName="RecDocFactKeyEntCop" />
+          <ScalarProperty Name="RecDocFactKeyEnt" ColumnName="RecDocFactKeyEnt" />
+          <ScalarProperty Name="RecDocFactFranquiciaRecCop" ColumnName="RecDocFactFranquiciaRecCop" />
+          <ScalarProperty Name="RecDocFactFranquiciaRec" ColumnName="RecDocFactFranquiciaRec" />
+          <ScalarProperty Name="RecDocFactFranquiciaEntCop" ColumnName="RecDocFactFranquiciaEntCop" />
+          <ScalarProperty Name="RecDocFactFranquiciaEnt" ColumnName="RecDocFactFranquiciaEnt" />
+          <ScalarProperty Name="RecEstMonto" ColumnName="RecEstMonto" />
+          <ScalarProperty Name="RecEstCosto" ColumnName="RecEstCosto" />
+          <ScalarProperty Name="RecEstCortesia" ColumnName="RecEstCortesia" />
+          <ScalarProperty Name="RecAreaAvTransitada" ColumnName="RecAreaAvTransitada" />
+          <ScalarProperty Name="RecAreaCalle" ColumnName="RecAreaCalle" />
+          <ScalarProperty Name="RecAreaPlaza" ColumnName="RecAreaPlaza" />
+          <ScalarProperty Name="RecAreaPropia" ColumnName="RecAreaPropia" />
+          <ScalarProperty Name="RecCitaDiasdeAnticipacion" ColumnName="RecCitaDiasdeAnticipacion" />
+          <ScalarProperty Name="RecCitaTelefono" ColumnName="RecCitaTelefono" />
+          <ScalarProperty Name="RecCitaContacto" ColumnName="RecCitaContacto" />
+          <ScalarProperty Name="RecCitaPrevia" ColumnName="RecCitaPrevia" />
+          <ScalarProperty Name="RecCitaSinCita" ColumnName="RecCitaSinCita" />
+          <ScalarProperty Name="RecCitaMismoDia" ColumnName="RecCitaMismoDia" />
+          <ScalarProperty Name="RecPuesto" ColumnName="RecPuesto" />
+          <ScalarProperty Name="RecPersonaRecibe" ColumnName="RecPersonaRecibe" />
+          <ScalarProperty Name="RecRevHora2Fin" ColumnName="RecRevHora2Fin" />
+          <ScalarProperty Name="RecRevHora2Ini" ColumnName="RecRevHora2Ini" />
+          <ScalarProperty Name="RecRevHora1Fin" ColumnName="RecRevHora1Fin" />
+          <ScalarProperty Name="RecRevHora1Ini" ColumnName="RecRevHora1Ini" />
+          <ScalarProperty Name="RecRevSabado" ColumnName="RecRevSabado" />
+          <ScalarProperty Name="RecRevViernes" ColumnName="RecRevViernes" />
+          <ScalarProperty Name="RecRevJueves" ColumnName="RecRevJueves" />
+          <ScalarProperty Name="RecRevMiercoles" ColumnName="RecRevMiercoles" />
+          <ScalarProperty Name="RecRevMartes" ColumnName="RecRevMartes" />
+          <ScalarProperty Name="RecRevLunes" ColumnName="RecRevLunes" />
+          <ScalarProperty Name="RecDocOtro" ColumnName="RecDocOtro" />
+          <ScalarProperty Name="RecDocFolio" ColumnName="RecDocFolio" />
+          <ScalarProperty Name="RecDocReposicion" ColumnName="RecDocReposicion" />
+          <ScalarProperty Name="RecDocOrdenCompra" ColumnName="RecDocOrdenCompra" />
+          <ScalarProperty Name="PedidoEmail" ColumnName="PedidoEmail" />
+          <ScalarProperty Name="PedidoTelefono" ColumnName="PedidoTelefono" />
+          <ScalarProperty Name="PedidoPuesto" ColumnName="PedidoPuesto" />
+          <ScalarProperty Name="PedidoEncargarEnviar" ColumnName="PedidoEncargarEnviar" />
+          <ScalarProperty Name="PedidoOtro" ColumnName="PedidoOtro" />
+          <ScalarProperty Name="RepVenta" ColumnName="RepVenta" />
+          <ScalarProperty Name="Telefono" ColumnName="Telefono" />
+          <ScalarProperty Name="Fax" ColumnName="Fax" />
+          <ScalarProperty Name="Email" ColumnName="Email" />
+          <ScalarProperty Name="Id" ColumnName="Id" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="CatACYS_ServValor">
+      <EntityTypeMapping TypeName="SIANCENTRAL_CCModel.CatACYS_ServValor">
+        <MappingFragment StoreEntitySet="CatACYS_ServValor">
+          <ScalarProperty Name="ServTecDocSopServicioRecCop" ColumnName="ServTecDocSopServicioRecCop" />
+          <ScalarProperty Name="ServTecDocSopServicioRec" ColumnName="ServTecDocSopServicioRec" />
+          <ScalarProperty Name="ServTecDocSopServicioEntCop" ColumnName="ServTecDocSopServicioEntCop" />
+          <ScalarProperty Name="ServTecDocSopServicioEnt" ColumnName="ServTecDocSopServicioEnt" />
+          <ScalarProperty Name="ServTecDocRecCitaRecCop" ColumnName="ServTecDocRecCitaRecCop" />
+          <ScalarProperty Name="ServTecDocRecCitaRec" ColumnName="ServTecDocRecCitaRec" />
+          <ScalarProperty Name="ServTecDocRecCitaEntCop" ColumnName="ServTecDocRecCitaEntCop" />
+          <ScalarProperty Name="ServTecDocRecCitaEnt" ColumnName="ServTecDocRecCitaEnt" />
+          <ScalarProperty Name="ServTecDocNomFirmaRecCop" ColumnName="ServTecDocNomFirmaRecCop" />
+          <ScalarProperty Name="ServTecDocNomFirmaoRec" ColumnName="ServTecDocNomFirmaoRec" />
+          <ScalarProperty Name="ServTecDocNomFirmaEntCop" ColumnName="ServTecDocNomFirmaEntCop" />
+          <ScalarProperty Name="ServTecDocNomFirmaEnt" ColumnName="ServTecDocNomFirmaEnt" />
+          <ScalarProperty Name="ServTecDocEntAlmacenRecCop" ColumnName="ServTecDocEntAlmacenRecCop" />
+          <ScalarProperty Name="ServTecDocEntAlmacenRec" ColumnName="ServTecDocEntAlmacenRec" />
+          <ScalarProperty Name="ServTecDocEntAlmacenEntCop" ColumnName="ServTecDocEntAlmacenEntCop" />
+          <ScalarProperty Name="ServTecDocEntAlmacenEnt" ColumnName="ServTecDocEntAlmacenEnt" />
+          <ScalarProperty Name="ServTecDocContraRecRecCop" ColumnName="ServTecDocContraRecRecCop" />
+          <ScalarProperty Name="ServTecDocContraRecRec" ColumnName="ServTecDocContraRecRec" />
+          <ScalarProperty Name="ServTecDocContraRecEntCop" ColumnName="ServTecDocContraRecEntCop" />
+          <ScalarProperty Name="ServTecDocContraRecEnt" ColumnName="ServTecDocContraRecEnt" />
+          <ScalarProperty Name="ServTecDocFolioRecCop" ColumnName="ServTecDocFolioRecCop" />
+          <ScalarProperty Name="ServTecDocFolioRec" ColumnName="ServTecDocFolioRec" />
+          <ScalarProperty Name="ServTecDocFolioEntCop" ColumnName="ServTecDocFolioEntCop" />
+          <ScalarProperty Name="ServTecDocFolioEnt" ColumnName="ServTecDocFolioEnt" />
+          <ScalarProperty Name="ServTecDocRemisionRecCop" ColumnName="ServTecDocRemisionRecCop" />
+          <ScalarProperty Name="ServTecDocRemisionRec" ColumnName="ServTecDocRemisionRec" />
+          <ScalarProperty Name="ServTecDocRemisionEntCop" ColumnName="ServTecDocRemisionEntCop" />
+          <ScalarProperty Name="ServTecDocRemisionEnt" ColumnName="ServTecDocRemisionEnt" />
+          <ScalarProperty Name="ServTecDocCopPedidoRecCop" ColumnName="ServTecDocCopPedidoRecCop" />
+          <ScalarProperty Name="ServTecDocCopPedidoRec" ColumnName="ServTecDocCopPedidoRec" />
+          <ScalarProperty Name="ServTecDocCopPedidoEntCop" ColumnName="ServTecDocCopPedidoEntCop" />
+          <ScalarProperty Name="ServTecDocCopPedidoEnt" ColumnName="ServTecDocCopPedidoEnt" />
+          <ScalarProperty Name="ServTecDocOrdReposRecCop" ColumnName="ServTecDocOrdReposRecCop" />
+          <ScalarProperty Name="ServTecDocOrdReposRec" ColumnName="ServTecDocOrdReposRec" />
+          <ScalarProperty Name="ServTecDocOrdReposEntCop" ColumnName="ServTecDocOrdReposEntCop" />
+          <ScalarProperty Name="ServTecDocOrdReposEnt" ColumnName="ServTecDocOrdReposEnt" />
+          <ScalarProperty Name="ServTecDocOrdCompraRecCop" ColumnName="ServTecDocOrdCompraRecCop" />
+          <ScalarProperty Name="ServTecDocOrdCompraRec" ColumnName="ServTecDocOrdCompraRec" />
+          <ScalarProperty Name="ServTecDocOrdCompraEntCop" ColumnName="ServTecDocOrdCompraEntCop" />
+          <ScalarProperty Name="ServTecDocOrdCompraEnt" ColumnName="ServTecDocOrdCompraEnt" />
+          <ScalarProperty Name="ServTecDocFactKeyRecCop" ColumnName="ServTecDocFactKeyRecCop" />
+          <ScalarProperty Name="ServTecDocFactKeyRec" ColumnName="ServTecDocFactKeyRec" />
+          <ScalarProperty Name="ServTecDocFactKeyEntCop" ColumnName="ServTecDocFactKeyEntCop" />
+          <ScalarProperty Name="ServTecDocFactKeyEnt" ColumnName="ServTecDocFactKeyEnt" />
+          <ScalarProperty Name="ServTecDocFactFranquiciaRecCop" ColumnName="ServTecDocFactFranquiciaRecCop" />
+          <ScalarProperty Name="ServTecDocFactFranquiciaRec" ColumnName="ServTecDocFactFranquiciaRec" />
+          <ScalarProperty Name="ServTecDocFactFranquiciaEntCop" ColumnName="ServTecDocFactFranquiciaEntCop" />
+          <ScalarProperty Name="ServTecDocFactFranquiciaEnt" ColumnName="ServTecDocFactFranquiciaEnt" />
+          <ScalarProperty Name="ServAseDocSopServicioRecCop" ColumnName="ServAseDocSopServicioRecCop" />
+          <ScalarProperty Name="ServAseDocSopServicioRec" ColumnName="ServAseDocSopServicioRec" />
+          <ScalarProperty Name="ServAseDocSopServicioEntCop" ColumnName="ServAseDocSopServicioEntCop" />
+          <ScalarProperty Name="ServAseDocSopServicioEnt" ColumnName="ServAseDocSopServicioEnt" />
+          <ScalarProperty Name="ServAseDocRecCitaRecCop" ColumnName="ServAseDocRecCitaRecCop" />
+          <ScalarProperty Name="ServAseDocRecCitaRec" ColumnName="ServAseDocRecCitaRec" />
+          <ScalarProperty Name="ServAseDocRecCitaEntCop" ColumnName="ServAseDocRecCitaEntCop" />
+          <ScalarProperty Name="ServAseDocRecCitaEnt" ColumnName="ServAseDocRecCitaEnt" />
+          <ScalarProperty Name="ServAseDocNomFirmaRecCop" ColumnName="ServAseDocNomFirmaRecCop" />
+          <ScalarProperty Name="ServAseDocNomFirmaoRec" ColumnName="ServAseDocNomFirmaoRec" />
+          <ScalarProperty Name="ServAseDocNomFirmaEntCop" ColumnName="ServAseDocNomFirmaEntCop" />
+          <ScalarProperty Name="ServAseDocNomFirmaEnt" ColumnName="ServAseDocNomFirmaEnt" />
+          <ScalarProperty Name="ServAseDocEntAlmacenRecCop" ColumnName="ServAseDocEntAlmacenRecCop" />
+          <ScalarProperty Name="ServAseDocEntAlmacenRec" ColumnName="ServAseDocEntAlmacenRec" />
+          <ScalarProperty Name="ServAseDocEntAlmacenEntCop" ColumnName="ServAseDocEntAlmacenEntCop" />
+          <ScalarProperty Name="ServAseDocEntAlmacenEnt" ColumnName="ServAseDocEntAlmacenEnt" />
+          <ScalarProperty Name="ServAseDocContraRecRecCop" ColumnName="ServAseDocContraRecRecCop" />
+          <ScalarProperty Name="ServAseDocContraRecRec" ColumnName="ServAseDocContraRecRec" />
+          <ScalarProperty Name="ServAseDocContraRecEntCop" ColumnName="ServAseDocContraRecEntCop" />
+          <ScalarProperty Name="ServAseDocContraRecEnt" ColumnName="ServAseDocContraRecEnt" />
+          <ScalarProperty Name="ServAseDocFolioRecCop" ColumnName="ServAseDocFolioRecCop" />
+          <ScalarProperty Name="ServAseDocFolioRec" ColumnName="ServAseDocFolioRec" />
+          <ScalarProperty Name="ServAseDocFolioEntCop" ColumnName="ServAseDocFolioEntCop" />
+          <ScalarProperty Name="ServAseDocFolioEnt" ColumnName="ServAseDocFolioEnt" />
+          <ScalarProperty Name="ServAseDocRemisionRecCop" ColumnName="ServAseDocRemisionRecCop" />
+          <ScalarProperty Name="ServAseDocRemisionRec" ColumnName="ServAseDocRemisionRec" />
+          <ScalarProperty Name="ServAseDocRemisionEntCop" ColumnName="ServAseDocRemisionEntCop" />
+          <ScalarProperty Name="ServAseDocRemisionEnt" ColumnName="ServAseDocRemisionEnt" />
+          <ScalarProperty Name="ServAseDocCopPedidoRecCop" ColumnName="ServAseDocCopPedidoRecCop" />
+          <ScalarProperty Name="ServAseDocCopPedidoRec" ColumnName="ServAseDocCopPedidoRec" />
+          <ScalarProperty Name="ServAseDocCopPedidoEntCop" ColumnName="ServAseDocCopPedidoEntCop" />
+          <ScalarProperty Name="ServAseDocCopPedidoEnt" ColumnName="ServAseDocCopPedidoEnt" />
+          <ScalarProperty Name="ServAseDocOrdReposRecCop" ColumnName="ServAseDocOrdReposRecCop" />
+          <ScalarProperty Name="ServAseDocOrdReposRec" ColumnName="ServAseDocOrdReposRec" />
+          <ScalarProperty Name="ServAseDocOrdReposEntCop" ColumnName="ServAseDocOrdReposEntCop" />
+          <ScalarProperty Name="ServAseDocOrdReposEnt" ColumnName="ServAseDocOrdReposEnt" />
+          <ScalarProperty Name="ServAseDocOrdCompraRecCop" ColumnName="ServAseDocOrdCompraRecCop" />
+          <ScalarProperty Name="ServAseDocOrdCompraRec" ColumnName="ServAseDocOrdCompraRec" />
+          <ScalarProperty Name="ServAseDocOrdCompraEntCop" ColumnName="ServAseDocOrdCompraEntCop" />
+          <ScalarProperty Name="ServAseDocOrdCompraEnt" ColumnName="ServAseDocOrdCompraEnt" />
+          <ScalarProperty Name="ServAseDocFactKeyRecCop" ColumnName="ServAseDocFactKeyRecCop" />
+          <ScalarProperty Name="ServAseDocFactKeyRec" ColumnName="ServAseDocFactKeyRec" />
+          <ScalarProperty Name="ServAseDocFactKeyEntCop" ColumnName="ServAseDocFactKeyEntCop" />
+          <ScalarProperty Name="ServAseDocFactKeyEnt" ColumnName="ServAseDocFactKeyEnt" />
+          <ScalarProperty Name="ServAseDocFactFranquiciaRecCop" ColumnName="ServAseDocFactFranquiciaRecCop" />
+          <ScalarProperty Name="ServAseDocFactFranquiciaRec" ColumnName="ServAseDocFactFranquiciaRec" />
+          <ScalarProperty Name="ServAseDocFactFranquiciaEntCop" ColumnName="ServAseDocFactFranquiciaEntCop" />
+          <ScalarProperty Name="ServAseDocFactFranquiciaEnt" ColumnName="ServAseDocFactFranquiciaEnt" />
+          <ScalarProperty Name="ServMantenimiento" ColumnName="ServMantenimiento" />
+          <ScalarProperty Name="ServTecnicoRelleno" ColumnName="ServTecnicoRelleno" />
+          <ScalarProperty Name="ServAsesoria" ColumnName="ServAsesoria" />
+          <ScalarProperty Name="VisitaOtro" ColumnName="VisitaOtro" />
+          <ScalarProperty Name="Frecuncia" ColumnName="Frecuncia" />
+          <ScalarProperty Name="Id" ColumnName="Id" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="CatACYS_SIANCENTRAL">
+      <EntityTypeMapping TypeName="SIANCENTRAL_CCModel.CatACYS_SIANCENTRAL">
+        <MappingFragment StoreEntitySet="CatACYS_SIANCENTRAL">
+          <ScalarProperty Name="ConvenioNombre" ColumnName="ConvenioNombre" />
+          <ScalarProperty Name="ConvenioId" ColumnName="ConvenioId" />
+          <ScalarProperty Name="MedioEnvioClienteMac" ColumnName="MedioEnvioClienteMac" />
+          <ScalarProperty Name="StrTipoClienteMac" ColumnName="StrTipoClienteMac" />
+          <ScalarProperty Name="StrCondicionesClienteMac" ColumnName="StrCondicionesClienteMac" />
+          <ScalarProperty Name="ColoniaClienteMac" ColumnName="ColoniaClienteMac" />
+          <ScalarProperty Name="RFCClienteMac" ColumnName="RFCClienteMac" />
+          <ScalarProperty Name="ActCostoGarantíaClienteMac" ColumnName="ActCostoGarantíaClienteMac" />
+          <ScalarProperty Name="PagoComisionClienteMac" ColumnName="PagoComisionClienteMac" />
+          <ScalarProperty Name="GravableClienteMac" ColumnName="GravableClienteMac" />
+          <ScalarProperty Name="TarifaImpClienteMac" ColumnName="TarifaImpClienteMac" />
+          <ScalarProperty Name="VendedorClienteMac" ColumnName="VendedorClienteMac" />
+          <ScalarProperty Name="TerritorioClienteMac" ColumnName="TerritorioClienteMac" />
+          <ScalarProperty Name="EstadoClienteMac" ColumnName="EstadoClienteMac" />
+          <ScalarProperty Name="PaisClienteMac" ColumnName="PaisClienteMac" />
+          <ScalarProperty Name="ZonaPostalClienteMac" ColumnName="ZonaPostalClienteMac" />
+          <ScalarProperty Name="CiudadClienteMac" ColumnName="CiudadClienteMac" />
+          <ScalarProperty Name="CalleClienteMac" ColumnName="CalleClienteMac" />
+          <ScalarProperty Name="NombreClienteMac" ColumnName="NombreClienteMac" />
+          <ScalarProperty Name="NumClienteMac" ColumnName="NumClienteMac" />
+          <ScalarProperty Name="Id" ColumnName="Id" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="CatDomicilioFiscal">
+      <EntityTypeMapping TypeName="SIANCENTRAL_CCModel.CatDomicilioFiscal">
+        <MappingFragment StoreEntitySet="CatDomicilioFiscal">
+          <ScalarProperty Name="Email_Fac" ColumnName="Email_Fac" />
+          <ScalarProperty Name="RFC" ColumnName="RFC" />
+          <ScalarProperty Name="Estado" ColumnName="Estado" />
+          <ScalarProperty Name="Municipio" ColumnName="Municipio" />
+          <ScalarProperty Name="CP" ColumnName="CP" />
+          <ScalarProperty Name="Colonia" ColumnName="Colonia" />
+          <ScalarProperty Name="Direccion" ColumnName="Direccion" />
+          <ScalarProperty Name="Id_ClienteMatriz" ColumnName="Id_ClienteMatriz" />
+          <ScalarProperty Name="Id" ColumnName="Id" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="CatProducto">
+      <EntityTypeMapping TypeName="SIANCENTRAL_CCModel.CatProducto">
+        <MappingFragment StoreEntitySet="CatProducto">
+          <ScalarProperty Name="Prd_Minimo" ColumnName="Prd_Minimo" />
+          <ScalarProperty Name="Prd_PlanAbasto" ColumnName="Prd_PlanAbasto" />
+          <ScalarProperty Name="Prd_PorUtilidades" ColumnName="Prd_PorUtilidades" />
+          <ScalarProperty Name="Prd_FecAlta" ColumnName="Prd_FecAlta" />
+          <ScalarProperty Name="Prd_Activo" ColumnName="Prd_Activo" />
+          <ScalarProperty Name="Prd_CptSv" ColumnName="Prd_CptSv" />
+          <ScalarProperty Name="Prd_PesConTecnico" ColumnName="Prd_PesConTecnico" />
+          <ScalarProperty Name="Prd_Nuevo" ColumnName="Prd_Nuevo" />
+          <ScalarProperty Name="Prd_Contribucion" ColumnName="Prd_Contribucion" />
+          <ScalarProperty Name="Prd_Ubicacion" ColumnName="Prd_Ubicacion" />
+          <ScalarProperty Name="Prd_Mes" ColumnName="Prd_Mes" />
+          <ScalarProperty Name="Prd_Ren" ColumnName="Prd_Ren" />
+          <ScalarProperty Name="Prd_Colo" ColumnName="Prd_Colo" />
+          <ScalarProperty Name="Prd_UniEmp" ColumnName="Prd_UniEmp" />
+          <ScalarProperty Name="Prd_Unico" ColumnName="Prd_Unico" />
+          <ScalarProperty Name="Prd_UniNs" ColumnName="Prd_UniNs" />
+          <ScalarProperty Name="Prd_UniNe" ColumnName="Prd_UniNe" />
+          <ScalarProperty Name="Prd_InvSeg" ColumnName="Prd_InvSeg" />
+          <ScalarProperty Name="Prd_AparatoSisProp" ColumnName="Prd_AparatoSisProp" />
+          <ScalarProperty Name="Prd_FactorConv" ColumnName="Prd_FactorConv" />
+          <ScalarProperty Name="Prd_AgrupadoSpo" ColumnName="Prd_AgrupadoSpo" />
+          <ScalarProperty Name="Prd_Presentacion" ColumnName="Prd_Presentacion" />
+          <ScalarProperty Name="Prd_Descripcion" ColumnName="Prd_Descripcion" />
+          <ScalarProperty Name="Id_Pvd" ColumnName="Id_Pvd" />
+          <ScalarProperty Name="Id_Sub" ColumnName="Id_Sub" />
+          <ScalarProperty Name="Id_Fam" ColumnName="Id_Fam" />
+          <ScalarProperty Name="Id_Cpr" ColumnName="Id_Cpr" />
+          <ScalarProperty Name="Id_Ptp" ColumnName="Id_Ptp" />
+          <ScalarProperty Name="Id_Spo" ColumnName="Id_Spo" />
+          <ScalarProperty Name="Id_PrdLoc" ColumnName="Id_PrdLoc" />
+          <ScalarProperty Name="Id_Prd" ColumnName="Id_Prd" />
+          <ScalarProperty Name="Id_Cd" ColumnName="Id_Cd" />
+          <ScalarProperty Name="Id_Emp" ColumnName="Id_Emp" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="CatClienteMatriz_Afiliaciones">
+      <EntityTypeMapping TypeName="SIANCENTRAL_CCModel.CatClienteMatriz_Afiliaciones">
+        <MappingFragment StoreEntitySet="CatClienteMatriz_Afiliaciones">
+          <ScalarProperty Name="Estatus" ColumnName="Estatus" />
+          <ScalarProperty Name="Usuario" ColumnName="Usuario" />
+          <ScalarProperty Name="Id_DomicilioFiscal" ColumnName="Id_DomicilioFiscal" />
+          <ScalarProperty Name="RazonSocial" ColumnName="RazonSocial" />
+          <ScalarProperty Name="Fecha_Alta" ColumnName="Fecha_Alta" />
+          <ScalarProperty Name="Convenio" ColumnName="Convenio" />
+          <ScalarProperty Name="Id_Ter" ColumnName="Id_Ter" />
+          <ScalarProperty Name="Id_Cte" ColumnName="Id_Cte" />
+          <ScalarProperty Name="Id_Cd" ColumnName="Id_Cd" />
+          <ScalarProperty Name="Id_Emp" ColumnName="Id_Emp" />
+          <ScalarProperty Name="Id" ColumnName="Id" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="CatClienteMatriz_Permisos">
+      <EntityTypeMapping TypeName="SIANCENTRAL_CCModel.CatClienteMatriz_Permisos">
+        <MappingFragment StoreEntitySet="CatClienteMatriz_Permisos">
+          <ScalarProperty Name="MOV80" ColumnName="MOV80" />
+          <ScalarProperty Name="AsigRIK" ColumnName="AsigRIK" />
+          <ScalarProperty Name="DatosFisc" ColumnName="DatosFisc" />
+          <ScalarProperty Name="AcuerdoEcon" ColumnName="AcuerdoEcon" />
+          <ScalarProperty Name="DiasCredito" ColumnName="DiasCredito" />
+          <ScalarProperty Name="Id" ColumnName="Id" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="CatTMoneda">
+      <EntityTypeMapping TypeName="SIANCENTRAL_CCModel.CatTMoneda">
+        <MappingFragment StoreEntitySet="CatTMoneda">
+          <ScalarProperty Name="Id_Cd" ColumnName="Id_Cd" />
+          <ScalarProperty Name="Mon_Activo" ColumnName="Mon_Activo" />
+          <ScalarProperty Name="Mon_TipCambio" ColumnName="Mon_TipCambio" />
+          <ScalarProperty Name="Mon_Abrev" ColumnName="Mon_Abrev" />
+          <ScalarProperty Name="Mon_Descripcion" ColumnName="Mon_Descripcion" />
+          <ScalarProperty Name="Id_Mon" ColumnName="Id_Mon" />
+          <ScalarProperty Name="Id_Emp" ColumnName="Id_Emp" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="CatCNac_Addenda">
+      <EntityTypeMapping TypeName="SIANCENTRAL_CCModel.CatCNac_Addenda">
+        <MappingFragment StoreEntitySet="CatCNac_Addenda">
+          <ScalarProperty Name="Descripcion" ColumnName="Descripcion" />
+          <ScalarProperty Name="Id" ColumnName="Id" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="CatCNac_CatalogoEspecial">
+      <EntityTypeMapping TypeName="SIANCENTRAL_CCModel.CatCNac_CatalogoEspecial">
+        <MappingFragment StoreEntitySet="CatCNac_CatalogoEspecial">
+          <ScalarProperty Name="Descripcion" ColumnName="Descripcion" />
+          <ScalarProperty Name="Id" ColumnName="Id" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="CatCNac_MetPago">
+      <EntityTypeMapping TypeName="SIANCENTRAL_CCModel.CatCNac_MetPago">
+        <MappingFragment StoreEntitySet="CatCNac_MetPago">
+          <ScalarProperty Name="Descripcion" ColumnName="Descripcion" />
+          <ScalarProperty Name="Id" ColumnName="Id" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="CatCNac_ProductosPermitidos">
+      <EntityTypeMapping TypeName="SIANCENTRAL_CCModel.CatCNac_ProductosPermitidos">
+        <MappingFragment StoreEntitySet="CatCNac_ProductosPermitidos">
+          <ScalarProperty Name="Descripcion" ColumnName="Descripcion" />
+          <ScalarProperty Name="Id" ColumnName="Id" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="CatCNac_TipoNotaCred">
+      <EntityTypeMapping TypeName="SIANCENTRAL_CCModel.CatCNac_TipoNotaCred">
+        <MappingFragment StoreEntitySet="CatCNac_TipoNotaCred">
+          <ScalarProperty Name="Descripcion" ColumnName="Descripcion" />
+          <ScalarProperty Name="Id" ColumnName="Id" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="CatCNac_Soportes">
+      <EntityTypeMapping TypeName="SIANCENTRAL_CCModel.CatCNac_Soportes">
+        <MappingFragment StoreEntitySet="CatCNac_Soportes">
+          <ScalarProperty Name="Descripcion" ColumnName="Descripcion" />
+          <ScalarProperty Name="Id" ColumnName="Id" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="CatCNac_IntranetFran">
+      <EntityTypeMapping TypeName="SIANCENTRAL_CCModel.CatCNac_IntranetFran">
+        <MappingFragment StoreEntitySet="CatCNac_IntranetFran">
+          <ScalarProperty Name="TipoNotaCred" ColumnName="TipoNotaCred" />
+          <ScalarProperty Name="AddendaTipo" ColumnName="AddendaTipo" />
+          <ScalarProperty Name="Soportes" ColumnName="Soportes" />
+          <ScalarProperty Name="NumTarjeta" ColumnName="NumTarjeta" />
+          <ScalarProperty Name="MetodoPago" ColumnName="MetodoPago" />
+          <ScalarProperty Name="PorcRequerido" ColumnName="PorcRequerido" />
+          <ScalarProperty Name="Descuentos" ColumnName="Descuentos" />
+          <ScalarProperty Name="Addenda" ColumnName="Addenda" />
+          <ScalarProperty Name="CargaAcuse" ColumnName="CargaAcuse" />
+          <ScalarProperty Name="DiasCredito" ColumnName="DiasCredito" />
+          <ScalarProperty Name="Cancelacion" ColumnName="Cancelacion" />
+          <ScalarProperty Name="NotaCargo" ColumnName="NotaCargo" />
+          <ScalarProperty Name="NotaCredito" ColumnName="NotaCredito" />
+          <ScalarProperty Name="FacturaExt" ColumnName="FacturaExt" />
+          <ScalarProperty Name="Factura" ColumnName="Factura" />
+          <ScalarProperty Name="CatEspecial" ColumnName="CatEspecial" />
+          <ScalarProperty Name="ProdPermitidos" ColumnName="ProdPermitidos" />
+          <ScalarProperty Name="TipoMoneda" ColumnName="TipoMoneda" />
+          <ScalarProperty Name="Id" ColumnName="Id" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="CatCNac_IntranetListaFranq">
+      <EntityTypeMapping TypeName="SIANCENTRAL_CCModel.CatCNac_IntranetListaFranq">
+        <MappingFragment StoreEntitySet="CatCNac_IntranetListaFranq">
+          <ScalarProperty Name="id_Emp" ColumnName="id_Emp" />
+          <ScalarProperty Name="ValorAgrCump" ColumnName="ValorAgrCump" />
+          <ScalarProperty Name="DirFacturas" ColumnName="DirFacturas" />
+          <ScalarProperty Name="SistemaPV" ColumnName="SistemaPV" />
+          <ScalarProperty Name="Productos" ColumnName="Productos" />
+          <ScalarProperty Name="Moneda" ColumnName="Moneda" />
+          <ScalarProperty Name="UsuarioIntranet" ColumnName="UsuarioIntranet" />
+          <ScalarProperty Name="ClienteMac" ColumnName="ClienteMac" />
+          <ScalarProperty Name="FranqConsecionada" ColumnName="FranqConsecionada" />
+          <ScalarProperty Name="Id_Matriz" ColumnName="Id_Matriz" />
+          <ScalarProperty Name="Id" ColumnName="Id" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="CatCNac_SistemasPV">
+      <EntityTypeMapping TypeName="SIANCENTRAL_CCModel.CatCNac_SistemasPV">
+        <MappingFragment StoreEntitySet="CatCNac_SistemasPV">
+          <ScalarProperty Name="Descripcion" ColumnName="Descripcion" />
+          <ScalarProperty Name="Id" ColumnName="Id" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="CatCNac_ACYS">
+      <EntityTypeMapping TypeName="SIANCENTRAL_CCModel.CatCNac_ACYS">
+        <MappingFragment StoreEntitySet="CatCNac_ACYS">
+          <ScalarProperty Name="FechaFin" ColumnName="FechaFin" />
+          <ScalarProperty Name="FechaInicio" ColumnName="FechaInicio" />
+          <ScalarProperty Name="Fecha" ColumnName="Fecha" />
+          <ScalarProperty Name="Activo" ColumnName="Activo" />
+          <ScalarProperty Name="FechaVencimiento" ColumnName="FechaVencimiento" />
+          <ScalarProperty Name="FechaUltimaAct" ColumnName="FechaUltimaAct" />
+          <ScalarProperty Name="TipoCuenta" ColumnName="TipoCuenta" />
+          <ScalarProperty Name="NivelAcys" ColumnName="NivelAcys" />
+          <ScalarProperty Name="MOV80" ColumnName="MOV80" />
+          <ScalarProperty Name="AsigRIK" ColumnName="AsigRIK" />
+          <ScalarProperty Name="DatosFisc" ColumnName="DatosFisc" />
+          <ScalarProperty Name="AcuerdoEcon" ColumnName="AcuerdoEcon" />
+          <ScalarProperty Name="DiasCredito" ColumnName="DiasCredito" />
+          <ScalarProperty Name="LiderTecnico" ColumnName="LiderTecnico" />
+          <ScalarProperty Name="EjecCuenta" ColumnName="EjecCuenta" />
+          <ScalarProperty Name="Nombre" ColumnName="Nombre" />
+          <ScalarProperty Name="Id_Matriz" ColumnName="Id_Matriz" />
+          <ScalarProperty Name="Id" ColumnName="Id" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="CatCNac_TipoCuenta">
+      <EntityTypeMapping TypeName="SIANCENTRAL_CCModel.CatCNac_TipoCuenta">
+        <MappingFragment StoreEntitySet="CatCNac_TipoCuenta">
+          <ScalarProperty Name="Descripcion" ColumnName="Descripcion" />
+          <ScalarProperty Name="Id" ColumnName="Id" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <FunctionImportMapping FunctionImportName="spComboNiveles" FunctionName="SIANCENTRAL_CCModel.Store.spComboNiveles">
+      <ResultMapping>
+        <ComplexTypeMapping TypeName="SIANCENTRAL_CCModel.spComboNiveles_Result">
+          <ScalarProperty Name="Id" ColumnName="Id" />
+          <ScalarProperty Name="Descripcion" ColumnName="Descripcion" />
+        </ComplexTypeMapping>
+      </ResultMapping>
+    </FunctionImportMapping>
+    <EntitySetMapping Name="CatCNac_PermisosCamposACYS">
+      <EntityTypeMapping TypeName="SIANCENTRAL_CCModel.CatCNac_PermisosCamposACYS">
+        <MappingFragment StoreEntitySet="CatCNac_PermisosCamposACYS">
+          <ScalarProperty Name="Otra" ColumnName="Otra" />
+          <ScalarProperty Name="CEDIS" ColumnName="CEDIS" />
+          <ScalarProperty Name="Coordinada" ColumnName="Coordinada" />
+          <ScalarProperty Name="Cnacional" ColumnName="Cnacional" />
+          <ScalarProperty Name="obligatorio" ColumnName="obligatorio" />
+          <ScalarProperty Name="CDIK" ColumnName="CDIK" />
+          <ScalarProperty Name="ACYS_CENTRAL" ColumnName="ACYS CENTRAL" />
+          <ScalarProperty Name="Campo" ColumnName="Campo" />
+          <ScalarProperty Name="NOMBRE" ColumnName="NOMBRE" />
+          <ScalarProperty Name="Id" ColumnName="Id" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="CatCNac_Matriz">
+      <EntityTypeMapping TypeName="SIANCENTRAL_CCModel.CatCNac_Matriz">
+        <MappingFragment StoreEntitySet="CatCNac_Matriz">
+          <ScalarProperty Name="Logo" ColumnName="Logo" />
+          <ScalarProperty Name="Desc_Nivel_4" ColumnName="Desc_Nivel_4" />
+          <ScalarProperty Name="Nivel_4" ColumnName="Nivel_4" />
+          <ScalarProperty Name="Desc_Nivel_3" ColumnName="Desc_Nivel_3" />
+          <ScalarProperty Name="Nivel_3" ColumnName="Nivel_3" />
+          <ScalarProperty Name="Desc_Nivel_2" ColumnName="Desc_Nivel_2" />
+          <ScalarProperty Name="Nivel_2" ColumnName="Nivel_2" />
+          <ScalarProperty Name="Desc_Nivel_1" ColumnName="Desc_Nivel_1" />
+          <ScalarProperty Name="Nivel_1" ColumnName="Nivel_1" />
+          <ScalarProperty Name="ReqAutorizacion" ColumnName="ReqAutorizacion" />
+          <ScalarProperty Name="Presupuesto" ColumnName="Presupuesto" />
+          <ScalarProperty Name="Activo" ColumnName="Activo" />
+          <ScalarProperty Name="Estatus" ColumnName="Estatus" />
+          <ScalarProperty Name="FechaFin" ColumnName="FechaFin" />
+          <ScalarProperty Name="FechaInicio" ColumnName="FechaInicio" />
+          <ScalarProperty Name="Nombre" ColumnName="Nombre" />
+          <ScalarProperty Name="Id" ColumnName="Id" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="CatACYS_Productos_DatosGar">
+      <EntityTypeMapping TypeName="SIANCENTRAL_CCModel.CatACYS_Productos_DatosGar">
+        <MappingFragment StoreEntitySet="CatACYS_Productos_DatosGar">
+          <ScalarProperty Name="FechaCorte" ColumnName="FechaCorte" />
+          <ScalarProperty Name="UPrimaNeta" ColumnName="UPrimaNeta" />
+          <ScalarProperty Name="FactorGarantia" ColumnName="FactorGarantia" />
+          <ScalarProperty Name="Id_TG" ColumnName="Id_TG" />
+          <ScalarProperty Name="Id_ACYS" ColumnName="Id_ACYS" />
+          <ScalarProperty Name="Id" ColumnName="Id" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="CatACYS_Productos_DatosGar_Fechas">
+      <EntityTypeMapping TypeName="SIANCENTRAL_CCModel.CatACYS_Productos_DatosGar_Fechas">
+        <MappingFragment StoreEntitySet="CatACYS_Productos_DatosGar_Fechas">
+          <ScalarProperty Name="Facturado" ColumnName="Facturado" />
+          <ScalarProperty Name="FechaCorte" ColumnName="FechaCorte" />
+          <ScalarProperty Name="Mes" ColumnName="Mes" />
+          <ScalarProperty Name="Id_TG" ColumnName="Id_TG" />
+          <ScalarProperty Name="Id_ACYS" ColumnName="Id_ACYS" />
+          <ScalarProperty Name="Id" ColumnName="Id" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="CatCNac_Condiciones">
+      <EntityTypeMapping TypeName="SIANCENTRAL_CCModel.CatCNac_Condiciones">
+        <MappingFragment StoreEntitySet="CatCNac_Condiciones">
+          <ScalarProperty Name="Descripcion" ColumnName="Descripcion" />
+          <ScalarProperty Name="Id" ColumnName="Id" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="CatCDI">
+      <EntityTypeMapping TypeName="SIANCENTRAL_CCModel.CatCDI">
+        <MappingFragment StoreEntitySet="CatCDI">
+          <ScalarProperty Name="Cd_Tipo" ColumnName="Cd_Tipo" />
+          <ScalarProperty Name="Cd_DescCorta" ColumnName="Cd_DescCorta" />
+          <ScalarProperty Name="Cd_Nombre" ColumnName="Cd_Nombre" />
+          <ScalarProperty Name="Id_Cd" ColumnName="Id_Cd" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <FunctionImportMapping FunctionImportName="spCNacDireccionesFiscalesACYS" FunctionName="SIANCENTRAL_CCModel.Store.SpCNacDireccionesFiscalesACYS">
+      <ResultMapping>
+        <ComplexTypeMapping TypeName="SIANCENTRAL_CCModel.spCNacDireccionesFiscalesACYS_Result">
+          <ScalarProperty Name="Id" ColumnName="Id" />
+          <ScalarProperty Name="ClienteDirFis" ColumnName="ClienteDirFis" />
+          <ScalarProperty Name="DireccionDirFis" ColumnName="DireccionDirFis" />
+          <ScalarProperty Name="MunicipioDirFis" ColumnName="MunicipioDirFis" />
+          <ScalarProperty Name="Pais" ColumnName="Pais" />
+          <ScalarProperty Name="CPDirFis" ColumnName="CPDirFis" />
+          <ScalarProperty Name="EstadoDirFis" ColumnName="EstadoDirFis" />
+          <ScalarProperty Name="RFCDirFis" ColumnName="RFCDirFis" />
+          <ScalarProperty Name="EmailFacturasDirFis" ColumnName="EmailFacturasDirFis" />
+          <ScalarProperty Name="ColoniaDirFis" ColumnName="ColoniaDirFis" />
+        </ComplexTypeMapping>
+      </ResultMapping>
+    </FunctionImportMapping>
+    <EntitySetMapping Name="CatUsuario">
+      <EntityTypeMapping TypeName="SIANCENTRAL_CCModel.CatUsuario">
+        <MappingFragment StoreEntitySet="CatUsuario">
+          <ScalarProperty Name="U_AutorizaPrecio" ColumnName="U_AutorizaPrecio" />
+          <ScalarProperty Name="U_DiasVencimiento" ColumnName="U_DiasVencimiento" />
+          <ScalarProperty Name="U_SusCredito" ColumnName="U_SusCredito" />
+          <ScalarProperty Name="Id_Rik" ColumnName="Id_Rik" />
+          <ScalarProperty Name="U_MultiOfi" ColumnName="U_MultiOfi" />
+          <ScalarProperty Name="U_VerTodo" ColumnName="U_VerTodo" />
+          <ScalarProperty Name="Id_Tu" ColumnName="Id_Tu" />
+          <ScalarProperty Name="id_id_U" ColumnName="id_id_U" />
+          <ScalarProperty Name="U_Activo" ColumnName="U_Activo" />
+          <ScalarProperty Name="U_NumNomina" ColumnName="U_NumNomina" />
+          <ScalarProperty Name="U_FNac" ColumnName="U_FNac" />
+          <ScalarProperty Name="U_Correo" ColumnName="U_Correo" />
+          <ScalarProperty Name="U_NombreCorto" ColumnName="U_NombreCorto" />
+          <ScalarProperty Name="U_Nombre" ColumnName="U_Nombre" />
+          <ScalarProperty Name="Id_U" ColumnName="Id_U" />
+          <ScalarProperty Name="Id_Cd" ColumnName="Id_Cd" />
+          <ScalarProperty Name="Id_Emp" ColumnName="Id_Emp" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="CatCNac_Estructura">
+      <EntityTypeMapping TypeName="SIANCENTRAL_CCModel.CatCNac_Estructura">
+        <MappingFragment StoreEntitySet="CatCNac_Estructura">
+          <ScalarProperty Name="Id_Ter" ColumnName="Id_Ter" />
+          <ScalarProperty Name="NombreCliente" ColumnName="NombreCliente" />
+          <ScalarProperty Name="id_Cd" ColumnName="id_Cd" />
+          <ScalarProperty Name="id_Emp" ColumnName="id_Emp" />
+          <ScalarProperty Name="id_Cte" ColumnName="id_Cte" />
+          <ScalarProperty Name="id_Acys" ColumnName="id_Acys" />
+          <ScalarProperty Name="NombreSucursal" ColumnName="NombreSucursal" />
+          <ScalarProperty Name="Sucursal" ColumnName="Sucursal" />
+          <ScalarProperty Name="Nivel_ACYS" ColumnName="Nivel_ACYS" />
+          <ScalarProperty Name="NodoPadre" ColumnName="NodoPadre" />
+          <ScalarProperty Name="Nivel" ColumnName="Nivel" />
+          <ScalarProperty Name="NombreNodo" ColumnName="NombreNodo" />
+          <ScalarProperty Name="Id_Matriz" ColumnName="Id_Matriz" />
+          <ScalarProperty Name="Id" ColumnName="Id" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="CatCNac_Usuario">
+      <EntityTypeMapping TypeName="SIANCENTRAL_CCModel.CatCNac_Usuario">
+        <MappingFragment StoreEntitySet="CatCNac_Usuario">
+          <ScalarProperty Name="Nombre" ColumnName="Nombre" />
+          <ScalarProperty Name="AdminCliente" ColumnName="AdminCliente" />
+          <ScalarProperty Name="Rol_Ecommerce" ColumnName="Rol_Ecommerce" />
+          <ScalarProperty Name="Rol_Auditorias" ColumnName="Rol_Auditorias" />
+          <ScalarProperty Name="Contrasenia" ColumnName="Contrasenia" />
+          <ScalarProperty Name="Telefono" ColumnName="Telefono" />
+          <ScalarProperty Name="CDIK" ColumnName="CDIK" />
+          <ScalarProperty Name="Correo" ColumnName="Correo" />
+          <ScalarProperty Name="IdMatriz" ColumnName="IdMatriz" />
+          <ScalarProperty Name="Id" ColumnName="Id" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="CatCNac_RolAuditorias">
+      <EntityTypeMapping TypeName="SIANCENTRAL_CCModel.CatCNac_RolAuditorias">
+        <MappingFragment StoreEntitySet="CatCNac_RolAuditorias">
+          <ScalarProperty Name="Nombre" ColumnName="Nombre" />
+          <ScalarProperty Name="Id" ColumnName="Id" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="CatCNac_RolECommerce">
+      <EntityTypeMapping TypeName="SIANCENTRAL_CCModel.CatCNac_RolECommerce">
+        <MappingFragment StoreEntitySet="CatCNac_RolECommerce">
+          <ScalarProperty Name="Nombre" ColumnName="Nombre" />
+          <ScalarProperty Name="Id" ColumnName="Id" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="CatCNac_UsuarioPermisos">
+      <EntityTypeMapping TypeName="SIANCENTRAL_CCModel.CatCNac_UsuarioPermisos">
+        <MappingFragment StoreEntitySet="CatCNac_UsuarioPermisos">
+          <ScalarProperty Name="Id_Estructura" ColumnName="Id_Estructura" />
+          <ScalarProperty Name="Id_Usuario" ColumnName="Id_Usuario" />
+          <ScalarProperty Name="Id" ColumnName="Id" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="CatCNac_EstatusSolicitudes">
+      <EntityTypeMapping TypeName="SIANCENTRAL_CCModel.CatCNac_EstatusSolicitudes">
+        <MappingFragment StoreEntitySet="CatCNac_EstatusSolicitudes">
+          <ScalarProperty Name="Nombre" ColumnName="Nombre" />
+          <ScalarProperty Name="Id" ColumnName="Id" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="CatCNac_Solicitudes">
+      <EntityTypeMapping TypeName="SIANCENTRAL_CCModel.CatCNac_Solicitudes">
+        <MappingFragment StoreEntitySet="CatCNac_Solicitudes">
+          <ScalarProperty Name="ComentariosAdministrador" ColumnName="ComentariosAdministrador" />
+          <ScalarProperty Name="Accion" ColumnName="Accion" />
+          <ScalarProperty Name="Id_Cd" ColumnName="Id_Cd" />
+          <ScalarProperty Name="Id_Emp" ColumnName="Id_Emp" />
+          <ScalarProperty Name="Usuario" ColumnName="Usuario" />
+          <ScalarProperty Name="Fecha" ColumnName="Fecha" />
+          <ScalarProperty Name="Estatus" ColumnName="Estatus" />
+          <ScalarProperty Name="Comentarios" ColumnName="Comentarios" />
+          <ScalarProperty Name="AsesorId" ColumnName="AsesorId" />
+          <ScalarProperty Name="ConvenioNombre" ColumnName="ConvenioNombre" />
+          <ScalarProperty Name="ConvenioId" ColumnName="ConvenioId" />
+          <ScalarProperty Name="Remision_Cta_Nac_Nombre" ColumnName="Remision_Cta_Nac_Nombre" />
+          <ScalarProperty Name="Remision_Cta_Nac" ColumnName="Remision_Cta_Nac" />
+          <ScalarProperty Name="RazonSocial" ColumnName="RazonSocial" />
+          <ScalarProperty Name="Territorio" ColumnName="Territorio" />
+          <ScalarProperty Name="ClienteSIAN" ColumnName="ClienteSIAN" />
+          <ScalarProperty Name="Sucursal" ColumnName="Sucursal" />
+          <ScalarProperty Name="Id_Estructura" ColumnName="Id_Estructura" />
+          <ScalarProperty Name="Id_Matriz" ColumnName="Id_Matriz" />
+          <ScalarProperty Name="Id" ColumnName="Id" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="CatCNac_Solicitudes_DirFiscal">
+      <EntityTypeMapping TypeName="SIANCENTRAL_CCModel.CatCNac_Solicitudes_DirFiscal">
+        <MappingFragment StoreEntitySet="CatCNac_Solicitudes_DirFiscal">
+          <ScalarProperty Name="sucursal" ColumnName="sucursal" />
+          <ScalarProperty Name="FAX" ColumnName="FAX" />
+          <ScalarProperty Name="Telefonos" ColumnName="Telefonos" />
+          <ScalarProperty Name="RFC" ColumnName="RFC" />
+          <ScalarProperty Name="Estado" ColumnName="Estado" />
+          <ScalarProperty Name="CP" ColumnName="CP" />
+          <ScalarProperty Name="Municipio" ColumnName="Municipio" />
+          <ScalarProperty Name="Colonia" ColumnName="Colonia" />
+          <ScalarProperty Name="NumExterior" ColumnName="NumExterior" />
+          <ScalarProperty Name="NumInterior" ColumnName="NumInterior" />
+          <ScalarProperty Name="Calle" ColumnName="Calle" />
+          <ScalarProperty Name="Id" ColumnName="Id" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="CatCNac_RemisionesMov80">
+      <EntityTypeMapping TypeName="SIANCENTRAL_CCModel.CatCNac_RemisionesMov80">
+        <MappingFragment StoreEntitySet="CatCNac_RemisionesMov80">
+          <ScalarProperty Name="Nombre" ColumnName="Nombre" />
+          <ScalarProperty Name="Id" ColumnName="Id" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="CatCNac_IntranetUsuarios">
+      <EntityTypeMapping TypeName="SIANCENTRAL_CCModel.CatCNac_IntranetUsuarios">
+        <MappingFragment StoreEntitySet="CatCNac_IntranetUsuarios">
+          <ScalarProperty Name="id_Emp" ColumnName="id_Emp" />
+          <ScalarProperty Name="Usu_NoCDIK_Sian" ColumnName="Usu_NoCDIK_Sian" />
+          <ScalarProperty Name="Usu_RFCCDIK" ColumnName="Usu_RFCCDIK" />
+          <ScalarProperty Name="Usu_CteMacolaAntes" ColumnName="Usu_CteMacolaAntes" />
+          <ScalarProperty Name="Usu_AdminEd" ColumnName="Usu_AdminEd" />
+          <ScalarProperty Name="Usu_CteMacola" ColumnName="Usu_CteMacola" />
+          <ScalarProperty Name="Usu_JefeDirecto" ColumnName="Usu_JefeDirecto" />
+          <ScalarProperty Name="Usu_Agente1" ColumnName="Usu_Agente1" />
+          <ScalarProperty Name="Usu_Agente" ColumnName="Usu_Agente" />
+          <ScalarProperty Name="Usu_FecVigF" ColumnName="Usu_FecVigF" />
+          <ScalarProperty Name="Usu_FecVigI" ColumnName="Usu_FecVigI" />
+          <ScalarProperty Name="Usu_FecReg" ColumnName="Usu_FecReg" />
+          <ScalarProperty Name="Usu_FecNac" ColumnName="Usu_FecNac" />
+          <ScalarProperty Name="Usu_TelefonoPersonal" ColumnName="Usu_TelefonoPersonal" />
+          <ScalarProperty Name="Usu_TelefonoMovil" ColumnName="Usu_TelefonoMovil" />
+          <ScalarProperty Name="Usu_Radio" ColumnName="Usu_Radio" />
+          <ScalarProperty Name="Usu_Skype" ColumnName="Usu_Skype" />
+          <ScalarProperty Name="Usu_Messenger" ColumnName="Usu_Messenger" />
+          <ScalarProperty Name="Usu_Extension" ColumnName="Usu_Extension" />
+          <ScalarProperty Name="Usu_Fax" ColumnName="Usu_Fax" />
+          <ScalarProperty Name="Usu_Telefono" ColumnName="Usu_Telefono" />
+          <ScalarProperty Name="Pue_IdPuesto" ColumnName="Pue_IdPuesto" />
+          <ScalarProperty Name="Usu_EstatusRegistro" ColumnName="Usu_EstatusRegistro" />
+          <ScalarProperty Name="Dep_IdDepartamento" ColumnName="Dep_IdDepartamento" />
+          <ScalarProperty Name="CenDi_Clave" ColumnName="CenDi_Clave" />
+          <ScalarProperty Name="Emp_IdEmpresa" ColumnName="Emp_IdEmpresa" />
+          <ScalarProperty Name="Usu_NumUsuario" ColumnName="Usu_NumUsuario" />
+          <ScalarProperty Name="Usu_FecAltaNomina" ColumnName="Usu_FecAltaNomina" />
+          <ScalarProperty Name="Usu_ClaveNomina" ColumnName="Usu_ClaveNomina" />
+          <ScalarProperty Name="Usu_Clave" ColumnName="Usu_Clave" />
+          <ScalarProperty Name="Usu_Usuario" ColumnName="Usu_Usuario" />
+          <ScalarProperty Name="Usu_Email" ColumnName="Usu_Email" />
+          <ScalarProperty Name="Usu_Curp" ColumnName="Usu_Curp" />
+          <ScalarProperty Name="Usu_Nacionalidad" ColumnName="Usu_Nacionalidad" />
+          <ScalarProperty Name="Usu_LugarNac" ColumnName="Usu_LugarNac" />
+          <ScalarProperty Name="Usu_SegSocial" ColumnName="Usu_SegSocial" />
+          <ScalarProperty Name="Usu_RegFed" ColumnName="Usu_RegFed" />
+          <ScalarProperty Name="Usu_IdEstado" ColumnName="Usu_IdEstado" />
+          <ScalarProperty Name="Usu_Ciudad" ColumnName="Usu_Ciudad" />
+          <ScalarProperty Name="Usu_CodigoPostal" ColumnName="Usu_CodigoPostal" />
+          <ScalarProperty Name="Usu_Colonia" ColumnName="Usu_Colonia" />
+          <ScalarProperty Name="Usu_Domicilio" ColumnName="Usu_Domicilio" />
+          <ScalarProperty Name="Usu_ApMaterno" ColumnName="Usu_ApMaterno" />
+          <ScalarProperty Name="Usu_ApPaterno" ColumnName="Usu_ApPaterno" />
+          <ScalarProperty Name="Usu_Nombre" ColumnName="Usu_Nombre" />
+          <ScalarProperty Name="Usu_IdUsuario" ColumnName="Usu_IdUsuario" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <FunctionImportMapping FunctionImportName="spCatCN_DuplicarACYS" FunctionName="SIANCENTRAL_CCModel.Store.spCatCN_DuplicarACYS" />
+  </EntityContainerMapping>
+</Mapping>
