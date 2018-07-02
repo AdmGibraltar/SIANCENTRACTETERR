@@ -190,6 +190,8 @@
     <Content Include="bin\Telerik.Web.UI.dll" />
     <Content Include="bin\Telerik.Web.UI.Skins.dll" />
     <Content Include="CapAjusteBi_Autorizacion.aspx" />
+    <Content Include="CapAutClienteTerr.aspx" />
+    <Content Include="CapAutClienteTerr_Lista.aspx" />
     <Content Include="CapBajaRemisionesSIAN.aspx" />
     <Content Include="CapCompensacionVariable.aspx" />
     <Content Include="CapCompensacionVariableDet.ascx" />
@@ -537,6 +539,11 @@
       <LastGenOutput>Reference.cs</LastGenOutput>
     </None>
     <None Include="Web References\WebReference\Service1.disco" />
+    <None Include="Web References\wsClienteTerritorio\Reference.map">
+      <Generator>MSDiscoCodeGenerator</Generator>
+      <LastGenOutput>Reference.cs</LastGenOutput>
+    </None>
+    <None Include="Web References\wsClienteTerritorio\Service1.wsdl" />
     <None Include="Web References\wsMacola\Reference.map">
       <Generator>MSDiscoCodeGenerator</Generator>
       <LastGenOutput>Reference.cs</LastGenOutput>
@@ -567,6 +574,7 @@
     <None Include="Web References\WS_RemElectronicaCtaNacional\Service1.disco" />
     <None Include="Web References\ConsultaVentaMensualBennetts\ConsultaVentaMensual.disco" />
     <None Include="Web References\wsMacola\wsmacola.disco" />
+    <None Include="Web References\wsClienteTerritorio\Service1.disco" />
     <Content Include="wfrmCatalogoEstatus.aspx" />
     <Content Include="Crmpromocion_ventana.aspx" />
     <Content Include="Img\add2.png" />
@@ -1075,6 +1083,20 @@
     </Compile>
     <Compile Include="CapAjusteBi_Autorizacion.aspx.designer.cs">
       <DependentUpon>CapAjusteBi_Autorizacion.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="CapAutClienteTerr.aspx.cs">
+      <DependentUpon>CapAutClienteTerr.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="CapAutClienteTerr.aspx.designer.cs">
+      <DependentUpon>CapAutClienteTerr.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="CapAutClienteTerr_Lista.aspx.cs">
+      <DependentUpon>CapAutClienteTerr_Lista.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="CapAutClienteTerr_Lista.aspx.designer.cs">
+      <DependentUpon>CapAutClienteTerr_Lista.aspx</DependentUpon>
     </Compile>
     <Compile Include="CapBajaRemisionesSIAN.aspx.cs">
       <DependentUpon>CapBajaRemisionesSIAN.aspx</DependentUpon>
@@ -2521,6 +2543,11 @@
       <DependentUpon>Reference.map</DependentUpon>
     </Compile>
     <Compile Include="Web References\WebReference\Reference.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Reference.map</DependentUpon>
+    </Compile>
+    <Compile Include="Web References\wsClienteTerritorio\Reference.cs">
       <AutoGen>True</AutoGen>
       <DesignTime>True</DesignTime>
       <DependentUpon>Reference.map</DependentUpon>
@@ -3990,6 +4017,17 @@
       <CachedAppSettingsObjectName>Settings</CachedAppSettingsObjectName>
       <CachedSettingsPropName>SIANWEB_WsMacola_wsMacola</CachedSettingsPropName>
     </WebReferenceUrl>
+    <WebReferenceUrl Include="http://207.248.253.97/wsClienteTerr/">
+      <UrlBehavior>Dynamic</UrlBehavior>
+      <RelPath>Web References\wsClienteTerritorio\</RelPath>
+      <UpdateFromURL>http://207.248.253.97/wsClienteTerr/</UpdateFromURL>
+      <ServiceLocationURL>
+      </ServiceLocationURL>
+      <CachedDynamicPropName>
+      </CachedDynamicPropName>
+      <CachedAppSettingsObjectName>Settings</CachedAppSettingsObjectName>
+      <CachedSettingsPropName>SIANWEB_wsClienteTerritorio_Service1</CachedSettingsPropName>
+    </WebReferenceUrl>
     <WebReferenceUrl Include="http://axservidor/keyfac/Service1.asmx">
       <UrlBehavior>Dynamic</UrlBehavior>
       <RelPath>Web References\sian_cfd\</RelPath>
@@ -4069,7 +4107,7 @@
           <SaveServerSettingsInUserFile>True</SaveServerSettingsInUserFile>
         </WebProjectProperties>
       </FlavorProperties>
-      <UserProperties UseAjaxifiedTemplates="False" UseJQuerySupport="False" />
+      <UserProperties UseJQuerySupport="False" UseAjaxifiedTemplates="False" />
     </VisualStudio>
   </ProjectExtensions>
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 

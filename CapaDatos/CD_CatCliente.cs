@@ -1654,7 +1654,347 @@ namespace CapaDatos
             }
         }
 
+        //RBM
+        //Cliente-Territorio
+        //Inicio
+        
+        public void ConsultaSolicitudesClienteTerr(Sesion Sesion, ref List<ClienteTerritorio> lstSolicitud)
+        {
+            try
+            {
+                SqlDataReader dr = null;
+                CapaDatos.CD_Datos CapaDatos = new CapaDatos.CD_Datos(Sesion.Emp_Cnx);
+                ClienteTerritorio sol;
+
+                string[] Parametros = { 
+                                        
+                                       
+                                      };
+                object[] Valores = {     
+                                         
+                                   };
+
+                SqlCommand sqlcmd = CapaDatos.GenerarSqlCommand("sp_ConsultaSolicitudesClienteTerr", ref dr, Parametros, Valores);
+
+                while (dr.Read())
+                {
+                    sol = new ClienteTerritorio();
+                    sol.Id_Solicitud = dr.GetInt32(dr.GetOrdinal("Id_Solicitud"));
+                    sol.Id_Cd = dr.GetInt32(dr.GetOrdinal("Id_Cd"));
+                    sol.Id_Cte = dr.GetInt32(dr.GetOrdinal("Id_Cte"));
+                    sol.Nom_Cliente = dr.GetString(dr.GetOrdinal("Nom_Cliente"));
+                    sol.Id_Ter = dr.GetInt32(dr.GetOrdinal("Id_Ter"));
+                    sol.Nom_Territorio = dr.GetString(dr.GetOrdinal("Nom_Territorio"));
+                    sol.Dimension = dr.GetInt32(dr.GetOrdinal("Dimension"));
+                    sol.Pesos = dr.GetInt32(dr.GetOrdinal("Pesos"));
+                    sol.Potencial = dr.GetInt32(dr.GetOrdinal("Potencial"));
+                    sol.ManodeObra = dr.GetInt32(dr.GetOrdinal("ManodeObra"));
+                    sol.GastosTerritorio = dr.GetInt32(dr.GetOrdinal("GastosTerritorio"));
+                    sol.FletesPagadoCliente = dr.GetInt32(dr.GetOrdinal("FletesPagadoCliente"));
+                    sol.Porcentaje = dr.GetInt32(dr.GetOrdinal("Porcentaje"));
+                    if (Convert.IsDBNull(dr.GetValue(dr.GetOrdinal("Nuevo")))) sol.Nuevo = false; else sol.Nuevo = dr.GetBoolean(dr.GetOrdinal("Nuevo"));
+                    if (Convert.IsDBNull(dr.GetValue(dr.GetOrdinal("Activo")))) sol.Activo = false; else sol.Activo = dr.GetBoolean(dr.GetOrdinal("Activo"));
+                    sol.Comentarios = dr.GetString(dr.GetOrdinal("Comentarios"));
+                    sol.Fec_Solicitud = dr.GetDateTime(dr.GetOrdinal("Fec_Solicitud"));
+                    if (Convert.IsDBNull(dr.GetValue(dr.GetOrdinal("Fec_Atendida")))) sol.Fec_Atendida = null; else sol.Fec_Atendida = Convert.ToDateTime(dr.GetValue(dr.GetOrdinal("Fec_Atendida")));
+                    sol.Estatus = dr.GetString(dr.GetOrdinal("Estatus"));
 
 
+
+                    lstSolicitud.Add(sol);
+                }
+                CapaDatos.LimpiarSqlcommand(ref sqlcmd);
+            }
+            catch (Exception ex)
+            {
+                throw ex;
+            }
+        }
+
+        public void ConsultaSolicitudClienteTerr(Sesion Sesion, ref ClienteTerritorio solicitud)
+        {
+            try
+            {
+                SqlDataReader dr = null;
+                CapaDatos.CD_Datos CapaDatos = new CapaDatos.CD_Datos(Sesion.Emp_Cnx);
+
+                string[] Parametros = { "@Id_Cd", "@Id_Solicitud", "@Id_Cte", "@Id_Ter" };
+                object[] Valores = { solicitud.Id_Cd, solicitud.Id_Solicitud, solicitud.Id_Cte, solicitud.Id_Ter };
+
+                SqlCommand sqlcmd = CapaDatos.GenerarSqlCommand("sp_ConsultaSolicitudClienteTerr", ref dr, Parametros, Valores);
+
+                while (dr.Read())
+                {
+                    //Solicitud
+                    solicitud.Id_Solicitud = dr.GetInt32(dr.GetOrdinal("Id_Solicitud"));
+                    solicitud.Id_Emp = dr.GetInt32(dr.GetOrdinal("Id_Emp"));
+                    solicitud.Id_Cd = dr.GetInt32(dr.GetOrdinal("Id_Cd"));
+                    solicitud.Id_Cte = dr.GetInt32(dr.GetOrdinal("Id_Cte"));
+                    solicitud.Nom_Cliente = dr.GetString(dr.GetOrdinal("Nom_Cliente"));
+                    solicitud.Id_Ter = dr.GetInt32(dr.GetOrdinal("Id_Ter"));
+                    solicitud.Nom_Territorio = dr.GetString(dr.GetOrdinal("Nom_Territorio"));
+                    solicitud.Dimension = dr.GetDouble(dr.GetOrdinal("Dimension"));
+                    solicitud.Pesos = dr.GetDouble(dr.GetOrdinal("Pesos"));
+                    solicitud.Potencial = dr.GetDouble(dr.GetOrdinal("Potencial"));
+                    solicitud.ManodeObra = dr.GetDouble(dr.GetOrdinal("ManodeObra"));
+                    solicitud.GastosTerritorio = dr.GetDouble(dr.GetOrdinal("GastosTerritorio"));
+                    solicitud.FletesPagadoCliente = dr.GetDouble(dr.GetOrdinal("FletesPagadoCliente"));
+                    solicitud.Porcentaje = dr.GetDouble(dr.GetOrdinal("Porcentaje"));
+                    solicitud.Comentarios = dr.GetString(dr.GetOrdinal("Comentarios"));
+                    solicitud.Nuevo = dr.GetBoolean(dr.GetOrdinal("Nuevo"));
+                    solicitud.Activo = dr.GetBoolean(dr.GetOrdinal("Activo"));
+
+                    //Autorizado
+                    solicitud.Id_Ter1 = dr.GetInt32(dr.GetOrdinal("Id_Ter"));
+                    solicitud.Nom_Territorio1 = dr.GetString(dr.GetOrdinal("Nom_Territorio"));
+
+                    if (Convert.IsDBNull(dr.GetValue(dr.GetOrdinal("Dimension1")))) solicitud.Dimension1 = null; else solicitud.Dimension1 = Convert.ToDouble(dr.GetValue(dr.GetOrdinal("Dimension1")));
+                    if (Convert.IsDBNull(dr.GetValue(dr.GetOrdinal("Pesos1")))) solicitud.Pesos1 = null; else solicitud.Pesos1 = Convert.ToDouble(dr.GetValue(dr.GetOrdinal("Pesos1")));
+                    if (Convert.IsDBNull(dr.GetValue(dr.GetOrdinal("Potencial1")))) solicitud.Potencial1 = null; else solicitud.Potencial1 = Convert.ToDouble(dr.GetValue(dr.GetOrdinal("Potencial1")));
+                    if (Convert.IsDBNull(dr.GetValue(dr.GetOrdinal("ManodeObra1")))) solicitud.ManodeObra1 = null; else solicitud.ManodeObra1 = Convert.ToDouble(dr.GetValue(dr.GetOrdinal("ManodeObra1")));
+                    if (Convert.IsDBNull(dr.GetValue(dr.GetOrdinal("GastosTerritorio1")))) solicitud.GastosTerritorio1 = null; else solicitud.GastosTerritorio1 = Convert.ToDouble(dr.GetValue(dr.GetOrdinal("GastosTerritorio1")));
+                    if (Convert.IsDBNull(dr.GetValue(dr.GetOrdinal("FletesPagadoCliente1")))) solicitud.FletesPagadoCliente1 = null; else solicitud.FletesPagadoCliente1 = Convert.ToDouble(dr.GetValue(dr.GetOrdinal("FletesPagadoCliente1")));
+                    if (Convert.IsDBNull(dr.GetValue(dr.GetOrdinal("Porcentaje1")))) solicitud.Porcentaje1 = null; else solicitud.Porcentaje1 = Convert.ToDouble(dr.GetValue(dr.GetOrdinal("Porcentaje1")));
+
+                    if (Convert.IsDBNull(dr.GetValue(dr.GetOrdinal("Nuevo1")))) solicitud.Nuevo1 = false; else solicitud.Nuevo1 = dr.GetBoolean(dr.GetOrdinal("Nuevo1"));
+                    if (Convert.IsDBNull(dr.GetValue(dr.GetOrdinal("Activo1")))) solicitud.Activo1 = false; else solicitud.Activo1 = dr.GetBoolean(dr.GetOrdinal("Activo1"));
+                }
+                CapaDatos.LimpiarSqlcommand(ref sqlcmd);
+            }
+            catch (Exception ex)
+            {
+                throw ex;
+            }
+        }
+
+        public void ConsultaSolicitudClienteTerrAnterior(Sesion Sesion, ref ClienteTerritorio solicitud)
+        {
+            try
+            {
+                SqlDataReader dr = null;
+                CapaDatos.CD_Datos CapaDatos = new CapaDatos.CD_Datos(Sesion.Emp_Cnx);
+
+                string[] Parametros = { "@Id_Cd", "@Id_Cte", "@Id_Ter" };
+                object[] Valores = { solicitud.Id_Cd, solicitud.Id_Cte, solicitud.Id_Ter };
+
+                SqlCommand sqlcmd = CapaDatos.GenerarSqlCommand("sp_ConsultaSolicitudClienteTerrAnterior", ref dr, Parametros, Valores);
+
+                while (dr.Read())
+                {
+
+                    solicitud.Id_Ter = dr.GetInt32(dr.GetOrdinal("Id_Ter"));
+                    solicitud.Nom_Territorio = dr.GetString(dr.GetOrdinal("Nom_Territorio"));
+                    solicitud.Dimension = dr.GetInt32(dr.GetOrdinal("Dimension"));
+                    solicitud.Pesos = dr.GetInt32(dr.GetOrdinal("Pesos"));
+                    solicitud.Potencial = dr.GetInt32(dr.GetOrdinal("Potencial"));
+                    solicitud.ManodeObra = dr.GetInt32(dr.GetOrdinal("ManodeObra"));
+                    solicitud.GastosTerritorio = dr.GetInt32(dr.GetOrdinal("GastosTerritorio"));
+                    solicitud.FletesPagadoCliente = dr.GetInt32(dr.GetOrdinal("FletesPagadoCliente"));
+                    solicitud.Porcentaje = dr.GetInt32(dr.GetOrdinal("Porcentaje"));
+                    solicitud.Comentarios = dr.GetString(dr.GetOrdinal("Comentarios"));
+                }
+                CapaDatos.LimpiarSqlcommand(ref sqlcmd);
+            }
+            catch (Exception ex)
+            {
+                throw ex;
+            }
+        }
+
+        public void GuardarSolClienteTerritorio(Sesion sesion, ClienteTerritorio ClienteTer, ref int verificador)
+        {
+            CapaDatos.CD_Datos CapaDatos = new CapaDatos.CD_Datos(sesion.Emp_Cnx);
+            try
+            {
+                CapaDatos.StartTrans();
+                SqlCommand sqlcmd = new SqlCommand();
+
+                #region Solicitud
+                string[] Parametros = new string[]{
+                                      "@Id_Solicitud"
+			                         ,"@Id_Emp"
+			                         ,"@Id_Cd"
+			                         ,"@Id_Cte"
+			                         ,"@Nom_Cliente"
+			                         ,"@Id_Ter"
+			                         ,"@Nom_Territorio"
+			                         ,"@Dimension"
+			                         ,"@Pesos"
+			                         ,"@Potencial"
+			                         ,"@ManodeObra"
+			                         ,"@GastosTerritorio"
+                                     ,"@Porcentaje"
+			                         ,"@FletesPagadoCliente"
+                                     ,"@Nuevo"
+			                         ,"@Activo"
+                                     ,"@Estatus"
+
+                                };
+                object[] Valor = new object[]{ 
+                                    ClienteTer.Id_Solicitud,
+                                    ClienteTer.Id_Emp,
+                                    ClienteTer.Id_Cd,
+                                    ClienteTer.Id_Cte,
+                                    ClienteTer.Nom_Cliente,
+                                    ClienteTer.Id_Ter,
+                                    ClienteTer.Nom_Territorio,
+                                    ClienteTer.Dimension,
+                                    ClienteTer.Pesos,
+                                    ClienteTer.Potencial,
+                                    ClienteTer.ManodeObra,
+                                    ClienteTer.GastosTerritorio,
+                                    ClienteTer.FletesPagadoCliente,
+                                    ClienteTer.Porcentaje,
+                                    ClienteTer.Nuevo,
+                                    ClienteTer.Activo,
+                                    ClienteTer.Estatus 
+                                   };
+
+                sqlcmd = CapaDatos.GenerarSqlCommand("sp_InsertaSolicitudClienteTer", ref verificador, Parametros, Valor);
+
+                #endregion
+
+                CapaDatos.CommitTrans();
+                CapaDatos.LimpiarSqlcommand(ref sqlcmd);
+            }
+            catch (Exception ex)
+            {
+                CapaDatos.RollBackTrans();
+                throw ex;
+            }
+        }
+
+        public void ActualizaSolClienteTerritorio(Sesion Sesion, ClienteTerritorio ClienteTer, string Estatus)
+        {
+
+            CapaDatos.CD_Datos CapaDatos = new CapaDatos.CD_Datos(Sesion.Emp_Cnx);
+            try
+            {
+                CapaDatos.StartTrans();
+                SqlCommand sqlcmd = new SqlCommand();
+                int verificador = 0;
+                #region Solicitud
+                string[] Parametros = new string[]{
+                                      "@Id_Solicitud"
+			                         ,"@Estatus"
+
+                                };
+                object[] Valor = new object[]{ 
+                                    ClienteTer.Id_Solicitud,
+                                    ClienteTer.Estatus 
+                                   };
+
+                sqlcmd = CapaDatos.GenerarSqlCommand("sp_ActualizaSolicitudClienteTer", ref verificador, Parametros, Valor);
+
+                #endregion
+
+                CapaDatos.CommitTrans();
+                CapaDatos.LimpiarSqlcommand(ref sqlcmd);
+            }
+            catch (Exception ex)
+            {
+                CapaDatos.RollBackTrans();
+                throw ex;
+            }
+        }
+
+        public void ConsultaSucursal(Sesion sesion, ref ClienteTerritorio ClienteTer)
+        {
+            try
+            {
+                SqlDataReader dr = null;
+                CapaDatos.CD_Datos CapaDatos = new CapaDatos.CD_Datos(sesion.Emp_Cnx);
+
+                string[] Parametros = { "@Id_Cd" };
+                object[] Valores = { 
+                                       ClienteTer.Id_Cd
+                                      
+                                   };
+                SqlCommand sqlcmd = CapaDatos.GenerarSqlCommand("spConsultasucursal", ref dr, Parametros, Valores);
+
+                if (dr.HasRows)
+                {
+                    dr.Read();
+                    ClienteTer.Nom_Sucursal = dr.GetValue(dr.GetOrdinal("Db_Nombre")).ToString();
+                }
+                CapaDatos.LimpiarSqlcommand(ref sqlcmd);
+            }
+            catch (Exception ex)
+            {
+
+                throw ex;
+            }
+        }
+
+        public void ConsultaSolicitudClienteTerrCorreo(Sesion Sesion, ref ClienteTerritorio solicitud)
+        {
+            try
+            {
+                SqlDataReader dr = null;
+                CapaDatos.CD_Datos CapaDatos = new CapaDatos.CD_Datos(Sesion.Emp_Cnx);
+
+                string[] Parametros = { 
+                                          "@Id_Emp" 
+                                          ,"@Id_Cd" 
+                                          ,"@Id_Cte" 
+                                          ,"@Id_Ter"
+                                          //"@Fec_Solicitud" 
+                                      };
+                object[] Valores = { 
+                                        solicitud.Id_Emp 
+                                       ,solicitud.Id_Cd 
+                                       ,solicitud.Id_Cte 
+                                       ,solicitud.Id_Ter 
+                                       //DateTime.Parse(solicitud.Fec_Solicitud.ToString()) 
+                                   };
+
+                SqlCommand sqlcmd = CapaDatos.GenerarSqlCommand("sp_ConsultaSolicitudClienteTerrCorreo", ref dr, Parametros, Valores);
+
+                while (dr.Read())
+                {
+                    //Solicitud
+                    solicitud.Id_Solicitud = dr.GetInt32(dr.GetOrdinal("Id_Solicitud"));
+                    solicitud.Id_Emp = dr.GetInt32(dr.GetOrdinal("Id_Emp"));
+                    solicitud.Id_Cd = dr.GetInt32(dr.GetOrdinal("Id_Cd"));
+                    solicitud.Id_Cte = dr.GetInt32(dr.GetOrdinal("Id_Cte"));
+                    solicitud.Nom_Cliente = dr.GetString(dr.GetOrdinal("Nom_Cliente"));
+                    solicitud.Id_Ter = dr.GetInt32(dr.GetOrdinal("Id_Ter"));
+                    solicitud.Nom_Territorio = dr.GetString(dr.GetOrdinal("Nom_Territorio"));
+                    solicitud.Dimension = dr.GetDouble(dr.GetOrdinal("Dimension"));
+                    solicitud.Pesos = dr.GetDouble(dr.GetOrdinal("Pesos"));
+                    solicitud.Potencial = dr.GetDouble(dr.GetOrdinal("Potencial"));
+                    solicitud.ManodeObra = dr.GetDouble(dr.GetOrdinal("ManodeObra"));
+                    solicitud.GastosTerritorio = dr.GetDouble(dr.GetOrdinal("GastosTerritorio"));
+                    solicitud.FletesPagadoCliente = dr.GetDouble(dr.GetOrdinal("FletesPagadoCliente"));
+                    solicitud.Porcentaje = dr.GetDouble(dr.GetOrdinal("Porcentaje"));
+                    solicitud.Comentarios = dr.GetString(dr.GetOrdinal("Comentarios"));
+                    solicitud.Nuevo = dr.GetBoolean(dr.GetOrdinal("Nuevo"));
+                    solicitud.Activo = dr.GetBoolean(dr.GetOrdinal("Activo"));
+                    solicitud.Estatus = dr.GetString(dr.GetOrdinal("Estatus"));
+
+                    //Autorizado
+                    solicitud.Id_Ter1 = dr.GetInt32(dr.GetOrdinal("Id_Ter"));
+                    solicitud.Nom_Territorio1 = dr.GetString(dr.GetOrdinal("Nom_Territorio"));
+
+                    if (Convert.IsDBNull(dr.GetValue(dr.GetOrdinal("Dimension1")))) solicitud.Dimension1 = null; else solicitud.Dimension1 = Convert.ToDouble(dr.GetValue(dr.GetOrdinal("Dimension1")));
+                    if (Convert.IsDBNull(dr.GetValue(dr.GetOrdinal("Pesos1")))) solicitud.Pesos1 = null; else solicitud.Pesos1 = Convert.ToDouble(dr.GetValue(dr.GetOrdinal("Pesos1")));
+                    if (Convert.IsDBNull(dr.GetValue(dr.GetOrdinal("Potencial1")))) solicitud.Potencial1 = null; else solicitud.Potencial1 = Convert.ToDouble(dr.GetValue(dr.GetOrdinal("Potencial1")));
+                    if (Convert.IsDBNull(dr.GetValue(dr.GetOrdinal("ManodeObra1")))) solicitud.ManodeObra1 = null; else solicitud.ManodeObra1 = Convert.ToDouble(dr.GetValue(dr.GetOrdinal("ManodeObra1")));
+                    if (Convert.IsDBNull(dr.GetValue(dr.GetOrdinal("GastosTerritorio1")))) solicitud.GastosTerritorio1 = null; else solicitud.GastosTerritorio1 = Convert.ToDouble(dr.GetValue(dr.GetOrdinal("GastosTerritorio1")));
+                    if (Convert.IsDBNull(dr.GetValue(dr.GetOrdinal("FletesPagadoCliente1")))) solicitud.FletesPagadoCliente1 = null; else solicitud.FletesPagadoCliente1 = Convert.ToDouble(dr.GetValue(dr.GetOrdinal("FletesPagadoCliente1")));
+                    if (Convert.IsDBNull(dr.GetValue(dr.GetOrdinal("Porcentaje1")))) solicitud.Porcentaje1 = null; else solicitud.Porcentaje1 = Convert.ToDouble(dr.GetValue(dr.GetOrdinal("Porcentaje1")));
+
+                    if (Convert.IsDBNull(dr.GetValue(dr.GetOrdinal("Nuevo1")))) solicitud.Nuevo1 = false; else solicitud.Nuevo1 = dr.GetBoolean(dr.GetOrdinal("Nuevo1"));
+                    if (Convert.IsDBNull(dr.GetValue(dr.GetOrdinal("Activo1")))) solicitud.Activo1 = false; else solicitud.Activo1 = dr.GetBoolean(dr.GetOrdinal("Activo1"));
+                }
+                CapaDatos.LimpiarSqlcommand(ref sqlcmd);
+            }
+            catch (Exception ex)
+            {
+                throw ex;
+            }
+        }
+
+        //Fin
     }
 }

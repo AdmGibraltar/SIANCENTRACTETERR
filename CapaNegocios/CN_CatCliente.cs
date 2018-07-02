@@ -387,5 +387,87 @@ namespace CapaNegocios
             }
         }
 
+        //RBM
+        //Cliente-Territorio
+        //Inicio
+        public void ConsultaSolicitudesClienteTerr(Sesion Sesion, ref List<ClienteTerritorio> lstSolicitud)
+        {
+            try
+            {
+                CD_CatCliente cd_catcliente = new CD_CatCliente();
+                cd_catcliente.ConsultaSolicitudesClienteTerr(Sesion, ref lstSolicitud);
+            }
+            catch (Exception ex)
+            {
+                throw ex;
+            }
+        }
+
+        public void ConsultaSolicitudClienteTerr(Sesion Sesion, ref ClienteTerritorio solicitud)
+        {
+            try
+            {
+                CD_CatCliente cd_catcliente = new CD_CatCliente();
+                cd_catcliente.ConsultaSolicitudClienteTerr(Sesion, ref solicitud);
+            }
+            catch (Exception ex)
+            {
+                throw ex;
+            }
+        }
+
+        public void GuardarSolClienteTerritorio(Sesion sesion, ClienteTerritorio ClienteTer, ref int Respuesta)
+        {
+            try
+            {
+                CD_CatCliente cd_catcliente = new CD_CatCliente();
+                cd_catcliente.GuardarSolClienteTerritorio(sesion, ClienteTer, ref Respuesta);
+            }
+            catch (Exception ex)
+            {
+                throw ex;
+            }
+        }
+
+        public void ActualizaSolClienteTerritorio(Sesion Sesion, ClienteTerritorio ClienteTer, string Estatus)
+        {
+            try
+            {
+                CD_CatCliente cd_catcliente = new CD_CatCliente();
+                cd_catcliente.ActualizaSolClienteTerritorio(Sesion, ClienteTer, Estatus);
+            }
+            catch (Exception ex)
+            {
+                throw ex;
+            }
+        }
+
+        public void ConsultaSucursal(Sesion Sesion, ref ClienteTerritorio ClienteTer)
+        {
+            try
+            {
+                CD_CatCliente cd_catcliente = new CD_CatCliente();
+                cd_catcliente.ConsultaSucursal(Sesion, ref ClienteTer);
+            }
+            catch (Exception ex)
+            {
+                throw ex;
+            }
+        }
+
+        public void ConsultaSolicitudClienteTerrCorreo(Sesion Sesion, ref ClienteTerritorio solicitud)
+        {
+            try
+            {
+                CD_CatCliente cd_catcliente = new CD_CatCliente();
+                cd_catcliente.ConsultaSolicitudClienteTerrCorreo(Sesion, ref solicitud);
+            }
+            catch (Exception ex)
+            {
+                throw ex;
+            }
+        }
+
+        //Fin
     }
 }

@@ -77,6 +77,7 @@
     <Compile Include="CatCompensacion.cs" />
     <Compile Include="Cfd.cs" />
     <Compile Include="ClientesMayorAdeudo.cs" />
+    <Compile Include="ClienteTerritorio.cs" />
     <Compile Include="CobProceso.cs" />
     <Compile Include="Cobranza.cs" />
     <Compile Include="CobSaldosNiveles.cs" />
