@@ -97,7 +97,7 @@
                     <%--CREAMOS LA PESTAÑA PENDIENTES--%>
                     <telerik:RadPageView ID="RadPageViewPendientes" runat="server">
                         <telerik:RadSplitter ID="RadSplitter1" runat="server" ResizeMode="AdjacentPane" ResizeWithBrowserWindow="true" BorderSize="0">
-                                <telerik:RadPane ID="RadPane1" runat="server" Width = "1400px">
+                                <telerik:RadPane ID="RadPane1" runat="server" Width = "1400px" Height = "1000px">
 
                                  <telerik:RadGrid ID="rgPendientes" runat="server" GridLines="None"  AutoGenerateColumns="False" style="margin-bottom: 0px"  PageSize = "10"
                                 onneeddatasource="rgPendientes_NeedDataSource" AllowPaging = "True" onitemcommand="rgPendientes_ItemCommand"  CellSpacing="0" onpageindexchanged="rgPendientes_PageIndexChanged" 
@@ -207,7 +207,7 @@
                     <%--CREAMOS LA PESTAÑA AUTORIZADOS--%>
                     <telerik:RadPageView ID="RadPageViewAutorizados" runat="server">
                         <telerik:RadSplitter ID="RadSplitter2" runat="server" ResizeMode="AdjacentPane" ResizeWithBrowserWindow="true" BorderSize="0" >
-                            <telerik:RadPane ID="RadPane2" runat="server" Width = "1400px">
+                            <telerik:RadPane ID="RadPane2" runat="server" Width = "1400px"  Height = "1000px">
 
                               <telerik:RadGrid ID="rgAutorizados" runat="server" GridLines="None" AutoGenerateColumns="False"  style="margin-bottom: 0px"  PageSize = "10"
                                 onneeddatasource="rgAutorizados_NeedDataSource" AllowPaging = "True" CellSpacing="0" onpageindexchanged="rgAutorizados_PageIndexChanged"  
@@ -308,7 +308,7 @@
                     <%--CREAMOS LA PESTAÑA RECHAZADOS--%>
                     <telerik:RadPageView ID="RadPageViewRechazados" runat="server" >
                         <telerik:RadSplitter ID="RadSplitter3" runat="server"  ResizeMode="AdjacentPane" ResizeWithBrowserWindow="true" BorderSize="0">
-                            <telerik:RadPane ID="RadPane3" runat="server"  Width = "1400px">
+                            <telerik:RadPane ID="RadPane3" runat="server"  Width = "1400px"  Height = "1000px">
 
                               <telerik:RadGrid ID="rgRechazados" runat="server" GridLines="None" AutoGenerateColumns="False"  style="margin-bottom: 0px"  PageSize = "10" onneeddatasource="rgRechazados_NeedDataSource" AllowPaging = "True" 
                                     CellSpacing="0" onpageindexchanged="rgRechazados_PageIndexChanged" Width="1200px" MasterTableView-NoMasterRecordsText="No se encontraron registros." 

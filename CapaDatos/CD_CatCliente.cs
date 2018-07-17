@@ -1681,6 +1681,7 @@ namespace CapaDatos
                     sol = new ClienteTerritorio();
                     sol.Id_Solicitud = dr.GetInt32(dr.GetOrdinal("Id_Solicitud"));
                     sol.Id_Cd = dr.GetInt32(dr.GetOrdinal("Id_Cd"));
+                    sol.Nom_Sucursal = dr.GetString(dr.GetOrdinal("Nom_Sucursal"));
                     sol.Id_Cte = dr.GetInt32(dr.GetOrdinal("Id_Cte"));
                     sol.Nom_Cliente = dr.GetString(dr.GetOrdinal("Nom_Cliente"));
                     sol.Id_Ter = dr.GetInt32(dr.GetOrdinal("Id_Ter"));

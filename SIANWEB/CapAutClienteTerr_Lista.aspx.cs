@@ -55,6 +55,7 @@ namespace SIANWEB
                 {
                     if (!Page.IsPostBack)
                     {
+                        ValidarPermisos();
                         InicializarTablaSolicitudes();
                         GetList();
                     }
@@ -63,6 +64,56 @@ namespace SIANWEB
             catch (Exception ex)
             {
                 Alerta("Error, " + ex.Message);
+            }
+        }
+
+        private void ValidarPermisos()
+        {
+            try
+            {
+                Sesion Sesion = new Sesion();
+                Sesion = (Sesion)Session["Sesion" + Session.SessionID];
+
+                Pagina pagina = new Pagina();
+                string[] pag = Page.Request.Url.ToString().Split(new string[] { "?" }, StringSplitOptions.RemoveEmptyEntries);
+                if (pag.Length > 1)
+                {
+                    pagina.Url = (new System.IO.FileInfo(Page.Request.Url.AbsolutePath)).Name + "?" + pag[1];
+                }
+                else
+                {
+                    pagina.Url = (new System.IO.FileInfo(Page.Request.Url.AbsolutePath)).Name;
+                }
+                CN_Pagina CapaNegocio = new CN_Pagina();
+                CapaNegocio.PaginaConsultar(ref pagina, Sesion.Emp_Cnx);
+
+                Session["Head" + Session.SessionID] = pagina.Path;
+                this.Title = pagina.Descripcion;
+                Permiso Permiso = new Permiso();
+                Permiso.Id_U = Sesion.Id_U;
+                Permiso.Id_Cd = Sesion.Id_Cd;
+                Permiso.Sm_cve = pagina.Clave;
+                //Esta clave depende de la pantalla
+
+                CapaDatos.CD_PermisosU CN_PermisosU = new CapaDatos.CD_PermisosU();
+                CN_PermisosU.ValidaPermisosUsuario(ref Permiso, Sesion.Emp_Cnx);
+
+                //if (Permiso.PAccesar == true)
+                //{
+                //    _PermisoGuardar = Permiso.PGrabar;
+                //    _PermisoModificar = Permiso.PModificar;
+                //    _PermisoEliminar = Permiso.PEliminar;
+                //    _PermisoImprimir = Permiso.PImprimir;
+
+                //}
+                //else
+                //{
+                //    Response.Redirect("Inicio.aspx");
+                //}
+            }
+            catch (Exception ex)
+            {
+                throw ex;
             }
         }
 
