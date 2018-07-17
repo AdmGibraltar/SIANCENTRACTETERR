@@ -79,11 +79,11 @@
         <table style="font-family: verdana; font-size: 8pt; height: 100%" width="100%">
         <tr>
             <td>
-                <telerik:RadTabStrip ID="RadTabStrip1" runat="server" MultiPageID="RadMultiPage1" SelectedIndex="1" >
+                <telerik:RadTabStrip ID="RadTabStrip1" runat="server" MultiPageID="RadMultiPage1" SelectedIndex="0" >
                     <Tabs>
-                        <telerik:RadTab runat="server" Text="Pendientes" AccessKey="P" PageViewID="RadPageViewPendientes" Value="Pendientes">
+                        <telerik:RadTab runat="server" Text="Pendientes" AccessKey="P" PageViewID="RadPageViewPendientes" Value="Pendientes" Selected="True">
                         </telerik:RadTab>
-                        <telerik:RadTab runat="server" Text="Autorizados" AccessKey="A" PageViewID="RadPageViewAutorizados" Value="Autorizados" Selected="True">
+                        <telerik:RadTab runat="server" Text="Autorizados" AccessKey="A" PageViewID="RadPageViewAutorizados" Value="Autorizados">
                         </telerik:RadTab>
                         <telerik:RadTab runat="server" Text="Rechazados" AccessKey="R" PageViewID="RadPageViewRechazados" Value="Rechazados">
                         </telerik:RadTab>
@@ -92,20 +92,18 @@
 
 
                 <%--SE CREAN LAS PESTAÑAS CLIENTE-TERRITORIO PENDIENTES, AUTORIZADOS Y RECHAZADOS --%>
-                <telerik:RadMultiPage ID="RadMultiPage1" runat="server" SelectedIndex="1" BorderStyle="Solid" BorderWidth="0px" ScrollBars="Hidden">
+                <telerik:RadMultiPage ID="RadMultiPage1" runat="server" SelectedIndex="0" BorderStyle="Solid" BorderWidth="0px" ScrollBars="Hidden">
 
                     <%--CREAMOS LA PESTAÑA PENDIENTES--%>
                     <telerik:RadPageView ID="RadPageViewPendientes" runat="server">
-                        <telerik:RadSplitter ID="RadSplitter1" runat="server" Height="450px" ResizeMode="AdjacentPane" ResizeWithBrowserWindow="true" BorderSize="0">
-                            <telerik:RadPane ID="aspPanel1" runat="server" ScrollBars="Horizontal" Width="1200px" Height = "750px" BorderStyle="Solid" BorderWidth="1px">
+                        <telerik:RadSplitter ID="RadSplitter1" runat="server" ResizeMode="AdjacentPane" ResizeWithBrowserWindow="true" BorderSize="0">
+                                <telerik:RadPane ID="RadPane1" runat="server" Width = "1400px">
 
-                              <telerik:RadGrid ID="rgPendientes" runat="server" GridLines="None"  AutoGenerateColumns="False" style="margin-bottom: 0px"  PageSize = "10"
+                                 <telerik:RadGrid ID="rgPendientes" runat="server" GridLines="None"  AutoGenerateColumns="False" style="margin-bottom: 0px"  PageSize = "10"
                                 onneeddatasource="rgPendientes_NeedDataSource" AllowPaging = "True" onitemcommand="rgPendientes_ItemCommand"  CellSpacing="0" onpageindexchanged="rgPendientes_PageIndexChanged" 
-                                MasterTableView-NoMasterRecordsText="No se encontraron registros." >
+                                MasterTableView-NoMasterRecordsText="No se encontraron registros.">
 
                                     <MasterTableView AllowFilteringByColumn="False" EditMode="InPlace"  AllowMultiColumnSorting="False" AutoGenerateColumns = "false" HorizontalAlign ="NotSet" >
-                
-                                        <CommandItemSettings ExportToPdfText="Export to Pdf"  RefreshText="Actualizar" ShowAddNewRecordButton="false" />
                
                                         <Columns>
 
@@ -202,17 +200,17 @@
                                         ShowPagerText="True" PageButtonCount="3" />
                                 </telerik:RadGrid> 
 
-                           </telerik:RadPane>
+                               </telerik:RadPane>
                          </telerik:RadSplitter>
                     </telerik:RadPageView>
 
                     <%--CREAMOS LA PESTAÑA AUTORIZADOS--%>
-                    <telerik:RadPageView ID="RadPageViewAutorizados" runat="server" Height="300px">
-                        <telerik:RadSplitter ID="RadSplitter2" runat="server" Height="450px" ResizeMode="AdjacentPane" ResizeWithBrowserWindow="true" BorderSize="0" Width="100%">
-                            <telerik:RadPane ID="RadPane2" runat="server" Height="450px" BorderColor="White" BorderStyle="Solid" BorderWidth="1px" Scrolling="None">
+                    <telerik:RadPageView ID="RadPageViewAutorizados" runat="server">
+                        <telerik:RadSplitter ID="RadSplitter2" runat="server" ResizeMode="AdjacentPane" ResizeWithBrowserWindow="true" BorderSize="0" >
+                            <telerik:RadPane ID="RadPane2" runat="server" Width = "1400px">
 
                               <telerik:RadGrid ID="rgAutorizados" runat="server" GridLines="None" AutoGenerateColumns="False"  style="margin-bottom: 0px"  PageSize = "10"
-                                onneeddatasource="rgAutorizados_NeedDataSource" AllowPaging = "True" CellSpacing="0" onpageindexchanged="rgAutorizados_PageIndexChanged" Width="1200px" 
+                                onneeddatasource="rgAutorizados_NeedDataSource" AllowPaging = "True" CellSpacing="0" onpageindexchanged="rgAutorizados_PageIndexChanged"  
                                     MasterTableView-NoMasterRecordsText="No se encontraron registros." onitemcommand="rgAutorizados_ItemCommand" >
 
                                 <MasterTableView AllowFilteringByColumn="False" EditMode="InPlace"  AllowMultiColumnSorting="False" AutoGenerateColumns = "false" HorizontalAlign ="NotSet" >
@@ -308,9 +306,9 @@
                     </telerik:RadPageView>
 
                     <%--CREAMOS LA PESTAÑA RECHAZADOS--%>
-                    <telerik:RadPageView ID="RadPageViewRechazados" runat="server" Height="300px">
+                    <telerik:RadPageView ID="RadPageViewRechazados" runat="server" >
                         <telerik:RadSplitter ID="RadSplitter3" runat="server"  ResizeMode="AdjacentPane" ResizeWithBrowserWindow="true" BorderSize="0">
-                            <telerik:RadPane ID="RadPane3" runat="server"  BorderColor="White" BorderStyle="Solid" BorderWidth="1px" Scrolling="None">
+                            <telerik:RadPane ID="RadPane3" runat="server"  Width = "1400px">
 
                               <telerik:RadGrid ID="rgRechazados" runat="server" GridLines="None" AutoGenerateColumns="False"  style="margin-bottom: 0px"  PageSize = "10" onneeddatasource="rgRechazados_NeedDataSource" AllowPaging = "True" 
                                     CellSpacing="0" onpageindexchanged="rgRechazados_PageIndexChanged" Width="1200px" MasterTableView-NoMasterRecordsText="No se encontraron registros." 
@@ -419,12 +417,3 @@
   </div>
 
 </asp:Content>
-<asp:Content ID="Content3" runat="server" contentplaceholderid="HeadContent">
-    <style type="text/css">
-        .style1
-        {
-            width: 64px;
-        }
-    </style>
-</asp:Content>
-

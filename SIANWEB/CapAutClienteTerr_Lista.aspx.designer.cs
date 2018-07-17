@@ -139,13 +139,13 @@ namespace SIANWEB {
         protected global::Telerik.Web.UI.RadSplitter RadSplitter1;
         
         /// <summary>
-        /// aspPanel1 control.
+        /// RadPane1 control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::Telerik.Web.UI.RadPane aspPanel1;
+        protected global::Telerik.Web.UI.RadPane RadPane1;
         
         /// <summary>
         /// rgPendientes control.

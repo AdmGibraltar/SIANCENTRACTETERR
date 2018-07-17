@@ -728,6 +728,7 @@
                 ToolTip="Capturar factura especial" ImageUrl="Imagenes/blank.png" />
         </Items>
     </telerik:RadToolBar>
+
     <div class="formulario" id="divPrincipal" runat="server">
         <table id="TblEncabezado" runat="server" width="99%">
             <tr>
@@ -736,6 +737,7 @@
                 </td>
             </tr>
         </table>
+
         <table style="font-family: verdana; font-size: 8pt; height: 100%" width="100%">
             <tr>
                 <td>
@@ -764,10 +766,8 @@
                     <telerik:RadMultiPage ID="RadMultiPage1" runat="server" SelectedIndex="0" BorderStyle="Solid"
                         BorderWidth="1px" ScrollBars="Hidden">
                         <telerik:RadPageView ID="RadPageViewDGenerales" runat="server">
-                            <telerik:RadSplitter ID="RadSplitter2" runat="server" Height="450px" ResizeMode="AdjacentPane"
-                                ResizeWithBrowserWindow="true" BorderSize="0" Width="100%">
-                                <telerik:RadPane ID="RadPane2" runat="server" Height="450px" OnClientResized="onResize"
-                                    BorderColor="White" BorderStyle="Solid" BorderWidth="1px" Scrolling="None">
+                            <telerik:RadSplitter ID="RadSplitter2" runat="server" Height="450px" ResizeMode="AdjacentPane" ResizeWithBrowserWindow="true" BorderSize="0" Width="100%">
+                                <telerik:RadPane ID="RadPane2" runat="server" Height="450px" OnClientResized="onResize" BorderColor="White" BorderStyle="Solid" BorderWidth="1px" Scrolling="None">
                                     <%--<asp:Panel ID="Panel1" runat="server">--%>
                                     <div id="formularioDatosGenerales" runat="server">
                                         <table border="0">
@@ -1355,20 +1355,22 @@
                             <asp:HiddenField ID="HD_Prd_Asignado" runat="server" />
                             <asp:HiddenField ID="HD_Prd_Disponible" runat="server" />
                             <asp:HiddenField ID="HD_Amortizacion" runat="server" />
-                            <telerik:RadSplitter ID="RadSplitter1" runat="server" Height="450px" ResizeMode="AdjacentPane"
-                                ResizeWithBrowserWindow="true" BorderSize="0" Width="100%">
-                                <telerik:RadPane ID="RadPane1" runat="server" Height="455px" OnClientResized="onResize"
-                                    BorderStyle="None">
+                           
+                            <telerik:RadSplitter ID="RadSplitter1" runat="server" Height="450px" ResizeMode="AdjacentPane" ResizeWithBrowserWindow="true" BorderSize="0" Width="100%">
+                                <telerik:RadPane ID="RadPane1" runat="server" Height="455px" OnClientResized="onResize" BorderStyle="None">
                                     <%--<asp:Panel ID="aspPanel1" runat="server" ScrollBars="Horizontal" Width="810px">--%>
+                                   
                                     <telerik:RadGrid ID="rgFacturaDet" runat="server" GridLines="None" AllowPaging="false"
                                         AutoGenerateColumns="False" OnNeedDataSource="rgFacturaDet_NeedDataSource" OnInsertCommand="rgFacturaDet_InsertCommand"
                                         OnUpdateCommand="rgFacturaDet_UpdateCommand" OnDeleteCommand="rgFacturaDet_DeleteCommand"
                                         OnItemDataBound="rgFacturaDet_ItemDataBound" OnItemCommand="rgFacturaDet_ItemCommand"
                                         OnPageIndexChanged="rgFacturaDet_PageIndexChanged" BorderStyle="None" DataMember="listaOrdCompraDet"
                                         OnItemCreated="rgFacturaDet_ItemCreated">
+                                   
                                         <MasterTableView Name="Master" CommandItemDisplay="Top" DataKeyNames="Id_Fac,Id_FacDet,Id_Prd,Id_CteExt,Id_Ter,Id_Rem,Rem_Cant"
                                             EditMode="InPlace" DataMember="listaOrdCompraDet" HorizontalAlign="NotSet" AutoGenerateColumns="False"
                                             NoMasterRecordsText="No se encontraron registros." PageSize="9">
+                                   
                                             <CommandItemSettings ExportToPdfText="Export to Pdf" AddNewRecordText="Agregar" RefreshText="Actualizar" />
                                             <Columns>
                                                 <telerik:GridBoundColumn DataField="Id_Fac" HeaderText="Id_Fac" UniqueName="Id_Fac"
@@ -1582,8 +1584,7 @@
                                         </ClientSettings>
                                     </telerik:RadGrid>
                                     <div id="botonFacturaEspecial" runat="server" style="text-align: right; margin: 5px 5px 5px 0px;">
-                                        <asp:Button ID="btnFacturaEspecial" runat="server" Visible="false" Text="Capturar factura especial"
-                                            OnClientClick="AbrirVentana_FacturaEspecial()" />
+                                        <asp:Button ID="btnFacturaEspecial" runat="server" Visible="false" Text="Capturar factura especial" OnClientClick="AbrirVentana_FacturaEspecial()" />
                                     </div>
                                     <%--</asp:Panel>--%>
                                 </telerik:RadPane>
