@@ -238,3 +238,17 @@ C:\files\files\key\sianwebcentral\_FuentesSIANCENTRAL_23MAY2018_FC\_Fuentes\Capa
 C:\files\files\key\sianwebcentral\_FuentesSIANCENTRAL_23MAY2018_FC\_Fuentes\CapaNegocios\obj\Debug\CapaNegocios.csprojResolveAssemblyReference.cache
 C:\files\files\key\sianwebcentral\_FuentesSIANCENTRAL_23MAY2018_FC\_Fuentes\CapaNegocios\obj\Debug\CapaNegocios.dll
 C:\files\files\key\sianwebcentral\_FuentesSIANCENTRAL_23MAY2018_FC\_Fuentes\CapaNegocios\obj\Debug\CapaNegocios.pdb
+C:\Users\raul.borquez\Desktop\Home Office\Requerimiento Territorios\SIANCENTRACTETERR\CapaNegocios\bin\Debug\CapaNegocios.dll
+C:\Users\raul.borquez\Desktop\Home Office\Requerimiento Territorios\SIANCENTRACTETERR\CapaNegocios\bin\Debug\CapaNegocios.pdb
+C:\Users\raul.borquez\Desktop\Home Office\Requerimiento Territorios\SIANCENTRACTETERR\CapaNegocios\bin\Debug\CapaDatos.dll
+C:\Users\raul.borquez\Desktop\Home Office\Requerimiento Territorios\SIANCENTRACTETERR\CapaNegocios\bin\Debug\CapaEntidad.dll
+C:\Users\raul.borquez\Desktop\Home Office\Requerimiento Territorios\SIANCENTRACTETERR\CapaNegocios\bin\Debug\EntityFramework.dll
+C:\Users\raul.borquez\Desktop\Home Office\Requerimiento Territorios\SIANCENTRACTETERR\CapaNegocios\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\raul.borquez\Desktop\Home Office\Requerimiento Territorios\SIANCENTRACTETERR\CapaNegocios\bin\Debug\Telerik.Web.UI.dll
+C:\Users\raul.borquez\Desktop\Home Office\Requerimiento Territorios\SIANCENTRACTETERR\CapaNegocios\bin\Debug\Telerik.Web.UI.Skins.dll
+C:\Users\raul.borquez\Desktop\Home Office\Requerimiento Territorios\SIANCENTRACTETERR\CapaNegocios\bin\Debug\CapaDatos.pdb
+C:\Users\raul.borquez\Desktop\Home Office\Requerimiento Territorios\SIANCENTRACTETERR\CapaNegocios\bin\Debug\CapaEntidad.pdb
+C:\Users\raul.borquez\Desktop\Home Office\Requerimiento Territorios\SIANCENTRACTETERR\CapaNegocios\bin\Debug\Telerik.Web.UI.xml
+C:\Users\raul.borquez\Desktop\Home Office\Requerimiento Territorios\SIANCENTRACTETERR\CapaNegocios\obj\Debug\CapaNegocios.csprojResolveAssemblyReference.cache
+C:\Users\raul.borquez\Desktop\Home Office\Requerimiento Territorios\SIANCENTRACTETERR\CapaNegocios\obj\Debug\CapaNegocios.dll
+C:\Users\raul.borquez\Desktop\Home Office\Requerimiento Territorios\SIANCENTRACTETERR\CapaNegocios\obj\Debug\CapaNegocios.pdb

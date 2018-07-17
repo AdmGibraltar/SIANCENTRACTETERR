@@ -138,3 +138,11 @@ C:\files\files\key\sianwebcentral\_FuentesSIANCENTRAL_23MAY2018_FC\_Fuentes\Capa
 C:\files\files\key\sianwebcentral\_FuentesSIANCENTRAL_23MAY2018_FC\_Fuentes\CapaDatos\obj\Debug\CapaDatos.csprojResolveAssemblyReference.cache
 C:\files\files\key\sianwebcentral\_FuentesSIANCENTRAL_23MAY2018_FC\_Fuentes\CapaDatos\obj\Debug\CapaDatos.dll
 C:\files\files\key\sianwebcentral\_FuentesSIANCENTRAL_23MAY2018_FC\_Fuentes\CapaDatos\obj\Debug\CapaDatos.pdb
+C:\Users\raul.borquez\Desktop\Home Office\Requerimiento Territorios\SIANCENTRACTETERR\CapaDatos\bin\Debug\CapaDatos.dll.config
+C:\Users\raul.borquez\Desktop\Home Office\Requerimiento Territorios\SIANCENTRACTETERR\CapaDatos\bin\Debug\CapaDatos.dll
+C:\Users\raul.borquez\Desktop\Home Office\Requerimiento Territorios\SIANCENTRACTETERR\CapaDatos\bin\Debug\CapaDatos.pdb
+C:\Users\raul.borquez\Desktop\Home Office\Requerimiento Territorios\SIANCENTRACTETERR\CapaDatos\bin\Debug\CapaEntidad.dll
+C:\Users\raul.borquez\Desktop\Home Office\Requerimiento Territorios\SIANCENTRACTETERR\CapaDatos\bin\Debug\CapaEntidad.pdb
+C:\Users\raul.borquez\Desktop\Home Office\Requerimiento Territorios\SIANCENTRACTETERR\CapaDatos\obj\Debug\CapaDatos.csprojResolveAssemblyReference.cache
+C:\Users\raul.borquez\Desktop\Home Office\Requerimiento Territorios\SIANCENTRACTETERR\CapaDatos\obj\Debug\CapaDatos.dll
+C:\Users\raul.borquez\Desktop\Home Office\Requerimiento Territorios\SIANCENTRACTETERR\CapaDatos\obj\Debug\CapaDatos.pdb

@@ -327,6 +327,7 @@ namespace SIANWEB
         {
             Sesion Sesion = new CapaEntidad.Sesion();
             Sesion = (Sesion)Session["Sesion" + Session.SessionID];
+            int Respuesta = 0; 
             XmlSerializer serializar = new XmlSerializer(typeof(ClienteTerritorio));
             try
             {
@@ -340,31 +341,36 @@ namespace SIANWEB
                 CN.ConsultaSolicitudClienteTerr(Sesion, ref ClienteTer);
                 ClienteTer.Estatus = Estatus;
 
-                CN.ActualizaSolClienteTerritorio(Sesion, ClienteTer, Estatus);
+                CN.ActualizaSolClienteTerritorio(Sesion, ClienteTer, Estatus, ref Respuesta);
+                if (Respuesta == 1)
+                {
+                    BtnRechazar.Visible = false;
+                    BtnAutorizar.Visible = false;
 
-                Alerta("La solicitud acaba de ser atendida correctamente");
+                    CN.ConsultaSucursal(Sesion, ref ClienteTer);
 
-                BtnRechazar.Visible = false;
-                BtnAutorizar.Visible = false;
+                    #region Crear XML y consumir WsTerritorios
 
-                CN.ConsultaSucursal(Sesion, ref ClienteTer);
+                    StringBuilder sb = new StringBuilder();
+                    TextWriter tw = new StringWriter(sb);
+                    serializar.Serialize(tw, ClienteTer);
+                    tw.Close();
+                    string xmlClienteTer = sb.ToString();
+                    #endregion
 
-                #region Crear XML y consumir WsTerritorios
+                    #region Llamar a webService
 
-                StringBuilder sb = new StringBuilder();
-                TextWriter tw = new StringWriter(sb);
-                serializar.Serialize(tw, ClienteTer);
-                tw.Close();
-                string xmlClienteTer = sb.ToString();
-                #endregion
+                    wsClienteTerritorio.Service1 ws = new wsClienteTerritorio.Service1();
+                    ws.ActualizaAutClienteTerritorio(xmlClienteTer);
 
-                #region Llamar a webService
+                    #endregion
 
-                wsClienteTerritorio.Service1 ws = new wsClienteTerritorio.Service1();
-                ws.ActualizaAutClienteTerritorio(xmlClienteTer);
-
-                #endregion
-
+                    Alerta("La solicitud fue atendida correctamente.");
+                }
+                else
+                {
+                    Alerta("Error al intentar guardar el registro, favor  de intentar de nuevo.");
+                }
             }
             catch (Exception ex)
             {

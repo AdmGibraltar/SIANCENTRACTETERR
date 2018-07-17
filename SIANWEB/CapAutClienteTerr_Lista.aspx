@@ -15,10 +15,36 @@
             oWnd.maximize();
             oWnd.center();
         }
+
+        function CloseAlert(mensaje) {
+            var cerrarWindow = radalert(mensaje, 330, 150);
+            var oWindow = null;
+            RefreshGrid();
+            if (window.radWindow)
+                oWindow = window.RadWindow; //Will work in Moz in all cases, including clasic dialog       
+            else if (window.frameElement.radWindow)
+                oWindow = window.frameElement.radWindow; //IE (and Moz as well)       
+            return oWindow;
+        }
+
+        function refreshGrid() {
+            var ajaxManager = $find("<%= RAM1.ClientID %>");
+            ajaxManager.ajaxRequest('RebindGrid');
+        }
+
+        function RefreshGrid() {
+            var rgPendientes = $find("<%= rgPendientes.ClientID %>").get_masterTableView();
+            rgPendientes.rebind();
+            var rgAutorizados = $find("<%= rgAutorizados.ClientID %>").get_masterTableView();
+            rgAutorizados.rebind();
+            var rgRechazados = $find("<%= rgRechazados.ClientID %>").get_masterTableView();
+            rgRechazados.rebind();
+        }
     </script>
 </telerik:RadCodeBlock>
-    
-    <telerik:RadAjaxManager ID="RAM" runat="server">
+        <telerik:RadAjaxLoadingPanel ID="RadAjaxLoadingPanel1" runat="server" Skin="Default">
+    </telerik:RadAjaxLoadingPanel>
+    <telerik:RadAjaxManager ID="RAM1" runat="server" OnAjaxRequest="RAM1_AjaxRequest"  EnablePageHeadUpdate="False">
     </telerik:RadAjaxManager>
 
         <telerik:RadWindowManager ID="RadWindowManager1" runat="server">
@@ -33,147 +59,364 @@
     </telerik:RadWindowManager>
      <telerik:RadAjaxLoadingPanel ID="LoadingPanel1" runat="server">
     </telerik:RadAjaxLoadingPanel>
-      <telerik:RadToolBar  ID="RadToolBar1" runat="server" onbuttonclick="RadToolBar1_ButtonClick"  Width="100%" >
+     
+    <telerik:RadToolBar  ID="RadToolBar1" runat="server"  Width="100%" >
         <Items>
            <%-- <telerik:RadToolBarButton Text="" CommandName="Nuevo" ToolTip ="Nuevo" CssClass="new" ImageUrl="~/Imagenes/blank.png"/>--%>
         </Items>
      </telerik:RadToolBar> 
 
-   
-    <table id="TblEncabezado" style="font-family: verdana; font-size: 8pt" runat="server" width="75%">
-             <tr>
-                <td class="style1" ><%--<asp:Label ID="lblSolicitud" runat="server" Text="Solicitud:"></asp:Label>--%></td>
-                <td class="style5">
-                                     
-                    <%--<telerik:RadComboBox ID="CmbSolicitud" runat="server" Width = "250px" 
-                        DropDownWidth="110px" AutoPostBack = "true"
-                        onselectedindexchanged="CmbSolicitud_SelectedIndexChanged" 
-                        ontextchanged="CmbSolicitud_TextChanged"></telerik:RadComboBox> --%>
-      
+     <div class="formulario" id="divPrincipal" runat="server"> 
+        
+        <table id="TblEncabezado" runat="server" width="99%">
+            <tr>
+                <td>
+                    <asp:Label ID="lblMensaje" runat="server"></asp:Label>
                 </td>
-             </tr>
-        </table> 
+            </tr>
+        </table>
 
-        <telerik:RadGrid ID="rgFolios" runat="server" GridLines="None"  AutoGenerateColumns="False" DataMember="lstSolicitud" style="margin-bottom: 0px"  PageSize = "10"
-        onneeddatasource="rgFolios_NeedDataSource" AllowPaging = "True" onitemcommand="rgFolios_ItemCommand"  CellSpacing="0" onpageindexchanged="rgFolios_PageIndexChanged" 
-        Width="1200px" MasterTableView-NoMasterRecordsText="No se encontraron registros." >
+        <table style="font-family: verdana; font-size: 8pt; height: 100%" width="100%">
+        <tr>
+            <td>
+                <telerik:RadTabStrip ID="RadTabStrip1" runat="server" MultiPageID="RadMultiPage1" SelectedIndex="1" >
+                    <Tabs>
+                        <telerik:RadTab runat="server" Text="Pendientes" AccessKey="P" PageViewID="RadPageViewPendientes" Value="Pendientes">
+                        </telerik:RadTab>
+                        <telerik:RadTab runat="server" Text="Autorizados" AccessKey="A" PageViewID="RadPageViewAutorizados" Value="Autorizados" Selected="True">
+                        </telerik:RadTab>
+                        <telerik:RadTab runat="server" Text="Rechazados" AccessKey="R" PageViewID="RadPageViewRechazados" Value="Rechazados">
+                        </telerik:RadTab>
+                    </Tabs>
+                </telerik:RadTabStrip>
 
-            <MasterTableView AllowFilteringByColumn="False" EditMode="InPlace"  AllowMultiColumnSorting="False" AutoGenerateColumns = "false" HorizontalAlign ="NotSet" >
+
+                <%--SE CREAN LAS PESTAÑAS CLIENTE-TERRITORIO PENDIENTES, AUTORIZADOS Y RECHAZADOS --%>
+                <telerik:RadMultiPage ID="RadMultiPage1" runat="server" SelectedIndex="1" BorderStyle="Solid" BorderWidth="0px" ScrollBars="Hidden">
+
+                    <%--CREAMOS LA PESTAÑA PENDIENTES--%>
+                    <telerik:RadPageView ID="RadPageViewPendientes" runat="server">
+                        <telerik:RadSplitter ID="RadSplitter1" runat="server" Height="450px" ResizeMode="AdjacentPane" ResizeWithBrowserWindow="true" BorderSize="0">
+                            <telerik:RadPane ID="aspPanel1" runat="server" ScrollBars="Horizontal" Width="1200px" Height = "750px" BorderStyle="Solid" BorderWidth="1px">
+
+                              <telerik:RadGrid ID="rgPendientes" runat="server" GridLines="None"  AutoGenerateColumns="False" style="margin-bottom: 0px"  PageSize = "10"
+                                onneeddatasource="rgPendientes_NeedDataSource" AllowPaging = "True" onitemcommand="rgPendientes_ItemCommand"  CellSpacing="0" onpageindexchanged="rgPendientes_PageIndexChanged" 
+                                MasterTableView-NoMasterRecordsText="No se encontraron registros." >
+
+                                    <MasterTableView AllowFilteringByColumn="False" EditMode="InPlace"  AllowMultiColumnSorting="False" AutoGenerateColumns = "false" HorizontalAlign ="NotSet" >
                 
-                <CommandItemSettings ExportToPdfText="Export to Pdf"  RefreshText="Actualizar" ShowAddNewRecordButton="false" />
+                                        <CommandItemSettings ExportToPdfText="Export to Pdf"  RefreshText="Actualizar" ShowAddNewRecordButton="false" />
                
-                <Columns>
+                                        <Columns>
 
-               <%-- Columnas --%>
-                    <telerik:GridBoundColumn DataField="Id_Solicitud" HeaderText="Solicitud" Display="true" UniqueName="Id_Solicitud" HeaderStyle-Width = "40px">
-                            <HeaderStyle Width="40px"></HeaderStyle>
-                    </telerik:GridBoundColumn>
+                                       <%-- Columnas --%>
+                                            <telerik:GridBoundColumn DataField="Id_Solicitud" HeaderText="Solicitud" Display="true" UniqueName="Id_Solicitud" HeaderStyle-Width = "40px">
+                                                    <HeaderStyle Width="40px"></HeaderStyle>
+                                            </telerik:GridBoundColumn>
 
-                    <telerik:GridBoundColumn DataField="Id_Cte" HeaderText="Id Cliente" Display="true" UniqueName="Id_Cte" HeaderStyle-Width = "150px">
-                            <HeaderStyle Width="150px"></HeaderStyle>
-                    </telerik:GridBoundColumn>
+                                            <telerik:GridBoundColumn DataField="Id_Cd" HeaderText="Sucursal" Display="true" UniqueName="Id_Cd" HeaderStyle-Width = "70px">
+                                                    <HeaderStyle Width="70px"></HeaderStyle>
+                                            </telerik:GridBoundColumn>
 
-                    <telerik:GridBoundColumn DataField="Nom_Cliente" HeaderText="Nombre Cliente" Display="true" UniqueName="Nom_Cliente" HeaderStyle-Width = "150px">
-                            <HeaderStyle Width="150px"></HeaderStyle>
-                    </telerik:GridBoundColumn>
+                                            <telerik:GridBoundColumn DataField="Nom_Sucursal" HeaderText="Nombre Sucursal" Display="true" UniqueName="Nom_Sucursal" HeaderStyle-Width = "150px">
+                                                    <HeaderStyle Width="150px"></HeaderStyle>
+                                            </telerik:GridBoundColumn>
 
-                    <telerik:GridBoundColumn DataField="Id_Cd" HeaderText="Sucursal" Display="true" UniqueName="Id_Cd" HeaderStyle-Width = "70px">
-                            <HeaderStyle Width="70px"></HeaderStyle>
-                    </telerik:GridBoundColumn>
+                                            <telerik:GridBoundColumn DataField="Id_Cte" HeaderText="Id Cliente" Display="true" UniqueName="Id_Cte" HeaderStyle-Width = "150px">
+                                                    <HeaderStyle Width="150px"></HeaderStyle>
+                                            </telerik:GridBoundColumn>
 
-                    <telerik:GridBoundColumn DataField="Id_Ter" HeaderText="Territorio" Display="true" UniqueName="Id_Ter" HeaderStyle-Width = "150px">
-                            <HeaderStyle Width="150px"></HeaderStyle>
-                    </telerik:GridBoundColumn>
+                                            <telerik:GridBoundColumn DataField="Nom_Cliente" HeaderText="Nombre Cliente" Display="true" UniqueName="Nom_Cliente" HeaderStyle-Width = "300px">
+                                                    <HeaderStyle Width="300px"></HeaderStyle>
+                                            </telerik:GridBoundColumn>
 
-                    <telerik:GridBoundColumn DataField="Nom_Territorio" HeaderText="Nombre Territorio" Display="true" UniqueName="Nom_Territorio" HeaderStyle-Width = "100px">
-                             <HeaderStyle Width="100px"></HeaderStyle>
-                    </telerik:GridBoundColumn>
+                                            <telerik:GridBoundColumn DataField="Id_Ter" HeaderText="Territorio" Display="true" UniqueName="Id_Ter" HeaderStyle-Width = "150px">
+                                                    <HeaderStyle Width="150px"></HeaderStyle>
+                                            </telerik:GridBoundColumn>
 
-                    <telerik:GridBoundColumn DataField="Dimension" HeaderText="Dimensión" Display="true" UniqueName="Dimension"  HeaderStyle-Width = "30px">
-                             <HeaderStyle Width="30px"></HeaderStyle>
-                    </telerik:GridBoundColumn>
+                                            <telerik:GridBoundColumn DataField="Nom_Territorio" HeaderText="Nombre Territorio" Display="true" UniqueName="Nom_Territorio" HeaderStyle-Width = "300px">
+                                                     <HeaderStyle Width="300px"></HeaderStyle>
+                                            </telerik:GridBoundColumn>
 
-                    <telerik:GridBoundColumn DataField="Pesos" HeaderText="Pesos" Display="true" UniqueName="Pesos" HeaderStyle-Width = "150px">
-                            <HeaderStyle Width="150px"></HeaderStyle>
-                    </telerik:GridBoundColumn>
+                                           <telerik:GridBoundColumn DataField="Fec_Solicitud" HeaderText="Fecha Solicitud" Display="true" UniqueName="Fec_Solicitud" HeaderStyle-Width = "100px">
+                                                     <HeaderStyle Width="100px"></HeaderStyle>
+                                            </telerik:GridBoundColumn>
 
-                    <telerik:GridBoundColumn DataField="Potencial" HeaderText="Potencial" Display="true" UniqueName="Potencial" HeaderStyle-Width = "150px">
-                            <HeaderStyle Width="150px"></HeaderStyle>
-                    </telerik:GridBoundColumn>
+                                            <telerik:GridBoundColumn DataField="Comentarios" HeaderText="Comentarios" Display="true" UniqueName="Comentarios" HeaderStyle-Width = "300px">
+                                                    <HeaderStyle Width="300px"></HeaderStyle>
+                                            </telerik:GridBoundColumn>
 
-                    <telerik:GridBoundColumn DataField="ManodeObra" HeaderText="Mano de obra en proyectos" Display="true" UniqueName="ManodeObra" HeaderStyle-Width = "70px">
-                            <HeaderStyle Width="70px"></HeaderStyle>
-                    </telerik:GridBoundColumn>
+                                            <telerik:GridTemplateColumn UniqueName = "Activo" HeaderText="Activo">
+                                                <ItemTemplate>
+                                                        <asp:CheckBox ID="chkActivo"  runat="server" Enabled = "false" Checked='<%# DataBinder.Eval(Container.DataItem, "Activo") is DBNull?false:Convert.ToBoolean(DataBinder.Eval(Container.DataItem, "Activo")) %>'
+                                                        AutoPostBack="true" />
+                                                </ItemTemplate>
 
-                    <telerik:GridBoundColumn DataField="GastosTerritorio" HeaderText="Gastos de territorio" Display="true" UniqueName="GastosTerritorio" HeaderStyle-Width = "150px">
-                            <HeaderStyle Width="150px"></HeaderStyle>
-                    </telerik:GridBoundColumn>
+                                                <HeaderStyle Width="50px" />
+                                                <ItemStyle HorizontalAlign="Center" />
+                                            </telerik:GridTemplateColumn>
 
-                    <telerik:GridBoundColumn DataField="FletesPagadoCliente" HeaderText="Fletes pagados al cliente" Display="true" UniqueName="FletesPagadoCliente" HeaderStyle-Width = "100px">
-                             <HeaderStyle Width="100px"></HeaderStyle>
-                    </telerik:GridBoundColumn>
+                                           <telerik:GridTemplateColumn UniqueName = "Nuevo" HeaderText="Nuevo">
+                                                <ItemTemplate>
+                                                       <asp:CheckBox ID="chkNuevo" runat="server" Enabled = "false" Checked='<%# DataBinder.Eval(Container.DataItem, "Nuevo") is DBNull?false:Convert.ToBoolean(DataBinder.Eval(Container.DataItem, "Nuevo")) %>'
+                                                        AutoPostBack="true" />
+                                                </ItemTemplate>
+                                                <HeaderStyle Width="50px" />
+                                                <ItemStyle HorizontalAlign="Center" />
+                                            </telerik:GridTemplateColumn>
 
-                    <telerik:GridBoundColumn DataField="Porcentaje" HeaderText="Porcentaje de comisión" Display="true" UniqueName="Porcentaje"  HeaderStyle-Width = "30px">
-                             <HeaderStyle Width="30px"></HeaderStyle>
-                    </telerik:GridBoundColumn>
-
-                     <telerik:GridTemplateColumn UniqueName = "Activo" HeaderText="Activo">
-                        <ItemTemplate>
-                                <asp:CheckBox ID="chkActivo"  runat="server" Enabled = "false" Checked='<%# DataBinder.Eval(Container.DataItem, "Activo") is DBNull?false:Convert.ToBoolean(DataBinder.Eval(Container.DataItem, "Activo")) %>'
-                                AutoPostBack="true" />
-                        </ItemTemplate>
-
-                        <HeaderStyle Width="50px" />
-                        <ItemStyle HorizontalAlign="Center" />
-                    </telerik:GridTemplateColumn>
-
-                   <telerik:GridTemplateColumn UniqueName = "Nuevo" HeaderText="Nuevo">
-                        <ItemTemplate>
-                               <asp:CheckBox ID="chkNuevo" runat="server" Enabled = "false" Checked='<%# DataBinder.Eval(Container.DataItem, "Nuevo") is DBNull?false:Convert.ToBoolean(DataBinder.Eval(Container.DataItem, "Nuevo")) %>'
-                                AutoPostBack="true" />
-                        </ItemTemplate>
-                        <HeaderStyle Width="50px" />
-                        <ItemStyle HorizontalAlign="Center" />
-                    </telerik:GridTemplateColumn>
-
-                <%--Botones --%> 
+                                        <%--Botones --%> 
                
-                   <telerik:GridTemplateColumn HeaderText="Autorizar" HeaderStyle-HorizontalAlign="Center" ItemStyle-HorizontalAlign="Center"  ItemStyle-Width="35px" UniqueName = "Autorizar">
-                    <ItemTemplate>
-                        <asp:ImageButton ID="BtnAutorizar" runat="server"  CssClass="edit" ToolTip="Autorizar" CommandName="Autorizar" ImageUrl="~/Imagenes/blank.png" Width="20px" Height="20px" />
-                    </ItemTemplate>
-                    <HeaderStyle HorizontalAlign="Center" Width="50"></HeaderStyle>
-                    <ItemStyle HorizontalAlign="Center"></ItemStyle>
-                   </telerik:GridTemplateColumn>
+                                           <telerik:GridTemplateColumn HeaderText="Autorizar" HeaderStyle-HorizontalAlign="Center" ItemStyle-HorizontalAlign="Center"  ItemStyle-Width="35px" UniqueName = "Autorizar">
+                                            <ItemTemplate>
+                                                <asp:ImageButton ID="BtnAutorizar" runat="server"  CssClass="edit" ToolTip="Autorizar" CommandName="Autorizar" ImageUrl="~/Imagenes/blank.png" Width="20px" Height="20px" />
+                                            </ItemTemplate>
+                                            <HeaderStyle HorizontalAlign="Center" Width="50"></HeaderStyle>
+                                            <ItemStyle HorizontalAlign="Center"></ItemStyle>
+                                           </telerik:GridTemplateColumn>
 
-                   <telerik:GridTemplateColumn HeaderText="Rechazar" HeaderStyle-HorizontalAlign="Center" ItemStyle-HorizontalAlign="Center"  ItemStyle-Width="35px" UniqueName = "Rechazar">
-                    <ItemTemplate>
-                        <asp:ImageButton ID="BtnRechar" runat="server"  CssClass="edit" ToolTip="Rechazar" CommandName="Rechazar" ImageUrl="~/Imagenes/blank.png" Width="20px" Height="20px" />
-                    </ItemTemplate>
-                    <HeaderStyle HorizontalAlign="Center" Width="50"></HeaderStyle>
-                    <ItemStyle HorizontalAlign="Center"></ItemStyle>
-                   </telerik:GridTemplateColumn>
+                                           <telerik:GridTemplateColumn HeaderText="Rechazar" HeaderStyle-HorizontalAlign="Center" ItemStyle-HorizontalAlign="Center"  ItemStyle-Width="35px" UniqueName = "Rechazar">
+                                            <ItemTemplate>
+                                                <asp:ImageButton ID="BtnRechar" runat="server"  CssClass="edit" ToolTip="Rechazar" CommandName="Rechazar" ImageUrl="~/Imagenes/blank.png" Width="20px" Height="20px" />
+                                            </ItemTemplate>
+                                            <HeaderStyle HorizontalAlign="Center" Width="50"></HeaderStyle>
+                                            <ItemStyle HorizontalAlign="Center"></ItemStyle>
+                                           </telerik:GridTemplateColumn>
 
-                   <telerik:GridTemplateColumn HeaderText="Ver Detalle" HeaderStyle-HorizontalAlign="Center" ItemStyle-HorizontalAlign="Center"  ItemStyle-Width="35px" UniqueName = "Detalle">
-                    <ItemTemplate>
-                        <asp:ImageButton ID="BtnDetalle" runat="server"  CssClass="edit" ToolTip="Ver Detalle" CommandName="Detalle" ImageUrl="~/Imagenes/blank.png" Width="20px" Height="20px" />
-                    </ItemTemplate>
-                    <HeaderStyle HorizontalAlign="Center" Width="50"></HeaderStyle>
-                    <ItemStyle HorizontalAlign="Center"></ItemStyle>
-                   </telerik:GridTemplateColumn>
+                                           <telerik:GridTemplateColumn HeaderText="Ver Detalle" HeaderStyle-HorizontalAlign="Center" ItemStyle-HorizontalAlign="Center"  ItemStyle-Width="35px" UniqueName = "Detalle">
+                                            <ItemTemplate>
+                                                <asp:ImageButton ID="BtnDetalle" runat="server"  CssClass="edit" ToolTip="Ver Detalle" CommandName="Detalle" ImageUrl="~/Imagenes/blank.png" Width="20px" Height="20px" />
+                                            </ItemTemplate>
+                                            <HeaderStyle HorizontalAlign="Center" Width="50"></HeaderStyle>
+                                            <ItemStyle HorizontalAlign="Center"></ItemStyle>
+                                           </telerik:GridTemplateColumn>
                                                
 
-             </Columns>     
+                                     </Columns>     
                      
-             </MasterTableView>
-              <SortingSettings EnableSkinSortStyles="False" SortToolTip="Ordenar ascendente/descendente"
-                SortedAscToolTip="Ascendente" SortedDescToolTip="Descendente" />
+                                     </MasterTableView>
+                                            
+                                  <PagerStyle NextPagesToolTip="Páginas siguientes" PrevPagesToolTip="Páginas anteriores"
+                                        FirstPageToolTip="Primera página" LastPageToolTip="Última página" PageSizeLabelText="Cantidad de registros"
+                                        PrevPageToolTip="Página anterior" NextPageToolTip="Página siguiente" PagerTextFormat="Change page: {4} &nbsp;Página <strong>{0}</strong> de <strong>{1}</strong>, registros <strong>{2}</strong> al <strong>{3}</strong> de <strong>{5}</strong >."
+                                        ShowPagerText="True" PageButtonCount="3" />
+                                </telerik:RadGrid> 
+
+                           </telerik:RadPane>
+                         </telerik:RadSplitter>
+                    </telerik:RadPageView>
+
+                    <%--CREAMOS LA PESTAÑA AUTORIZADOS--%>
+                    <telerik:RadPageView ID="RadPageViewAutorizados" runat="server" Height="300px">
+                        <telerik:RadSplitter ID="RadSplitter2" runat="server" Height="450px" ResizeMode="AdjacentPane" ResizeWithBrowserWindow="true" BorderSize="0" Width="100%">
+                            <telerik:RadPane ID="RadPane2" runat="server" Height="450px" BorderColor="White" BorderStyle="Solid" BorderWidth="1px" Scrolling="None">
+
+                              <telerik:RadGrid ID="rgAutorizados" runat="server" GridLines="None" AutoGenerateColumns="False"  style="margin-bottom: 0px"  PageSize = "10"
+                                onneeddatasource="rgAutorizados_NeedDataSource" AllowPaging = "True" CellSpacing="0" onpageindexchanged="rgAutorizados_PageIndexChanged" Width="1200px" 
+                                    MasterTableView-NoMasterRecordsText="No se encontraron registros." onitemcommand="rgAutorizados_ItemCommand" >
+
+                                <MasterTableView AllowFilteringByColumn="False" EditMode="InPlace"  AllowMultiColumnSorting="False" AutoGenerateColumns = "false" HorizontalAlign ="NotSet" >
+                
+                                        <CommandItemSettings ExportToPdfText="Export to Pdf"  RefreshText="Actualizar" ShowAddNewRecordButton="false" />
+               
+                                        <Columns>
+
+                                       <%-- Columnas --%>
+                                            <telerik:GridBoundColumn DataField="Id_Solicitud" HeaderText="Solicitud" Display="true" UniqueName="Id_Solicitud" HeaderStyle-Width = "40px">
+                                                    <HeaderStyle Width="40px"></HeaderStyle>
+                                            </telerik:GridBoundColumn>
+
+                                             <telerik:GridBoundColumn DataField="Id_Cd" HeaderText="Sucursal" Display="true" UniqueName="Id_Cd" HeaderStyle-Width = "70px">
+                                                    <HeaderStyle Width="70px"></HeaderStyle>
+                                            </telerik:GridBoundColumn>
+
+                                            <telerik:GridBoundColumn DataField="Nom_Sucursal" HeaderText="Nombre Sucursal" Display="true" UniqueName="Nom_Sucursal" HeaderStyle-Width = "150px">
+                                                    <HeaderStyle Width="150px"></HeaderStyle>
+                                            </telerik:GridBoundColumn>
+
+                                            <telerik:GridBoundColumn DataField="Id_Cte" HeaderText="Id Cliente" Display="true" UniqueName="Id_Cte" HeaderStyle-Width = "150px">
+                                                    <HeaderStyle Width="150px"></HeaderStyle>
+                                            </telerik:GridBoundColumn>
+
+                                            <telerik:GridBoundColumn DataField="Nom_Cliente" HeaderText="Nombre Cliente" Display="true" UniqueName="Nom_Cliente" HeaderStyle-Width = "300px">
+                                                    <HeaderStyle Width="300px"></HeaderStyle>
+                                            </telerik:GridBoundColumn>
+
+                                            <telerik:GridBoundColumn DataField="Id_Ter" HeaderText="Territorio" Display="true" UniqueName="Id_Ter" HeaderStyle-Width = "150px">
+                                                    <HeaderStyle Width="150px"></HeaderStyle>
+                                            </telerik:GridBoundColumn>
+
+                                            <telerik:GridBoundColumn DataField="Nom_Territorio" HeaderText="Nombre Territorio" Display="true" UniqueName="Nom_Territorio" HeaderStyle-Width = "300px">
+                                                     <HeaderStyle Width="300px"></HeaderStyle>
+                                            </telerik:GridBoundColumn>
+
+                                           <telerik:GridBoundColumn DataField="Fec_Solicitud" HeaderText="Fecha Solicitud" Display="true" UniqueName="Fec_Solicitud" HeaderStyle-Width = "100px">
+                                                     <HeaderStyle Width="100px"></HeaderStyle>
+                                            </telerik:GridBoundColumn>
+
+                                            <telerik:GridBoundColumn DataField="Fec_Atendido" HeaderText="Fecha Atendida" Display="true" UniqueName="Fec_Atendido" HeaderStyle-Width = "100px">
+                                                     <HeaderStyle Width="100px"></HeaderStyle>
+                                            </telerik:GridBoundColumn>
+
+                                            <telerik:GridBoundColumn DataField="Comentarios" HeaderText="Comentarios" Display="true" UniqueName="Comentarios" HeaderStyle-Width = "300px">
+                                                    <HeaderStyle Width="300px"></HeaderStyle>
+                                            </telerik:GridBoundColumn>
+
+                                            <telerik:GridTemplateColumn UniqueName = "Activo" HeaderText="Activo">
+                                                <ItemTemplate>
+                                                        <asp:CheckBox ID="chkActivo"  runat="server" Enabled = "false" Checked='<%# DataBinder.Eval(Container.DataItem, "Activo") is DBNull?false:Convert.ToBoolean(DataBinder.Eval(Container.DataItem, "Activo")) %>'
+                                                        AutoPostBack="true" />
+                                                </ItemTemplate>
+
+                                                <HeaderStyle Width="50px" />
+                                                <ItemStyle HorizontalAlign="Center" />
+                                            </telerik:GridTemplateColumn>
+
+                                           <telerik:GridTemplateColumn UniqueName = "Nuevo" HeaderText="Nuevo">
+                                                <ItemTemplate>
+                                                       <asp:CheckBox ID="chkNuevo" runat="server" Enabled = "false" Checked='<%# DataBinder.Eval(Container.DataItem, "Nuevo") is DBNull?false:Convert.ToBoolean(DataBinder.Eval(Container.DataItem, "Nuevo")) %>'
+                                                        AutoPostBack="true" />
+                                                </ItemTemplate>
+                                                <HeaderStyle Width="50px" />
+                                                <ItemStyle HorizontalAlign="Center" />
+                                            </telerik:GridTemplateColumn>
+
+                                        <%--Botones --%> 
+               
+                                           <telerik:GridTemplateColumn HeaderText="Ver Detalle" HeaderStyle-HorizontalAlign="Center" ItemStyle-HorizontalAlign="Center"  ItemStyle-Width="35px" UniqueName = "Detalle">
+                                            <ItemTemplate>
+                                                <asp:ImageButton ID="BtnDetalle" runat="server"  CssClass="edit" ToolTip="Ver Detalle" CommandName="Detalle" ImageUrl="~/Imagenes/blank.png" Width="20px" Height="20px" />
+                                            </ItemTemplate>
+                                            <HeaderStyle HorizontalAlign="Center" Width="50"></HeaderStyle>
+                                            <ItemStyle HorizontalAlign="Center"></ItemStyle>
+                                           </telerik:GridTemplateColumn>
+                                               
+
+                                     </Columns>     
+                     
+                                     </MasterTableView>
           
-          <PagerStyle NextPagesToolTip="Páginas siguientes" PrevPagesToolTip="Páginas anteriores"
-                FirstPageToolTip="Primera página" LastPageToolTip="Última página" PageSizeLabelText="Cantidad de registros"
-                PrevPageToolTip="Página anterior" NextPageToolTip="Página siguiente" PagerTextFormat="Change page: {4} &nbsp;Página <strong>{0}</strong> de <strong>{1}</strong>, registros <strong>{2}</strong> al <strong>{3}</strong> de <strong>{5}</strong >."
-                ShowPagerText="True" PageButtonCount="3" />
-        </telerik:RadGrid> 
+                                <PagerStyle NextPagesToolTip="Páginas siguientes" PrevPagesToolTip="Páginas anteriores"
+                                        FirstPageToolTip="Primera página" LastPageToolTip="Última página" PageSizeLabelText="Cantidad de registros"
+                                        PrevPageToolTip="Página anterior" NextPageToolTip="Página siguiente" PagerTextFormat="Change page: {4} &nbsp;Página <strong>{0}</strong> de <strong>{1}</strong>, registros <strong>{2}</strong> al <strong>{3}</strong> de <strong>{5}</strong >."
+                                        ShowPagerText="True" PageButtonCount="3" />
+
+                                </telerik:RadGrid> 
+
+                            </telerik:RadPane>
+                         </telerik:RadSplitter>
+                    </telerik:RadPageView>
+
+                    <%--CREAMOS LA PESTAÑA RECHAZADOS--%>
+                    <telerik:RadPageView ID="RadPageViewRechazados" runat="server" Height="300px">
+                        <telerik:RadSplitter ID="RadSplitter3" runat="server"  ResizeMode="AdjacentPane" ResizeWithBrowserWindow="true" BorderSize="0">
+                            <telerik:RadPane ID="RadPane3" runat="server"  BorderColor="White" BorderStyle="Solid" BorderWidth="1px" Scrolling="None">
+
+                              <telerik:RadGrid ID="rgRechazados" runat="server" GridLines="None" AutoGenerateColumns="False"  style="margin-bottom: 0px"  PageSize = "10" onneeddatasource="rgRechazados_NeedDataSource" AllowPaging = "True" 
+                                    CellSpacing="0" onpageindexchanged="rgRechazados_PageIndexChanged" Width="1200px" MasterTableView-NoMasterRecordsText="No se encontraron registros." 
+                                    onitemcommand="rgRechazados_ItemCommand" >
+
+                                    <MasterTableView AllowFilteringByColumn="False" EditMode="InPlace"  AllowMultiColumnSorting="False" AutoGenerateColumns = "false" HorizontalAlign ="NotSet" >
+                
+                                        <CommandItemSettings ExportToPdfText="Export to Pdf"  RefreshText="Actualizar" ShowAddNewRecordButton="false" />
+               
+                                        <Columns>
+
+                                       <%-- Columnas --%>
+                                            <telerik:GridBoundColumn DataField="Id_Solicitud" HeaderText="Solicitud" Display="true" UniqueName="Id_Solicitud" HeaderStyle-Width = "40px">
+                                                    <HeaderStyle Width="40px"></HeaderStyle>
+                                            </telerik:GridBoundColumn>
+
+                                            <telerik:GridBoundColumn DataField="Id_Cd" HeaderText="Sucursal" Display="true" UniqueName="Id_Cd" HeaderStyle-Width = "70px">
+                                                    <HeaderStyle Width="70px"></HeaderStyle>
+                                            </telerik:GridBoundColumn>
+
+                                            <telerik:GridBoundColumn DataField="Nom_Sucursal" HeaderText="Nombre Sucursal" Display="true" UniqueName="Nom_Sucursal" HeaderStyle-Width = "120px">
+                                                    <HeaderStyle Width="70px"></HeaderStyle>
+                                            </telerik:GridBoundColumn>
+
+                                            <telerik:GridBoundColumn DataField="Id_Cte" HeaderText="Id Cliente" Display="true" UniqueName="Id_Cte" HeaderStyle-Width = "150px">
+                                                    <HeaderStyle Width="150px"></HeaderStyle>
+                                            </telerik:GridBoundColumn>
+
+                                            <telerik:GridBoundColumn DataField="Nom_Cliente" HeaderText="Nombre Cliente" Display="true" UniqueName="Nom_Cliente" HeaderStyle-Width = "300px">
+                                                    <HeaderStyle Width="300px"></HeaderStyle>
+                                            </telerik:GridBoundColumn>
+
+                                            <telerik:GridBoundColumn DataField="Id_Ter" HeaderText="Territorio" Display="true" UniqueName="Id_Ter" HeaderStyle-Width = "150px">
+                                                    <HeaderStyle Width="150px"></HeaderStyle>
+                                            </telerik:GridBoundColumn>
+
+                                            <telerik:GridBoundColumn DataField="Nom_Territorio" HeaderText="Nombre Territorio" Display="true" UniqueName="Nom_Territorio" HeaderStyle-Width = "300px">
+                                                     <HeaderStyle Width="300px"></HeaderStyle>
+                                            </telerik:GridBoundColumn>
+
+                                           <telerik:GridBoundColumn DataField="Fec_Solicitud" HeaderText="Fecha Solicitud" Display="true" UniqueName="Fec_Solicitud" HeaderStyle-Width = "100px">
+                                                     <HeaderStyle Width="100px"></HeaderStyle>
+                                            </telerik:GridBoundColumn>
+
+                                            <telerik:GridBoundColumn DataField="Fec_Atendido" HeaderText="Fecha Atendida" Display="true" UniqueName="Fec_Atendido" HeaderStyle-Width = "100px">
+                                                     <HeaderStyle Width="100px"></HeaderStyle>
+                                            </telerik:GridBoundColumn>
+
+                                            <telerik:GridBoundColumn DataField="Comentarios" HeaderText="Comentarios" Display="true" UniqueName="Comentarios" HeaderStyle-Width = "300px">
+                                                    <HeaderStyle Width="300px"></HeaderStyle>
+                                            </telerik:GridBoundColumn>
+
+                                            <telerik:GridTemplateColumn UniqueName = "Activo" HeaderText="Activo">
+                                                <ItemTemplate>
+                                                        <asp:CheckBox ID="chkActivo"  runat="server" Enabled = "false" Checked='<%# DataBinder.Eval(Container.DataItem, "Activo") is DBNull?false:Convert.ToBoolean(DataBinder.Eval(Container.DataItem, "Activo")) %>'
+                                                        AutoPostBack="true" />
+                                                </ItemTemplate>
+
+                                                <HeaderStyle Width="50px" />
+                                                <ItemStyle HorizontalAlign="Center" />
+                                            </telerik:GridTemplateColumn>
+
+                                           <telerik:GridTemplateColumn UniqueName = "Nuevo" HeaderText="Nuevo">
+                                                <ItemTemplate>
+                                                       <asp:CheckBox ID="chkNuevo" runat="server" Enabled = "false" Checked='<%# DataBinder.Eval(Container.DataItem, "Nuevo") is DBNull?false:Convert.ToBoolean(DataBinder.Eval(Container.DataItem, "Nuevo")) %>'
+                                                        AutoPostBack="true" />
+                                                </ItemTemplate>
+                                                <HeaderStyle Width="50px" />
+                                                <ItemStyle HorizontalAlign="Center" />
+                                            </telerik:GridTemplateColumn>
+
+                                        <%--Botones --%> 
+               
+                                           <telerik:GridTemplateColumn HeaderText="Ver Detalle" HeaderStyle-HorizontalAlign="Center" ItemStyle-HorizontalAlign="Center"  ItemStyle-Width="35px" UniqueName = "Detalle">
+                                            <ItemTemplate>
+                                                <asp:ImageButton ID="BtnDetalle" runat="server"  CssClass="edit" ToolTip="Ver Detalle" CommandName="Detalle" ImageUrl="~/Imagenes/blank.png" Width="20px" Height="20px" />
+                                            </ItemTemplate>
+                                            <HeaderStyle HorizontalAlign="Center" Width="50"></HeaderStyle>
+                                            <ItemStyle HorizontalAlign="Center"></ItemStyle>
+                                           </telerik:GridTemplateColumn>
+                                               
+
+                                     </Columns>     
+                     
+                                     </MasterTableView>
+                                              
+                                    <PagerStyle NextPagesToolTip="Páginas siguientes" PrevPagesToolTip="Páginas anteriores"
+                                        FirstPageToolTip="Primera página" LastPageToolTip="Última página" PageSizeLabelText="Cantidad de registros"
+                                        PrevPageToolTip="Página anterior" NextPageToolTip="Página siguiente" PagerTextFormat="Change page: {4} &nbsp;Página <strong>{0}</strong> de <strong>{1}</strong>, registros <strong>{2}</strong> al <strong>{3}</strong> de <strong>{5}</strong >."
+                                        ShowPagerText="True" PageButtonCount="3" />
+
+                                </telerik:RadGrid> 
+
+                            </telerik:RadPane>
+                         </telerik:RadSplitter>
+                    </telerik:RadPageView>
+
+                </telerik:RadMultiPage>
+
+
+            </td>
+        </tr>
+
+        </table>
+
+  </div>
 
 </asp:Content>
 <asp:Content ID="Content3" runat="server" contentplaceholderid="HeadContent">

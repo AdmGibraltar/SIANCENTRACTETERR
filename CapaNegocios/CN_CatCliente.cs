@@ -429,12 +429,12 @@ namespace CapaNegocios
             }
         }
 
-        public void ActualizaSolClienteTerritorio(Sesion Sesion, ClienteTerritorio ClienteTer, string Estatus)
+        public void ActualizaSolClienteTerritorio(Sesion Sesion, ClienteTerritorio ClienteTer, string Estatus, ref int Respuesta)
         {
             try
             {
                 CD_CatCliente cd_catcliente = new CD_CatCliente();
-                cd_catcliente.ActualizaSolClienteTerritorio(Sesion, ClienteTer, Estatus);
+                cd_catcliente.ActualizaSolClienteTerritorio(Sesion, ClienteTer, Estatus, ref Respuesta);
             }
             catch (Exception ex)
             {

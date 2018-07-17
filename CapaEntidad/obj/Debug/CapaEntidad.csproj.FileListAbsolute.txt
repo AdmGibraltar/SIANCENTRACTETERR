@@ -78,3 +78,7 @@ C:\files\files\key\sianwebcentral\_FuentesSIANCENTRAL_23MAY2018_FC\_Fuentes\Capa
 C:\files\files\key\sianwebcentral\_FuentesSIANCENTRAL_23MAY2018_FC\_Fuentes\CapaEntidad\bin\Debug\CapaEntidad.pdb
 C:\files\files\key\sianwebcentral\_FuentesSIANCENTRAL_23MAY2018_FC\_Fuentes\CapaEntidad\obj\Debug\CapaEntidad.dll
 C:\files\files\key\sianwebcentral\_FuentesSIANCENTRAL_23MAY2018_FC\_Fuentes\CapaEntidad\obj\Debug\CapaEntidad.pdb
+C:\Users\raul.borquez\Desktop\Home Office\Requerimiento Territorios\SIANCENTRACTETERR\CapaEntidad\bin\Debug\CapaEntidad.dll
+C:\Users\raul.borquez\Desktop\Home Office\Requerimiento Territorios\SIANCENTRACTETERR\CapaEntidad\bin\Debug\CapaEntidad.pdb
+C:\Users\raul.borquez\Desktop\Home Office\Requerimiento Territorios\SIANCENTRACTETERR\CapaEntidad\obj\Debug\CapaEntidad.dll
+C:\Users\raul.borquez\Desktop\Home Office\Requerimiento Territorios\SIANCENTRACTETERR\CapaEntidad\obj\Debug\CapaEntidad.pdb

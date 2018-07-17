@@ -1864,7 +1864,7 @@ namespace CapaDatos
             }
         }
 
-        public void ActualizaSolClienteTerritorio(Sesion Sesion, ClienteTerritorio ClienteTer, string Estatus)
+        public void ActualizaSolClienteTerritorio(Sesion Sesion, ClienteTerritorio ClienteTer, string Estatus, ref int Respuesta)
         {
 
             CapaDatos.CD_Datos CapaDatos = new CapaDatos.CD_Datos(Sesion.Emp_Cnx);
@@ -1872,7 +1872,7 @@ namespace CapaDatos
             {
                 CapaDatos.StartTrans();
                 SqlCommand sqlcmd = new SqlCommand();
-                int verificador = 0;
+
                 #region Solicitud
                 string[] Parametros = new string[]{
                                       "@Id_Solicitud"
@@ -1884,7 +1884,7 @@ namespace CapaDatos
                                     ClienteTer.Estatus 
                                    };
 
-                sqlcmd = CapaDatos.GenerarSqlCommand("sp_ActualizaSolicitudClienteTer", ref verificador, Parametros, Valor);
+                sqlcmd = CapaDatos.GenerarSqlCommand("sp_ActualizaSolicitudClienteTer", ref Respuesta, Parametros, Valor);
 
                 #endregion
 

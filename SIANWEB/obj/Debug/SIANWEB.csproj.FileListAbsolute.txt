@@ -319,3 +319,23 @@ C:\files\files\key\sianwebcentral\_FuentesSIANCENTRAL_23MAY2018_FC\_Fuentes\SIAN
 C:\files\files\key\sianwebcentral\_FuentesSIANCENTRAL_23MAY2018_FC\_Fuentes\SIANWEB\obj\Debug\SIANWEB.csprojResolveAssemblyReference.cache
 C:\files\files\key\sianwebcentral\_FuentesSIANCENTRAL_23MAY2018_FC\_Fuentes\SIANWEB\obj\Debug\SIANWEB.dll
 C:\files\files\key\sianwebcentral\_FuentesSIANCENTRAL_23MAY2018_FC\_Fuentes\SIANWEB\obj\Debug\SIANWEB.pdb
+C:\Users\raul.borquez\Desktop\Home Office\Requerimiento Territorios\SIANCENTRACTETERR\SIANWEB\bin\SIANWEB.dll
+C:\Users\raul.borquez\Desktop\Home Office\Requerimiento Territorios\SIANCENTRACTETERR\SIANWEB\bin\SIANWEB.pdb
+C:\Users\raul.borquez\Desktop\Home Office\Requerimiento Territorios\SIANCENTRACTETERR\SIANWEB\bin\CapaDatos.dll
+C:\Users\raul.borquez\Desktop\Home Office\Requerimiento Territorios\SIANCENTRACTETERR\SIANWEB\bin\CapaEntidad.dll
+C:\Users\raul.borquez\Desktop\Home Office\Requerimiento Territorios\SIANCENTRACTETERR\SIANWEB\bin\CapaNegocios.dll
+C:\Users\raul.borquez\Desktop\Home Office\Requerimiento Territorios\SIANCENTRACTETERR\SIANWEB\bin\EntityFramework.dll
+C:\Users\raul.borquez\Desktop\Home Office\Requerimiento Territorios\SIANCENTRACTETERR\SIANWEB\bin\EntityFramework.SqlServer.dll
+C:\Users\raul.borquez\Desktop\Home Office\Requerimiento Territorios\SIANCENTRACTETERR\SIANWEB\bin\EPPlus.dll
+C:\Users\raul.borquez\Desktop\Home Office\Requerimiento Territorios\SIANCENTRACTETERR\SIANWEB\bin\LibreriaReportes.dll
+C:\Users\raul.borquez\Desktop\Home Office\Requerimiento Territorios\SIANCENTRACTETERR\SIANWEB\bin\CapaDatos.pdb
+C:\Users\raul.borquez\Desktop\Home Office\Requerimiento Territorios\SIANCENTRACTETERR\SIANWEB\bin\CapaEntidad.pdb
+C:\Users\raul.borquez\Desktop\Home Office\Requerimiento Territorios\SIANCENTRACTETERR\SIANWEB\bin\CapaNegocios.pdb
+C:\Users\raul.borquez\Desktop\Home Office\Requerimiento Territorios\SIANCENTRACTETERR\SIANWEB\bin\LibreriaReportes.pdb
+C:\Users\raul.borquez\Desktop\Home Office\Requerimiento Territorios\SIANCENTRACTETERR\SIANWEB\bin\EntityFramework.xml
+C:\Users\raul.borquez\Desktop\Home Office\Requerimiento Territorios\SIANCENTRACTETERR\SIANWEB\bin\EntityFramework.SqlServer.xml
+C:\Users\raul.borquez\Desktop\Home Office\Requerimiento Territorios\SIANCENTRACTETERR\SIANWEB\bin\Telerik.Web.UI.xml
+C:\Users\raul.borquez\Desktop\Home Office\Requerimiento Territorios\SIANCENTRACTETERR\SIANWEB\bin\es-MX\LibreriaReportes.resources.dll
+C:\Users\raul.borquez\Desktop\Home Office\Requerimiento Territorios\SIANCENTRACTETERR\SIANWEB\obj\Debug\SIANWEB.csprojResolveAssemblyReference.cache
+C:\Users\raul.borquez\Desktop\Home Office\Requerimiento Territorios\SIANCENTRACTETERR\SIANWEB\obj\Debug\SIANWEB.dll
+C:\Users\raul.borquez\Desktop\Home Office\Requerimiento Territorios\SIANCENTRACTETERR\SIANWEB\obj\Debug\SIANWEB.pdb
